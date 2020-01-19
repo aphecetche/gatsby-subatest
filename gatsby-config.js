@@ -15,6 +15,13 @@ module.exports = {
                 path: `${__dirname}/src/content`,
             },
         },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `images`,
+                path: `${__dirname}/src/images`,
+            },
+        },
         `gatsby-plugin-sharp`,
         {
             resolve: `gatsby-transformer-remark`,
@@ -26,19 +33,16 @@ module.exports = {
                 delimiters: "+++",
                 plugins: [
                     {
+                        resolve: `gatsby-remark-relative-images`,
+                    },
+                    {
                         resolve: "gatsby-remark-images",
                         options: {
                             maxWidth: 800,
                         },
                     },
+                    "gatsby-remark-static-images"
                 ],
-            },
-        },
-        {
-            resolve: `gatsby-source-filesystem`,
-            options: {
-                name: `images`,
-                path: `${__dirname}/src/images`,
             },
         },
         `gatsby-transformer-sharp`,

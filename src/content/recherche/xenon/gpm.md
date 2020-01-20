@@ -1,4 +1,4 @@
-+++
+\+++
 title = "GPM: Un photomultiplicateur gazeux cryogénique de large surface"
 date = "2012-05-09 11:28:31 +0000 UTC"
 lastmod = "2012-09-06 16:20:40 +0000 UTC"
@@ -6,11 +6,11 @@ path = "recherche/xenon/gpm.md"
 joomlaid = 215
 category = "xenon"
 layout="recherche"
-[menu.main]
+[menus.main]
   identifier= "recherche/nucleaire-et-sante/xenon/recherche/appliquees/gpm"
   name = "GPM"
   parent="recherche/nucleaire-et-sante/xenon/recherche/appliquees"
-+++
+\+++
 **Jusqu'à présent les détecteurs aux gaz nobles liquéfiés ne disposent pas de photodétecteurs gazeux de large surface adaptés aux volumes de scintillateur mis en jeu. Nous développons un photomultiplicateur gazeux cryogénique de grande surface afin de réaliser un déclenchement original du télescope Compton au xénon liquide.**
 
 ### Scintillation du xénon liquide
@@ -37,12 +37,12 @@ Le THGEM est un détecteur en FR4 ou G10 de quelques centaines de microns d'épa
 
 ### Thèses et publications
 
-*   S. Duval, [Développement d'un photomultiplicateur gazeux cryogénique dédié à un télescope Compton au xénon liquide pour l'imagerie médicale](http://tel.archives-ouvertes.fr/tel-00594636_v1/), Thèse de doctorat, dec 2010
-*   C. Grignon et al., [Nuclear medical imaging using beta(+) gamma coincidences from Sc-44 radio-nuclide with liquid xenon as detection medium](http://www.sciencedirect.com/science/article/pii/S0168900206018456), NIMA 2008, Volume: 571 Issue: 1-2 Pages: 142-145
-*   S. Duval, A. Breskin, H. Carduner, J.-P. Cussonneau, J. Lamblin, P. Le Ray, E. Morteau, T. Oger, J.-S. Stutzmann and D. Thers, [MPGDs in Compton imaging with liquid-xenon](http://iopscience.iop.org/1748-0221/4/12/P12008), 2009 JINST 4 P12008
-*   S. Duval et al., [On the operation of a micropattern gaseous UV-photomultiplier in liquid-Xenon](http://iopscience.iop.org/1748-0221/6/04/P04007), 2011 JINST 6 P04007
-*   A. Breskin et al., [CsI-THGEM gaseous photomultipliers for RICH and noble-liquid detectors](http://dx.doi.org/10.1016/j.nima.2010.10.034), NIMA 639 (2011) 117-120
+-   S. Duval, [Développement d'un photomultiplicateur gazeux cryogénique dédié à un télescope Compton au xénon liquide pour l'imagerie médicale](http://tel.archives-ouvertes.fr/tel-00594636_v1/), Thèse de doctorat, dec 2010
+-   C. Grignon et al., [Nuclear medical imaging using beta(+) gamma coincidences from Sc-44 radio-nuclide with liquid xenon as detection medium](http://www.sciencedirect.com/science/article/pii/S0168900206018456), NIMA 2008, Volume: 571 Issue: 1-2 Pages: 142-145
+-   S. Duval, A. Breskin, H. Carduner, J.-P. Cussonneau, J. Lamblin, P. Le Ray, E. Morteau, T. Oger, J.-S. Stutzmann and D. Thers, [MPGDs in Compton imaging with liquid-xenon](http://iopscience.iop.org/1748-0221/4/12/P12008), 2009 JINST 4 P12008
+-   S. Duval et al., [On the operation of a micropattern gaseous UV-photomultiplier in liquid-Xenon](http://iopscience.iop.org/1748-0221/6/04/P04007), 2011 JINST 6 P04007
+-   A. Breskin et al., [CsI-THGEM gaseous photomultipliers for RICH and noble-liquid detectors](http://dx.doi.org/10.1016/j.nima.2010.10.034), NIMA 639 (2011) 117-120
 
 ### Collaborations
 
-*   [Prof. Amos Breskin](mailto:Amos.Breskin@weizmann.ac.il) du [Weizmann Institute of Sciences](http://www.weizmann.ac.il/) (Israël)
+-   [Prof. Amos Breskin](mailto:Amos.Breskin@weizmann.ac.il) du [Weizmann Institute of Sciences](http://www.weizmann.ac.il/) (Israël)

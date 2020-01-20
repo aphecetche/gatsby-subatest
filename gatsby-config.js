@@ -1,5 +1,3 @@
-const toml = require('toml')
-
 module.exports = {
     siteMetadata: {
         title: `Laboratoire Subatech`,
@@ -7,12 +5,18 @@ module.exports = {
         author: `L. Aphecetche`,
     },
     plugins: [
+        {
+            resolve: '@stackbit/gatsby-plugin-menus',
+            options: {
+                sourceUrlPath: 'fields.slug',
+            },
+        },
         `gatsby-plugin-react-helmet`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {
-                name: `content`,
-                path: `${__dirname}/src/content`,
+                name: `play`,
+                path: `${__dirname}/src/play`,
             },
         },
         {
@@ -26,11 +30,6 @@ module.exports = {
         {
             resolve: `gatsby-transformer-remark`,
             options: {
-                "engines": {
-                    toml: toml.parse.bind(toml),
-                },
-                language: "toml",
-                delimiters: "+++",
                 plugins: [
                     {
                         resolve: `gatsby-remark-relative-images`,

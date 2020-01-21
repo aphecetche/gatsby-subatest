@@ -5,12 +5,6 @@ module.exports = {
         author: `L. Aphecetche`,
     },
     plugins: [
-        {
-            resolve: '@stackbit/gatsby-plugin-menus',
-            options: {
-                sourceUrlPath: 'fields.slug',
-            },
-        },
         `gatsby-plugin-react-helmet`,
         {
             resolve: `gatsby-source-filesystem`,

@@ -1,11 +1,11 @@
 ---
-title: Lorem Ipsum
+title: this is test
 date: 21/01/2019
 menus:
   main:
-    identifier: myId
-    title: Go to Lorem Ipsum
-    weight: 1
+      identifier: 'top/test'
+      name: 'this is the name of test menu'
+      parent: 'top'
 ---
 
 **Hello** there

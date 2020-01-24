@@ -1,11 +1,11 @@
-+++
-title = "Radioprotection"
-date = "2013-03-29 13:17:27 +0000 UTC"
-lastmod = "2016-07-11 10:43:24 +0000 UTC"
-path = "general/radioprotection.md"
-joomlaid = 317
-category = "General"
-+++
+---
+title: "Radioprotection"
+date: "2013-03-29 13:17:27 +0000 UTC"
+lastmod: "2016-07-11 10:43:24 +0000 UTC"
+path: "general/radioprotection.md"
+joomlaid: 317
+category: "General"
+---
 SUBATECH est une unité de recherche possédant une autorisation délivrée par l’[ASN](http://www.asn.fr).
 
 Cadre de l’autorisation

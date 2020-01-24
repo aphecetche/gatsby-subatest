@@ -1,35 +1,36 @@
-+++
-title = "La recherche de la matière noire: XENON100"
-date = "2012-03-07 16:12:13 +0000 UTC"
-lastmod = "2014-07-10 14:39:27 +0000 UTC"
-path = "recherche/xenon/l-experience-xenon100.md"
-joomlaid = 175
-category = "xenon"
-layout="recherche"
-[menu.main]
-  identifier= "recherche/nucleaire-et-sante/xenon/recherche/fondamentales/xenon100"
-  name = "XENON100"
-  parent="recherche/nucleaire-et-sante/xenon/recherche/fondamentales"
-+++
-**[![XENON100Logo](/images/Recherche/Xenon/XENON100Logo.jpg)](http://xenon1t.org)XENON est un programme de détection directe de matière noire avec du xénon liquide. Il vise à détecter la faible charge et la petite quantité de lumière qui devraient être émises à la suite de l'interaction d'une particule de matière noire avec un noyau de xénon. L'objectif scientifique est d'être sensible aux très faibles sections efficaces prédites par les observations cosmologiques et les modèles théoriques. Le détecteur actuel, XENON100, contenant 162 kg de xénon, a récemment permis d'abaisser la limite sur la section efficace d'intéraction indépendant du spin à une valeur de 2 x 10\-45 cm2 pour un WIMP de 55 GeV/c2 (à 90%!d(MISSING)e degré de confiance). Le détecteur est encore en cours d'acquisition de données et devrait permettre d'atteindre prochainement une meilleure sensibilité.**
+---
+title: "La recherche de la matière noire: XENON100"
+date: "2012-03-07 16:12:13 +0000 UTC"
+lastmod: "2014-07-10 14:39:27 +0000 UTC"
+path: "recherche/xenon/l-experience-xenon100.md"
+joomlaid: 175
+category: "xenon"
+layout: "recherche"
+menus:
+  main:
+    identifier: "recherche/nucleaire-et-sante/xenon/recherche/fondamentales/xenon100"
+    name: "XENON100"
+    parent: "recherche/nucleaire-et-sante/xenon/recherche/fondamentales"
+---
+**[![XENON100Logo](images/Recherche/Xenon/XENON100Logo.jpg)](http://xenon1t.org)XENON est un programme de détection directe de matière noire avec du xénon liquide. Il vise à détecter la faible charge et la petite quantité de lumière qui devraient être émises à la suite de l'interaction d'une particule de matière noire avec un noyau de xénon. L'objectif scientifique est d'être sensible aux très faibles sections efficaces prédites par les observations cosmologiques et les modèles théoriques. Le détecteur actuel, XENON100, contenant 162 kg de xénon, a récemment permis d'abaisser la limite sur la section efficace d'intéraction indépendant du spin à une valeur de 2 x 10\-45 cm2 pour un WIMP de 55 GeV/c2 (à 90%!d(MISSING)e degré de confiance). Le détecteur est encore en cours d'acquisition de données et devrait permettre d'atteindre prochainement une meilleure sensibilité.**
 
 ### Le détecteur XENON100
 
 Le détecteur XENON100 est situé au Laboratoire Souterrain du Gran Sasso (LNGS) et est en opération depuis 2008. Il utilise le même principe ainsi que de nombreuses caractéristiques testés avec succès à l'aide du prototype XENON10. 10 fois plus grand que son prédécesseur et 100 fois plus sensible, il est constitué d'une chambre à projection temporelle (TPC) contenant du xénon liquide, entourée par deux plans de 178 photomultiplicateurs pour détecter le signal de scintillation primaire ainsi que le signal d'ionisation via le mécanisme de scintillation proportionnelle dans la phase gazeuse située à l'extrémité de la TPC.
 
-![XENON100 bottom PMTs](/images/Recherche/Xenon/XENON100BottomPMTs.jpg) ![XENON100 detector](/images/Recherche/Xenon/XENON100.jpg) ![TopPMTs](/images/Recherche/Xenon/TopPMTs.jpg)
+![XENON100 bottom PMTs](images/Recherche/Xenon/XENON100BottomPMTs.jpg) ![XENON100 detector](images/Recherche/Xenon/XENON100.jpg) ![TopPMTs](images/Recherche/Xenon/TopPMTs.jpg)
 
 ### La signature de la matière noire
 
 Le signal lumineux primaire (S1) est détecté instantanément par les photomultiplicateurs. Les électrons issus de l'ionisation, quant à eux, dérivent sous l'action d'un fort champ électrique. Un deuxième champ électrique plus fort extrait ces charges de la phase liquide vers la phase gazeuse où elles génèrent un signal scintillation secondaire (S2) proportionnel à la charge et retardé par rapport au signal S1 du temps de dérive. Le concept de la TPC permet un positionnement tridimensionnel des intéractions qui est utile pour rejeter le bruit de fond radioactif situé principalement sur les bords du détecteur. Enfin, le rapport S2/S1 est également utilisé comme critère de discrimination puisqu'il est plus grand dans le cas d'un recul d'électron (bruit de fond) que dans celui d'un recul nucléaire, qui est le signal attendu.
 
-![XENON100Principle](/images/Recherche/Xenon/XENON100Principle.jpg)
+![XENON100Principle](images/Recherche/Xenon/XENON100Principle.jpg)
 
 ### La sensibilité à la matière noire
 
 L'analyse de 224.6 jours effectifs de données, acquises entre Fevrier 2011 et Mars 2012, n'a révélé aucune évidence de matière noire. Deux événements candidats ont été détectés dans une zone d'observation prédéfinie dans laquelle 1.0±0.2 événements de bruit de fond étaient attendus. La limite sur la section efficace d'interaction indépendante du spin, σ, a été alors calculée en considérant une certaine densité et distribution de vitesse des WIMPs, particules candidates à la matière noire. Cette limite dépend de la masse du WIMP, mχ. Elle atteint un minimum de σ = 2.0 x 10\-45 cm2 à mχ = 55 GeV/c2, meilleure limite à ce jour.
 
-![XENON100Limit](/images/Recherche/Xenon/XENON100Limit.jpg)
+![XENON100Limit](images/Recherche/Xenon/XENON100Limit.jpg)
 
 ### Theses et publications
 

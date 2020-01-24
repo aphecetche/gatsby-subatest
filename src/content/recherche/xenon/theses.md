@@ -1,16 +1,17 @@
-+++
-title = "Thèses"
-date = "2012-01-11 12:59:18 +0000 UTC"
-lastmod = "2017-01-31 14:13:19 +0000 UTC"
-path = "recherche/xenon/theses.md"
-joomlaid = 47
-category = "xenon"
-layout="recherche"
-[menu.main]
-  identifier= "recherche/nucleaire-et-sante/xenon/theses"
-  name = "Thèses "
-  parent="recherche/nucleaire-et-sante/xenon"
-+++
+---
+title: "Thèses"
+date: "2012-01-11 12:59:18 +0000 UTC"
+lastmod: "2017-01-31 14:13:19 +0000 UTC"
+path: "recherche/xenon/theses.md"
+joomlaid: 47
+category: "xenon"
+layout: "recherche"
+menus:
+  main:
+    identifier: "recherche/nucleaire-et-sante/xenon/theses"
+    name: "Thèses "
+    parent: "recherche/nucleaire-et-sante/xenon"
+---
 ### Thèses soutenues
 
 *   Lucia Gallego Manzano, Optimization of a Single-Phase Liquid Xenon Compton Camera for 3gamma Medical Imaging, Thèse de l'Ecole des Mines de Nantes, soutenue le 21/07/2016

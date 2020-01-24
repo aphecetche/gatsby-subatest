@@ -1,16 +1,17 @@
-+++
-title = "Recherche"
-date = "2012-01-11 12:57:48 +0000 UTC"
-lastmod = "2014-07-10 14:04:48 +0000 UTC"
-path = "recherche/xenon/recherche.md"
-joomlaid = 44
-category = "xenon"
-layout="recherche"
-[menu.main]
-  identifier= "recherche/nucleaire-et-sante/xenon/recherche"
-  name = "Activités de recherche"
-  parent="recherche/nucleaire-et-sante/xenon"
-+++
+---
+title: "Recherche"
+date: "2012-01-11 12:57:48 +0000 UTC"
+lastmod: "2014-07-10 14:04:48 +0000 UTC"
+path: "recherche/xenon/recherche.md"
+joomlaid: 44
+category: "xenon"
+layout: "recherche"
+menus:
+  main:
+    identifier: "recherche/nucleaire-et-sante/xenon/recherche"
+    name: "Activités de recherche"
+    parent: "recherche/nucleaire-et-sante/xenon"
+---
 **L**es activités de recherche du groupe XENON sont centrées autour de la technologie de détection avec du xénon liquide.
 
 **L**a [Collaboration XENON](http://xenon1t.org) est une collaboration internationale qui regroupe une quinzaine de laboratoires américains, chinois et européens, dont le laboratoire Subatech, et qui mène des activités de recherche fondamentale focalisées autour de la thématique de recherche de matière noire dans l’Univers en développant un système de détection avec du xénon liquide.

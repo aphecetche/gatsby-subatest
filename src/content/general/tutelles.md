@@ -1,11 +1,11 @@
-+++
-title = "Tutelles et partenaires"
-date = "2012-05-24 13:01:59 +0000 UTC"
-lastmod = "2017-02-10 15:35:18 +0000 UTC"
-path = "general/tutelles.md"
-joomlaid = 223
-category = "General"
-+++
+---
+title: "Tutelles et partenaires"
+date: "2012-05-24 13:01:59 +0000 UTC"
+lastmod: "2017-02-10 15:35:18 +0000 UTC"
+path: "general/tutelles.md"
+joomlaid: 223
+category: "General"
+---
 Le laboratoire SUBATECH est une Unité Mixte de Recherche (UMR 6457), entre l’Institut National de Physique Nucléaire et de Physique des Particules ([IN2P3](http://www.in2p3.fr/)) du [CNRS](http://www.cnrs.fr/), [L'IMT Atlantique Bretagne-Pyas de la Loire](http://www.mines-nantes.fr/) et l’[Université de Nantes](http://www.univ-nantes.fr/).
 
 [![Université de Nantes](images/banners/logo_univ_nantes.jpg)](http://www.univ-nantes.fr/) [![in2p3filaire](images/banners/in2p3filaire.png)](http://www.in2p3.fr/) [![CP IMTA leger](images/banners/CP-IMTA-leger.jpg)](http://www.mines-nantes.fr/)

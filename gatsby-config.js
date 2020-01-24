@@ -9,8 +9,8 @@ module.exports = {
         {
             resolve: `gatsby-source-filesystem`,
             options: {
-                name: `play`,
-                path: `${__dirname}/src/play`,
+                name: `content`,
+                path: `${__dirname}/src/content`,
             },
         },
         {

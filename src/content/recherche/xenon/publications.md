@@ -1,16 +1,17 @@
-+++
-title = "Publications"
-date = "2012-03-02 08:28:48 +0000 UTC"
-lastmod = "2017-01-31 13:49:25 +0000 UTC"
-path = "recherche/xenon/publications.md"
-joomlaid = 158
-category = "xenon"
-layout="recherche"
-[menu.main]
-  identifier= "recherche/nucleaire-et-sante/xenon/publications"
-  name = "Publications"
-  parent="recherche/nucleaire-et-sante/xenon"
-+++
+---
+title: "Publications"
+date: "2012-03-02 08:28:48 +0000 UTC"
+lastmod: "2017-01-31 13:49:25 +0000 UTC"
+path: "recherche/xenon/publications.md"
+joomlaid: 158
+category: "xenon"
+layout: "recherche"
+menus:
+  main:
+    identifier: "recherche/nucleaire-et-sante/xenon/publications"
+    name: "Publications"
+    parent: "recherche/nucleaire-et-sante/xenon"
+---
 Publications du groupe Xénon
 ============================
 

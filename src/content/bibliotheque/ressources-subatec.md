@@ -1,0 +1,25 @@
+---
+title: "Ressources SUBATECH"
+date: "2012-03-07 14:12:18 +0000 UTC"
+lastmod: "2012-03-08 14:06:00 +0000 UTC"
+path: "bibliotheque/ressources-subatec.md"
+joomlaid: 172
+category: "Bibliotheque"
+menus:
+  main:
+    identifier: "communication/bibliotheque/ressources-documentaires/ressources-propres"
+    name: "Subatech"
+    parent: "communication/bibliotheque/ressources-documentaires"
+---
+Le Laboratoire dispose également de ressources propres:
+
+### Revues Electroniques: Accès au texte intégral des revues
+
+*   [Physical Review C](http://prc.aps.org/)
+*   [PROLA:](http://prola.aps.org/) Physical Review Online Archive jusqu'à année n-4)
+*   [Journal of Instrumentation](http://iopscience.iop.org/1748-0221/)
+*   [Journal of Physics G](http://iopscience.iop.org/0954-3899)
+
+### Revues papier:
+
+localisation des revues papier: [Revues subatech.pdf](images/Communication/bibliotheque/REVUES-Subatech.pdf)

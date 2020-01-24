@@ -1,11 +1,11 @@
-+++
-title = "Mentions légales"
-date = "2012-01-20 19:52:50 +0000 UTC"
-lastmod = "2018-09-22 17:26:52 +0000 UTC"
-path = "general/mentions-legales.md"
-joomlaid = 93
-category = "General"
-+++
+---
+title: "Mentions légales"
+date: "2012-01-20 19:52:50 +0000 UTC"
+lastmod: "2018-09-22 17:26:52 +0000 UTC"
+path: "general/mentions-legales.md"
+joomlaid: 93
+category: "General"
+---
 ### Laboratoire SUBATECH
 
 Subatech - UMR 6457 - Laboratoire de physique subatomique et des technologies associées

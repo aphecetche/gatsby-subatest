@@ -1,16 +1,17 @@
-+++
-title = "Conférences, séminaires et posters"
-date = "2012-01-11 12:58:59 +0000 UTC"
-lastmod = "2017-01-31 14:30:38 +0000 UTC"
-path = "recherche/xenon/communication.md"
-joomlaid = 46
-category = "xenon"
-layout="recherche"
-[menu.main]
-  identifier= "recherche/nucleaire-et-sante/xenon/presentations-de-conferences-seminaires-et-posters"
-  name = "Présentations de conférences, séminaires et posters"
-  parent="recherche/nucleaire-et-sante/xenon"
-+++
+---
+title: "Conférences, séminaires et posters"
+date: "2012-01-11 12:58:59 +0000 UTC"
+lastmod: "2017-01-31 14:30:38 +0000 UTC"
+path: "recherche/xenon/communication.md"
+joomlaid: 46
+category: "xenon"
+layout: "recherche"
+menus:
+  main:
+    identifier: "recherche/nucleaire-et-sante/xenon/presentations-de-conferences-seminaires-et-posters"
+    name: "Présentations de conférences, séminaires et posters"
+    parent: "recherche/nucleaire-et-sante/xenon"
+---
 Conférences, séminaires et posters 2016
 ---------------------------------------
 

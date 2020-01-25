@@ -1,0 +1,11 @@
+.fullscreenimage {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-position: bottom center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  border: 0;
+  padding: 0;
+  color: white;
+}

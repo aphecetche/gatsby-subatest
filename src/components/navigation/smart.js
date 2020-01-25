@@ -5,7 +5,7 @@ const NavSmart = () => (
     <>
         <h2>Smart</h2>
             <ul>
-                <li><span class="separator ">Le service SMART</span>
+                <li><span className="separator ">Le service SMART</span>
                     <ul>
                         <li><Link to="/smart/presentation">Présentation</Link></li>
                         <li><Link to="/smart/moyens-humains">Moyens humains</Link></li>
@@ -13,7 +13,7 @@ const NavSmart = () => (
                         <li><Link to="/smart/accreditations-et-agrements">Accréditations et agréments</Link></li>
                     </ul>
                 </li>
-                <li><span class="separator ">Nos prestations</span>
+                <li><span className="separator ">Nos prestations</span>
                     <ul>
                         <li><Link to="/smart/prelevements">Prélèvements</Link></li>
                         <li><Link to="/smart/pre-traitements">Pré-traitements</Link></li>

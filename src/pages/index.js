@@ -1,19 +1,37 @@
 import React from "react"
-import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Navigation from "../components/navigation"
 import FullScreenImage from "../components/fullscreenimage"
 import css from "../components/fullscreenimage.module.css"
+import { graphql } from "gatsby"
 
-const IndexPage = () =>
-    (
+              //desktop: file(relativePath: { eq: "alice-muon-slat-wires-closeup.jpg"}) {
+//desktop: file(relativePath: { eq: "double-chooz-topview.jpg"}) {
+
+export const query = graphql`
+          query {
+desktop: file(relativePath: { eq: "electronic-pacman.jpg"}) {
+          childImageSharp {
+            fluid(quality: 90, maxWidth: 1920) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
+        }
+      }
+    `
+
+const IndexPage = ({data}) => {
+        const c = css.fullscreenimage + ' ' + css.darkimage
+    return (
         <div>
             <SEO title="Home" />
-        <FullScreenImage className={css.fullscreenimage}>
+        <FullScreenImage className={c} img={data.desktop.childImageSharp.fluid}>
             <h1>Laboratoire Subatech</h1>
         </FullScreenImage>
         <Navigation />
     </div>
     )
+}
+
 
 export default IndexPage

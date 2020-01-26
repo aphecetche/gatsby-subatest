@@ -1,3 +1,6 @@
+const remark = require("remark")
+const stripMarkdown = require("strip-markdown");
+
 module.exports = {
     siteMetadata: {
         title: `Laboratoire Subatech`,
@@ -39,20 +42,34 @@ module.exports = {
             },
         },
         `gatsby-transformer-sharp`,
-        //        {
-        //            resolve: `gatsby-plugin-manifest`,
-        //            options: {
-        //                name: `gatsby-starter-default`,
-        //                short_name: `starter`,
-        //                start_url: `/`,
-        //                background_color: `#663399`,
-        //                theme_color: `#663399`,
-        //                display: `minimal-ui`,
-        //                icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-        //            },
-        //        },
-        // this (optional) plugin enables Progressive Web App + Offline functionality
-        // To learn more, visit: https://gatsby.dev/offline
-        // `gatsby-plugin-offline`,
+        {
+            resolve: 'gatsby-plugin-lunr',
+            options: {
+                languages: [{name:'fr'}],
+                fields: [
+                    { name: 'title', store: true, attributes: { boost:20 } },
+                    { name: 'content', store: true },
+                    { name: 'slug', store: true},
+                    { name: 'excerpt', store: true},
+                    { name: 'date', store: true }
+                ],
+                resolvers: {
+                    MarkdownRemark: {
+                        title: node => node.frontmatter.title,
+                        content: node => node.rawMarkdownBody,
+                        slug: node => node.fields.slug,
+                        excerpt: node => {
+                            const text = remark()
+                                .use(stripMarkdown)
+                                .processSync(node.rawMarkdownBody);
+                            const excerptLength = 140; // Hard coded excerpt length
+                            return String(text).substring(0, excerptLength) + "...";
+                        },
+                        date: node=>node.frontmatter.date,
+                    }
+                },
+                filename: 'search_index.json',
+            }
+        }
     ],
 }

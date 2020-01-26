@@ -26,7 +26,7 @@ const IndexPage = ({data}) => {
         <div>
             <SEO title="Home" />
         <FullScreenImage className={c} img={data.desktop.childImageSharp.fluid}>
-            <h1>Laboratoire Subatech</h1>
+            <h1 className={css.header}>Laboratoire Subatech</h1>
         </FullScreenImage>
         <Navigation />
     </div>

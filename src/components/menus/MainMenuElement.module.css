@@ -1,0 +1,27 @@
+:root {
+  --main-accent-color: rgb(158, 211, 251);
+  --main-reverse-color: rgb(242, 242, 242);
+}
+
+.MainMenuElement {
+  background-color: black;
+}
+
+.ul {
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+
+.li {
+  padding-top: 0.5rem;
+}
+
+.h4 {
+  color: var(--main-accent-color);
+}
+
+.li a {
+  text-decoration: none;
+  color: var(--main-reverse-color);
+}

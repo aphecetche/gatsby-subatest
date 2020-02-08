@@ -1,6 +1,13 @@
 import { configure } from "@storybook/react"
 import { action } from "@storybook/addon-actions"
 
+  import Typography from "typography";
+  import funstonTheme from 'typography-theme-funston'
+  import moragaTheme from 'typography-theme-moraga'
+  const typography = new Typography(
+    moragaTheme
+  );
+
 // automatically import all files ending in *.stories.js
 configure(require.context("../src", true, /\.stories\.js$/), module)
 
@@ -16,3 +23,5 @@ global.__PATH_PREFIX__ = ""
 window.___navigate = pathname => {
   action("NavigateTo:")(pathname)
 }
+
+typography.injectStyles();

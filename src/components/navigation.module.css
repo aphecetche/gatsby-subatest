@@ -16,7 +16,11 @@
       font-weight: lighter;
       font-size: 1.2em;
       padding: 0.25rem 0.5rem;
-        border-bottom: 2px solid transparent;
+      border-bottom: 2px solid transparent;
+
+      &:not([href]) {
+        cursor: pointer;
+      }
 
       &:hover {
         border-bottom: 2px solid currentColor;
@@ -29,8 +33,17 @@
   border-bottom: 2px solid currentColor;
 }
 
-.secondary ul {
+.secondary > ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  & li {
+    margin:0;
+    padding:0;
+  }
+}
+
+li.hidden {
+  height: 0;
+  display: none;
 }

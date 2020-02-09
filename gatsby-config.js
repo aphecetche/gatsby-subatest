@@ -57,7 +57,8 @@ module.exports = {
                 pathToConfigModule: `src/utils/typography`,
             },
         },
-`gatsby-transformer-sharp`,
+        `gatsby-plugin-postcss`,
+        `gatsby-transformer-sharp`,
         {
             resolve: 'gatsby-plugin-lunr',
             options: {

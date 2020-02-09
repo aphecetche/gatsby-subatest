@@ -7,7 +7,6 @@ import { graphql } from "gatsby"
 
               //desktop: file(relativePath: { eq: "alice-muon-slat-wires-closeup.jpg"}) {
 //desktop: file(relativePath: { eq: "double-chooz-topview.jpg"}) {
-
 export const query = graphql`
           query {
 desktop: file(relativePath: { eq: "electronic-pacman.jpg"}) {
@@ -25,10 +24,15 @@ const IndexPage = ({data}) => {
     return (
         <div>
             <SEO title="Home" />
+            <Navigation active="Recherche"/>
+            <ul>
+                <li>
+                    <a href="#">test link 1</a></li>
+                <li class="active"><a href="#">test link 2</a></li>
+            </ul>
         <FullScreenImage className={c} img={data.desktop.childImageSharp.fluid}>
             <h1 className={css.header}>Laboratoire Subatech</h1>
         </FullScreenImage>
-        <Navigation />
     </div>
     )
 }

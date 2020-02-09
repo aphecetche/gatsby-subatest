@@ -1,0 +1,254 @@
+[
+        {
+                "title": "Le laboratoire",
+                "to": "#",
+                "groups": [
+                        {
+                                "title": "Nos activités",
+                                "links": [
+                                        {
+                                                "to": "#",
+                                                "label": "Actualités (*)"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "Présentation"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "Organigramme"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "Conseil scientifique"
+                                        }
+                                ]
+                        },
+                        {
+                                "title": "Administration",
+                                "links": [
+                                        {
+                                                "to": "#",
+                                                "label": "Présentation"
+                                        }
+                                ]
+                        }
+                ]
+        },
+        {
+                "title": "Recherche",
+                "to": "#",
+                "groups": [
+                        {
+                                "links": [
+                                        {
+                                                "to": "#",
+                                                "label": "Présentation"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "Production scientifique"
+                                        }
+                                ]
+                        },
+                        {
+                                "title": "Nucléaire et environnement",
+                                "links": [
+                                        {
+                                                "to": "#",
+                                                "label": "Radiochimie"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "Prisma"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "SEN"
+                                        }
+                                ]
+                        },
+                        {
+                                "title": "Nucléaire et santé",
+                                "links": [
+                                        {
+                                                "to": "#",
+                                                "label": "Xénon"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "Prisma"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "Radiochimie"
+                                        }
+                                ]
+                        },
+                        {
+                                "title": "Univers à haute énergie",
+                                "links": [
+                                        {
+                                                "to": "#",
+                                                "label": "Plasma"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "Astro"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "SEN"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "Xénon"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "Théorie"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "Neutrino"
+                                        }
+                                ]
+                        }
+                ]
+        },
+        {
+                "title": "Enseignement",
+                "to": "#",
+                "groups": [
+                        {
+                                "links": [
+                                        {
+                                                "to": "#",
+                                                "label": "Présentation"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "Propositions de stage"
+                                        }
+                                ]
+                        },
+                        {
+                                "title": "Masters",
+                                "links": [
+                                        {
+                                                "to": "#",
+                                                "label": "PFA"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "SARENA"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "SNEAM"
+                                        }
+                                ]
+                        },
+                        {
+                                "title": "Options IMTA",
+                                "links": [
+                                        {
+                                                "to": "#",
+                                                "label": "NTSE"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "STAR"
+                                        }
+                                ]
+                        }
+                ]
+        },
+        {
+                "title": "Communication",
+                "to": "#",
+                "groups": [
+                        {
+                                "links": [
+                                        {
+                                                "to": "#",
+                                                "label": "Présentation"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "Séminaires"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "Vulgarisation"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "Bibliothèque"
+                                        }
+                                ]
+                        }
+                ]
+        },
+        {
+                "title": "Techniques",
+                "to": "#",
+                "groups": [
+                        {
+                                "links": [
+                                        {
+                                                "to": "#",
+                                                "label": "Présentation"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "Informatique"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "Electronique"
+                                        },
+                                        {
+                                                "to": "#",
+                                                "label": "Mécanique"
+                                        }
+                                ]
+                        }
+                ]
+        },
+        {
+                "title": "SMART",
+                "to": "#",
+                "groups":[
+                        {
+                                "links": [
+                                        {"to": "#", "label": "Contact"},
+                                        {"to": "#", "label": "Liens"}
+                                ]
+                        },
+                        {
+                                "title": "Le service SMART",
+                                "links": [
+                                        {"to": "#", "label": "Présentation"},
+                                        {"to": "#", "label": "Moyens humains"},
+                                        {"to": "#", "label": "Techniques et équipements"},
+                                        {"to": "#", "label": "Accréditations et agréments"}
+                                ]
+                        },
+                        {
+                                "title":"Nos prestations",
+                                "links": [
+                                        {"to": "#", "label":"Prélèvements"},
+                                        {"to": "#", "label":"Pré-traitements"},
+                                        {"to": "#", "label":"Détection des rayonnements"},
+                                        {"to": "#", "label":"Nature des échantillons et des prestations"},
+                                        {"to": "#", "label":"Actions R&D"}
+                                ]
+                        }
+                ]
+        },
+        {
+                "title": "Contact",
+                "to": "#"
+        }
+]

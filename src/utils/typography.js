@@ -1,8 +1,10 @@
 import Typography from "typography";
-import funstonTheme from 'typography-theme-funston'
-import moragaTheme from 'typography-theme-moraga'
+import typo from 'typography-theme-sutro';
+//import moragaTheme from 'typography-theme-moraga'
+// fairy-gates
+// sutro
 const typography = new Typography(
-    moragaTheme
+    typo
 );
 
 export default typography;

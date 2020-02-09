@@ -1,17 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"
+import NavGroup from "./NavGroup"
 
-const NavCommunication = () => (
-    <>
-        <h2>Communication</h2>
-      <ul>
-        <li><Link to="/communication/communication">Présentation</Link></li>
-        <li><Link to="/communication/seminaires">Séminaires (*)</Link></li>
-        <li><Link to="/communication/vulgarisation">Vulgarisation (*)</Link></li>
-        <li><Link to="/bibliotheque/bibliotheque">Bibliothèque</Link></li>
-        <li><Link to="/communication/archives">Archives (*)</Link></li>
-      </ul>
-    </>
-)
+const NavCommunication = () => {
+    const links = [
+        { "to":"/communication/communication", "label": "Présentation"},
+        { "to":"/communication/seminaires", "label": "Séminaires (*)"},
+        { "to":"/communication/vulgarisation", "label": "Vulgarisation (*)"},
+        { "to":"/bibliotheque/bibliotheque","label":"Bibliothèque"},
+        { "to":"/communication/archives", "label": "Archives (*)"}
+    ]
+    return  <NavGroup title="Communication" links={links} />
+}
 
 export default NavCommunication

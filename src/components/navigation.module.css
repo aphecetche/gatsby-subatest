@@ -1,0 +1,19 @@
+.main ul {
+  color: var(--main-accent-color);
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  & li {
+    color: var(--main-accent-color);
+    margin: 0 1rem 0 0;
+   
+    & a {
+    color: currentColor;
+    text-decoration: none;
+    }
+  }
+}
+
+.main li.active a {
+    border-bottom: 5px solid currentColor;
+}

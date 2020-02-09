@@ -1,25 +1,25 @@
 [
         {
                 "title": "Le laboratoire",
-                "to": "#",
+                "to": "/general/presentation",
                 "groups": [
                         {
                                 "title": "Nos activités",
                                 "links": [
                                         {
-                                                "to": "#",
+                                                "to": "/general/actualites",
                                                 "label": "Actualités (*)"
                                         },
                                         {
-                                                "to": "#",
+                                                "to": "/general/presentation",
                                                 "label": "Présentation"
                                         },
                                         {
-                                                "to": "#",
+                                                "to": "/services-techniques-et-administration/organigramme",
                                                 "label": "Organigramme"
                                         },
                                         {
-                                                "to": "#",
+                                                "to": "/general/conseil-scientifique",
                                                 "label": "Conseil scientifique"
                                         }
                                 ]
@@ -28,7 +28,7 @@
                                 "title": "Administration",
                                 "links": [
                                         {
-                                                "to": "#",
+                                                "to": "/services-techniques-et-administration/adminitration",
                                                 "label": "Présentation"
                                         }
                                 ]
@@ -37,16 +37,16 @@
         },
         {
                 "title": "Recherche",
-                "to": "#",
+                "to": "/recherche/recherche",
                 "groups": [
                         {
                                 "links": [
                                         {
-                                                "to": "#",
+                                                "to": "/recherche/recherche",
                                                 "label": "Présentation"
                                         },
                                         {
-                                                "to": "#",
+                                                "to": "http://hal.in2p3.fr/SUBATECH/",
                                                 "label": "Production scientifique"
                                         }
                                 ]
@@ -55,15 +55,15 @@
                                 "title": "Nucléaire et environnement",
                                 "links": [
                                         {
-                                                "to": "#",
+                                                "to": "/recherche/radiochimie/radiochimie-presentation",
                                                 "label": "Radiochimie"
                                         },
                                         {
-                                                "to": "#",
+                                                "to": "/recherche/prisma/presentation",
                                                 "label": "Prisma"
                                         },
                                         {
-                                                "to": "#",
+                                                "to": "/recherche/sen/erdre-presentation",
                                                 "label": "SEN"
                                         }
                                 ]
@@ -72,15 +72,15 @@
                                 "title": "Nucléaire et santé",
                                 "links": [
                                         {
-                                                "to": "#",
+                                                "to": "/recherche/xenon/presentation",
                                                 "label": "Xénon"
                                         },
                                         {
-                                                "to": "#",
+                                                "to": "/recherche/prisma/presentation",
                                                 "label": "Prisma"
                                         },
                                         {
-                                                "to": "#",
+                                                "to": "/recherche/radiochimie/radiochimie-presentation",
                                                 "label": "Radiochimie"
                                         }
                                 ]
@@ -89,27 +89,27 @@
                                 "title": "Univers à haute énergie",
                                 "links": [
                                         {
-                                                "to": "#",
+                                                "to": "/recherche/plasma/presentation-groupe-plasma",
                                                 "label": "Plasma"
                                         },
                                         {
-                                                "to": "#",
+                                                "to": "/recherche/astro/astro-presentation",
                                                 "label": "Astro"
                                         },
                                         {
-                                                "to": "#",
+                                                "to": "/recherche/sen/erdre-presentation",
                                                 "label": "SEN"
                                         },
                                         {
-                                                "to": "#",
+                                                "to": "/recherche/xenon/presentation",
                                                 "label": "Xénon"
                                         },
                                         {
-                                                "to": "#",
+                                                "to": "/recherche/theorie/theoriehe-presentation",
                                                 "label": "Théorie"
                                         },
                                         {
-                                                "to": "#",
+                                                "to": "/recherche/neutrino/neutrino-presentation",
                                                 "label": "Neutrino"
                                         }
                                 ]
@@ -118,16 +118,16 @@
         },
         {
                 "title": "Enseignement",
-                "to": "#",
+                "to": "/",
                 "groups": [
                         {
                                 "links": [
                                         {
-                                                "to": "#",
+                                                "to": "/enseignement/enseignement",
                                                 "label": "Présentation"
                                         },
                                         {
-                                                "to": "#",
+                                                "to": "/enseignement/propositions-de-stages",
                                                 "label": "Propositions de stage"
                                         }
                                 ]
@@ -136,15 +136,15 @@
                                 "title": "Masters",
                                 "links": [
                                         {
-                                                "to": "#",
+                                                "to": "/enseignement/masterars",
                                                 "label": "PFA"
                                         },
                                         {
-                                                "to": "#",
+                                                "to": "https://www.imt-atlantique.fr/fr/formation/masters/masters-science/sarena",
                                                 "label": "SARENA"
                                         },
                                         {
-                                                "to": "#",
+                                                "to": "https://www.imt-atlantique.fr/formation/masters/masters-science/sustainable-nuclear-engineering-applications-and-management-sneam",
                                                 "label": "SNEAM"
                                         }
                                 ]
@@ -153,11 +153,11 @@
                                 "title": "Options IMTA",
                                 "links": [
                                         {
-                                                "to": "#",
+                                                "to": "/",
                                                 "label": "NTSE"
                                         },
                                         {
-                                                "to": "#",
+                                                "to": "/",
                                                 "label": "STAR"
                                         }
                                 ]
@@ -166,25 +166,25 @@
         },
         {
                 "title": "Communication",
-                "to": "#",
+                "to": "/communication/communication",
                 "groups": [
                         {
                                 "links": [
                                         {
-                                                "to": "#",
+                                                "to": "/communication/communication",
                                                 "label": "Présentation"
                                         },
                                         {
-                                                "to": "#",
-                                                "label": "Séminaires"
+                                                "to": "/communication/seminaires",
+                                                "label": "Séminaires (*)"
                                         },
                                         {
-                                                "to": "#",
-                                                "label": "Vulgarisation"
+                                                "to": "/communication/vulgarisation",
+                                                "label": "Vulgarisation (*)"
                                         },
                                         {
-                                                "to": "#",
-                                                "label": "Bibliothèque"
+                                                "to": "/communication/bibliotheque",
+                                                "label": "Bibliothèque (*)"
                                         }
                                 ]
                         }
@@ -192,24 +192,24 @@
         },
         {
                 "title": "Techniques",
-                "to": "#",
+                "to": "/services-techniques-et-administration/services-techniques",
                 "groups": [
                         {
                                 "links": [
                                         {
-                                                "to": "#",
+                                                "to": "/services-techniques-et-administration/services-techniques",
                                                 "label": "Présentation"
                                         },
                                         {
-                                                "to": "#",
+                                                "to": "/services-techniques-et-administration/informatique/service-informatique",
                                                 "label": "Informatique"
                                         },
                                         {
-                                                "to": "#",
+                                                "to": "/services-techniques-et-administration/electronique/service-electronique",
                                                 "label": "Electronique"
                                         },
                                         {
-                                                "to": "#",
+                                                "to": "/services-techniques-et-administration/mecanique/presentation",
                                                 "label": "Mécanique"
                                         }
                                 ]
@@ -218,37 +218,37 @@
         },
         {
                 "title": "SMART",
-                "to": "#",
+                "to": "/smart/presentation",
                 "groups":[
                         {
                                 "links": [
-                                        {"to": "#", "label": "Contact"},
-                                        {"to": "#", "label": "Liens"}
+                                        {"to": "/", "label": "Contact"},
+                                        {"to": "/", "label": "Liens"}
                                 ]
                         },
                         {
                                 "title": "Le service SMART",
                                 "links": [
-                                        {"to": "#", "label": "Présentation"},
-                                        {"to": "#", "label": "Moyens humains"},
-                                        {"to": "#", "label": "Techniques et équipements"},
-                                        {"to": "#", "label": "Accréditations et agréments"}
+                                        {"to": "/smart/presentation", "label": "Présentation"},
+                                        {"to": "/smart/moyens-humains", "label": "Moyens humains"},
+                                        {"to": "/smart/techniques-et-equipements", "label": "Techniques et équipements"},
+                                        {"to": "/smart/accreditations-et-agrements", "label": "Accréditations et agréments"}
                                 ]
                         },
                         {
                                 "title":"Nos prestations",
                                 "links": [
-                                        {"to": "#", "label":"Prélèvements"},
-                                        {"to": "#", "label":"Pré-traitements"},
-                                        {"to": "#", "label":"Détection des rayonnements"},
-                                        {"to": "#", "label":"Nature des échantillons et des prestations"},
-                                        {"to": "#", "label":"Actions R&D"}
+                                        {"to": "/smart/prelevements", "label":"Prélèvements"},
+                                        {"to": "/smart/pre-traitements", "label":"Pré-traitements"},
+                                        {"to": "/smart/detection-des-rayonnements", "label":"Détection des rayonnements"},
+                                        {"to": "/smart/nature-des-echantillons-et-des-prestations", "label":"Nature des échantillons et des prestations"},
+                                        {"to": "/smart/actions-r-d", "label":"Actions R&D"}
                                 ]
                         }
                 ]
         },
         {
                 "title": "Contact",
-                "to": "#"
+                "to": "/general/nous-contacter"
         }
 ]

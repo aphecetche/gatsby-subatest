@@ -3,17 +3,34 @@
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+
   & li {
     color: var(--main-accent-color);
-    margin: 0 1rem 0 0;
-   
+    margin: 0;
+    padding: 0;
+
     & a {
-    color: currentColor;
-    text-decoration: none;
+      display: block;
+      color: currentColor;
+      text-decoration: none;
+      font-weight: lighter;
+      font-size: 1.2em;
+      padding: 0.25rem 0.5rem;
+        border-bottom: 2px solid transparent;
+
+      &:hover {
+        border-bottom: 2px solid currentColor;
+      }
     }
   }
 }
 
 .main li.active a {
-    border-bottom: 5px solid currentColor;
+  border-bottom: 2px solid currentColor;
+}
+
+.secondary ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }

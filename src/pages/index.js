@@ -24,11 +24,11 @@ const IndexPage = ({data}) => {
     return (
         <div>
             <SEO title="Home" />
-            <Navigation active="Recherche"/>
+            <Navigation active="SMART"/>
             <ul>
                 <li>
                     <a href="#">test link 1</a></li>
-                <li class="active"><a href="#">test link 2</a></li>
+                <li className="active"><a href="#">test link 2</a></li>
             </ul>
         <FullScreenImage className={c} img={data.desktop.childImageSharp.fluid}>
             <h1 className={css.header}>Laboratoire Subatech</h1>

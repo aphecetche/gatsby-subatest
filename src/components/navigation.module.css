@@ -2,7 +2,9 @@
   color: var(--main-accent-color);
   list-style: none;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
+  margin: 0;
 
   & li {
     color: var(--main-accent-color);
@@ -26,6 +28,21 @@
       &:hover {
         border-bottom: 2px solid currentColor;
       }
+
+      &.logo {
+        box-sizing: border-box;
+        margin: 0;
+        padding:0;
+        background-image: url(../images/logo-subatech.svg);
+        background-repeat: no-repeat;
+        margin-top: 6px;
+        width: 140px;
+        height: 67px;
+        &:hover {
+          border-bottom: none;
+        }
+      }
+
     }
   }
 }
@@ -34,13 +51,14 @@
   border-bottom: 2px solid currentColor;
 }
 
-.secondary > ul {
+.secondary>ul {
   margin: 0;
   padding: 0;
   list-style: none;
+
   & li {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
   }
 }
 

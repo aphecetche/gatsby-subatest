@@ -9,10 +9,11 @@ import BigMenu from "./navigation/BigMenu"
 const PrimaryNavigation = ( {links,active,setActive} )=> (
     <nav aria-label="Main" className={css.main}>
         <ul>
+            <li><Superlink to="/" className={css.logo} /></li>
             {links.map(x=>(<li key={x.label}
                 className={x.label==active ? css.active:""}>
                 <Superlink to={x.to} onClick={(event)=>{
-                    event.preventDefault(); 
+                    event.preventDefault();
                     x.label == active ? setActive(""): setActive(event.target.innerHTML); }}>
                     {x.label}</Superlink>
             </li>))}
@@ -24,14 +25,14 @@ const SecondaryNavigation = ({data,active,setActive}) => {
 
     const onClose = (event)=>{event.preventDefault(); setActive("");}
     return (
-    <nav aria-label="Secondary" className={css.secondary}>
-        <ul>
-            {data.map(x=>{
-                const hidden = (x.title!==active) ? css.hidden:""
-                return (<li key={x.title} className={hidden}>
-                    <BigMenu title={x.title} groups={x.groups} onClose={onClose}/></li>)})}
-            </ul>
-        </nav>
+        <nav aria-label="Secondary" className={css.secondary}>
+            <ul>
+                {data.map(x=>{
+                    const hidden = (x.title!==active) ? css.hidden:""
+                    return (<li key={x.title} className={hidden}>
+                        <BigMenu title={x.title} groups={x.groups} onClose={onClose}/></li>)})}
+                </ul>
+            </nav>
     )
 
 }

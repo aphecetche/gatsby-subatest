@@ -1,0 +1,17 @@
+.logo {
+  border: 1px solid green;
+  & h1 {
+    display: block;
+    color: red;
+     text-indent: 100%;
+     line-height: 200%;
+     overflow: hidden;
+  }
+  margin:auto;
+  padding:auto;
+  /* background-image: url(../images/logo-subatech.svg); */
+  /* background-repeat: no-repeat; */
+  /*  margin-top:10px; */
+  width:140px;
+  height: 67px;
+}

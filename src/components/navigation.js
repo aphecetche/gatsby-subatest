@@ -6,27 +6,35 @@ import Superlink  from "./Superlink"
 import jsonNav from "./navigation.json"
 import BigMenu from "./navigation/BigMenu"
 
-const PrimaryNavigation = ( {links,active,onClick} )=> (
+const PrimaryNavigation = ( {links,active,setActive} )=> (
     <nav aria-label="Main" className={css.main}>
         <ul>
             {links.map(x=>(<li key={x.label}
                 className={x.label==active ? css.active:""}>
-                <Superlink to={x.to} onClick={onClick}>
+                <Superlink to={x.to} onClick={(event)=>{
+                    event.preventDefault(); 
+                    x.label == active ? setActive(""): setActive(event.target.innerHTML); }}>
                     {x.label}</Superlink>
             </li>))}
         </ul>
     </nav>
 )
 
-const SecondaryNavigation = ({data,active}) => (
+const SecondaryNavigation = ({data,active,setActive}) => {
+
+    const onClose = (event)=>{event.preventDefault(); setActive("");}
+    return (
     <nav aria-label="Secondary" className={css.secondary}>
         <ul>
             {data.map(x=>{
                 const hidden = (x.title!==active) ? css.hidden:""
-                return (<li key={x.title} className={hidden}><BigMenu title={x.title} groups={x.groups}/></li>)})}
+                return (<li key={x.title} className={hidden}>
+                    <BigMenu title={x.title} groups={x.groups} onClose={onClose}/></li>)})}
             </ul>
         </nav>
-)
+    )
+
+}
 
 const useActiveState = createPersistedState('active')
 
@@ -36,9 +44,10 @@ const Navigation = () => {
 
     return (
         <>
-        <PrimaryNavigation links={primary} active={active} onClick={(event)=>{
-            event.preventDefault(); setActive(event.target.innerHTML);}}/>
-        <SecondaryNavigation aria-hidden="true" data={jsonNav} active={active} />
+        <PrimaryNavigation links={primary} active={active} setActive={setActive}
+        />
+        <SecondaryNavigation aria-hidden="true" data={jsonNav} active={active}
+            setActive={setActive} />
         </>
     )
 }

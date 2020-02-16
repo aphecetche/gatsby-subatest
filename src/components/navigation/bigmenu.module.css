@@ -5,16 +5,27 @@
   padding: 1rem;
 }
 
-h4.title {
+.title {
   margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+
+& h4 {
   color: var(--main-reverse-color);
   display: block;
-  width: 100%;
   padding-bottom: 0.5rem;
+  margin-right: 24px;
+  width: 100%;
   border-bottom: 2px solid var(--main-accent-color);
   font-weight: 500;
 }
 
+& button {
+  top: 4px;
+
+}
+
+}
 ul.navgrouplist {
   margin:0;
   display: flex;
@@ -24,3 +35,4 @@ ul.navgrouplist {
     display: block;
   }
 }
+

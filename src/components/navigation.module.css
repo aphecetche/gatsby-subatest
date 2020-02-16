@@ -10,6 +10,7 @@
     padding: 0;
 
     & a {
+      user-select: none;
       display: block;
       color: currentColor;
       text-decoration: none;

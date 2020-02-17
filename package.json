@@ -37,8 +37,7 @@
     "typography": "^0.16.19",
     "typography-theme-funston": "^0.16.19",
     "typography-theme-moraga": "^0.16.19",
-    "typography-theme-sutro": "^0.16.19",
-    "use-persisted-state": "^0.3.0"
+    "typography-theme-sutro": "^0.16.19"
   },
   "devDependencies": {
     "@babel/core": "^7.8.3",

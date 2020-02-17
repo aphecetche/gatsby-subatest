@@ -1,5 +1,4 @@
-import React from "react"
-import createPersistedState from 'use-persisted-state'
+import  React, { useState } from "react"
 import NavGroup from "./navigation/NavGroup"
 import css from "./navigation.module.css"
 import Superlink  from "./Superlink"
@@ -37,10 +36,9 @@ const SecondaryNavigation = ({data,active,setActive}) => {
 
 }
 
-const useActiveState = createPersistedState('active')
 
 const Navigation = () => {
-    const [active,setActive] = useActiveState()
+    const [active,setActive] = useState('')
     let primary = jsonNav.map(x=>{ return { "label": x.title, "to": x.to }})
 
     return (

@@ -7,3 +7,7 @@
   --main-color: rgb(0, 0, 0, 0.95);
 }
 
+body {
+  margin:0;
+  padding:0;
+}

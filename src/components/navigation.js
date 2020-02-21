@@ -1,5 +1,4 @@
 import  React, { useState } from "react"
-import NavGroup from "./navigation/NavGroup"
 import css from "./navigation.module.css"
 import Superlink  from "./Superlink"
 import jsonNav from "./navigation.json"
@@ -10,10 +9,10 @@ const PrimaryNavigation = ( {links,active,setActive} )=> (
         <ul>
             <li><Superlink to="/" className={css.logo} /></li>
             {links.map(x=>(<li key={x.label}
-                className={x.label==active ? css.active:""}>
+                className={x.label===active ? css.active:""}>
                 <Superlink to={x.to} onClick={(event)=>{
                     event.preventDefault();
-                    x.label == active ? setActive(""): setActive(event.target.innerHTML); }}>
+                    x.label === active ? setActive(""): setActive(event.target.innerHTML); }}>
                     {x.label}</Superlink>
             </li>))}
         </ul>
@@ -27,8 +26,8 @@ const SecondaryNavigation = ({data,active,setActive}) => {
         <nav aria-label="Secondary" className={css.secondary}>
             <ul>
                 {data.map(x=>{
-                    const hidden = (x.title!==active) ? css.hidden:""
-                    return (<li key={x.title} className={hidden}>
+                    const activeClass = (x.title===active) ? css.active:""
+                    return (<li key={x.title} className={activeClass}>
                         <BigMenu title={x.title} groups={x.groups} onClose={onClose}/></li>)})}
                 </ul>
             </nav>

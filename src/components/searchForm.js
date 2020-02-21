@@ -1,6 +1,6 @@
 import React from "react"
 import { navigate } from "gatsby"
-import css from "./search.module.css"
+// import css from "./search.module.css"
 
 const SearchForm = ({query}) => (
     <form role="search" method="GET">

@@ -5,7 +5,6 @@ import "./layout.css"
 import Navigation from "../components/navigation"
 
 const Layout = ({ children }) => {
-
   return (
     <>
       <Navigation />
@@ -18,9 +17,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}
-        </footer>
+        <footer>© {new Date().getFullYear()}</footer>
       </div>
     </>
   )

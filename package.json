@@ -7,7 +7,9 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.5.5",
     "@mdx-js/react": "^1.5.5",
-    "gatsby": "^2.18.12",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "gatsby": "^2.23.9",
     "gatsby-background-image": "^0.9.13",
     "gatsby-image": "^2.2.34",
     "gatsby-plugin-lunr": "^1.5.2",
@@ -26,6 +28,7 @@
     "gatsby-transformer-sharp": "^2.3.7",
     "intersection-observer": "^0.7.0",
     "postcss-preset-env": "^6.7.0",
+    "prettier-eslint-cli": "^5.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -47,7 +50,11 @@
     "@storybook/react": "^5.3.9",
     "babel-loader": "^8.0.6",
     "env-cmd": "^10.0.1",
-    "prettier": "^1.19.1",
+    "eslint": "^7.3.1",
+    "eslint-plugin-react": "^7.20.0",
+    "install": "^0.13.0",
+    "npm": "^6.14.5",
+    "prettier": "1.19.1",
     "to-markdown-cli": "^0.4.1"
   },
   "keywords": [

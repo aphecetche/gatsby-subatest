@@ -4,6 +4,6 @@ module.exports = () => ({
   plugins: [
     postcssPresetEnv({
       stage: 0,
-    })
+    }),
   ],
-}) 
+})

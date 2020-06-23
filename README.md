@@ -34,7 +34,7 @@ At this point, any edit on a `src` file (markdown, js or css) should be seen liv
 
 It's pretty basic for the moment. All is basically "Work In Progress" ;-)
 
-Only the text of the main content (articles) have been transfered (automatically, so do not edit them) from Joomla (from HTML to Markdown). Images are not included in the git repo for the moment.
+Only the text of the main content (articles) have been transfered (automatically, so do not edit them) from Joomla (from HTML to Markdown, using [aphecetche/joomla2markdown](https://github.com/aphecetche/joomla2markdown), using a dev site in [containers](https://github.com/aphecetche/docker-subaweb)). Images are not included in the git repo for the moment.
 
 What has been developped a bit though is a [search prototype](http://localhost:8000/search) using [lunr](https://lunrjs.com)
 

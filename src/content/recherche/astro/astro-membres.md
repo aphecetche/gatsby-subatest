@@ -21,8 +21,8 @@ La composition actuelle de l'équipe de recherche est la suivante :
 
 De nombreuses personnes des services techniques de Subatech sont ou ont été impliquées à des degrés divers dans nos activités de recherche :
 
-*   Yann Bortoli, Hervé Carduner et Sylvain Fresneau du [service mécanique](services-techniques-et-administration/mecanique/presentation.md),
-*   Stéphane Acounis, Jean-Luc Beney, Didier Charrier, Frédéric Lefèvre, Louis-Marie Rigalleau et Didier Roy du [service électronique](services-techniques-et-administration/electronique/service-electronique.md).
+*   Yann Bortoli, Hervé Carduner et Sylvain Fresneau du [service mécanique](/services-techniques-et-administration/mecanique/presentation),
+*   Stéphane Acounis, Jean-Luc Beney, Didier Charrier, Frédéric Lefèvre, Louis-Marie Rigalleau et Didier Roy du [service électronique](/services-techniques-et-administration/electronique/service-electronique).
 
 Depuis sa création, plusieurs personnes ont fait partie puis quitté le groupe. La liste de ces personnes, donnée par ordre chronologique inverse, est la suivante :
 

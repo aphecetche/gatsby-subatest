@@ -12,12 +12,12 @@ menus:
     name: "Scénarios électro-nucléaires"
     parent: "recherche/univers-a-haute-energie/neutrino/activites-de-recherche"
 ---
-*   [Introduction et contexte](recherche/sen/introduction-et-contexte.md)
+*   [Introduction et contexte](/recherche/sen/introduction-et-contexte)
     
-*   [Le concept MUST](recherche/sen/le-concept-must.md)
+*   [Le concept MUST](/recherche/sen/le-concept-must)
     
-*   [Développement du code de scénarios CLASS](recherche/sen/developpement-du-code-de-scenarios-class.md)
+*   [Développement du code de scénarios CLASS](/recherche/sen/developpement-du-code-de-scenarios-class)
     
-*   [Scénarios ADS étendus](recherche/sen/scenarios-ads-etendus.md)
+*   [Scénarios ADS étendus](/recherche/sen/scenarios-ads-etendus)
     
-*   [Scénarios de sortie du nucléaire](recherche/sen/scenarios-de-sortie-du-nucleaire.md)
+*   [Scénarios de sortie du nucléaire](/recherche/sen/scenarios-de-sortie-du-nucleaire)

@@ -15,7 +15,7 @@ menus:
 > 
 > Arthur Schopenhauer
 
-C’est une tradition chère à SUBATECH que celle d’aller vers le public et d’avoir en permanence le souci de vulgariser les sciences dites dures. C’est en ce sens que notre laboratoire a mis en place un certain nombre d’actions de communications, de [vulgarisation scientifique](recherche/xenon/equipements-methodes-techniques.md).
+C’est une tradition chère à SUBATECH que celle d’aller vers le public et d’avoir en permanence le souci de vulgariser les sciences dites dures. C’est en ce sens que notre laboratoire a mis en place un certain nombre d’actions de communications, de [vulgarisation scientifique](/recherche/xenon/equipements-methodes-techniques).
 
 Ces actions se traduisent sous des formes diverses, que ce soient des rencontres avec le grand public lors des fêtes de la science, les portes ouvertes, mais aussi plusieurs expositions, que ce soient envers les lycéens au travers de « l’Ecole des deux infinis », reliant le monde de l’éducation à celui de la recherche. L’accent ayant été mis ces dernières années sur la sensibilisation des jeunes aux métiers de la recherche, grâce notamment à l’organisation d’un [passeport recherche](http://www.prun.net/labo-des-savoirs/passeport-recherche-2012--le-lhc/), qui consiste à accompagner une classe tout au long de l’année sur un projet, mais également aux Master Class, de même que les [rencontres internationales lycéennes](http://www.lesateliersdelaradioprotection.com/spip.php?article1), organisées cette année par SUBATECH.
 

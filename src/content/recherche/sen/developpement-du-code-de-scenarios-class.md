@@ -19,7 +19,7 @@ Il sera possible d'y implémenter des usines de traitement, dont le rôle sera d
 
 Contrairement aux programmes de scénarios existants, le but de ce code est de rester souple, en permettant à l'utilisateur de faire exactement ce qu'il souhaite, l'ensemble des paramètres clefs étant accessible et modifiable... Par exemple, si l'on veut réaliser un scénario utilisant des réacteurs innovants, il suffit de générer la base de données formatée correspondante.
 
-A l'instar de MURE (MCNP Utility for Reactor Evolution)\* \[[5](recherche/sen/bibliographie.md)\], le but est de permettre aux utilisateurs d'améliorer et de corriger le code, en y apportant leur contribution via une correction de bugs ou l'ajout d'un module ou d'une fonctionnalité permettant ainsi d'accroître la richesse et la profondeur des scénarios simulés.
+A l'instar de MURE (MCNP Utility for Reactor Evolution)\* \[[5](/recherche/sen/bibliographie)\], le but est de permettre aux utilisateurs d'améliorer et de corriger le code, en y apportant leur contribution via une correction de bugs ou l'ajout d'un module ou d'une fonctionnalité permettant ainsi d'accroître la richesse et la profondeur des scénarios simulés.
 
 L'avantage majeur d'avoir un code ouvert à l'utilisateur est la possibilité quasi sans limite de simulation de scénarios. Il serait possible de mener des études précises des transitions envisageables entre les technologies actuelles et les technologies futures.
 

@@ -10,4 +10,4 @@ category: "Axes de recherche"
 
 Ces études recouvrent, d'une part, différents aspects de la production de radioéléments et de leur utilisation, et d'autre part, les activités de recherche et développement de nouvelles techniques de détection et leur application dans l'imagerie médicale. Une activité supplémentaire considère la collaboration avec CEISAM dans la réalisation de biomatériaux pour les traitements liés à l'ostéoporose.
 
-[Prisma](recherche/prisma/presentation.md) - [Radiochimie](recherche/radiochimie/radiochimie-presentation.md) - [Xénon](recherche/xenon/presentation.md)
+[Prisma](/recherche/prisma/presentation) - [Radiochimie](/recherche/radiochimie/radiochimie-presentation) - [Xénon](/recherche/xenon/presentation)

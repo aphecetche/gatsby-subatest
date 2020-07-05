@@ -42,5 +42,5 @@ menus:
 
 [Étude préparatoire pour la recherche du double beta sans émission de neutrino dans XENONnT et DARWIN](images/PropositionStageM2_XENON_2019.pdf)
 
-[Archives](enseignement/stages-et-thèses/propositions-de-stages-et-theses-2012-2013.md)
----------------------------------------------------------------------------------------
+[Archives](/enseignement/stages-et-thèses/propositions-de-stages-et-theses-2012-2013)
+-------------------------------------------------------------------------------------

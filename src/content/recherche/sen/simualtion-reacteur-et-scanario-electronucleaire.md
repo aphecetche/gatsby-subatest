@@ -7,4 +7,4 @@ joomlaid: 197
 category: "sen"
 layout: "recherche"
 ---
-[simulations de réacteurs](recherche/sen/simulation-reacteurs.md), [scénarios électronucléaires](recherche/sen/systeme-et-scenarios.md) et activites expérimentales associées ([Nucifer](recherche/sen/nucifer.md) et [TAGS](recherche/sen/tags.md))
+[simulations de réacteurs](/recherche/sen/simulation-reacteurs), [scénarios électronucléaires](/recherche/sen/systeme-et-scenarios) et activites expérimentales associées ([Nucifer](/recherche/sen/nucifer) et [TAGS](/recherche/sen/tags))

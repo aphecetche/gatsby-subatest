@@ -10,4 +10,4 @@ category: "Axes de recherche"
 
 Ceci promeut l’association étroite des groupes expérimentaux et des services techniques. Cette particularité est à l’origine d’échanges transversaux, fédérateurs au sein du laboratoire et permettant des collaborations extérieures avec des structures industrielles ou de recherche.
 
-[Astro](recherche/astro/astro-presentation.md) - [SEN](recherche/sen/erdre-presentation.md) - [Plasma](recherche/plasma/presentation-groupe-plasma.md) - [Théorie](fr/recherche/univers-a-haute-energie/theorie/presentation) - [Xénon](recherche/xenon/presentation.md) - [Neutrino](fr/recherche/univers-a-haute-energie/neutrino/presentation)
+[Astro](/recherche/astro/astro-presentation) - [SEN](/recherche/sen/erdre-presentation) - [Plasma](/recherche/plasma/presentation-groupe-plasma) - [Théorie](fr/recherche/univers-a-haute-energie/theorie/presentation) - [Xénon](/recherche/xenon/presentation) - [Neutrino](fr/recherche/univers-a-haute-energie/neutrino/presentation)

@@ -35,17 +35,17 @@ Divers axes de recherche sont suivis, différenciés en fonction du domaine d'é
 
 *   *   **Phénoménologie des processus durs** -- Dans le cadre de la PQCD, on cherche à confronter les calculs théoriques aux données expérimentales pour les processus _durs_ (impliquant une échelle \\( Q \\gg 1\\,\\rm{GeV}\\)). Ceci permet de tester plus avant la PQCD, notamment dans le cadre des théorèmes de factorisation. Diverses thématiques sont abordées:
         
-        *   [Quarks lourds et quarkonia dans le QGP](recherche/theoriehe/quarks-lourds-et-quarkonia-dans-un-plasma.md)
-        *   [Propagation des partons dans la matière nucléaire](recherche/theoriehe/propagation-des-partons-dans-la-matiere-nucleaire.md)
+        *   [Quarks lourds et quarkonia dans le QGP](/recherche/theoriehe/quarks-lourds-et-quarkonia-dans-un-plasma)
+        *   [Propagation des partons dans la matière nucléaire](/recherche/theoriehe/propagation-des-partons-dans-la-matiere-nucleaire)
         *   Production de photons
 
 *   *   **Etude globale d'événements** -- Nous étudions différents phénomènes à l'interface entre le langage hadronique et le langage partonique:[](fr/recherche/theorie-haute-energie/theoriehe-nouvelles/205-werner1)
-        *   [Formation, évolution et hadronisation du plasma de quarks et de gluons](recherche/theoriehe/werner1.md)
-        *   [Gerbes de rayons cosmiques](recherche/theoriehe/gerbes-de-rayons-cosmiques.md)
+        *   [Formation, évolution et hadronisation du plasma de quarks et de gluons](/recherche/theoriehe/werner1)
+        *   [Gerbes de rayons cosmiques](/recherche/theoriehe/gerbes-de-rayons-cosmiques)
 
 D'autre part, notons des implications dans d'autres axes de recherche:
 
 *   *   **Autres thématiques: théorie pure, valorisation et applications**:
-        *   [Théorie des champs](recherche/theoriehe/theorie-quantique-des-champs.md)
-        *   [Sens électrique des poissons](recherche/theoriehe/electrolocation.md)
+        *   [Théorie des champs](/recherche/theoriehe/theorie-quantique-des-champs)
+        *   [Sens électrique des poissons](/recherche/theoriehe/electrolocation)
         *   Applications de QM

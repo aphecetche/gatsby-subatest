@@ -12,7 +12,7 @@ menus:
     name: "Activités de recherche"
     parent: "recherche/nucleaire-et-environnement/sen"
 ---
-La recherche du groupe Structure et Energie Nucléaires est centrée sur les activites de [physique nucléaire experimentale](recherche/sen/tags.md) et les [simulations associées](recherche/sen/simulation-reacteurs.md) avec des [applications à la physique du neutrino](recherche/sen/physique-des-neutrinos.md)
+La recherche du groupe Structure et Energie Nucléaires est centrée sur les activites de [physique nucléaire experimentale](/recherche/sen/tags) et les [simulations associées](/recherche/sen/simulation-reacteurs) avec des [applications à la physique du neutrino](/recherche/sen/physique-des-neutrinos)
 
 Ci-dessous, nous revenons plus en détails sur les thématiques de physique étudiées par le groupe SEN qui sont étroitement liées :
 
@@ -28,7 +28,7 @@ Applications à la structure et l'astrophysique nucléaires
 
  
 
-[Applications aux neutrinos des réacteurs et calculs de sommation](recherche/sen/physique-des-neutrinos.md)
+[Applications aux neutrinos des réacteurs et calculs de sommation](/recherche/sen/physique-des-neutrinos)
 
  
 

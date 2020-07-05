@@ -16,10 +16,10 @@ menus:
 
 [Ressources IMT Atlantique](https://intranet.imt-atlantique.fr/ressources-documentaires/)
 
-[Ressources Université](bibliotheque/ressource-universite.md)
+[Ressources Université](/bibliotheque/ressource-universite)
 
-[Ressources CNRS](bibliotheque/ressources-cnrs.md)
+[Ressources CNRS](/bibliotheque/ressources-cnrs)
 
-[Ressources propres SUBATECH](bibliotheque/ressources-subatec.md)
+[Ressources propres SUBATECH](/bibliotheque/ressources-subatec)
 
-[Quelques bases de données](bibliotheque/bases-de-donnees.md)
+[Quelques bases de données](/bibliotheque/bases-de-donnees)

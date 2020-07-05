@@ -23,6 +23,15 @@ npm install
 
 ### Run the npm develop script
 
+First create a local `.env` file containing :
+
+```
+GATSBY_GRAPHQL_IDE=playground
+```
+
+(note that by construction, `.env` file are not meant to be committed to the repository as they might contain sensitive information like e.g. access tokens)
+
+The enter development mode :
 
 ```
 npm run develop

@@ -10,7 +10,7 @@ layout: "recherche"
 Thèses soutenues récemment
 --------------------------
 
-**Maryam Rustamova:  effets de **la perte d'énergie partonique sur la suppression nucléaire de quarkonium  ([résumé](recherche/theoriehe/resume-these-rustamova.md)[](recherche/theoriehe/resume-these-rustamova.md))****
+**Maryam Rustamova:  effets de **la perte d'énergie partonique sur la suppression nucléaire de quarkonium  ([résumé](/recherche/theoriehe/resume-these-rustamova)[](/recherche/theoriehe/resume-these-rustamova))****
 
 Thèse soutenue le 22 octobre 2013
 

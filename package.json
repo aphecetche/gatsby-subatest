@@ -27,6 +27,7 @@
     "gatsby-transformer-remark": "^2.6.48",
     "gatsby-transformer-sharp": "^2.3.7",
     "intersection-observer": "^0.7.0",
+    "ldapjs": "^2.1.1",
     "postcss-preset-env": "^6.7.0",
     "prettier-eslint-cli": "^5.0.0",
     "prop-types": "^15.7.2",

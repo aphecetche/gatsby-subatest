@@ -29,6 +29,15 @@ First create a local `.env` file containing :
 GATSBY_GRAPHQL_IDE=playground
 ```
 
+If you also want to generate the members pages from LDAP you must add :
+
+```
+WITHLDAP=true
+```
+
+to the `.env` file. Note that this can only work if running the build from a machine in the in2p3.fr domain.
+
+
 (note that by construction, `.env` file are not meant to be committed to the repository as they might contain sensitive information like e.g. access tokens)
 
 The enter development mode :

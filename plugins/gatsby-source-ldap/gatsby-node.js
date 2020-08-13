@@ -32,6 +32,7 @@ const getMembers = new Promise((resolve, reject) => {
     if (err) {
       reject("could not reach ldap server")
     } else {
+      console.log("Performing ldap search")
       client.search("ou=people,dc=in2p3,dc=fr", opts, function(err, res) {
         res.on("searchEntry", function(entry) {
           const {
@@ -40,6 +41,7 @@ const getMembers = new Promise((resolve, reject) => {
             telephoneNumber,
             roomNumber,
             businessCategory,
+            title,
           } = entry.object
           members.push({
             name: cn
@@ -49,7 +51,8 @@ const getMembers = new Promise((resolve, reject) => {
             mail,
             telephoneNumber: String(telephoneNumber || ""),
             roomNumber: String(roomNumber || ""),
-            group: JSON.stringify(businessCategory),
+            group: String(businessCategory),
+            title: String(title),
           })
         })
         res.on("end", function(result) {
@@ -72,7 +75,7 @@ exports.sourceNodes = async ({
   const { createNode } = actions
 
   getMembers.then(members => {
-    console.log(JSON.stringify(members))
+    //console.log(JSON.stringify(members))
     members.forEach(m => {
       createNode({
         ...m,
@@ -81,7 +84,6 @@ exports.sourceNodes = async ({
         children: [],
         internal: {
           type: "Member",
-          content: JSON.stringify(m),
           contentDigest: createContentDigest(m),
         },
       })

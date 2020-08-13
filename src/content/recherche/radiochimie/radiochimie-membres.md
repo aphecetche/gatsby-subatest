@@ -7,9 +7,13 @@ joomlaid: 64
 category: "radiochimie"
 layout: "recherche"
 menus:
-  main:
-    identifier: "recherche/nucleaire-et-environnement/radiochimie/membres"
-    name: "Membres"
-    parent: "recherche/nucleaire-et-environnement/radiochimie"
+main:
+identifier: "recherche/nucleaire-et-environnement/radiochimie/membres"
+name: "Membres"
+parent: "recherche/nucleaire-et-environnement/radiochimie"
 ---
-{loadposition membres}
+
+import Members from "components/members.jsx"
+
+<Members group="radiochimie"/>
+

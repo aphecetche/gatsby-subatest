@@ -32,9 +32,10 @@ module.exports = {
     },
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: `gatsby-plugin-mdx`,
       options: {
-        plugins: [
+        extensions: [".mdx", ".md"],
+        gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-relative-images`,
           },
@@ -47,9 +48,6 @@ module.exports = {
           "gatsby-remark-static-images",
         ],
       },
-    },
-    {
-      resolve: "gatsby-plugin-mdx",
     },
     {
       resolve: `gatsby-plugin-typography`,
@@ -71,14 +69,14 @@ module.exports = {
           { name: "date", store: true },
         ],
         resolvers: {
-          MarkdownRemark: {
+          Mdx: {
             title: node => node.frontmatter.title,
-            content: node => node.rawMarkdownBody,
+            content: node => node.rawBody,
             slug: node => node.fields.slug,
             excerpt: node => {
               const text = remark()
                 .use(stripMarkdown)
-                .processSync(node.rawMarkdownBody)
+                .processSync(node.rawBody)
               const excerptLength = 140 // Hard coded excerpt length
               return String(text).substring(0, excerptLength) + "..."
             },

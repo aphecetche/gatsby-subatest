@@ -66,10 +66,12 @@ const Members = ({ group }) => {
   ))
   return (
     <React.Fragment>
-      <p>
-        Chef d&apos;équipe / Team leader :&nbsp;
-        <Member member={teamLeader.node} />
-      </p>
+      {teamLeader ? (
+        <p>
+          Chef d&apos;équipe / Team leader :&nbsp;
+          <Member member={teamLeader.node} />
+        </p>
+      ) : null}
       <ul>{c}</ul>
     </React.Fragment>
   )

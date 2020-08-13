@@ -15,22 +15,39 @@ const ldap = require("ldapjs")
 
 exports.onPreInit = () => console.log("Loaded gatsby-starter-plugin")
 
+// note that the getMembers should never fails : if we cannot get the LDAP data
+// we simply return a fake members array with only one element which is constructed
+// in a way that the Members component won't fail trying to render it
 const getMembers = new Promise((resolve, reject) => {
+  const noMembers = [
+    {
+      name: "",
+      mail: "",
+      telephoneNumber: "",
+      roomNumber: "",
+      group: "",
+      title: "",
+    },
+  ]
+
   const client = ldap.createClient({ url: "ldaps://ccdirectory.in2p3.fr" })
-
+  client.on("error", function(err) {
+    console.log("createClient error=", err)
+    resolve(noMembers)
+  })
   const opts = {
-    /*filter: `(&(businessCategory=${category})(ou=UMR6457))`*/
-
     filter: `(ou=UMR6457)`,
     scope: "sub",
-    //attributes: ["sn", "ou"]
   }
 
   var members = []
 
+  console.log("createClient done")
+
   client.bind("", "", function(err) {
     if (err) {
-      reject("could not reach ldap server")
+      console.log("bind to ldap server failed")
+      resolve(noMembers)
     } else {
       console.log("Performing ldap search")
       client.search("ou=people,dc=in2p3,dc=fr", opts, function(err, res) {
@@ -75,7 +92,6 @@ exports.sourceNodes = async ({
   const { createNode } = actions
 
   getMembers.then(members => {
-    //console.log(JSON.stringify(members))
     members.forEach(m => {
       createNode({
         ...m,

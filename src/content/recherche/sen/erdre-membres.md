@@ -7,9 +7,13 @@ joomlaid: 67
 category: "sen"
 layout: "recherche"
 menus:
-  main:
-    identifier: "recherche/nucleaire-et-environnement/sen/membres"
-    name: "Membres"
-    parent: "recherche/nucleaire-et-environnement/sen"
+main:
+identifier: "recherche/nucleaire-et-environnement/sen/membres"
+name: "Membres"
+parent: "recherche/nucleaire-et-environnement/sen"
 ---
-{loadposition membres}
+
+import Members from "components/members.jsx"
+
+<Members group="stru" />
+

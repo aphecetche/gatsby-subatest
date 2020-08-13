@@ -35,9 +35,27 @@ const getMembers = new Promise((resolve, reject) => {
     console.log("createClient error=", err)
     resolve(noMembers)
   })
+  client.on("socketTimeout", function() {
+    resolve(members)
+  })
+  client.on("connectTimeout", function(err) {
+    resolve(members)
+  })
+  client.on("connectRefused", function(err) {
+    resolve(members)
+  })
   const opts = {
     filter: `(ou=UMR6457)`,
     scope: "sub",
+    timeLimit: 60,
+    attributes: [
+      "cn",
+      "mail",
+      "telephoneNumber",
+      "roomNumber",
+      "businessCategory",
+      "title",
+    ],
   }
 
   var members = []
@@ -73,10 +91,9 @@ const getMembers = new Promise((resolve, reject) => {
           })
         })
         res.on("end", function(result) {
-          console.log(
-            "status: " + result.status + " found " + members.length + " members"
-          )
-          client.unbind(res.end)
+          if (result.status === 0) {
+            client.unbind(res.end)
+          }
           resolve(members)
         })
       })

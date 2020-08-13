@@ -31,6 +31,9 @@ const getMembers = new Promise((resolve, reject) => {
   ]
 
   const client = ldap.createClient({ url: "ldaps://ccdirectory.in2p3.fr" })
+  if (client === null) {
+    resolve(noMembers)
+  }
   client.on("error", function(err) {
     console.log("createClient error=", err)
     resolve(noMembers)

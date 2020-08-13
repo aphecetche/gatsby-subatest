@@ -53,6 +53,16 @@ const Members = ({ group }) => {
       }
     `
   )
+
+  if (data.allMember.edges.length < 2) {
+    return (
+      <p>
+        The build of this site was made on a machine with no access the CCIN2P3
+        LDAP
+      </p>
+    )
+  }
+
   const reGroup = new RegExp(group, "i")
   const reLeader = new RegExp("chef", "i")
   const teamMembers = data.allMember.edges.filter(n =>

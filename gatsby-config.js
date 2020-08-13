@@ -86,6 +86,11 @@ module.exports = {
         filename: "search_index.json",
       },
     },
-    "gatsby-source-ldap",
+    {
+      resolve: "gatsby-source-ldap",
+      options: {
+        disabled: !process.env.WITHLDAP,
+      },
+    },
   ],
 }

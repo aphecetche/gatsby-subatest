@@ -6,7 +6,7 @@ path: "recherche/astro/astro-presentation.md"
 joomlaid: 5
 category: "astro"
 layout: "recherche"
-menus:
+asides: ["astro"]
 main:
 identifier: "recherche/univers-a-haute-energie/astro/presentation"
 name: "Présentation"

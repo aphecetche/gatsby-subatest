@@ -49,12 +49,6 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
     `gatsby-plugin-postcss`,
     `gatsby-transformer-sharp`,
     {
@@ -90,6 +84,12 @@ module.exports = {
       resolve: "gatsby-source-ldap",
       options: {
         disabled: !process.env.WITHLDAP,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-root-import",
+      options: {
+        components: `${__dirname}/src/components`,
       },
     },
   ],

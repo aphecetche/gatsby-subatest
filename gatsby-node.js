@@ -26,6 +26,9 @@ exports.createPages = async ({ actions, graphql }) => {
       allMdx {
         edges {
           node {
+            frontmatter {
+              aside
+            }
             fields {
               slug
             }
@@ -38,13 +41,15 @@ exports.createPages = async ({ actions, graphql }) => {
     console.log(result.errors)
   }
   result.data.allMdx.edges.forEach(({ node }) => {
-    createPage({
-      path: node.fields.slug,
-      component: path.resolve(`./src/templates/post.jsx`),
-      context: {
-        slug: node.fields.slug,
-      },
-    })
+    if (node.frontmatter.aside === null) {
+      createPage({
+        path: node.fields.slug,
+        component: path.resolve(`./src/templates/post.jsx`),
+        context: {
+          slug: node.fields.slug,
+        },
+      })
+    }
   })
 }
 

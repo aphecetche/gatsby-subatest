@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
-        <main>{children}</main>
+        <section>{children}</section>
         <footer>© {new Date().getFullYear()}</footer>
       </div>
     </>

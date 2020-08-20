@@ -92,5 +92,9 @@ module.exports = {
         components: `${__dirname}/src/components`,
       },
     },
+    {
+      resolve: "gatsby-theme-material-ui",
+      options: {},
+    },
   ],
 }

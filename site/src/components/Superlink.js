@@ -1,6 +1,5 @@
 import React from "react"
-//import { Link } from "gatsby"
-import { Link } from "gatsby-theme-material-ui"
+import { Link } from "gatsby"
 
 const Superlink = ({ to, children, onClick, className }) => {
   // if we provide an onClick function, then

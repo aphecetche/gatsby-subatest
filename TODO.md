@@ -5,3 +5,5 @@
 - extract search functionality into an external theme
 
 - make an overflow menu, or a toggle (see https://material.io/design/color/dark-theme.html#behavior) to switch between light and dark modes
+
+- package the material-ui stuff into a gatsby theme

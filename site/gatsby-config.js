@@ -5,7 +5,6 @@ module.exports = {
     author: `L. Aphecetche`,
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -27,27 +26,26 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
         extensions: [".mdx", ".md"],
-        gatsbyRemarkPlugins: [
-          {
-            resolve: `gatsby-remark-relative-images`,
-          },
-          {
-            resolve: "gatsby-remark-images",
-            options: {
-              maxWidth: 800,
-            },
-          },
-          "gatsby-remark-static-images",
-        ],
+        // gatsbyRemarkPlugins: [
+        //   {
+        //     resolve: `gatsby-remark-relative-images`,
+        //   },
+        //   {
+        //     resolve: "gatsby-remark-images",
+        //     options: {
+        //       maxWidth: 800,
+        //     },
+        //   },
+        //   "gatsby-remark-static-images",
+        // ],
       },
     },
-    `gatsby-plugin-postcss`,
-    `gatsby-transformer-sharp`,
+    //`gatsby-plugin-sharp`,
+    //`gatsby-transformer-sharp`,
     // `gatsby-theme-search`,
     // {
     //   resolve: "gatsby-theme-ldap",
@@ -55,11 +53,5 @@ module.exports = {
     //     disabled: !(process.env.WITHLDAP === "yes"),
     //   },
     // },
-    {
-      resolve: "gatsby-plugin-root-import",
-      options: {
-        components: `${__dirname}/src/components`,
-      },
-    },
   ],
 }

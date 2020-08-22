@@ -1,7 +1,7 @@
-import React from "react"
-import NavGroup from "./NavGroup"
-import css from "./bigmenu.module.css"
-import CloseButton from "../closebutton.js"
+import React from "react";
+import NavGroup from "./NavGroup";
+import css from "./bigmenu.module.css";
+import CloseButton from "./closebutton";
 
 const BigMenu = ({ title, groups, onClose }) => (
   <div className={css.bigmenu}>
@@ -11,13 +11,13 @@ const BigMenu = ({ title, groups, onClose }) => (
     </div>
     <ul className={css.navgrouplist}>
       {!!groups &&
-        groups.map(x => (
+        groups.map((x) => (
           <li key={x.links[0].label}>
             <NavGroup title={x.title} links={x.links} />
           </li>
         ))}
     </ul>
   </div>
-)
+);
 
-export default BigMenu
+export default BigMenu;

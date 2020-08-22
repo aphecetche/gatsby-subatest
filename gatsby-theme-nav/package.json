@@ -1,0 +1,26 @@
+{
+  "name": "gatsby-theme-nav",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "gatsby": "^2.24.47",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.24.47",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "gatsby-source-filesystem": "^2.3.24"
+  }
+}

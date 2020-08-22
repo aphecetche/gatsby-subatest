@@ -1,6 +1,6 @@
-import React from "react"
-import css from "./navgroup.module.css"
-import Superlink from "../Superlink.js"
+import React from "react";
+import css from "./navgroup.module.css";
+import Superlink from "./Superlink";
 
 const NavGroup = ({ title, links }) => {
   return (
@@ -8,14 +8,14 @@ const NavGroup = ({ title, links }) => {
       {!!title && <h4 className={css.title}>{title}</h4>}
       <ul className={css.linklist}>
         {!!links &&
-          links.map(l => (
+          links.map((l) => (
             <li key={l.label}>
               <Superlink to={l.to}>{l.label}</Superlink>
             </li>
           ))}
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default NavGroup
+export default NavGroup;

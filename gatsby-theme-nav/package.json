@@ -7,12 +7,14 @@
   "devDependencies": {
     "gatsby": "^2.24.47",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "gatsby-theme-mui": "*"
   },
   "peerDependencies": {
     "gatsby": "^2.24.47",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "gatsby-theme-mui": "*"
   },
   "scripts": {
     "build": "gatsby build",
@@ -20,7 +22,6 @@
     "develop": "gatsby develop"
   },
   "dependencies": {
-    "@material-ui/core": "^4.11.0",
     "gatsby-source-filesystem": "^2.3.24"
   }
 }

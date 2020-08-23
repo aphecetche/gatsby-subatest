@@ -2,6 +2,7 @@
         "private": true,
         "workspaces":[
                 "site",
+                "gatsby-theme-mui",
                 "gatsby-theme-nav"
         ]
 }

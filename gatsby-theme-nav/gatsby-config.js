@@ -7,5 +7,9 @@ module.exports = {
         path: `${__dirname}/images`,
       },
     },
+    {
+      resolve: "gatsby-theme-mui",
+      options: {},
+    },
   ],
 };

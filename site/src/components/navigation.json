@@ -1,0 +1,266 @@
+[
+  {
+    "title": "Le laboratoire",
+    "to": "/general/presentation",
+    "groups": [
+      {
+        "title": "Nos activités",
+        "links": [
+          {
+            "to": "/general/actualites",
+            "label": "Actualités (*)"
+          },
+          {
+            "to": "/general/presentation",
+            "label": "Présentation"
+          },
+          {
+            "to": "/services-techniques-et-administration/organigramme",
+            "label": "Organigramme"
+          },
+          {
+            "to": "/general/conseil-scientifique",
+            "label": "Conseil scientifique"
+          }
+        ]
+      },
+      {
+        "title": "Administration",
+        "links": [
+          {
+            "to": "/services-techniques-et-administration/adminitration",
+            "label": "Présentation"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Recherche",
+    "to": "/recherche/recherche",
+    "groups": [
+      {
+        "links": [
+          {
+            "to": "/recherche/recherche",
+            "label": "Présentation"
+          },
+          {
+            "to": "http://hal.in2p3.fr/SUBATECH/",
+            "label": "Production scientifique"
+          }
+        ]
+      },
+      {
+        "title": "Nucléaire et environnement",
+        "links": [
+          {
+            "to": "/recherche/radiochimie/radiochimie-presentation",
+            "label": "Radiochimie"
+          },
+          {
+            "to": "/recherche/prisma/presentation",
+            "label": "Prisma"
+          },
+          {
+            "to": "/recherche/sen/erdre-presentation",
+            "label": "SEN"
+          }
+        ]
+      },
+      {
+        "title": "Nucléaire et santé",
+        "links": [
+          {
+            "to": "/recherche/xenon/presentation",
+            "label": "Xénon"
+          },
+          {
+            "to": "/recherche/prisma/presentation",
+            "label": "Prisma"
+          },
+          {
+            "to": "/recherche/radiochimie/radiochimie-presentation",
+            "label": "Radiochimie"
+          }
+        ]
+      },
+      {
+        "title": "Univers à haute énergie",
+        "links": [
+          {
+            "to": "/recherche/plasma/presentation-groupe-plasma",
+            "label": "Plasma"
+          },
+          {
+            "to": "/recherche/astro/astro-presentation",
+            "label": "Astro"
+          },
+          {
+            "to": "/recherche/sen/erdre-presentation",
+            "label": "SEN"
+          },
+          {
+            "to": "/recherche/xenon/presentation",
+            "label": "Xénon"
+          },
+          {
+            "to": "/recherche/theorie/theoriehe-presentation",
+            "label": "Théorie"
+          },
+          {
+            "to": "/recherche/neutrino/neutrino-presentation",
+            "label": "Neutrino"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Enseignement",
+    "to": "/",
+    "groups": [
+      {
+        "links": [
+          {
+            "to": "/enseignement/enseignement",
+            "label": "Présentation"
+          },
+          {
+            "to": "/enseignement/propositions-de-stages",
+            "label": "Propositions de stage"
+          }
+        ]
+      },
+      {
+        "title": "Masters",
+        "links": [
+          {
+            "to": "/enseignement/masterars",
+            "label": "PFA"
+          },
+          {
+            "to": "https://www.imt-atlantique.fr/fr/formation/masters/masters-science/sarena",
+            "label": "SARENA"
+          },
+          {
+            "to": "https://www.imt-atlantique.fr/formation/masters/masters-science/sustainable-nuclear-engineering-applications-and-management-sneam",
+            "label": "SNEAM"
+          }
+        ]
+      },
+      {
+        "title": "Options IMTA",
+        "links": [
+          {
+            "to": "/",
+            "label": "NTSE"
+          },
+          {
+            "to": "/",
+            "label": "STAR"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Communication",
+    "to": "/communication/communication",
+    "groups": [
+      {
+        "links": [
+          {
+            "to": "/communication/communication",
+            "label": "Présentation"
+          },
+          {
+            "to": "/communication/seminaires",
+            "label": "Séminaires (*)"
+          },
+          {
+            "to": "/communication/vulgarisation",
+            "label": "Vulgarisation (*)"
+          },
+          {
+            "to": "/communication/bibliotheque",
+            "label": "Bibliothèque (*)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Techniques",
+    "to": "/services-techniques-et-administration/services-techniques",
+    "groups": [
+      {
+        "links": [
+          {
+            "to": "/services-techniques-et-administration/services-techniques",
+            "label": "Présentation"
+          },
+          {
+            "to": "/services-techniques-et-administration/informatique/service-informatique",
+            "label": "Informatique"
+          },
+          {
+            "to": "/services-techniques-et-administration/electronique/service-electronique",
+            "label": "Electronique"
+          },
+          {
+            "to": "/services-techniques-et-administration/mecanique/presentation",
+            "label": "Mécanique"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "SMART",
+    "to": "/smart/presentation",
+    "groups": [
+      {
+        "links": [
+          { "to": "/", "label": "Contact" },
+          { "to": "/", "label": "Liens" }
+        ]
+      },
+      {
+        "title": "Le service SMART",
+        "links": [
+          { "to": "/smart/presentation", "label": "Présentation" },
+          { "to": "/smart/moyens-humains", "label": "Moyens humains" },
+          {
+            "to": "/smart/techniques-et-equipements",
+            "label": "Techniques et équipements"
+          },
+          {
+            "to": "/smart/accreditations-et-agrements",
+            "label": "Accréditations et agréments"
+          }
+        ]
+      },
+      {
+        "title": "Nos prestations",
+        "links": [
+          { "to": "/smart/prelevements", "label": "Prélèvements" },
+          { "to": "/smart/pre-traitements", "label": "Pré-traitements" },
+          {
+            "to": "/smart/detection-des-rayonnements",
+            "label": "Détection des rayonnements"
+          },
+          {
+            "to": "/smart/nature-des-echantillons-et-des-prestations",
+            "label": "Nature des échantillons et des prestations"
+          },
+          { "to": "/smart/actions-r-d", "label": "Actions R&D" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Contact",
+    "to": "/general/nous-contacter"
+  }
+]

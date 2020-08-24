@@ -1,42 +1,41 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Logo from "./logo"
+import Navigation from "./navigation"
+import { AppBar, Toolbar } from "@material-ui/core"
+import { makeStyles, useTheme } from "@material-ui/core/styles"
+import { useMediaQuery } from "@material-ui/core"
+import Hamburger from "./hamburger"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+const useStyles = makeStyles((theme) => ({
+  main: {
+    background: theme.palette.background.paper,
+  },
+  toolbar: {
+    justifyContent: "space-between",
+  },
+}))
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
+const Header = () => {
+  const classes = useStyles()
+  const theme = useTheme()
+  const small = useMediaQuery(theme.breakpoints.down("xs"))
+  return (
+    <>
+      <AppBar className={classes.main}>
+        <Toolbar className={classes.toolbar}>
+          <Logo />
+          <Navigation />
+          {small && <Hamburger />}
+        </Toolbar>
+      </AppBar>
+      <p style={{ marginTop: "10rem" }}>Small is : {JSON.stringify(small)}</p>
+    </>
+  )
 }
 
-Header.defaultProps = {
-  siteTitle: ``,
-}
+Header.propTypes = {}
+
+Header.defaultProps = {}
 
 export default Header

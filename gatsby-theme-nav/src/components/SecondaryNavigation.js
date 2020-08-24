@@ -1,27 +1,25 @@
 import React from "react";
 import BigMenu from "./BigMenu";
-import css from "./navigation.module.css";
+import { makeStyles } from "@material-ui/core/styles";
+
+const useStyles = makeStyles((theme) => ({
+  secondary: {},
+}));
 
 const SecondaryNavigation = ({ data, active, setActive }) => {
+  const css = useStyles();
   const onClose = (event) => {
     event.preventDefault();
     setActive("");
   };
+  const menu = data.filter((x) => x.title === active);
   return (
     <nav aria-label="Secondary" className={css.secondary}>
-      <ul>
-        {data.map((x) => {
-          const activeClass = x.title === active ? css.active : "";
-          return (
-            <li key={x.title} className={activeClass}>
-              <BigMenu title={x.title} groups={x.groups} onClose={onClose} />
-            </li>
-          );
-        })}
-      </ul>
+      {menu.map((x) => (
+        <BigMenu title={x.title} groups={x.groups} onClose={onClose} />
+      ))}
     </nav>
   );
 };
 
-//export default SecondaryNavigation;
-export default () => null;
+export default SecondaryNavigation;

@@ -1,10 +1,11 @@
 import React from "react";
 import Superlink from "./Superlink";
 import { makeStyles } from "@material-ui/core/styles";
-import { useStaticQuery, graphql } from "gatsby";
+import { Typography } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   main: {
+    background: theme.palette.background.paper,
     color: theme.palette.primary.main,
     "& ul": {
       listStyle: "none",
@@ -32,42 +33,20 @@ const useStyles = makeStyles((theme) => ({
       },
     },
   },
-  logo: {
-    boxSizing: "border-box",
-    margin: 0,
-    padding: 0,
-    backgroundRepeat: "no-repeat",
-    backgroundPosition: "center",
-    backgroundImage: (props) => `url(${props.logoUrl})`,
-    width: (props) => `${props.logoWidth}`,
-    height: (props) => `${props.logoHeight}`,
-  },
   active: { color: theme.palette.secondary.main },
 }));
 
 const PrimaryNavigation = ({ links, active, setActive }) => {
-  const logo = useStaticQuery(graphql`
-    {
-      allFile(filter: { base: { regex: "/logo/" } }) {
-        nodes {
-          publicURL
-        }
-      }
-    }
-  `).allFile.nodes[0];
-  const css = useStyles({
-    logoUrl: logo.publicURL,
-    logoWidth: "135px",
-    logoHeight: "48px",
-  });
+  const css = useStyles();
   return (
-    <nav aria-label="Main" className={css.main}>
+    <nav className={css.main}>
       <ul>
-        <li className={css.logo}>
-          <Superlink to="/" />
-        </li>
         {links.map((x) => (
-          <li key={x.label} className={x.label === active ? css.active : ""}>
+          <Typography
+            key={x.label}
+            className={x.label === active ? css.active : ""}
+            component="li"
+          >
             <Superlink
               to={x.to}
               onClick={(event) => {
@@ -79,7 +58,7 @@ const PrimaryNavigation = ({ links, active, setActive }) => {
             >
               {x.label}
             </Superlink>
-          </li>
+          </Typography>
         ))}
       </ul>
     </nav>

@@ -1,14 +1,15 @@
 import React from "react"
 // import SEO from "../components/seo"
 import Navigation from "../components/navigation"
+import Header from "../components/header"
 
 const IndexPage = () => {
   return (
-    <div>
+    <>
+      <Header />
       {/*       <SEO title="Home" /> */}
-      <Navigation />
       <h1>Laboratoire Subatech</h1>
-    </div>
+    </>
   )
 }
 

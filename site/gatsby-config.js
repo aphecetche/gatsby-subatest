@@ -44,6 +44,10 @@ module.exports = {
         // ],
       },
     },
+    {
+      resolve: "gatsby-theme-mui",
+      options: {},
+    },
     //`gatsby-plugin-sharp`,
     //`gatsby-transformer-sharp`,
     // `gatsby-theme-search`,

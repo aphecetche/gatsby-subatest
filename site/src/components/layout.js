@@ -2,12 +2,12 @@ import React from "react"
 import PropTypes from "prop-types"
 
 import "./layout.css"
-import Navigation from "../components/navigation"
+import Header from "./Header"
 
 const Layout = ({ children }) => {
   return (
     <>
-      <Navigation />
+      <Header />
       <div
         style={{
           margin: `0 auto`,

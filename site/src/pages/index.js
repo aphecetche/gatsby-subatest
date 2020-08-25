@@ -1,7 +1,6 @@
 import React from "react"
 // import SEO from "../components/seo"
-import Navigation from "../components/navigation"
-import Header from "../components/header"
+import Header from "../components/Header"
 
 const IndexPage = () => {
   return (

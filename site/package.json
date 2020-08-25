@@ -9,6 +9,7 @@
     "@mdx-js/react": "^1.6.16",
     "gatsby": "^2.24.47",
     "gatsby-plugin-mdx": "^1.2.34",
+    "gatsby-plugin-webfonts": "^1.1.3",
     "gatsby-source-filesystem": "^2.3.24",
     "gatsby-theme-nav": "*",
     "react": "^16.12.0",
@@ -21,11 +22,11 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.0",
     "gatsby-plugin-root-import": "^2.0.5",
+    "gatsby-theme-mui": "*",
     "prettier-eslint-cli": "^5.0.0",
-    "prop-types": "^15.7.2",
-    "gatsby-theme-mui": "*"
+    "prop-types": "^15.7.2"
   },
-  "peerDependencies":{
+  "peerDependencies": {
     "gatsby-theme-mui": "*"
   },
   "keywords": [
@@ -41,7 +42,6 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
-
   "repository": {
     "type": "git",
     "url": "https://github.com/aphecetche/gatsby-subatest"

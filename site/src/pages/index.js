@@ -1,15 +1,10 @@
 import React from "react"
-// import SEO from "../components/seo"
-import Header from "../components/Header"
+import { Router, Redirect } from "@reach/router"
 
-const IndexPage = () => {
-  return (
-    <>
-      <Header />
-      {/*       <SEO title="Home" /> */}
-      <h1>Laboratoire Subatech</h1>
-    </>
-  )
-}
+const IndexPage = () => (
+  <Router>
+    <Redirect noThrow from="/" to="/general/presentation" />
+  </Router>
+)
 
 export default IndexPage

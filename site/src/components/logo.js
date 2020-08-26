@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import { makeStyles } from "@material-ui/core/styles"
-import { Typography } from "@material-ui/core"
+
 const useStyles = makeStyles((theme) => ({
   logo: {
     boxSizing: "border-box",
@@ -30,11 +30,7 @@ const Logo = () => {
     logoWidth: "140px",
     logoHeight: "67px",
   })
-  return (
-    <Typography className={css.logo}>
-      <Link to="/" />
-    </Typography>
-  )
+  return <Link className={css.logo} to="/" />
 }
 
 export default Logo

@@ -13,6 +13,7 @@ const useStyles = makeStyles((theme) => ({
       alignItems: "center",
       flexWrap: "wrap",
       margin: 0,
+      padding: "3px 0px 0px 0.25rem",
       "& li": {
         margin: 0,
         padding: 0,

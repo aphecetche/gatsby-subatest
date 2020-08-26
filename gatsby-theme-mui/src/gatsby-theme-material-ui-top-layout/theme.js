@@ -6,9 +6,7 @@ const theme = {
     fontWeightRegular: "400",
   },
   palette: {
-    background: {
-      default: "#fff",
-    },
+    background: {},
     primary: {
       main: "#0766ad",
     },
@@ -16,6 +14,15 @@ const theme = {
       main: "#98ca34",
     },
     text: {},
+  },
+  overrides: {
+    MuiCssBaseline: {
+      "@global": {
+        html: {
+          WebkitFontSmoothing: "auto",
+        },
+      },
+    },
   },
 };
 

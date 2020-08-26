@@ -9,6 +9,10 @@ const useStyles = makeStyles((theme) => ({
   main: {
     margin: "0 auto",
     width: "80%",
+    "& h1": {
+      color: theme.palette.primary.main,
+      fontWeight: "400",
+    },
   },
 }))
 

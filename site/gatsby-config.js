@@ -48,19 +48,6 @@ module.exports = {
       resolve: "gatsby-theme-mui",
       options: {},
     },
-    {
-      resolve: "gatsby-plugin-webfonts",
-      options: {
-        fonts: {
-          google: [
-            {
-              family: "Open Sans Condensed",
-              variants: ["300", "700"],
-            },
-          ],
-        },
-      },
-    },
     //`gatsby-plugin-sharp`,
     //`gatsby-transformer-sharp`,
     // `gatsby-theme-search`,

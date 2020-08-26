@@ -1,21 +1,22 @@
 import React from "react"
 import PropTypes from "prop-types"
-
+import { makeStyles } from "@material-ui/core"
 import "./layout.css"
 import Header from "./Header"
 
+const useStyles = makeStyles((theme) => ({
+  main: {
+    margin: "0 auto",
+    width: "80%",
+  },
+}))
+
 const Layout = ({ children }) => {
+  const classes = useStyles()
   return (
     <>
       <Header />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
-          paddingTop: 0,
-        }}
-      >
+      <div className={classes.main}>
         <section>{children}</section>
         <footer>© {new Date().getFullYear()}</footer>
       </div>

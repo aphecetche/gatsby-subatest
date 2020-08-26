@@ -3,7 +3,8 @@
         "workspaces":[
                 "site",
                 "gatsby-theme-mui",
-                "gatsby-theme-nav"
+                "gatsby-theme-nav",
+                "gatsby-theme-asides"
         ]
 }
 

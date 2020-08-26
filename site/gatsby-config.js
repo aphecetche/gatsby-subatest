@@ -26,6 +26,13 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    //    {
+    //      resolve: `gatsby-theme-asides`,
+    //      options: {
+    //        name: `asides`,
+    //        path: `${__dirname}/src/content`,
+    //      },
+    //    },
     {
       resolve: `gatsby-plugin-mdx`,
       options: {

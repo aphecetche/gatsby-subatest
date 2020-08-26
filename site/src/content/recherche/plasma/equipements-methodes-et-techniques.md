@@ -6,11 +6,7 @@ path: "recherche/plasma/equipements-methodes-et-techniques.md"
 joomlaid: 32
 category: "plasma"
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/univers-a-haute-energie/plasma/equipements-methodes-et-techniques"
-    name: "Equipements, méthodes et techniques"
-    parent: "recherche/univers-a-haute-energie/plasma"
+asides: ["plasma"]
 ---
 Les accélérateurs
 -----------------

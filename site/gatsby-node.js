@@ -28,6 +28,7 @@ exports.createPages = async ({ actions, graphql }) => {
           node {
             frontmatter {
               aside
+              layout
             }
             fields {
               slug
@@ -42,9 +43,14 @@ exports.createPages = async ({ actions, graphql }) => {
   }
   result.data.allMdx.edges.forEach(({ node }) => {
     if (node.frontmatter.aside === null) {
+      let layout = node.frontmatter.layout
+      if (!layout) {
+        layout = "default"
+      }
+      console.log(node.fields.slug, "->", layout)
       createPage({
         path: node.fields.slug,
-        component: path.resolve(`./src/templates/post.jsx`),
+        component: path.resolve(`./src/templates/${layout}.jsx`),
         context: {
           slug: node.fields.slug,
         },

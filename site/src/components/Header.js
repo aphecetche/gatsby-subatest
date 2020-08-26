@@ -14,12 +14,6 @@ const useStyles = makeStyles((theme) => ({
     background: theme.palette.background.paper,
     display: "flex",
     flexDirection: "row",
-    "& a": {
-      fontFamily: "Open Sans Condensed",
-      fontSize: "1.125rem",
-      letterSpacing: "0.15em",
-      fontWeight: "300",
-    },
   },
   toolbar: {
     justifyContent: "space-between",
@@ -49,6 +43,7 @@ const Header = ({ data = nav }) => {
         </Toolbar>
       </AppBar>
       <SecondaryNavigation
+        className={classes.secondary}
         aria-hidden="true"
         data={data}
         active={active}

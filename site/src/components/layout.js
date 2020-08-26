@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { makeStyles } from "@material-ui/core"
 import "./layout.css"
 import Header from "./Header"
+import Footer from "./Footer"
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -18,8 +19,8 @@ const Layout = ({ children }) => {
       <Header />
       <div className={classes.main}>
         <section>{children}</section>
-        <footer>© {new Date().getFullYear()}</footer>
       </div>
+      <Footer />
     </>
   )
 }

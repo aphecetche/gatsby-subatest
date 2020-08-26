@@ -17,6 +17,10 @@ const useStyles = makeStyles((theme) => ({
         margin: 0,
         padding: 0,
         "& a": {
+          fontFamily: "Open Sans Condensed",
+          fontSize: "1.125rem",
+          letterSpacing: "0.15em",
+          fontWeight: "300",
           userSelect: "none",
           display: "block",
           color: "currentColor",

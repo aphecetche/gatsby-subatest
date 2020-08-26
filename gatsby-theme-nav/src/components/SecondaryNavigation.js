@@ -3,7 +3,11 @@ import BigMenu from "./BigMenu";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
-  secondary: {},
+  secondary: {
+    "& h6": {
+      color: theme.palette.primary.light,
+    },
+  },
 }));
 
 const SecondaryNavigation = ({ data, active, setActive }) => {

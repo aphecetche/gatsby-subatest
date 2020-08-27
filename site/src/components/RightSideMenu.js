@@ -7,9 +7,34 @@ import { makeStyles } from "@material-ui/core"
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    "& a": {
-      "&.active": {
-        color: "pink",
+    display: "flex",
+    flexDirection: "column",
+    margin: 0,
+    padding: 0,
+    "& h2": {
+      ...theme.typography.h6,
+      color: theme.palette.primary.main,
+      textAlign: "right",
+    },
+    "& ul": {
+      listStyle: "none",
+      margin: 0,
+      padding: 0,
+      "& li": {
+        display: "block",
+        marginBottom: theme.spacing(1),
+        border: "none",
+        borderBottom: `1px dotted ${theme.palette.grey["400"]}`,
+        "&.active": {
+          borderBottom: `1px solid ${theme.palette.secondary.main}`,
+        },
+      },
+      "& a": {
+        color: theme.palette.primary.main,
+        textDecoration: "none",
+        "&:hover": {
+          background: theme.palette.grey["200"],
+        },
       },
     },
   },
@@ -17,18 +42,15 @@ const useStyles = makeStyles((theme) => ({
 
 const RightSideMenu = ({ slug, children }) => {
   const classes = useStyles()
-  const CustomLink = React.useMemo(() => {
+  const CustomListItem = React.useMemo(() => {
     return (props) => {
-      let cn = props.href === `/${slug}` ? "active" : ""
-      return (
-        <>
-          <a className={cn} {...props} />
-        </>
-      )
+      let cn = props.children.props.href === `/${slug}` ? "active" : ""
+      return <li className={cn} {...props} />
     }
   }, [slug])
+
   const MyComponents = {
-    a: CustomLink,
+    li: CustomListItem,
   }
 
   return (

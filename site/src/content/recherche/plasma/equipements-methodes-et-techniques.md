@@ -6,7 +6,7 @@ path: "recherche/plasma/equipements-methodes-et-techniques.md"
 joomlaid: 32
 category: "plasma"
 layout: "recherche"
-asides: ["plasma"]
+asides: ["plasma\/menu"]
 ---
 Les accélérateurs
 -----------------

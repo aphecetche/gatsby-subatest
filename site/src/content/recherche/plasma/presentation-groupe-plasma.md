@@ -6,7 +6,7 @@ path: "recherche/plasma/presentation-groupe-plasma.md"
 joomlaid: 15
 category: "plasma"
 layout: "recherche"
-asides: ["plasma","plasma-extra"]
+asides: ["plasma"]
 rightSideMenu: true
 identifier: "recherche/univers-a-haute-energie/plasma/presentation"
 name: "Présentation"

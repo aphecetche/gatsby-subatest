@@ -6,57 +6,15 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `content`,
-        path: `${__dirname}/src/content`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `pages`,
-        path: `${__dirname}/src/pages`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+      resolve: `gatsby-theme-mdx`,
+      // options: {
+      //   sources: ["content", "pages"],
+      // },
     },
     //    {
-    //      resolve: `gatsby-theme-asides`,
-    //      options: {
-    //        name: `asides`,
-    //        path: `${__dirname}/src/content`,
-    //      },
+    //      resolve: "gatsby-theme-mui",
+    //      options: {},
     //    },
-    {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        extensions: [".mdx", ".md"],
-        // gatsbyRemarkPlugins: [
-        //   {
-        //     resolve: `gatsby-remark-relative-images`,
-        //   },
-        //   {
-        //     resolve: "gatsby-remark-images",
-        //     options: {
-        //       maxWidth: 800,
-        //     },
-        //   },
-        //   "gatsby-remark-static-images",
-        // ],
-      },
-    },
-    {
-      resolve: "gatsby-theme-mui",
-      options: {},
-    },
-    //`gatsby-plugin-sharp`,
-    //`gatsby-transformer-sharp`,
     // `gatsby-theme-search`,
     // {
     //   resolve: "gatsby-theme-ldap",

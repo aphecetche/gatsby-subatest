@@ -2,21 +2,13 @@ module.exports = (themeOptions) => {
   return {
     plugins: [
       {
-        resolve: `gatsby-source-filesystem`,
+        resolve: `gatsby-theme-mdx`,
         options: {
-          name: themeOptions.name || "content",
-          path: themeOptions.path || `${__dirname}/src/examples`,
-        },
-      },
-      {
-        resolve: `gatsby-plugin-mdx`,
-        options: {
-          extensions: [".mdx", ".md"],
+          sources: themeOptions.sources || "content",
         },
       },
       {
         resolve: "gatsby-theme-mui",
-        options: {},
       },
     ],
   };

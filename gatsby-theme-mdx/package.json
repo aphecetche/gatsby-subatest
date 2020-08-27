@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-theme-asides",
+  "name": "gatsby-theme-img",
   "version": "0.1.0",
   "main": "index.js",
   "license": "MIT",
@@ -8,8 +8,6 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
     "gatsby": "^2.24.47",
-    "gatsby-theme-mui": "*",
-    "gatsby-theme-mdx": "*",
     "prettier": "^2.1.0",
     "prettier-eslint-cli": "^5.0.0",
     "react": "^16.13.1",
@@ -17,8 +15,6 @@
   },
   "peerDependencies": {
     "gatsby": "^2.24.47",
-    "gatsby-theme-mui": "*",
-    "gatsby-theme-mdx": "*",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
@@ -26,5 +22,13 @@
     "build": "gatsby build",
     "clean": "gatsby clean",
     "develop": "gatsby develop"
+  },
+  "dependencies": {
+    "@material-ui/icons": "^4.9.1",
+    "@mdx-js/mdx": "^1.6.16",
+    "@mdx-js/react": "^1.6.16",
+    "gatsby-plugin-mdx": "^1.2.36",
+    "gatsby-remark-images": "^3.3.27",
+    "gatsby-source-filesystem": "^2.3.24"
   }
 }

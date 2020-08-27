@@ -5,15 +5,12 @@
   "version": "0.1.0",
   "author": "Laurent Aphecetche",
   "dependencies": {
-    "@mdx-js/mdx": "^1.6.16",
-    "@mdx-js/react": "^1.6.16",
     "gatsby": "^2.24.47",
-    "gatsby-plugin-mdx": "^1.2.34",
-    "gatsby-source-filesystem": "^2.3.24",
-    "gatsby-theme-nav": "*",
-    "gatsby-theme-asides": "*",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "gatsby-theme-mdx": "*",
+    "gatsby-theme-nav": "*",
+    "gatsby-theme-asides": "*"
   },
   "devDependencies": {
     "env-cmd": "^10.0.1",

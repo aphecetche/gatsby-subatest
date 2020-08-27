@@ -1,10 +1,11 @@
 {
         "private": true,
         "workspaces":[
-                "site",
                 "gatsby-theme-mui",
+                "gatsby-theme-mdx",
                 "gatsby-theme-nav",
-                "gatsby-theme-asides"
+                "gatsby-theme-asides",
+                "site"
         ]
 }
 

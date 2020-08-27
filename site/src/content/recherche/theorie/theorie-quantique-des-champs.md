@@ -5,6 +5,7 @@ lastmod: "2013-02-14 14:39:40 +0000 UTC"
 path: "recherche/theorie/theorie-quantique-des-champs.md"
 joomlaid: 373
 category: "theorie"
+asides: ["theorie.+menu+"]
 layout: "recherche"
 ---
 Dans le cadre du projet ANR «Superconformal Yang-Mills theories», 2007-2010, (E. Sokatchev du LAPP Annecy, G. Korchemsky de l'Université Paris-Sud et A. Smilga à SUBATECH), nous avons étudié divers problèmes qui relèvent de la dynamique des théories supersymétriques ou des théories définies par des lagrangiens avec dérivées d'ordre supérieur. En particulier, nous avons montré qu'un certain modèle supersymétrique avec interaction non triviale et dérivées supérieures est bien unitaire, malgré la présence de "fantômes" (i.e., malgré l'absence d'état fondamental dans le spectre).

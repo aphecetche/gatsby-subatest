@@ -5,12 +5,8 @@ lastmod: "2012-09-24 08:53:17 +0000 UTC"
 path: "recherche/xenon/darwin.md"
 joomlaid: 216
 category: "xenon"
+asides: ["xenon.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-sante/xenon/recherche/fondamentales/darwin"
-    name: "DARWIN"
-    parent: "recherche/nucleaire-et-sante/xenon/recherche/fondamentales"
 ---
 **![DARWIN Logo](images/Recherche/Xenon/DARWINLogo.gif)DARWIN est une étude de conception d’une future infrastructure en Europe pour la recherche de matière noire. Ce projet a été identifié dans le calendrier du réseau ASPERA.**
 

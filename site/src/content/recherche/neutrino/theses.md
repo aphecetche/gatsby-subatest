@@ -5,12 +5,8 @@ lastmod: "2018-01-05 14:26:38 +0000 UTC"
 path: "recherche/neutrino/theses.md"
 joomlaid: 418
 category: "neutrino"
+asides: ["neutrino.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/univers-a-haute-energie/neutrino/theses"
-    name: "Thèses"
-    parent: "recherche/univers-a-haute-energie/neutrino"
 ---
 **Thèses en cours**
 

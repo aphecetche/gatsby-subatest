@@ -5,12 +5,8 @@ lastmod: "2018-10-08 12:35:30 +0000 UTC"
 path: "recherche/prisma/membres.md"
 joomlaid: 63
 category: "prisma"
+asides: ["prisma.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-environnement/prisma/membres"
-    name: "Membres"
-    parent: "recherche/nucleaire-et-environnement/prisma"
 ---
 {loadposition membres}
 

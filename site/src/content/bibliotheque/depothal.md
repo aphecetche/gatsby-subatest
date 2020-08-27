@@ -5,11 +5,7 @@ lastmod: "2018-07-23 14:15:26 +0000 UTC"
 path: "bibliotheque/depothal.md"
 joomlaid: 174
 category: "Bibliotheque"
-menus:
-  main:
-    identifier: "communication/bibliotheque/depot-de-document-dans-hal"
-    name: "Dépot de document dans HAL"
-    parent: "communication/bibliotheque"
+asides: ["Bibliotheque.+menu+"]
 ---
 [HAL](http://hal.in2p3.fr/) permet de référencer publications et conférences avec possibilité de déposer avec texte intégral (ou sans)
 

@@ -5,6 +5,7 @@ lastmod: "2018-12-20 13:43:12 +0000 UTC"
 path: "general/annuaires.md"
 joomlaid: 188
 category: "General"
+asides: ["General.+menu+"]
 ---
 *   [Subatech](https://annuaire.in2p3.fr/agents/list/b3U9VU1SNjQ1NyxvdT11bml0LGRjPWluMnAzLGRjPWZy)
 *   [IN2P3](http://annuaire.in2p3.fr/)

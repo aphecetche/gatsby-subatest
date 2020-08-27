@@ -5,12 +5,8 @@ lastmod: "2019-02-11 15:46:33 +0000 UTC"
 path: "services-techniques-et-administration/administration/presentation.md"
 joomlaid: 156
 category: "Administration"
+asides: ["Administration.+menu+"]
 layout: "services-techniques-et-administration"
-menus:
-  main:
-    identifier: "laboratoire/administration/presentation"
-    name: "Présentation"
-    parent: "laboratoire/administration"
 ---
 Responsable Administrative
 --------------------------

@@ -5,11 +5,7 @@ lastmod: "2014-04-24 07:44:58 +0000 UTC"
 path: "smart/nature-des-echantillons-et-des-prestations.md"
 joomlaid: 333
 category: "Smart"
-menus:
-  main:
-    identifier: "mesures/nos-prestations/nature-des-echantillons-et-des-prestations"
-    name: "Nature des échantillons et des prestations"
-    parent: "mesures/nos-prestations"
+asides: ["Smart.+menu+"]
 ---
 Nous analysons divers produits, dont :
 

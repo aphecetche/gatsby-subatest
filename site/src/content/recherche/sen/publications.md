@@ -5,12 +5,8 @@ lastmod: "2019-02-19 16:28:49 +0000 UTC"
 path: "recherche/sen/publications.md"
 joomlaid: 109
 category: "sen"
+asides: ["sen.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-environnement/sen/publications"
-    name: "Publications"
-    parent: "recherche/nucleaire-et-environnement/sen"
 ---
 Publications dans journaux avec comité de lecture
 -------------------------------------------------

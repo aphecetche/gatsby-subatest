@@ -5,12 +5,8 @@ lastmod: "2017-01-31 14:30:38 +0000 UTC"
 path: "recherche/xenon/communication.md"
 joomlaid: 46
 category: "xenon"
+asides: ["xenon.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-sante/xenon/presentations-de-conferences-seminaires-et-posters"
-    name: "Présentations de conférences, séminaires et posters"
-    parent: "recherche/nucleaire-et-sante/xenon"
 ---
 Conférences, séminaires et posters 2016
 ---------------------------------------

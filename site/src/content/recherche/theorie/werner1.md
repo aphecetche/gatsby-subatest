@@ -5,6 +5,7 @@ lastmod: "2013-02-14 14:29:35 +0000 UTC"
 path: "recherche/theorie/werner1.md"
 joomlaid: 350
 category: "theorie"
+asides: ["theorie.+menu+"]
 layout: "recherche"
 ---
 Pour la description microscopique des interactions noyau–noyau aux énergies ultrarelativistes, nous avons développé les modèles VENUS / NEXUS, où les interactions élémentaires sont réalisées par l’échange de pomérons en utilisant la méthode Monte-Carlo (modèle de Gribov-Regge). Cette approche est applicable lorsque la densité des cordes n’est pas trop élevée, ce qui est le cas pour les interactions hadron-hadron et les interactions entre noyaux légers.

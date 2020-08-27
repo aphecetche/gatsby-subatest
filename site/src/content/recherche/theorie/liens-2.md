@@ -5,6 +5,7 @@ lastmod: "2012-03-30 14:03:51 +0000 UTC"
 path: "recherche/theorie/liens-2.md"
 joomlaid: 379
 category: "theorie"
+asides: ["theorie.+menu+"]
 layout: "recherche"
 ---
 Voici quelques liens pertinents pour la thématique :

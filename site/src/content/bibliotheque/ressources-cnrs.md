@@ -5,11 +5,7 @@ lastmod: "2018-11-29 09:17:42 +0000 UTC"
 path: "bibliotheque/ressources-cnrs.md"
 joomlaid: 114
 category: "Bibliotheque"
-menus:
-  main:
-    identifier: "communication/bibliotheque/ressources-documentaires/ressource-cnrs"
-    name: "CNRS"
-    parent: "communication/bibliotheque/ressources-documentaires"
+asides: ["Bibliotheque.+menu+"]
 ---
 *   #### **[Accès à l'INIST](http://www.inist.fr/) :** Institut de l'information Scientifique et Technique du CNRS
     

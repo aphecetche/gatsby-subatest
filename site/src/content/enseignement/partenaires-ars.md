@@ -5,11 +5,7 @@ lastmod: "2019-01-23 16:10:04 +0000 UTC"
 path: "enseignement/partenaires-ars.md"
 joomlaid: 295
 category: "Enseignement"
-menus:
-  main:
-    identifier: "enseignement/masters/mars/partenaires"
-    name: "Partenaires"
-    parent: "enseignement/masters/mars"
+asides: ["Enseignement.+menu+"]
 ---
 ### Partenariats et collaborations :
 

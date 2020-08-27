@@ -26,17 +26,9 @@ const Asides = ({ slug, regexp }) => {
   `);
 
   const re = new RegExp(regexp);
-  const asides = data.allMdx.edges.filter((n) => {
-    console.log(
-      "re",
-      re,
-      "path",
-      n.node.fileAbsolutePath,
-      "match",
-      n.node.fileAbsolutePath.match(re)
-    );
-    return n.node.fileAbsolutePath.match(re);
-  });
+  const asides = data.allMdx.edges.filter((n) =>
+    n.node.fileAbsolutePath.match(re)
+  );
 
   return (
     <Suspense fallback=<p>Loading...</p>>

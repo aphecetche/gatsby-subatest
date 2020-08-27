@@ -5,6 +5,7 @@ lastmod: "2012-08-17 12:18:49 +0000 UTC"
 path: "projets-scientifiques/auger.md"
 joomlaid: 132
 category: "Projets scientifiques"
+asides: ["Projets scientifiques.+menu+"]
 ---
 Nom complet : Observatoire Pierre Auger
 

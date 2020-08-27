@@ -5,6 +5,7 @@ lastmod: "2012-02-02 12:49:18 +0000 UTC"
 path: "recherche/astro/bibliotheque-astronomique.md"
 joomlaid: 7
 category: "astro"
+asides: ["astro.+menu+"]
 layout: "recherche"
 ---
 Cet article contient des références bibliographiques pertinentes au groupe et à ses activités.

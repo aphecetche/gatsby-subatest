@@ -5,12 +5,8 @@ lastmod: "2012-09-26 11:49:18 +0000 UTC"
 path: "services-techniques-et-administration/informatique/service-informatique.md"
 joomlaid: 124
 category: "Informatique"
+asides: ["Informatique.+menu+"]
 layout: "services-techniques-et-administration"
-menus:
-  main:
-    identifier: "services-techniques/informatique/presentation"
-    name: "Présentation"
-    parent: "services-techniques/informatique"
 ---
 Les missions du Service Informatique sont les suivantes :
 

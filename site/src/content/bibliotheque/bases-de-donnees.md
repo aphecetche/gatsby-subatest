@@ -5,11 +5,7 @@ lastmod: "2018-07-23 12:22:59 +0000 UTC"
 path: "bibliotheque/bases-de-donnees.md"
 joomlaid: 224
 category: "Bibliotheque"
-menus:
-  main:
-    identifier: "communication/bibliotheque/bases-de-donnees"
-    name: "Liens"
-    parent: "communication/bibliotheque"
+asides: ["Bibliotheque.+menu+"]
 ---
 *   [CERN ARTICLE and PREPRINT SERVER](http://cdsweb.cern.ch/ "CERN Preprint Server")
 *   [SLAC-SPIRES HEP Database](http://inspirehep.net/)

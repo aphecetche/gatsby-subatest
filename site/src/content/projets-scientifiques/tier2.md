@@ -5,5 +5,6 @@ lastmod: "2012-03-01 10:07:50 +0000 UTC"
 path: "projets-scientifiques/tier2.md"
 joomlaid: 130
 category: "Projets scientifiques"
+asides: ["Projets scientifiques.+menu+"]
 ---
 \- Fiche d'identité du projet TIER2 -

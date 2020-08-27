@@ -5,12 +5,8 @@ lastmod: "2017-01-30 10:22:17 +0000 UTC"
 path: "recherche/prisma/communication.md"
 joomlaid: 57
 category: "prisma"
+asides: ["prisma.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-environnement/prisma/communication"
-    name: "Présentations de conférences, séminaires et posters"
-    parent: "recherche/nucleaire-et-environnement/prisma"
 ---
 **PRÉSENTATIONS DE CONFÉRENCES** _(séminaires et posters ci-dessous)_
 

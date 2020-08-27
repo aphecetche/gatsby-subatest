@@ -5,12 +5,8 @@ lastmod: "2019-02-12 15:07:10 +0000 UTC"
 path: "recherche/sen/erdre-theses.md"
 joomlaid: 69
 category: "sen"
+asides: ["sen.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-environnement/sen/theses"
-    name: "Thèses"
-    parent: "recherche/nucleaire-et-environnement/sen"
 ---
 Thèses en cours
 ---------------

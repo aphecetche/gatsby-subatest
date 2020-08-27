@@ -5,12 +5,8 @@ lastmod: "2012-05-24 12:58:10 +0000 UTC"
 path: "services-techniques-et-administration/informatique/contacts.md"
 joomlaid: 155
 category: "Informatique"
+asides: ["Informatique.+menu+"]
 layout: "services-techniques-et-administration"
-menus:
-  main:
-    identifier: "services-techniques/informatique/contacts"
-    name: "Contacts"
-    parent: "services-techniques/informatique"
 ---
 {loadposition contact}
 

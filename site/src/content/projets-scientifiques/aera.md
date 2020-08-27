@@ -5,6 +5,7 @@ lastmod: "2012-08-17 13:43:56 +0000 UTC"
 path: "projets-scientifiques/aera.md"
 joomlaid: 133
 category: "Projets scientifiques"
+asides: ["Projets scientifiques.+menu+"]
 ---
 Nom complet : Auger Engineering Radio Array
 

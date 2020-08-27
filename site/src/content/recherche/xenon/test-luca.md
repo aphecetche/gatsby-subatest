@@ -5,6 +5,7 @@ lastmod: "0001-01-01 00:00:00 +0000 UTC"
 path: "recherche/xenon/test-luca.md"
 joomlaid: 169
 category: "xenon"
+asides: ["xenon.+menu+"]
 layout: "recherche"
 ---
 test

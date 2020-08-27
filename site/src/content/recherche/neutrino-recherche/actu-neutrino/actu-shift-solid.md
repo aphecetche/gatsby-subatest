@@ -5,6 +5,7 @@ lastmod: "2018-12-11 14:44:32 +0000 UTC"
 path: "recherche/neutrino-recherche/actu-neutrino/actu-shift-solid.md"
 joomlaid: 438
 category: "Actu-Neutrino"
+asides: ["Actu-Neutrino.+menu+"]
 layout: "recherche/neutrino-recherche"
 ---
 Assemblage du detecteur SoLid --  Frederic Yermia, Mariangela Settimo

@@ -5,6 +5,7 @@ lastmod: "2012-05-09 21:21:53 +0000 UTC"
 path: "services-techniques-et-administration/mecanique/projets-realisations.md"
 joomlaid: 173
 category: "Mecanique"
+asides: ["Mecanique.+menu+"]
 layout: "services-techniques-et-administration"
 ---
 Projets du bureau d'études :

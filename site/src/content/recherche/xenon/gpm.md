@@ -5,12 +5,8 @@ lastmod: "2012-09-06 16:20:40 +0000 UTC"
 path: "recherche/xenon/gpm.md"
 joomlaid: 215
 category: "xenon"
+asides: ["xenon.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-sante/xenon/recherche/appliquees/gpm"
-    name: "GPM"
-    parent: "recherche/nucleaire-et-sante/xenon/recherche/appliquees"
 ---
 **Jusqu'à présent les détecteurs aux gaz nobles liquéfiés ne disposent pas de photodétecteurs gazeux de large surface adaptés aux volumes de scintillateur mis en jeu. Nous développons un photomultiplicateur gazeux cryogénique de grande surface afin de réaliser un déclenchement original du télescope Compton au xénon liquide.**
 

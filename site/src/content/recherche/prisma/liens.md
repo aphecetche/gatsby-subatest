@@ -5,12 +5,8 @@ lastmod: "2012-10-03 15:02:55 +0000 UTC"
 path: "recherche/prisma/liens.md"
 joomlaid: 166
 category: "prisma"
+asides: ["prisma.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-environnement/prisma/liens"
-    name: "Liens"
-    parent: "recherche/nucleaire-et-environnement/prisma"
 ---
 Voici quelques liens pertinents pour nos activités :
 

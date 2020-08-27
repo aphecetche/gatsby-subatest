@@ -5,6 +5,7 @@ lastmod: "2013-02-14 14:37:38 +0000 UTC"
 path: "recherche/theorie/production-de-photons.md"
 joomlaid: 364
 category: "theorie"
+asides: ["theorie.+menu+"]
 layout: "recherche"
 ---
 Thierry 1

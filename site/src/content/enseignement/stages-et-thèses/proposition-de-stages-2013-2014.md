@@ -5,12 +5,8 @@ lastmod: "2019-02-06 09:35:21 +0000 UTC"
 path: "enseignement/stages-et-thèses/proposition-de-stages-2013-2014.md"
 joomlaid: 324
 category: "Stages et thèses"
+asides: ["Stages et thèses.+menu+"]
 layout: "enseignement"
-menus:
-  main:
-    identifier: "enseignement/propositions-de-stages"
-    name: "Propositions de stages"
-    parent: "enseignement"
 ---
 **Stages 2018 - 2019**
 
@@ -42,5 +38,5 @@ menus:
 
 [Étude préparatoire pour la recherche du double beta sans émission de neutrino dans XENONnT et DARWIN](images/PropositionStageM2_XENON_2019.pdf)
 
-[Archives](/enseignement/stages-et-thèses/propositions-de-stages-et-theses-2012-2013)
--------------------------------------------------------------------------------------
+[Archives](index.php?option=com_content&view=article&id=269:propositions-de-stages-et-theses-2012-2013&catid=52:stages-et-theses&Itemid=961)
+--------------------------------------------------------------------------------------------------------------------------------------------

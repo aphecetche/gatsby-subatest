@@ -5,11 +5,7 @@ lastmod: "2012-03-08 14:06:00 +0000 UTC"
 path: "bibliotheque/ressources-subatec.md"
 joomlaid: 172
 category: "Bibliotheque"
-menus:
-  main:
-    identifier: "communication/bibliotheque/ressources-documentaires/ressources-propres"
-    name: "Subatech"
-    parent: "communication/bibliotheque/ressources-documentaires"
+asides: ["Bibliotheque.+menu+"]
 ---
 Le Laboratoire dispose également de ressources propres:
 

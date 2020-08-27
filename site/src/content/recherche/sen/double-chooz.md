@@ -5,6 +5,7 @@ lastmod: "2016-09-26 09:17:38 +0000 UTC"
 path: "recherche/sen/double-chooz.md"
 joomlaid: 191
 category: "sen"
+asides: ["sen.+menu+"]
 layout: "recherche"
 ---
 Les détecteurs de l’expérience Double Chooz représentent l’état de l’art actuel en terme de détection des antineutrinos des réacteurs \[1\].

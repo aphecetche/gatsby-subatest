@@ -5,11 +5,7 @@ lastmod: "2019-01-23 16:18:22 +0000 UTC"
 path: "enseignement/stages-et-thèses/propositions-de-theses-2012-2013.md"
 joomlaid: 270
 category: "Stages et thèses"
+asides: ["Stages et thèses.+menu+"]
 layout: "enseignement"
-menus:
-  main:
-    identifier: "enseignement/propositions-de-theses"
-    name: "Propositions de thèses"
-    parent: "enseignement"
 ---
 

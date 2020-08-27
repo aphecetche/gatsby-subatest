@@ -5,12 +5,8 @@ lastmod: "2016-09-23 07:06:49 +0000 UTC"
 path: "services-techniques-et-administration/administration/ressources-humaines.md"
 joomlaid: 225
 category: "Administration"
+asides: ["Administration.+menu+"]
 layout: "services-techniques-et-administration"
-menus:
-  main:
-    identifier: "laboratoire/administration/rh"
-    name: "Informations ressources humaines"
-    parent: "laboratoire/administration"
 ---
 Les personnels permanents de Subatech sont des fonctionnaires recrutés par voie de concours ou par voie de mobilité auxquels s'ajoutent des personnels en contrat à durée indéterminée des Mines Nantes et de l’association ARMINES.
 

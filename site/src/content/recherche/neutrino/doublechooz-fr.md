@@ -5,12 +5,8 @@ lastmod: "2018-01-05 09:25:21 +0000 UTC"
 path: "recherche/neutrino/doublechooz-fr.md"
 joomlaid: 415
 category: "neutrino"
+asides: ["neutrino.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/univers-a-haute-energie/neutrino/activites-de-recherche/double-chooz"
-    name: "Double Chooz"
-    parent: "recherche/univers-a-haute-energie/neutrino/activites-de-recherche"
 ---
 L'éxpérience [Double Chooz](http://doublechooz.in2p3.fr/Status_and_News/status_and_news.php) a pour but la détection des anti-neutrinos des réacteurs avec deux détecteurs identiques positionnés à 400 m (« détecteur proche », ND) et 1050m (« détecteur lointain », FD) à Chooz, en France [\[1\]](https://arxiv.org/abs/hep-ex/0606025). 
 

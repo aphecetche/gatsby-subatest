@@ -5,11 +5,7 @@ lastmod: "2012-03-01 07:40:07 +0000 UTC"
 path: "recherche/radiochimie/radiochimie-equipements-methodes-techniques.md"
 joomlaid: 22
 category: "radiochimie"
+asides: ["radiochimie.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-environnement/radiochimie/equipements-methodes-techniques"
-    name: "Equipements, méthodes et techniques"
-    parent: "recherche/nucleaire-et-environnement/radiochimie"
 ---
 Equipement méthodes et techniques pour la radiochimie

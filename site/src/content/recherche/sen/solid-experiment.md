@@ -5,6 +5,7 @@ lastmod: "2015-12-17 08:40:46 +0000 UTC"
 path: "recherche/sen/solid-experiment.md"
 joomlaid: 403
 category: "sen"
+asides: ["sen.+menu+"]
 layout: "recherche"
 ---
 The SoLid experiment will address and solve one of the most outstanding issue in neutrino physics: the experimental neutrino oscillation anomalies that are pointing towards the existence of a new neutrino state with a mass of around 1 eV.

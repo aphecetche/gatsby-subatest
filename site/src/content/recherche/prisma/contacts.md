@@ -5,12 +5,8 @@ lastmod: "2015-04-23 12:18:23 +0000 UTC"
 path: "recherche/prisma/contacts.md"
 joomlaid: 59
 category: "prisma"
+asides: ["prisma.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-environnement/prisma/contacts"
-    name: "Contacts"
-    parent: "recherche/nucleaire-et-environnement/prisma"
 ---
 **RESPONSABLE DU GROUPE**
 

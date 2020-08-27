@@ -5,6 +5,7 @@ lastmod: "2013-02-14 14:34:14 +0000 UTC"
 path: "recherche/theorie/electrolocation.md"
 joomlaid: 369
 category: "theorie"
+asides: ["theorie.+menu+"]
 layout: "recherche"
 ---
 **Modélisation du sens électrique au sein des projets RAAMO et ANGELS**

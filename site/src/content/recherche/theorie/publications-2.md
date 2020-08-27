@@ -5,6 +5,7 @@ lastmod: "2015-09-28 14:10:03 +0000 UTC"
 path: "recherche/theorie/publications-2.md"
 joomlaid: 383
 category: "theorie"
+asides: ["theorie.+menu+"]
 layout: "recherche"
 ---
 *   A Dynamical Description of Exotic Structures at Subnuclear Densities; V. de la Mota, F. Sébille, Ph. Eudes and M. Novak. 10th International Conference onClustering Aspects of Nuclear Structure and Dynamics (Debrecen, Hongrie du 24 au 28 Septembre 2012) J. Phys.: Conference Series, à paraître (2013)

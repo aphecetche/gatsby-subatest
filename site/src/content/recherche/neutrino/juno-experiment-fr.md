@@ -5,12 +5,8 @@ lastmod: "2018-01-05 09:27:07 +0000 UTC"
 path: "recherche/neutrino/juno-experiment-fr.md"
 joomlaid: 416
 category: "neutrino"
+asides: ["neutrino.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/univers-a-haute-energie/neutrino/activites-de-recherche/juno"
-    name: "Juno"
-    parent: "recherche/univers-a-haute-energie/neutrino/activites-de-recherche"
 ---
 Le **Jiangmen Underground Neutrino Observatory (JUNO)**, en construction à Jiangmen (dans le Sud de la Chine), est une expérience polyvalente dédiée à la détermination de la hiérarchie de masse des neutrinos et à la mesure précise des paramètres d'oscillation des neutrinos. La mesure de la hiérarchie de masse réclame une résolution en énergie inégalée jusqu'à présent (de l'ordre de 3%!à(MISSING) 1 MeV) et une incertitude de 1%!e(MISSING)n absolu sur l'échelle en énergie. Grace à son design et à son très grand volume de détection, JUNO est également un observatoire pour les neutrinos issus de supernovae, pour les géo-neutrinos et pour la recherche de neutrinos exotiques. 
 

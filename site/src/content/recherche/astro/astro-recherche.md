@@ -5,12 +5,8 @@ lastmod: "2017-09-21 11:51:56 +0000 UTC"
 path: "recherche/astro/astro-recherche.md"
 joomlaid: 43
 category: "astro"
+asides: ["astro.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/univers-a-haute-energie/astro/recherche"
-    name: "Activités de recherche"
-    parent: "recherche/univers-a-haute-energie/astro"
 ---
 ![CodalemaRT](images/Recherche/Astro/CodalemaRT.png)
 

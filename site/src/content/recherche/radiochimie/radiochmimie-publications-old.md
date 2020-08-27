@@ -5,6 +5,7 @@ lastmod: "2012-03-01 09:44:37 +0000 UTC"
 path: "recherche/radiochimie/radiochmimie-publications-old.md"
 joomlaid: 126
 category: "radiochimie"
+asides: ["radiochimie.+menu+"]
 layout: "recherche"
 ---
 Avec HAL et democrite ca va pas être très facile 

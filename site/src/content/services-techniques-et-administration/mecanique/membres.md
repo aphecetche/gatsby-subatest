@@ -5,12 +5,8 @@ lastmod: "2014-02-10 14:10:24 +0000 UTC"
 path: "services-techniques-et-administration/mecanique/membres.md"
 joomlaid: 150
 category: "Mecanique"
+asides: ["Mecanique.+menu+"]
 layout: "services-techniques-et-administration"
-menus:
-  main:
-    identifier: "services-techniques/mecanique/membres"
-    name: "Membres"
-    parent: "services-techniques/mecanique"
 ---
 ### Bureau d'études :
 

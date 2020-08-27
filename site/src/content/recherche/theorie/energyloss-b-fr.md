@@ -5,6 +5,7 @@ lastmod: "2013-02-15 14:01:45 +0000 UTC"
 path: "recherche/theorie/energyloss-b-fr.md"
 joomlaid: 345
 category: "theorie"
+asides: ["theorie.+menu+"]
 layout: "recherche"
 ---
 Le mécanisme de production du \\( J/\\psi \\) dans les collisions élémentaires proton-proton n'est pas encore bien compris, et l’atténuation nucléaire du \\( J/\\psi \\) dans les collisions p-A, paramétrée par \\( R\_{pA} \\equiv \\sigma\_{pA}/A \\sigma\_{pp} \\), pourrait constituer une observable supplémentaire pour démêler les différents modèles. Comprendre la suppression du \\( J/\\psi \\) en p-A est aussi une condition sine qua non avant d'utiliser la production de \\( J/\\psi \\) dans les collisions AA comme un signal du plasma de quarks et de gluons.

@@ -5,11 +5,7 @@ lastmod: "2014-03-17 10:42:35 +0000 UTC"
 path: "smart/contact.md"
 joomlaid: 335
 category: "Smart"
-menus:
-  main:
-    identifier: "mesures/contact/adresse-et-plan-d-acces"
-    name: "Adresse et plan d'accès"
-    parent: "mesures/contact"
+asides: ["Smart.+menu+"]
 ---
 Ecole des Mines de Nantes - SMART
 

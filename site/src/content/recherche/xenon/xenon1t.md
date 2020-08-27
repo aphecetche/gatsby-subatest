@@ -5,6 +5,7 @@ lastmod: "2012-03-12 12:41:56 +0000 UTC"
 path: "recherche/xenon/xenon1t.md"
 joomlaid: 187
 category: "xenon"
+asides: ["xenon.+menu+"]
 layout: "recherche"
 ---
 test

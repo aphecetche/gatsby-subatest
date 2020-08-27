@@ -5,12 +5,8 @@ lastmod: "2016-10-25 15:00:26 +0000 UTC"
 path: "recherche/plasma/publications-plasma.md"
 joomlaid: 36
 category: "plasma"
+asides: ["plasma.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/univers-a-haute-energie/plasma/publications"
-    name: "Publications"
-    parent: "recherche/univers-a-haute-energie/plasma"
 ---
 ### [Publications avec la collaboration ALICE dans la page web d'ALICE / Publications with ALICE collaboration from ALICE web page](http://aliceinfo.cern.ch/ArtSubmission/publications)
 

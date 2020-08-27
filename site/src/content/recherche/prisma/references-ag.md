@@ -5,6 +5,7 @@ lastmod: "2018-07-17 13:10:30 +0000 UTC"
 path: "recherche/prisma/references-ag.md"
 joomlaid: 322
 category: "prisma"
+asides: ["prisma.+menu+"]
 layout: "recherche"
 ---
 **Mes publications dans des revues à comité de lecture**

@@ -5,11 +5,7 @@ lastmod: "2017-09-21 11:58:31 +0000 UTC"
 path: "recherche/astro/phototheque.md"
 joomlaid: 284
 category: "astro"
+asides: ["astro.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/univers-a-haute-energie/astro/portfolio"
-    name: "Portfolio"
-    parent: "recherche/univers-a-haute-energie/astro"
 ---
 {gallery}Recherche/Astro/Portfolio{/gallery}

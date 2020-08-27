@@ -5,6 +5,7 @@ lastmod: "2013-02-14 14:36:00 +0000 UTC"
 path: "recherche/theorie/gerbes-de-rayons-cosmiques.md"
 joomlaid: 351
 category: "theorie"
+asides: ["theorie.+menu+"]
 layout: "recherche"
 ---
 Le taux de rayons cosmiques d’une énergie supérieure à 1014 eV est tellement faible que leur détection nécessite des méthodes indirectes. Une telle particule interagit avec les molécules d’air dans l’atmosphère en produisant un grand nombre de particules, qui interagissent à leur tour et ainsi de suite. Au sol, on peut finalement observer un très grand nombre de particules, majoritairement électrons et muons, mais aussi hadrons.

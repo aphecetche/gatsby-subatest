@@ -5,6 +5,7 @@ lastmod: "2018-09-25 11:53:49 +0000 UTC"
 path: "general/presentation.md"
 joomlaid: 38
 category: "General"
+asides: ["General.+menu+"]
 ---
 SUBATECH est une unité mixte de recherche (UMR 6457) affiliée à trois tutelles: [l’IMT Atlantique](http://www.imt-atlantique.fr), [l’Institut National de Physique Nucléaire et de Physique des Particules (IN2P3)](http://www.in2p3.fr) du [CNRS](http://www.cnrs.fr), et [l’Université de Nantes](http://www.univ-nantes.fr).
 

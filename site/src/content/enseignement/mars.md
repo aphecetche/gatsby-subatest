@@ -5,11 +5,7 @@ lastmod: "2019-01-23 16:08:56 +0000 UTC"
 path: "enseignement/mars.md"
 joomlaid: 294
 category: "Enseignement"
-menus:
-  main:
-    identifier: "enseignement/masters/mars/programme"
-    name: "Programme"
-    parent: "enseignement/masters/mars"
+asides: ["Enseignement.+menu+"]
 ---
 ![PFA](images/Enseignement/PFA.png)
 

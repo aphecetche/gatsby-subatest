@@ -5,6 +5,7 @@ lastmod: "2017-10-11 06:58:30 +0000 UTC"
 path: "projets-scientifiques/double-chooz.md"
 joomlaid: 138
 category: "Projets scientifiques"
+asides: ["Projets scientifiques.+menu+"]
 ---
 Nom complèt : Double Chooz
 

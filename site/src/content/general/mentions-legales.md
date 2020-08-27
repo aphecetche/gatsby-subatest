@@ -5,6 +5,7 @@ lastmod: "2018-09-22 17:26:52 +0000 UTC"
 path: "general/mentions-legales.md"
 joomlaid: 93
 category: "General"
+asides: ["General.+menu+"]
 ---
 ### Laboratoire SUBATECH
 

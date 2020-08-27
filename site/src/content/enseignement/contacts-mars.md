@@ -5,11 +5,7 @@ lastmod: "2019-01-23 16:10:56 +0000 UTC"
 path: "enseignement/contacts-mars.md"
 joomlaid: 296
 category: "Enseignement"
-menus:
-  main:
-    identifier: "enseignement/masters/mars/contacts"
-    name: "Contacts"
-    parent: "enseignement/masters/mars"
+asides: ["Enseignement.+menu+"]
 ---
 ### Contacts :
 

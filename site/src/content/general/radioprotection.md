@@ -5,6 +5,7 @@ lastmod: "2016-07-11 10:43:24 +0000 UTC"
 path: "general/radioprotection.md"
 joomlaid: 317
 category: "General"
+asides: ["General.+menu+"]
 ---
 SUBATECH est une unité de recherche possédant une autorisation délivrée par l’[ASN](http://www.asn.fr).
 

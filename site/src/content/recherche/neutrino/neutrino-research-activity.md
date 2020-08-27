@@ -5,12 +5,8 @@ lastmod: "2018-01-02 16:18:40 +0000 UTC"
 path: "recherche/neutrino/neutrino-research-activity.md"
 joomlaid: 409
 category: "neutrino"
+asides: ["neutrino.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/univers-a-haute-energie/neutrino/contacts"
-    name: "Contacts"
-    parent: "recherche/univers-a-haute-energie/neutrino"
 ---
 \- Chef du groupe:
 

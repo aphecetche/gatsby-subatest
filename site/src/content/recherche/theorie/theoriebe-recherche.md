@@ -5,6 +5,7 @@ lastmod: "2012-03-30 13:45:02 +0000 UTC"
 path: "recherche/theorie/theoriebe-recherche.md"
 joomlaid: 384
 category: "theorie"
+asides: ["theorie.+menu+"]
 layout: "recherche"
 ---
 **Approche macro-microscopique du modèle de la goutte liquide**

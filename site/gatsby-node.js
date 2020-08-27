@@ -6,6 +6,7 @@
 
 const path = require(`path`)
 const { createFilePath } = require("gatsby-source-filesystem")
+const fs = require("fs")
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
@@ -19,7 +20,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
   }
 }
 
-exports.createPages = async ({ actions, graphql }) => {
+exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
   const result = await graphql(`
     query {
@@ -39,22 +40,29 @@ exports.createPages = async ({ actions, graphql }) => {
     }
   `)
   if (result.errors) {
-    console.log(result.errors)
+    reporter.panicOnBuild(`Error while running GraphQL query in createPages.`)
+    return
   }
+  const defaultComponent = path.resolve(`./src/templates/default.jsx`)
   result.data.allMdx.edges.forEach(({ node }) => {
-    if (node.frontmatter.aside === null) {
-      let layout = node.frontmatter.layout
-      if (!layout) {
-        layout = "default"
-      }
-      createPage({
-        path: node.fields.slug,
-        component: path.resolve(`./src/templates/${layout}.jsx`),
-        context: {
-          slug: node.fields.slug,
-        },
-      })
+    if (node.frontmatter.aside !== null) {
+      return
     }
+    let layout = node.frontmatter.layout
+    if (!layout) {
+      layout = "default"
+    }
+    let comp = path.resolve(`./src/templates/${layout}.jsx`)
+    if (!fs.existsSync(comp)) {
+      comp = defaultComponent
+    }
+    createPage({
+      path: node.fields.slug,
+      component: comp,
+      context: {
+        slug: node.fields.slug,
+      },
+    })
   })
 }
 

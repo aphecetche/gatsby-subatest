@@ -5,6 +5,7 @@ lastmod: "2012-03-28 13:58:26 +0000 UTC"
 path: "recherche/theorie/a-dynamical-description-of-neutron-star-crusts.md"
 joomlaid: 378
 category: "theorie"
+asides: ["theorie.+menu+"]
 layout: "recherche"
 ---
 **Présentation à des Conférences, ateliers, ...**

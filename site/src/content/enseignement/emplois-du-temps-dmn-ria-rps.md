@@ -5,11 +5,7 @@ lastmod: "2017-09-22 09:27:43 +0000 UTC"
 path: "enseignement/emplois-du-temps-dmn-ria-rps.md"
 joomlaid: 397
 category: "Enseignement"
-menus:
-  main:
-    identifier: "enseignement/masters/mars/emplois-du-temps-dmn-ria-rps"
-    name: "Emplois du temps DMN-RIA-RPS"
-    parent: "enseignement/masters/mars"
+asides: ["Enseignement.+menu+"]
 ---
 {emailcloak=off}
 

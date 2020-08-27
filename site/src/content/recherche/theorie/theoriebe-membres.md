@@ -5,6 +5,7 @@ lastmod: "2012-03-29 12:54:19 +0000 UTC"
 path: "recherche/theorie/theoriebe-membres.md"
 joomlaid: 380
 category: "theorie"
+asides: ["theorie.+menu+"]
 layout: "recherche"
 ---
 {loadposition membres}

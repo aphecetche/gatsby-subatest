@@ -5,11 +5,7 @@ lastmod: "2012-05-09 19:21:47 +0000 UTC"
 path: "services-techniques-et-administration/electronique/membres.md"
 joomlaid: 152
 category: "Electronique"
+asides: ["Electronique.+menu+"]
 layout: "services-techniques-et-administration"
-menus:
-  main:
-    identifier: "services-techniques/electronique/membres"
-    name: "Membres"
-    parent: "services-techniques/electronique"
 ---
 {loadposition membres}

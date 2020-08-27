@@ -5,6 +5,7 @@ lastmod: "2018-12-11 14:44:49 +0000 UTC"
 path: "recherche/neutrino-recherche/actu-neutrino/actu-reunion-juno.md"
 joomlaid: 437
 category: "Actu-Neutrino"
+asides: ["Actu-Neutrino.+menu+"]
 layout: "recherche/neutrino-recherche"
 ---
 Deux reunions (electronique et physique) de la collaboration JUNO en Chine. Ici des photos d'une visite du laboratoire à IHEP et un diner avec nos collègues  

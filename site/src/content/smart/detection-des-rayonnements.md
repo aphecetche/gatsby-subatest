@@ -5,11 +5,7 @@ lastmod: "2014-04-24 08:26:11 +0000 UTC"
 path: "smart/detection-des-rayonnements.md"
 joomlaid: 332
 category: "Smart"
-menus:
-  main:
-    identifier: "mesures/nos-prestations/detection-des-rayonnements"
-    name: "Détection des rayonnements"
-    parent: "mesures/nos-prestations"
+asides: ["Smart.+menu+"]
 ---
 Le service possède de nombreux systèmes de détection qui varient selon la nature du rayonnement à détecter.
 

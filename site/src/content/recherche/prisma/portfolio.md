@@ -5,12 +5,8 @@ lastmod: "2015-12-17 08:57:11 +0000 UTC"
 path: "recherche/prisma/portfolio.md"
 joomlaid: 286
 category: "prisma"
+asides: ["prisma.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-environnement/prisma/portfolio"
-    name: "Portfolio"
-    parent: "recherche/nucleaire-et-environnement/prisma"
 ---
  {gallery}Recherche/Prisma/Portfolio,crop=0{/gallery}
 

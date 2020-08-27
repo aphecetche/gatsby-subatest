@@ -5,12 +5,8 @@ lastmod: "2014-07-22 08:39:55 +0000 UTC"
 path: "recherche/xenon/presentation.md"
 joomlaid: 13
 category: "xenon"
+asides: ["xenon.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-sante/xenon/presentation"
-    name: "Présentation"
-    parent: "recherche/nucleaire-et-sante/xenon"
 ---
 **![logo xenon dark](images/Recherche/Xenon/logo_xenon_dark.png)****C**onstitué d'une équipe de physiciens expérimentateurs, le groupe Xénon est à la recherche de preuves expérimentales susceptibles de mieux observer et de mieux comprendre la nature de notre univers. Nos scientifiques utilisent une technologie innovante et particulièrement passionnante, le xénon liquide, afin de toujours repousser les limites expérimentales de détection. Engagée dans des programmes de recherches ambitieux, qualifiés d'appliquées ou de fondamentales, notre équipe évolue au sein de collaborations internationales, nationales et régionales, avec ou sans partenariat industriel, afin de promouvoir la dynamique et l'esprit d'initiative caractérisant la communauté scientifique engagée dans l'observation des lois régissant les propriétés de la matière. Notre équipe est particulièrement jeune et ouverte à l'internationale.
 

@@ -5,6 +5,7 @@ lastmod: "2018-01-05 16:06:22 +0000 UTC"
 path: "recherche/neutrino-recherche/actu-neutrino/shift-solid-ghent-belgium.md"
 joomlaid: 440
 category: "Actu-Neutrino"
+asides: ["Actu-Neutrino.+menu+"]
 layout: "recherche/neutrino-recherche"
 ---
 Assemblage en 3 phases: Hervé place les cubes dans le cadre d’aluminium qu’il a lui-même conçu à Subatech, avant d’enfiler les fibres optiques et brancher l’électronique de lecture (Benoit). 

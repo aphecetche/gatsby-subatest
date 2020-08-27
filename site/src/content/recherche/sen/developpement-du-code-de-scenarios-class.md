@@ -5,6 +5,7 @@ lastmod: "2012-09-26 13:56:15 +0000 UTC"
 path: "recherche/sen/developpement-du-code-de-scenarios-class.md"
 joomlaid: 200
 category: "sen"
+asides: ["sen.+menu+"]
 layout: "recherche"
 ---
 Il est apparu que les programmes existants destinés à réaliser des projections de scénarios électronucléaires se prêtent mal à l'implémentation de nouveaux concepts de réacteurs ainsi qu'à l'étude de scénarios "innovants". C'est pourquoi, il me parait indispensable de développer un outil stable et ouvert destiné à l'in2p3, afin que l'ensemble de la communauté puisse réaliser les scénarios nécessaires à leurs recherches.
@@ -19,7 +20,7 @@ Il sera possible d'y implémenter des usines de traitement, dont le rôle sera d
 
 Contrairement aux programmes de scénarios existants, le but de ce code est de rester souple, en permettant à l'utilisateur de faire exactement ce qu'il souhaite, l'ensemble des paramètres clefs étant accessible et modifiable... Par exemple, si l'on veut réaliser un scénario utilisant des réacteurs innovants, il suffit de générer la base de données formatée correspondante.
 
-A l'instar de MURE (MCNP Utility for Reactor Evolution)\* \[[5](/recherche/sen/bibliographie)\], le but est de permettre aux utilisateurs d'améliorer et de corriger le code, en y apportant leur contribution via une correction de bugs ou l'ajout d'un module ou d'une fonctionnalité permettant ainsi d'accroître la richesse et la profondeur des scénarios simulés.
+A l'instar de MURE (MCNP Utility for Reactor Evolution)\* \[[5](fr/component/content/article?id=203)\], le but est de permettre aux utilisateurs d'améliorer et de corriger le code, en y apportant leur contribution via une correction de bugs ou l'ajout d'un module ou d'une fonctionnalité permettant ainsi d'accroître la richesse et la profondeur des scénarios simulés.
 
 L'avantage majeur d'avoir un code ouvert à l'utilisateur est la possibilité quasi sans limite de simulation de scénarios. Il serait possible de mener des études précises des transitions envisageables entre les technologies actuelles et les technologies futures.
 

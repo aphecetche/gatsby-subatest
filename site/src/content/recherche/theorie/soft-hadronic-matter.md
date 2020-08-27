@@ -5,6 +5,7 @@ lastmod: "2013-02-14 14:37:09 +0000 UTC"
 path: "recherche/theorie/soft-hadronic-matter.md"
 joomlaid: 370
 category: "theorie"
+asides: ["theorie.+menu+"]
 layout: "recherche"
 ---
 Joerg 2

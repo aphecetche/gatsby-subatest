@@ -5,11 +5,7 @@ lastmod: "2014-09-08 08:16:52 +0000 UTC"
 path: "smart/presentation.md"
 joomlaid: 326
 category: "Smart"
-menus:
-  main:
-    identifier: "mesures/le-service-smart/presentation"
-    name: "Présentation"
-    parent: "mesures/le-service-smart"
+asides: ["Smart.+menu+"]
 ---
 **Le Service** de **Mesure** et d'**Analyse** de la **Radioactivité** et des éléments **Traces** (**SMART) a été créé en 1994.**
 

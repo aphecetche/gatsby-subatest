@@ -5,19 +5,15 @@ lastmod: "2012-03-23 13:43:49 +0000 UTC"
 path: "recherche/sen/systeme-et-scenarios.md"
 joomlaid: 189
 category: "sen"
+asides: ["sen.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/univers-a-haute-energie/neutrino/activites-de-recherche/scenarios-electro-nucleaires"
-    name: "Scénarios électro-nucléaires"
-    parent: "recherche/univers-a-haute-energie/neutrino/activites-de-recherche"
 ---
-*   [Introduction et contexte](/recherche/sen/introduction-et-contexte)
+*   [Introduction et contexte](fr/component/content/article?id=198)
     
-*   [Le concept MUST](/recherche/sen/le-concept-must)
+*   [Le concept MUST](fr/component/content/article?id=199)
     
-*   [Développement du code de scénarios CLASS](/recherche/sen/developpement-du-code-de-scenarios-class)
+*   [Développement du code de scénarios CLASS](fr/component/content/article?id=200)
     
-*   [Scénarios ADS étendus](/recherche/sen/scenarios-ads-etendus)
+*   [Scénarios ADS étendus](fr/component/content/article?id=201)
     
-*   [Scénarios de sortie du nucléaire](/recherche/sen/scenarios-de-sortie-du-nucleaire)
+*   [Scénarios de sortie du nucléaire](fr/component/content/article?id=202)

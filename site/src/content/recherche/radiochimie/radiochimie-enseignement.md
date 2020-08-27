@@ -5,6 +5,7 @@ lastmod: "2012-01-11 14:42:45 +0000 UTC"
 path: "recherche/radiochimie/radiochimie-enseignement.md"
 joomlaid: 27
 category: "radiochimie"
+asides: ["radiochimie.+menu+"]
 layout: "recherche"
 ---
 Les enseignements de la radiochimie

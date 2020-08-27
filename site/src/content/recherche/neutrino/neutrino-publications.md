@@ -5,12 +5,8 @@ lastmod: "2018-01-05 09:30:32 +0000 UTC"
 path: "recherche/neutrino/neutrino-publications.md"
 joomlaid: 422
 category: "neutrino"
+asides: ["neutrino.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/univers-a-haute-energie/neutrino/publications"
-    name: "Publications"
-    parent: "recherche/univers-a-haute-energie/neutrino"
 ---
 *   T. Abrahão et al., _Reactor spectral rate and shape measurement in Double Chooz detectors_, Journal of Physics: Conference Series, 888, 012134, 2017
 *   T. Abrahão et al., _Novel event classification based on spectral analysis of scintillation waveforms in Double Chooz_, arXiv:1710.04315 \[hep-ex\], 2017 

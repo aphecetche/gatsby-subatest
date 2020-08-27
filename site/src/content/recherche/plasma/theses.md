@@ -5,12 +5,8 @@ lastmod: "2017-09-29 14:32:16 +0000 UTC"
 path: "recherche/plasma/theses.md"
 joomlaid: 34
 category: "plasma"
+asides: ["plasma.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/univers-a-haute-energie/plasma/theses"
-    name: "Thèses "
-    parent: "recherche/univers-a-haute-energie/plasma"
 ---
 Les thèses en cours
 -------------------

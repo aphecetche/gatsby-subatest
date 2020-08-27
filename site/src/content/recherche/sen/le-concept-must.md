@@ -5,6 +5,7 @@ lastmod: "2012-09-26 13:55:15 +0000 UTC"
 path: "recherche/sen/le-concept-must.md"
 joomlaid: 199
 category: "sen"
+asides: ["sen.+menu+"]
 layout: "recherche"
 ---
 Afin de revisiter le potentiel des ADS, un concept original a été développé au sein du groupe ERDRE du laboratoire SUBATECH qui permet d'augmenter la taille de la zone irradiée, la puissance thermique du système et donc la quantité d'actinides mineurs transmutée par ADS. Les ADS "MUltiple Spallation Target" (MUST) consistent à combiner plusieurs cibles de spallation afin d'augmenter le flux neutronique entre elles. Nos efforts se concentrent particulièrement sur le dimensionnement de ces ADS de grande puissance, à partir de calculs de neutronique puis de thermohydraulique. Nous calculons ensuite les efficacités de transmutation des systèmes retenus. La figure 1 montre une vue schématique du concept MUST incluant trois cibles de spallation

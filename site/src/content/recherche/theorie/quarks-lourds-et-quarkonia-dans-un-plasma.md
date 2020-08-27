@@ -5,6 +5,7 @@ lastmod: "2013-02-14 14:30:06 +0000 UTC"
 path: "recherche/theorie/quarks-lourds-et-quarkonia-dans-un-plasma.md"
 joomlaid: 367
 category: "theorie"
+asides: ["theorie.+menu+"]
 layout: "recherche"
 ---
 ### **Les quarks lourds et les quarkonia: sonde du plasma de quarks et de gluons **

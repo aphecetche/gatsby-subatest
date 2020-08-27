@@ -5,12 +5,8 @@ lastmod: "2017-03-08 13:48:01 +0000 UTC"
 path: "services-techniques-et-administration/administration/venir-a-subatech.md"
 joomlaid: 195
 category: "Administration"
+asides: ["Administration.+menu+"]
 layout: "services-techniques-et-administration"
-menus:
-  main:
-    identifier: "laboratoire/venir-a-subatech/plan-dacces"
-    name: "Accès"
-    parent: "laboratoire/venir-a-subatech"
 ---
 ![ecole-des-mines-de-nantes-4032](images/General/ecole-des-mines-de-nantes-4032.jpg "Vue général de l'Ecole des Mines depuis la rue Alfred Kastler.")Depuis sa création, SUBATECH est installé au sein de l'IMT Atlantique (anciennement École des Mines de Nantes). Situé au nord de l'agglomération nantaise, l'IMT Atlantique est un ensemble de batiments de verre implanté sur la rive Est de l'Erdre au coeur du site de la Chantrerie.
 

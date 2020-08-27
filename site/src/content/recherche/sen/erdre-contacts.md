@@ -5,12 +5,8 @@ lastmod: "2019-02-12 15:08:25 +0000 UTC"
 path: "recherche/sen/erdre-contacts.md"
 joomlaid: 70
 category: "sen"
+asides: ["sen.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-environnement/sen/contacts"
-    name: "Contacts"
-    parent: "recherche/nucleaire-et-environnement/sen"
 ---
 \- Chef de groupe :
 

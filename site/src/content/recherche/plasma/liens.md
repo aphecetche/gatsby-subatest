@@ -5,12 +5,8 @@ lastmod: "2012-10-01 05:53:24 +0000 UTC"
 path: "recherche/plasma/liens.md"
 joomlaid: 161
 category: "plasma"
+asides: ["plasma.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/univers-a-haute-energie/plasma/liens"
-    name: "Liens"
-    parent: "recherche/univers-a-haute-energie/plasma"
 ---
 Quelques liens pertinents pour la thématique : 
 

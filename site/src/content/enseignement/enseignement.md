@@ -5,10 +5,7 @@ lastmod: "2019-01-24 08:46:10 +0000 UTC"
 path: "enseignement/enseignement.md"
 joomlaid: 228
 category: "Enseignement"
-menus:
-  main:
-    identifier: "enseignement"
-    name: "Enseignement"
+asides: ["Enseignement.+menu+"]
 ---
 Nous intervenons dans les formations de l'[IMTA de Nantes](https://www.imt-atlantique.fr/fr) et dans celles de la [Faculté des Sciences et Techniques](https://sciences-techniques.univ-nantes.fr/actualites/bienvenue-a-la-faculte-des-sciences-et-des-techniques-de-nantes-2273526.kjsp) de l'université de Nantes.
 

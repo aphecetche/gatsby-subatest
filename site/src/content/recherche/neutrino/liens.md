@@ -5,6 +5,7 @@ lastmod: "2017-10-13 11:45:41 +0000 UTC"
 path: "recherche/neutrino/liens.md"
 joomlaid: 420
 category: "neutrino"
+asides: ["neutrino.+menu+"]
 layout: "recherche"
 ---
 **Our projects**

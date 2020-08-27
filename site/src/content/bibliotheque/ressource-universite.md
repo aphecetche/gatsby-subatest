@@ -5,11 +5,7 @@ lastmod: "2017-03-14 09:20:42 +0000 UTC"
 path: "bibliotheque/ressource-universite.md"
 joomlaid: 170
 category: "Bibliotheque"
-menus:
-  main:
-    identifier: "communication/bibliotheque/ressources-documentaires/ressources-universite"
-    name: "Université"
-    parent: "communication/bibliotheque/ressources-documentaires"
+asides: ["Bibliotheque.+menu+"]
 ---
 ### [Portail Nantilus:](http://nantilus.univ-nantes.fr/repons/portal/)  Portail documentaire de l'Université de Nantes
 

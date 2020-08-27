@@ -5,12 +5,8 @@ lastmod: "2017-09-21 08:11:05 +0000 UTC"
 path: "recherche/astro/astro-theses.md"
 joomlaid: 41
 category: "astro"
+asides: ["astro.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/univers-a-haute-energie/astro/theses"
-    name: "Thèses "
-    parent: "recherche/univers-a-haute-energie/astro"
 ---
 Les thèses actuellement en cours sont listées ci-dessous :
 

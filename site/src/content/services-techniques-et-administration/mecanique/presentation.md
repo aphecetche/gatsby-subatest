@@ -5,12 +5,8 @@ lastmod: "2012-03-08 09:53:38 +0000 UTC"
 path: "services-techniques-et-administration/mecanique/presentation.md"
 joomlaid: 123
 category: "Mecanique"
+asides: ["Mecanique.+menu+"]
 layout: "services-techniques-et-administration"
-menus:
-  main:
-    identifier: "services-techniques/mecanique/presentation"
-    name: "Présentation"
-    parent: "services-techniques/mecanique"
 ---
 Présentation du service:
 ------------------------

@@ -5,11 +5,7 @@ lastmod: "2018-10-23 12:34:00 +0000 UTC"
 path: "smart/liste-des-interlocuteurs.md"
 joomlaid: 337
 category: "Smart"
-menus:
-  main:
-    identifier: "mesures/contact"
-    name: "Contact"
-    parent: "mesures"
+asides: ["Smart.+menu+"]
 ---
 ![Franck Gllen - pix machine-2](images/SMART/Franck_Gllen_-_pix_machine-2.jpg "(c) Franck Gllen - pix machine-2")
 

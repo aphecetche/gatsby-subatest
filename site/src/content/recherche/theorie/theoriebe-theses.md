@@ -5,6 +5,7 @@ lastmod: "2014-11-25 14:32:18 +0000 UTC"
 path: "recherche/theorie/theoriebe-theses.md"
 joomlaid: 385
 category: "theorie"
+asides: ["theorie.+menu+"]
 layout: "recherche"
 ---
 **Thèse en cours**

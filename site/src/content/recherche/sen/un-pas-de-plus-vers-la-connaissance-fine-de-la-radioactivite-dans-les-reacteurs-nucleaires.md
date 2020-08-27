@@ -5,6 +5,7 @@ lastmod: "2019-02-11 15:18:53 +0000 UTC"
 path: "recherche/sen/un-pas-de-plus-vers-la-connaissance-fine-de-la-radioactivite-dans-les-reacteurs-nucleaires.md"
 joomlaid: 452
 category: "sen"
+asides: ["sen.+menu+"]
 layout: "recherche"
 ---
 La radioactivité des produits de fission dans un réacteur nucléaire libère une importante quantité d’énergie. Une partie de cette énergie s’échappe du réacteur avec les antineutrinos. La compréhension de leur nombre et de leur énergie tient la communauté des physiciens en halène depuis quelques années avec l’anomalie des réacteurs, un déficit d’antineutrinos détectés à de courtes distances des réacteurs nucléaires par rapport aux prédictions qui pourrait être expliqué par l’existence de neutrinos stériles. La façon dont les noyaux produits dans le coeur des réacteurs se désintègrent pourrait peut-être également fournir la clé de cette énigme. L’étude de certains de ces produits de fission restait un défi, cependant la combinaison des techniques de production, de détection et d’analyse les plus en pointe a permis de mesurer les propriétés radioactives de deux isotopes de niobium avec états isomériques. Les résultats montrent un impact majeur sur la prédiction des spectres d’antineutrinos des réacteurs par la méthode de sommation.

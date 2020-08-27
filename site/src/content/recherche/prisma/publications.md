@@ -5,12 +5,8 @@ lastmod: "2017-02-09 10:20:38 +0000 UTC"
 path: "recherche/prisma/publications.md"
 joomlaid: 95
 category: "prisma"
+asides: ["prisma.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-environnement/prisma/publications"
-    name: "Publications"
-    parent: "recherche/nucleaire-et-environnement/prisma"
 ---
 **2017**
 

@@ -5,12 +5,8 @@ lastmod: "2016-02-01 11:30:23 +0000 UTC"
 path: "recherche/sen/communication.md"
 joomlaid: 108
 category: "sen"
+asides: ["sen.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-environnement/sen/presentations-de-conferences-seminaires-et-posters"
-    name: "Présentations de conférences, séminaires et posters"
-    parent: "recherche/nucleaire-et-environnement/sen"
 ---
 ###  Participations à des conférences internationales :
 

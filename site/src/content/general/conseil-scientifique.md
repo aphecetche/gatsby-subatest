@@ -5,11 +5,7 @@ lastmod: "2019-02-27 16:02:45 +0000 UTC"
 path: "general/conseil-scientifique.md"
 joomlaid: 450
 category: "General"
-menus:
-  main:
-    identifier: "laboratoire/nos-activites/conseil-scientifique"
-    name: "Conseil scientifique"
-    parent: "laboratoire/nos-activites"
+asides: ["General.+menu+"]
 ---
 [Séance n°1 les 7 et 8 mars 2019 - accès au site indico](https://indico.in2p3.fr/event/18429/)
 ==============================================================================================

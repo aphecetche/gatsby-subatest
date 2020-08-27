@@ -5,12 +5,8 @@ lastmod: "2017-10-27 14:25:46 +0000 UTC"
 path: "recherche/astro/liens.md"
 joomlaid: 162
 category: "astro"
+asides: ["astro.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/univers-a-haute-energie/astro/liens"
-    name: "Liens"
-    parent: "recherche/univers-a-haute-energie/astro"
 ---
 Quelques liens pertinents pour la thématique : sites du vulgarisation, bases de données, banques d'images et de vidéos, etc... et pour les activités du groupe.
 

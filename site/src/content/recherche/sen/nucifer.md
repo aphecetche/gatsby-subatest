@@ -5,6 +5,7 @@ lastmod: "2012-09-26 14:07:01 +0000 UTC"
 path: "recherche/sen/nucifer.md"
 joomlaid: 192
 category: "sen"
+asides: ["sen.+menu+"]
 layout: "recherche"
 ---
 Grâce à l’expertise gagnée au sein de l’expérience Double Chooz en matière de détection des antineutrinos, une partie de la collaboration Double Chooz a proposé de concevoir un petit détecteur d’antineutrinos des réacteurs dédié à la physique appliquée des neutrinos : le détecteur Nucifer.
@@ -19,11 +20,11 @@ SUBATECH a eu la responsabilité de la conception, construction et intégration 
 
  Le concept du détecteur Nucifer. Conception mécanique véto G. Guilloux, (SUBATECH, en collaboration avec CEA/DSM/IRFU).
 
-Le département des Nouvelles Technologies de l’AIEA a organisé fin 2008 et fin 2010 deux rencontres entre experts de la détection des antineutrinos pour la surveillance des réacteurs nucléaires et les inspecteurs de l’AIEA, à laquelle l’équipe de SUBATECH a participé \[6,7\]. Au cours du dernier meeting un groupe de travail dédié à la méthode de détection des neutrinos pour la non-prolifération a été crée et ce groupe s'est réuni pour la 1ére fois en septembre 2011. Différents acteurs internationaux de ces recherches étaient présents et les approches des différentes équipes sont très complémentaires \[8,9\]. L’AIEA a également souligné son intérêt pour les simulation de scénario pour les réacteurs du futur développée par l'equipe de Subatech (voir [page de simulation des réacteurs](/recherche/sen/simulation-reacteurs))
+Le département des Nouvelles Technologies de l’AIEA a organisé fin 2008 et fin 2010 deux rencontres entre experts de la détection des antineutrinos pour la surveillance des réacteurs nucléaires et les inspecteurs de l’AIEA, à laquelle l’équipe de SUBATECH a participé \[6,7\]. Au cours du dernier meeting un groupe de travail dédié à la méthode de détection des neutrinos pour la non-prolifération a été crée et ce groupe s'est réuni pour la 1ére fois en septembre 2011. Différents acteurs internationaux de ces recherches étaient présents et les approches des différentes équipes sont très complémentaires \[8,9\]. L’AIEA a également souligné son intérêt pour les simulation de scénario pour les réacteurs du futur développée par l'equipe de Subatech (voir [page de simulation des réacteurs](fr/component/content/article?id=193))
 
 La physique appliquée des antineutrinos représente une application originale de la recherche fondamentale et Nucifer est le fruit des développements de nouvelles méthodes et techniques expérimentales réalisés dans ce contexte.
 
-Nucifer a commencé à prendre des données mai 2012, auprès du réacteur de recherche du CEA Saclay OSIRIS, placé à 7m du cœur du réacteur. En plus de la non-prolifération, Nucifer étudie aussi les oscillations des neutrinos à courte distance pour tester l'existence d'un neutrino stérile comme possible solution de l' "anomalie réacteur" (voir [page d'introduction sur les neutrinos](/recherche/sen/physique-des-neutrinos)).
+Nucifer a commencé à prendre des données mai 2012, auprès du réacteur de recherche du CEA Saclay OSIRIS, placé à 7m du cœur du réacteur. En plus de la non-prolifération, Nucifer étudie aussi les oscillations des neutrinos à courte distance pour tester l'existence d'un neutrino stérile comme possible solution de l' "anomalie réacteur" (voir [page d'introduction sur les neutrinos](fr/component/content/article?id=190)).
 
 #### Bbliographie
 

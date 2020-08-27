@@ -5,8 +5,8 @@ lastmod: "2012-09-26 10:54:11 +0000 UTC"
 path: "recherche/plasma/equipements-methodes-et-techniques.md"
 joomlaid: 32
 category: "plasma"
+asides: ["plasma.+menu+"]
 layout: "recherche"
-asides: ["plasma\/menu"]
 ---
 Les accélérateurs
 -----------------

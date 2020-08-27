@@ -5,11 +5,7 @@ lastmod: "2014-03-28 14:16:35 +0000 UTC"
 path: "smart/institutions.md"
 joomlaid: 339
 category: "Smart"
-menus:
-  main:
-    identifier: "mesures/liens/institutions"
-    name: "Institutions"
-    parent: "mesures/liens"
+asides: ["Smart.+menu+"]
 ---
 Autorité de sûreté nucléaire ([ASN](http://www.asn.fr/))
 

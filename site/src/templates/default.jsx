@@ -9,7 +9,6 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "row",
     ...theme.typography.body1,
-    fontSize: "0.875rem",
   },
   aside: {
     "& ul": {
@@ -17,7 +16,13 @@ const useStyles = makeStyles((theme) => ({
       border: "1px solid red",
     },
   },
-  main: {},
+  main: {
+    "& p": {
+      ...theme.typography.body1,
+      textJustify: "justify",
+      fontSize: "0.875rem",
+    },
+  },
 }))
 
 const DefaultLayout = ({ data }) => {
@@ -27,7 +32,6 @@ const DefaultLayout = ({ data }) => {
 
   return (
     <>
-      <h1>DefaultLayout</h1>
       <Layout>
         <Grid container className={classes.root}>
           <Grid item xs={false} sm={1} />
@@ -45,7 +49,7 @@ const DefaultLayout = ({ data }) => {
 }
 
 export const query = graphql`
-  query($slug: String!) {
+  query defaultLayout($slug: String!) {
     mdx(fields: { slug: { eq: $slug } }) {
       frontmatter {
         title

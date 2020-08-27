@@ -5,12 +5,8 @@ lastmod: "2018-01-05 14:50:02 +0000 UTC"
 path: "recherche/neutrino/actus-groupe-neutrino.md"
 joomlaid: 436
 category: "neutrino"
+asides: ["neutrino.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/univers-a-haute-energie/neutrino/actualites"
-    name: "Actualités récentes"
-    parent: "recherche/univers-a-haute-energie/neutrino"
 ---
 ### Juillet  2017 : Reunion JUNO (Peking, China)
 

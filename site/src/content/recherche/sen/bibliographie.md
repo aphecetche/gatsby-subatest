@@ -5,6 +5,7 @@ lastmod: "2012-03-23 12:46:46 +0000 UTC"
 path: "recherche/sen/bibliographie.md"
 joomlaid: 203
 category: "sen"
+asides: ["sen.+menu+"]
 layout: "recherche"
 ---
 1

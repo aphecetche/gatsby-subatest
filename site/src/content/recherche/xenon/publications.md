@@ -5,12 +5,8 @@ lastmod: "2017-01-31 13:49:25 +0000 UTC"
 path: "recherche/xenon/publications.md"
 joomlaid: 158
 category: "xenon"
+asides: ["xenon.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-sante/xenon/publications"
-    name: "Publications"
-    parent: "recherche/nucleaire-et-sante/xenon"
 ---
 Publications du groupe Xénon
 ============================

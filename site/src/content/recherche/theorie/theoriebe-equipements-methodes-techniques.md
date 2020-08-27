@@ -5,6 +5,7 @@ lastmod: "2012-09-28 16:28:45 +0000 UTC"
 path: "recherche/theorie/theoriebe-equipements-methodes-techniques.md"
 joomlaid: 381
 category: "theorie"
+asides: ["theorie.+menu+"]
 layout: "recherche"
 ---
 Notre travail de recherche nécessite du dévéloppement de codes de simulation qui décrivent des processus de transport où un projectile incident va interagir avec la collectivité des particules quantiques qui constituent le noyau hôte cible . Ces processus relèvent de ce qui est qualifié de " problème à N-corps ", et si les systèmes concernés contiennent au plus quelques centaines de particules, le nombre de degrés de liberté par contre est considérable en raison des corrélations inhèrentes à un système de particules en interaction.

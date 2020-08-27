@@ -5,11 +5,7 @@ lastmod: "2012-03-02 08:31:12 +0000 UTC"
 path: "recherche/xenon/equipements-methodes-techniques.md"
 joomlaid: 45
 category: "xenon"
+asides: ["xenon.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-sante/xenon/equipements-methodes-techniques"
-    name: "Equipements, méthodes et techniques"
-    parent: "recherche/nucleaire-et-sante/xenon"
 ---
 Equipements, méthodes et techniques - Xenon

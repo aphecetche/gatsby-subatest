@@ -5,6 +5,7 @@ lastmod: "2013-02-14 14:36:31 +0000 UTC"
 path: "recherche/theorie/njl.md"
 joomlaid: 361
 category: "theorie"
+asides: ["theorie.+menu+"]
 layout: "recherche"
 ---
 Joerg 1

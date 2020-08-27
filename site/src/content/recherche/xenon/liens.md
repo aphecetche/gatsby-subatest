@@ -5,12 +5,8 @@ lastmod: "2012-09-20 13:43:04 +0000 UTC"
 path: "recherche/xenon/liens.md"
 joomlaid: 159
 category: "xenon"
+asides: ["xenon.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-sante/xenon/liens"
-    name: "Liens"
-    parent: "recherche/nucleaire-et-sante/xenon"
 ---
 ### La Collaboration XENON est...
 

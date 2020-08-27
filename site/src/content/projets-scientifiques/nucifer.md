@@ -5,6 +5,7 @@ lastmod: "2012-06-15 14:49:13 +0000 UTC"
 path: "projets-scientifiques/nucifer.md"
 joomlaid: 137
 category: "Projets scientifiques"
+asides: ["Projets scientifiques.+menu+"]
 ---
 Nom complèt : Nucifer
 

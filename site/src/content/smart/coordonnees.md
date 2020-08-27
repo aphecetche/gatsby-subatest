@@ -5,11 +5,7 @@ lastmod: "0001-01-01 00:00:00 +0000 UTC"
 path: "smart/coordonnees.md"
 joomlaid: 336
 category: "Smart"
-menus:
-  main:
-    identifier: "mesures/contact/coordonnees"
-    name: "Coordonnées"
-    parent: "mesures/contact"
+asides: ["Smart.+menu+"]
 ---
 Standard : 02.51.85.84.01
 

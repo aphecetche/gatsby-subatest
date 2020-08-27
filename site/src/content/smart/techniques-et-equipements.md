@@ -5,11 +5,7 @@ lastmod: "2014-04-24 08:27:01 +0000 UTC"
 path: "smart/techniques-et-equipements.md"
 joomlaid: 329
 category: "Smart"
-menus:
-  main:
-    identifier: "mesures/le-service-smart/techniques-et-equipements"
-    name: "Techniques et équipements"
-    parent: "mesures/le-service-smart"
+asides: ["Smart.+menu+"]
 ---
 **462 m² de laboratoires**
 

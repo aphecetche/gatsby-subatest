@@ -5,12 +5,8 @@ lastmod: "2017-11-03 10:23:05 +0000 UTC"
 path: "recherche/radiochimie/radiochimie-publications.md"
 joomlaid: 20
 category: "radiochimie"
+asides: ["radiochimie.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-environnement/radiochimie/publications"
-    name: "Publications"
-    parent: "recherche/nucleaire-et-environnement/radiochimie"
 ---
 Link: [HAL-IN2P3](http://hal.in2p3.fr/search/index/?qa[localReference_s][]=SUBATECH-Radiochimie&sort=producedDate_tdate+desc&docType_s=ART+OR+DOUV)
 

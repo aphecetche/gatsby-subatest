@@ -5,11 +5,7 @@ lastmod: "2018-10-23 12:42:51 +0000 UTC"
 path: "smart/accreditations-et-agrements.md"
 joomlaid: 327
 category: "Smart"
-menus:
-  main:
-    identifier: "mesures/le-service-smart/accreditations-et-agrements"
-    name: "Accréditations et agréments"
-    parent: "mesures/le-service-smart"
+asides: ["Smart.+menu+"]
 ---
 SMART est accrédité par le COFRAC depuis 1998 selon le référentiel NF EN ISO 17025 (Accréditation n°[1-0910](http://www.cofrac.fr/annexes/sect1/1-0910.pdf)) pour :
 

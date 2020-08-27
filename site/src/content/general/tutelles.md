@@ -5,6 +5,7 @@ lastmod: "2017-02-10 15:35:18 +0000 UTC"
 path: "general/tutelles.md"
 joomlaid: 223
 category: "General"
+asides: ["General.+menu+"]
 ---
 Le laboratoire SUBATECH est une Unité Mixte de Recherche (UMR 6457), entre l’Institut National de Physique Nucléaire et de Physique des Particules ([IN2P3](http://www.in2p3.fr/)) du [CNRS](http://www.cnrs.fr/), [L'IMT Atlantique Bretagne-Pyas de la Loire](http://www.mines-nantes.fr/) et l’[Université de Nantes](http://www.univ-nantes.fr/).
 

@@ -5,11 +5,7 @@ lastmod: "2018-10-23 12:36:20 +0000 UTC"
 path: "smart/moyens-humains.md"
 joomlaid: 328
 category: "Smart"
-menus:
-  main:
-    identifier: "mesures/le-service-smart/moyens-humains"
-    name: "Moyens humains"
-    parent: "mesures/le-service-smart"
+asides: ["Smart.+menu+"]
 ---
 Grâce à son équipe expérimentée, le service SMART offre une gamme complète de prestations : prélèvements sur sites, analyses et conseils.
 

@@ -5,12 +5,8 @@ lastmod: "2014-07-07 22:00:12 +0000 UTC"
 path: "recherche/radiochimie/modelisation.md"
 joomlaid: 116
 category: "radiochimie"
+asides: ["radiochimie.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-environnement/radiochimie/recherche/modelisation"
-    name: "Modélisation"
-    parent: "recherche/nucleaire-et-environnement/radiochimie/recherche"
 ---
 ![clay](images/Recherche/Radiochimie/clay.jpg)Le projet «modélisation moléculaire» a commencé en 2010 dans le cadre de la chaire industrielle "Stockage et entreposage des déchets radioactifs". La modélisation moléculaire à l’aide des techniques de dynamique moléculaire, de Monte Carlo, et de chimie quantique est de plus en plus utilisée aujourd’hui dans de nombreux domaines. Parmi eux nous pouvons citer la chimie, la biophysique, les sciences des matériaux, la géoscience, les sciences du sol et bien d’autres encore.
 

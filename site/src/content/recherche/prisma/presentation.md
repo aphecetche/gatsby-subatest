@@ -5,12 +5,8 @@ lastmod: "2017-01-20 14:04:12 +0000 UTC"
 path: "recherche/prisma/presentation.md"
 joomlaid: 55
 category: "prisma"
+asides: ["prisma.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-environnement/prisma/presentation"
-    name: "Présentation"
-    parent: "recherche/nucleaire-et-environnement/prisma"
 ---
 L'équipe **PRISMA** (**P**hysique des **R**ayonnements **I**onisants et du **S**pectre électromagnétique pour le **M**esure et les **A**pplications) mène des recherches, fondamentales et plus appliquées, sur l’interaction des rayonnements et particules avec la matière et leur utilisation pour la production de radionucléides innovants, des études dosimétriques pour la radiobiologie, l’analyse élémentaire et le contrôle non destructif de matériaux et de structures.
 

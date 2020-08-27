@@ -5,12 +5,8 @@ lastmod: "2018-01-02 14:29:14 +0000 UTC"
 path: "recherche/astro/astro-publications.md"
 joomlaid: 51
 category: "astro"
+asides: ["astro.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/univers-a-haute-energie/astro/publications"
-    name: "Publications"
-    parent: "recherche/univers-a-haute-energie/astro"
 ---
  Cette page regroupe une liste volontairement restreinte d'articles majeurs du groupe. On y trouve également en fin de page, les contributions plus récentes au rapport d'actvité 2010-2013 du laboratoire.
 

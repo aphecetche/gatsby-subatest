@@ -5,6 +5,7 @@ lastmod: "2012-01-09 13:53:07 +0000 UTC"
 path: "recherche/astro/astro-en.md"
 joomlaid: 14
 category: "astro"
+asides: ["astro.+menu+"]
 layout: "recherche"
 ---
 For many years, the origin of non-thermal cosmic radiation is a very stimulating field of researches. Recent results at the Pierre Auger Observatory have maybe opened a new window in the domain of Ultra High Energy Cosmic Rays: the arrival directions of the charged cosmic particles (above 10^19 eV) can be correlated to the locations of active galactic nuclei (The Pierre Auger collaboration, Science 318, November 2007). These objects could be the source of the radiation but definite conclusions can only be made when more statistic and better detection performances can be obtained. To gain fairly quickly this necessary vault, improvement of the Extensive Air Showers (EAS) detection in terms of surface, duty cycle and cost could be required.

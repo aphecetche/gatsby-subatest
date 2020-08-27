@@ -5,12 +5,8 @@ lastmod: "2017-01-20 12:36:58 +0000 UTC"
 path: "recherche/prisma/recherche.md"
 joomlaid: 54
 category: "prisma"
+asides: ["prisma.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-environnement/prisma/recherche"
-    name: "Activités de recherche"
-    parent: "recherche/nucleaire-et-environnement/prisma"
 ---
 **Production de radionucléides innovants pour les utilisations médicales**
 

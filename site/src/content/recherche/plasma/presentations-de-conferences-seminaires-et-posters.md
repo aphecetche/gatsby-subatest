@@ -5,12 +5,8 @@ lastmod: "2019-02-25 14:04:32 +0000 UTC"
 path: "recherche/plasma/presentations-de-conferences-seminaires-et-posters.md"
 joomlaid: 33
 category: "plasma"
+asides: ["plasma.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/univers-a-haute-energie/plasma/communication"
-    name: "Présentations de conférences, séminaires et posters"
-    parent: "recherche/univers-a-haute-energie/plasma"
 ---
 ### 2019
 

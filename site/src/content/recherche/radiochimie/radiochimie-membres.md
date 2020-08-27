@@ -5,15 +5,7 @@ lastmod: "2013-01-02 10:35:47 +0000 UTC"
 path: "recherche/radiochimie/radiochimie-membres.md"
 joomlaid: 64
 category: "radiochimie"
+asides: ["radiochimie.+menu+"]
 layout: "recherche"
-menus:
-main:
-identifier: "recherche/nucleaire-et-environnement/radiochimie/membres"
-name: "Membres"
-parent: "recherche/nucleaire-et-environnement/radiochimie"
 ---
-
-import Members from "components/members.jsx"
-
-<Members group="radiochimie"/>
-
+{loadposition membres}

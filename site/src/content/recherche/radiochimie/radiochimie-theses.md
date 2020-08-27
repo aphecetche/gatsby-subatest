@@ -5,12 +5,8 @@ lastmod: "2017-03-01 12:06:40 +0000 UTC"
 path: "recherche/radiochimie/radiochimie-theses.md"
 joomlaid: 25
 category: "radiochimie"
+asides: ["radiochimie.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-environnement/radiochimie/theses"
-    name: "Thèses "
-    parent: "recherche/nucleaire-et-environnement/radiochimie"
 ---
 #### **Les thèses en cours:**
 

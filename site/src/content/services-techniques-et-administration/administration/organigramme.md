@@ -5,12 +5,8 @@ lastmod: "2019-01-28 14:06:52 +0000 UTC"
 path: "services-techniques-et-administration/administration/organigramme.md"
 joomlaid: 106
 category: "Administration"
+asides: ["Administration.+menu+"]
 layout: "services-techniques-et-administration"
-menus:
-  main:
-    identifier: "laboratoire/nos-activites/organigramme"
-    name: "Organigramme"
-    parent: "laboratoire/nos-activites"
 ---
 [\[ Version imprimable (PDF) \]](images/Administration/Organigramme_exterieur_012019-1.pdf)
 

@@ -5,6 +5,7 @@ lastmod: "2014-04-18 16:07:31 +0000 UTC"
 path: "general/nous-contacter.md"
 joomlaid: 297
 category: "General"
+asides: ["General.+menu+"]
 ---
 Vous avez des questions sur le laboratoire ? Contactez le [directeur](mailto:direction@subatech.in2p3.fr) - Tél: 02 51 85 84 83 (Fax: 02 51 85 84 88)
 

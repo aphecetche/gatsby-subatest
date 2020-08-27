@@ -5,12 +5,8 @@ lastmod: "2012-10-01 14:36:08 +0000 UTC"
 path: "recherche/astro/astro-equipements-methodes-techniques.md"
 joomlaid: 50
 category: "astro"
+asides: ["astro.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/univers-a-haute-energie/astro/equipements-methodes-techniques"
-    name: "Equipements, méthodes et techniques"
-    parent: "recherche/univers-a-haute-energie/astro"
 ---
 Nos activités de recherche nécessite le développement à la fois d'instruments et d'équipements spécifiques et à la fois de méthodes et de techniques d'analyse qui nous sont propres.
 

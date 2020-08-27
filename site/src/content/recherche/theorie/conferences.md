@@ -5,6 +5,7 @@ lastmod: "0001-01-01 00:00:00 +0000 UTC"
 path: "recherche/theorie/conferences.md"
 joomlaid: 376
 category: "theorie"
+asides: ["theorie.+menu+"]
 layout: "recherche"
 ---
 "Tutorial on Wavelets", F. Sébille. Workshop Fluctuations and Temporal Evolution in Heavy-Ion Collisions, Saclay, Mai 9-10, 2012.

@@ -5,6 +5,7 @@ lastmod: "2015-09-28 14:05:25 +0000 UTC"
 path: "recherche/theorie/activites-hautes-energies-plus-en-detail.md"
 joomlaid: 399
 category: "theorie"
+asides: ["theorie.+menu+"]
 layout: "recherche"
 ---
 ### Interaction forte et plasma de quarks et de gluons
@@ -35,17 +36,17 @@ Divers axes de recherche sont suivis, différenciés en fonction du domaine d'é
 
 *   *   **Phénoménologie des processus durs** -- Dans le cadre de la PQCD, on cherche à confronter les calculs théoriques aux données expérimentales pour les processus _durs_ (impliquant une échelle \\( Q \\gg 1\\,\\rm{GeV}\\)). Ceci permet de tester plus avant la PQCD, notamment dans le cadre des théorèmes de factorisation. Diverses thématiques sont abordées:
         
-        *   [Quarks lourds et quarkonia dans le QGP](/recherche/theoriehe/quarks-lourds-et-quarkonia-dans-un-plasma)
-        *   [Propagation des partons dans la matière nucléaire](/recherche/theoriehe/propagation-des-partons-dans-la-matiere-nucleaire)
+        *   [Quarks lourds et quarkonia dans le QGP](index.php?option=com_content&view=article&id=208:quarks-lourds-et-quarkonia-dans-un-plasma&catid=18:theoriehe-recherche)
+        *   [Propagation des partons dans la matière nucléaire](index.php?option=com_content&view=article&id=206:propagation-des-partons-dans-la-matiere-nucleaire&catid=18:theoriehe-recherche)
         *   Production de photons
 
 *   *   **Etude globale d'événements** -- Nous étudions différents phénomènes à l'interface entre le langage hadronique et le langage partonique:[](fr/recherche/theorie-haute-energie/theoriehe-nouvelles/205-werner1)
-        *   [Formation, évolution et hadronisation du plasma de quarks et de gluons](/recherche/theoriehe/werner1)
-        *   [Gerbes de rayons cosmiques](/recherche/theoriehe/gerbes-de-rayons-cosmiques)
+        *   [Formation, évolution et hadronisation du plasma de quarks et de gluons](index.php?option=com_content&view=article&id=205:werner1&catid=18:theoriehe-recherche)
+        *   [Gerbes de rayons cosmiques](index.php?option=com_content&view=article&id=207:gerbes-de-rayons-cosmiques&catid=18:theoriehe-recherche)
 
 D'autre part, notons des implications dans d'autres axes de recherche:
 
 *   *   **Autres thématiques: théorie pure, valorisation et applications**:
-        *   [Théorie des champs](/recherche/theoriehe/theorie-quantique-des-champs)
-        *   [Sens électrique des poissons](/recherche/theoriehe/electrolocation)
+        *   [Théorie des champs](index.php?option=com_content&view=article&id=221:theorie-quantique-des-champs&catid=18:theoriehe-recherche)
+        *   [Sens électrique des poissons](index.php?option=com_content&view=article&id=209:electrolocation&catid=18:theoriehe-recherche)
         *   Applications de QM

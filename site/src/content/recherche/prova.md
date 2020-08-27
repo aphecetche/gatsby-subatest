@@ -5,5 +5,6 @@ lastmod: "2012-03-12 19:31:51 +0000 UTC"
 path: "recherche/prova.md"
 joomlaid: 182
 category: "Recherche"
+asides: ["Recherche.+menu+"]
 ---
 prova

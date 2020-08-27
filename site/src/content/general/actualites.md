@@ -5,5 +5,6 @@ lastmod: "2012-03-11 15:41:14 +0000 UTC"
 path: "general/actualites.md"
 joomlaid: 183
 category: "General"
+asides: ["General.+menu+"]
 ---
 {loadposition actualites}

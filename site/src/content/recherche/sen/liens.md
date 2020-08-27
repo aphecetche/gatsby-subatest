@@ -5,12 +5,8 @@ lastmod: "2019-02-12 15:09:04 +0000 UTC"
 path: "recherche/sen/liens.md"
 joomlaid: 160
 category: "sen"
+asides: ["sen.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-environnement/sen/liens"
-    name: "Liens"
-    parent: "recherche/nucleaire-et-environnement/sen"
 ---
 Voici quelques liens pertinents pour nos activités :
 

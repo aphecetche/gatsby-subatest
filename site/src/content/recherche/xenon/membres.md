@@ -5,12 +5,8 @@ lastmod: "2013-06-18 16:32:58 +0000 UTC"
 path: "recherche/xenon/membres.md"
 joomlaid: 60
 category: "xenon"
+asides: ["xenon.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-sante/xenon/membres"
-    name: "Membres"
-    parent: "recherche/nucleaire-et-sante/xenon"
 ---
 ![Photo Xenon Group](images/Recherche/Xenon/PhotoXenonGroup.jpg)
 

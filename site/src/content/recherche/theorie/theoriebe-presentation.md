@@ -5,12 +5,8 @@ lastmod: "2015-09-28 13:21:08 +0000 UTC"
 path: "recherche/theorie/theoriebe-presentation.md"
 joomlaid: 382
 category: "theorie"
+asides: ["theorie.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/univers-a-haute-energie/theorie/activites-de-recherche/basses-energies"
-    name: "Basses énergies"
-    parent: "recherche/univers-a-haute-energie/theorie/activites-de-recherche"
 ---
 L'activité essentielle dans le domaine des basses énergies est l'étude de la matière nucléaire, de ses constituants et de leurs interactions dans le domaine des énergies de l'ordre de l'énergie de Fermi. Ce champ d'activité comprend d'une part la thématique des réactions nucléaires aux énergies intermédiaires et, d'autre part, l'astrophysique nucléaire et les astres compacts.
 

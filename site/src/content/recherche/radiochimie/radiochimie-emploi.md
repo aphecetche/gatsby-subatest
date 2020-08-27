@@ -5,6 +5,7 @@ lastmod: "2012-01-11 14:41:38 +0000 UTC"
 path: "recherche/radiochimie/radiochimie-emploi.md"
 joomlaid: 26
 category: "radiochimie"
+asides: ["radiochimie.+menu+"]
 layout: "recherche"
 ---
 Emplois et stages pour la radiochimie

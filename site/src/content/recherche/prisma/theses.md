@@ -5,12 +5,8 @@ lastmod: "2017-01-27 12:33:57 +0000 UTC"
 path: "recherche/prisma/theses.md"
 joomlaid: 58
 category: "prisma"
+asides: ["prisma.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-environnement/prisma/theses"
-    name: "Thèses "
-    parent: "recherche/nucleaire-et-environnement/prisma"
 ---
 **EN PRÉPARATION**
 

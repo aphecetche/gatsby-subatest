@@ -5,11 +5,7 @@ lastmod: "2014-04-25 12:41:03 +0000 UTC"
 path: "smart/nos-partenaires.md"
 joomlaid: 338
 category: "Smart"
-menus:
-  main:
-    identifier: "mesures/liens"
-    name: "Liens"
-    parent: "mesures"
+asides: ["Smart.+menu+"]
 ---
 ### Nos Partenaires
 

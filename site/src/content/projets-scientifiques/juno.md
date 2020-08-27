@@ -5,6 +5,7 @@ lastmod: "2017-10-11 06:58:05 +0000 UTC"
 path: "projets-scientifiques/juno.md"
 joomlaid: 410
 category: "Projets scientifiques"
+asides: ["Projets scientifiques.+menu+"]
 ---
 Nom complèt :JUNO
 

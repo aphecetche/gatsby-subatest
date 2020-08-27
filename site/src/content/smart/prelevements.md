@@ -5,11 +5,7 @@ lastmod: "2014-04-24 08:27:18 +0000 UTC"
 path: "smart/prelevements.md"
 joomlaid: 330
 category: "Smart"
-menus:
-  main:
-    identifier: "mesures/nos-prestations/prelevements"
-    name: "Prélèvements"
-    parent: "mesures/nos-prestations"
+asides: ["Smart.+menu+"]
 ---
 ![SMART](images/SMART/SMART.jpg "Prélèvement (c) SMART")Première étape du processus d’analyse, le prélèvement est une phase technique primordiale. L’échantillon prélevé doit être représentatif, ne pas subir d’altération ou être pollué avant l’analyse.
 

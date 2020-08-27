@@ -5,12 +5,8 @@ lastmod: "2013-02-15 10:39:43 +0000 UTC"
 path: "recherche/theorie/liens.md"
 joomlaid: 358
 category: "theorie"
+asides: ["theorie.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/univers-a-haute-energie/theorie/liens"
-    name: "Liens"
-    parent: "recherche/univers-a-haute-energie/theorie"
 ---
 **Quelques sites de vulgarisation:**
 

@@ -5,6 +5,7 @@ lastmod: "0001-01-01 00:00:00 +0000 UTC"
 path: "recherche/theorie/publications-he.md"
 joomlaid: 400
 category: "theorie"
+asides: ["theorie.+menu+"]
 layout: "recherche"
 ---
 Ci-dessous une liste des publications les plus significatives du groupe dans le domaine des Hautes Energies (depuis 2006):

@@ -5,21 +5,17 @@ lastmod: "2018-07-23 12:19:14 +0000 UTC"
 path: "bibliotheque/ressources-documentaires.md"
 joomlaid: 83
 category: "Bibliotheque"
-menus:
-  main:
-    identifier: "communication/bibliotheque/ressources-documentaires"
-    name: "Ressources documentaires"
-    parent: "communication/bibliotheque"
+asides: ["Bibliotheque.+menu+"]
 ---
 *   Les 3 tutelles du laboratoire permettent d'accéder à différentes plateformes de ressources documentaires et revues en ligne avec accès au texte intégral des revues.
 *   De plus le laboratoire dispose d'abonnements propres lui permettant d'accéder directement au texte intégral de certaines revues.
 
 [Ressources IMT Atlantique](https://intranet.imt-atlantique.fr/ressources-documentaires/)
 
-[Ressources Université](/bibliotheque/ressource-universite)
+[Ressources Université](index.php?option=com_content&view=article&id=170)
 
-[Ressources CNRS](/bibliotheque/ressources-cnrs)
+[Ressources CNRS](index.php?option=com_content&view=article&id=114)
 
-[Ressources propres SUBATECH](/bibliotheque/ressources-subatec)
+[Ressources propres SUBATECH](index.php?option=com_content&view=article&id=172)
 
-[Quelques bases de données](/bibliotheque/bases-de-donnees)
+[Quelques bases de données](index.php?option=com_content&view=article&id=224)

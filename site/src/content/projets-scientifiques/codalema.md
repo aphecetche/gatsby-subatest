@@ -5,6 +5,7 @@ lastmod: "2012-08-17 11:48:19 +0000 UTC"
 path: "projets-scientifiques/codalema.md"
 joomlaid: 131
 category: "Projets scientifiques"
+asides: ["Projets scientifiques.+menu+"]
 ---
 Nom complet : Cosmic Ray Detection With Logarithmic Electro Magnetic Antenna
 

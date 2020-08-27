@@ -5,12 +5,8 @@ lastmod: "2017-01-31 14:13:19 +0000 UTC"
 path: "recherche/xenon/theses.md"
 joomlaid: 47
 category: "xenon"
+asides: ["xenon.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-sante/xenon/theses"
-    name: "Thèses "
-    parent: "recherche/nucleaire-et-sante/xenon"
 ---
 ### Thèses soutenues
 

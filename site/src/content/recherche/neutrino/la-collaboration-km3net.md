@@ -5,12 +5,8 @@ lastmod: "2017-10-12 16:17:32 +0000 UTC"
 path: "recherche/neutrino/la-collaboration-km3net.md"
 joomlaid: 426
 category: "neutrino"
+asides: ["neutrino.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/univers-a-haute-energie/neutrino/activites-de-recherche/km3net"
-    name: "KM3NeT"
-    parent: "recherche/univers-a-haute-energie/neutrino/activites-de-recherche"
 ---
 ![KM3NeT logo](images/Recherche/neutrino/KM3NeT/KM3NeT_logo.jpg)[KM3NeT](http://www.km3net.org) (Cubic KiloMetre Neutrino Telescope) est à la fois une infrastructure de recherche et la collaboration réunissant les équipes engagées dans la réalisation de cette infrastructure. Elle englobe deux télescopes à neutrino gigantesques installés aux fonds de la mer Méditerranée au large de Toulon et de la pointe Sud de la Sicile. De grands volumes sont instrumentés de modules optiques capables d'enregistrer la lumière Cerenkov produite par la décroissance des neutrinos dans la matière. L'un de ces ensembles [ORCA](https://www.km3net.org/research/physics/particle-physics-with-orca/) (Oscillation Research with Cosmics in the Abyss) s'intéresse aux propriétés des neutrinos (nombre, hierarchie de masse) tandis que le second [ARCA](https://www.km3net.org/research/physics/astronomy-with-arca/) (Astroparticle Research with Cosmics in the Abyss) sera dédié à l'observation des neutrinos cosmiques.
 

@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "../components/layout"
-import { makeStyles, Grid, Typography } from "@material-ui/core"
+import { makeStyles, Grid } from "@material-ui/core"
 import Asides from "gatsby-theme-asides/src/components/Asides"
 
 const useStyles = makeStyles((theme) => ({
@@ -16,6 +16,10 @@ const useStyles = makeStyles((theme) => ({
     "& h2": {
       ...theme.typography.h4,
       color: theme.palette.primary.main,
+    },
+    "& p": {
+      textAlign: "justify",
+      textJustify: "inter-character",
     },
   },
 }))
@@ -53,12 +57,11 @@ const RechercheLayout = ({ data }) => {
 }
 
 export const query = graphql`
-  query($slug: String!) {
+  query rechercheLayout($slug: String!) {
     mdx(fields: { slug: { eq: $slug } }) {
       frontmatter {
         title
         layout
-        rightSideMenu
         asides
       }
       body

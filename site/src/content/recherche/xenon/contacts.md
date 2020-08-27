@@ -5,12 +5,8 @@ lastmod: "2012-10-12 13:56:28 +0000 UTC"
 path: "recherche/xenon/contacts.md"
 joomlaid: 48
 category: "xenon"
+asides: ["xenon.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-sante/xenon/contacts"
-    name: "Contacts"
-    parent: "recherche/nucleaire-et-sante/xenon"
 ---
 ![Photo Dominique Thers](images/Recherche/Xenon/PhotoDominiqueThers.jpg)
 

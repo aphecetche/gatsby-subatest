@@ -5,12 +5,8 @@ lastmod: "2014-07-07 15:59:12 +0000 UTC"
 path: "recherche/radiochimie/recherche-radiochimie.md"
 joomlaid: 21
 category: "radiochimie"
+asides: ["radiochimie.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/nucleaire-et-environnement/radiochimie/recherche"
-    name: "Activités de recherche"
-    parent: "recherche/nucleaire-et-environnement/radiochimie"
 ---
 ![radiochimie](images/Recherche/Radiochimie/radiochimie.jpg)
 

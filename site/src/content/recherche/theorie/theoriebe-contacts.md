@@ -5,12 +5,8 @@ lastmod: "2015-09-28 13:46:30 +0000 UTC"
 path: "recherche/theorie/theoriebe-contacts.md"
 joomlaid: 377
 category: "theorie"
+asides: ["theorie.+menu+"]
 layout: "recherche"
-menus:
-  main:
-    identifier: "recherche/univers-a-haute-energie/theorie/contacts"
-    name: "Contacts"
-    parent: "recherche/univers-a-haute-energie/theorie"
 ---
 Pour toute question concernant le groupe et ses activités, contactez son responsable actuel :
 

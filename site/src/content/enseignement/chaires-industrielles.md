@@ -5,6 +5,7 @@ lastmod: "2019-01-23 16:11:30 +0000 UTC"
 path: "enseignement/chaires-industrielles.md"
 joomlaid: 299
 category: "Enseignement"
+asides: ["Enseignement.+menu+"]
 ---
 Des chaires d’enseignement et de recherche ont été développées par l'IMTA avec de grands partenaires industriels. Subatech est associé à ces développements autour du thèse Energie, environnement et nucléaire. Le laboratoire est en effet partie prenante dans les chaires :
 

@@ -54,7 +54,7 @@ const Header = ({ data = nav }) => {
 }
 
 Header.propTypes = {
-  data: PropTypes.array.isRequired,
+  data: PropTypes.array,
 }
 
 export default Header

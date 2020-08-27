@@ -8,11 +8,13 @@ import useMediaQuery from "@material-ui/core/useMediaQuery";
 export default function TopLayout({ children, theme }) {
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
 
-  const utheme = React.useMemo(() =>
-    createMuiTheme({
-      ...theme,
-      palette: { type: prefersDarkMode ? "dark" : "light", ...theme.palette },
-    })
+  const utheme = React.useMemo(
+    () =>
+      createMuiTheme({
+        ...theme,
+        palette: { type: prefersDarkMode ? "dark" : "light", ...theme.palette },
+      }),
+    [theme, prefersDarkMode]
   );
 
   return (

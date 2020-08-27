@@ -1,9 +1,14 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { useStaticQuery, graphql } from "gatsby";
-import { MDXRenderer } from "gatsby-plugin-mdx";
 import PropTypes from "prop-types";
+import { MDXRenderer } from "gatsby-plugin-mdx";
 
-const Asides = ({ regexp }) => {
+const createComponent = (componentName) => {
+  const Component = React.lazy(() => import(`components/${componentName}.js`));
+  return Component;
+};
+
+const Asides = ({ slug, regexp }) => {
   const data = useStaticQuery(graphql`
     query {
       allMdx(filter: { frontmatter: { aside: { eq: true } } }) {
@@ -11,6 +16,10 @@ const Asides = ({ regexp }) => {
           node {
             fileAbsolutePath
             body
+            mdxAST
+            frontmatter {
+              component
+            }
           }
         }
       }
@@ -22,15 +31,19 @@ const Asides = ({ regexp }) => {
     n.node.fileAbsolutePath.match(re)
   );
 
-  console.log("asides=", asides);
   return (
-    <React.Fragment>
-      {asides.map((m) => (
-        <aside key={m.node.fileAbsolutePath}>
-          <MDXRenderer>{m.node.body}</MDXRenderer>
-        </aside>
-      ))}
-    </React.Fragment>
+    <Suspense fallback=<p>Loading...</p>>
+      {asides.map((m) => {
+        const Component = m.node.frontmatter.component
+          ? createComponent(m.node.frontmatter.component)
+          : MDXRenderer;
+        return (
+          <aside key={m.node.fileAbsolutePath}>
+            <Component slug={slug}>{m.node.body}</Component>
+          </aside>
+        );
+      })}
+    </Suspense>
   );
 };
 

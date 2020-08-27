@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "../components/layout"
 import { makeStyles, Grid } from "@material-ui/core"
+import Asides from "gatsby-theme-asides/src/components/Asides"
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -25,22 +26,28 @@ const RechercheLayout = ({ data }) => {
   const { frontmatter, body } = mdx
   const classes = useStyles()
 
+  let extra =
+    frontmatter.asides &&
+    frontmatter.asides.map((a, i) => (
+      <Asides slug={mdx.slug} className={classes.aside} key={i} regexp={a} />
+    ))
+
   return (
     <>
-      <h1>RechercheLayout</h1>
+      <h1>RechercheLayout: slug={mdx.slug}</h1>
       <Layout>
         <Grid container className={classes.root}>
-          <Grid item xs={0} sm={1} />
-          <Grid item xs={12} sm={7} className={classes.main}>
+          <Grid item xs={false} sm={1} />
+          <Grid item xs={12} sm={6} className={classes.main}>
             <main>
               <h1>{frontmatter.title}</h1>
               <MDXRenderer>{body}</MDXRenderer>
             </main>
           </Grid>
-          <Grid item xs={0} sm={1} />
-          <Grid item xs={12} sm={3} />
-          {/* should get the right side menu here */}
-          <Grid item xs={0} sm={1} />
+          <Grid item xs={false} sm={1} />
+          <Grid item xs={12} sm={4}>
+            {extra}
+          </Grid>
         </Grid>
       </Layout>
     </>
@@ -54,6 +61,7 @@ export const query = graphql`
         title
         layout
         rightSideMenu
+        asides
       }
       body
       slug

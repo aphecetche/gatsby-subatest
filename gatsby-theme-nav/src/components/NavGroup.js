@@ -41,7 +41,6 @@ const useStyles = makeStyles((theme) => ({
 
 const NavGroup = ({ title, links }) => {
   const css = useStyles();
-  console.log("NavGroup title=", title, "links=", links);
   return (
     <div className={css.navgroup}>
       {!!title && (

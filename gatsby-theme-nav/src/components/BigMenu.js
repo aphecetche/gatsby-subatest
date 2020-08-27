@@ -42,7 +42,6 @@ const useStyles = makeStyles((theme) => ({
 
 const BigMenu = ({ title, groups, onClose }) => {
   const css = useStyles();
-  console.log("groups", groups);
   return (
     <Grid container className={css.bigmenu}>
       <Grid item container className={css.title}>

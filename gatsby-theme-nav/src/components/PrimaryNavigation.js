@@ -17,24 +17,6 @@ const useStyles = makeStyles((theme) => ({
       "& li": {
         margin: 0,
         padding: 0,
-        "& a": {
-          fontFamily: "Open Sans Condensed",
-          fontSize: "1.125rem",
-          letterSpacing: "0.15em",
-          fontWeight: "300",
-          userSelect: "none",
-          display: "block",
-          color: "currentColor",
-          textDecoration: "none",
-          padding: "0.25rem 0.5rem",
-          borderBottom: "2px solid transparent",
-          "&:not([href])": {
-            cursor: "pointer",
-          },
-          "&:hover": {
-            borderBottom: "2px solid currentColor",
-          },
-        },
       },
     },
   },

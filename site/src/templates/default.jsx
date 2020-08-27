@@ -30,14 +30,14 @@ const DefaultLayout = ({ data }) => {
       <h1>DefaultLayout</h1>
       <Layout>
         <Grid container className={classes.root}>
-          <Grid item xs={0} sm={1} />
+          <Grid item xs={false} sm={1} />
           <Grid item xs={12} sm={10} className={classes.main}>
             <main>
               <h1>{frontmatter.title}</h1>
               <MDXRenderer>{body}</MDXRenderer>
             </main>
           </Grid>
-          <Grid item xs={0} sm={1} />
+          <Grid item xs={false} sm={1} />
         </Grid>
       </Layout>
     </>

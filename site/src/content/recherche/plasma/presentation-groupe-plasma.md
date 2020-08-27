@@ -6,12 +6,12 @@ path: "recherche/plasma/presentation-groupe-plasma.md"
 joomlaid: 15
 category: "plasma"
 layout: "recherche"
+asides: ["plasma","plasma-extra"]
 rightSideMenu: true
 identifier: "recherche/univers-a-haute-energie/plasma/presentation"
 name: "Présentation"
 parent: "recherche/univers-a-haute-energie/plasma"
 ---
-
 
 [![](images/Recherche/Plasma/nuclear-density-362px.gif)](http://www.bnl.gov/atlas/collaboration3.asp) Aujourd’hui, le groupe plasma est constitué d’une dizaine d’enseignants-chercheurs et chercheurs de l’[Université de Nantes](http://www.univ-nantes.fr), de l’[Ecole de Mines](http://www.emn.fr) et du [CNRS](http://www.cnrs.fr)/[IN2P3](http://www.in2p3.fr), et de plusieurs post-doctorants et d'étudiants en thèse. Son but principal est l'étude du diagramme de phases de la matière hadronique via les collisions entre ions lourds aux énergies ultra relativistes
 

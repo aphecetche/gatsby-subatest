@@ -47,7 +47,6 @@ exports.createPages = async ({ actions, graphql }) => {
       if (!layout) {
         layout = "default"
       }
-      console.log(node.fields.slug, "->", layout)
       createPage({
         path: node.fields.slug,
         component: path.resolve(`./src/templates/${layout}.jsx`),

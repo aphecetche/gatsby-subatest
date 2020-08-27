@@ -20,7 +20,12 @@ const SecondaryNavigation = ({ data, active, setActive }) => {
   return (
     <nav aria-label="Secondary" className={css.secondary}>
       {menu.map((x) => (
-        <BigMenu title={x.title} groups={x.groups} onClose={onClose} />
+        <BigMenu
+          key={x.title}
+          title={x.title}
+          groups={x.groups}
+          onClose={onClose}
+        />
       ))}
     </nav>
   );

@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 date: "2012-01-05 18:54:39 +0000 UTC"
-lastmod: "2016-10-25 15:00:26 +0000 UTC"
+lastmod: "2019-09-30 13:55:02 +0000 UTC"
 path: "recherche/plasma/publications-plasma.md"
 joomlaid: 36
 category: "plasma"
@@ -18,14 +18,24 @@ layout: "recherche"
 
 ### [Publications avec la collaboration WA98 dans inSPIRE / Publications with WA98 collaboration from inSPIRE](http://inspirehep.net/search?ln=en&ln=en&p=find+%!a(MISSING)+schutz+and+cn+wa98%!&(MISSING)of=hb&action_search=Search&sf=&so=d&rm=&rg=25&sc=0)
 
-### Sélection des publications et autres publications / Selection of publications and other standalone publications (2008-2016):
+Sélection des publications et autres publications / Selection of publications and other standalone publications (2008-2019):
+----------------------------------------------------------------------------------------------------------------------------
 
-*   J/psi suppression at forward rapidity in Pb-Pb collisions at 5.02 TeV, [arXiv:1606.08197](http://arxiv.org/abs/1606.08197) (2016)
+*   Studies of J/ψ production at forward rapidity in Pb-Pb collisions at √sNN = 5.02 TeV [arXiV:1909.03158](https://arxiv.org/abs/1909.03158)
+*   Isolated direct photon cross section measurement in pp collisions at √s = 7 TeV with the ALICE EMCal detector at LHC[ arXiv:1906.01371,](https://arxiv.org/abs/1906.01371) accepted in EPJC[](https://arxiv.org/abs/1906.01371)
+*   Study of J/ψ azimuthal anisotropy at forward rapidity in Pb-Pb collisions at √s=5.02 TeV,  [1811.12727](http://arxiv.org/abs/1811.12727) JHEP 1902 (2019) 012
+*   Upsilon suppression at forward rapidity in Pb-Pb collisions at √sNN = 5.02 TeV, [arXiV:1805.04387](https://arxiv.org/abs/1805.04387),  Phys. Lett. B790 (2019) 89
+*   Z boson production in Pb-Pb collisions at √sNN\=5.02 TeV, [arXiV:1711.10753](https://arxiv.org/abs/1711.10753), Phys. Lett. B 780 (2018) 372–383
+*   J/ψ elliptic flow in Pb-Pb Collisions at 5.02 TeV, [arXiV:1709.05260](https://arxiv.org/abs/1709.05260) Phys. Rev. Lett. 119 (2017) 242301
+*   J/ψ production as a function of charged-particle pseudorapidity density in p-Pb collisions at √sNN=5.02 TeV, [arXiv:](https://arxiv.org/abs/1704.00274)[1704.00274,](https://arxiv.org/abs/1704.00274) Phys. Lett. B 776 (2018) 91
+*   Measurement of Neutral Pion Production at High pT in pp Collisions at √s=2.76 TeV, Eur. Phys. J. C 77 (2017) 339
+*   Energy dependence of forward-rapidity j/psi and psi (2S) production in pp collisions at the LHC, [arXiV:1702.00557](https://arxiv.org/abs/1702.00557), Eur. Phys. J. C 77 (2017) 392
+*   J/psi suppression at forward rapidity in Pb-Pb collisions at 5.02 TeV, [arXiv:1606.08197](http://arxiv.org/abs/1606.08197), Phys. Lett. B 766 (2017) 212-224
 *   Measurement of an excess in the yield of J/ψ at very low pT in Pb-Pb collisions at 2.76 TeV, ALICE Collaboration [arXiv:1509.08802](http://arxiv.org/abs/1509.08802) Phys. Rev. Lett. 116 (2016) 222301
 *   Differential studies of inclusive J/ψ and ψ(2S) production at forward rapidity in Pb-Pb collisions at 2.76 TeV, ALICE Collaboration [arXiv:1506.08804](http://arxiv.org/abs/1506.08804) JHEP 1605 (2016) 179
 *   Heavy-flavour and quarkonium production in the LHC era: from proton–proton to heavy-ion collisions, SaporeGravis Network, [arXiv:1506.03981](http://arxiv.org/abs/1506.03981) Eur. Phys.J. C76 (2016) no.3, 107
 *   Rapidity and transverse-momentum dependence of the inclusive J/psi nuclear modification factor in p-Pb collisions at 5.02 TeV, ALICE collaboration, [arXiv:1503.07179](http://arxiv.org/abs/1503.07179), JHEP 1506 (2015) 055.
-*   Charged jet cross sections and properties in proton-proton collisions at 7 TeV, ALICE collaboration, [arXiv:1411.4969](http://arxiv.org/abs/1411.4969) , Accepted by Phys. Rev. D.
+*   Charged jet cross sections and properties in proton-proton collisions at 7 TeV, ALICE collaboration, [arXiv:1411.4969](http://arxiv.org/abs/1411.4969) , Phys. Rev. D 91 (2015) 112012
 *   Performance of the ALICE Experiment at the CERN LHC, [arXiv:1402.4476](http://arxiv.org/abs/1402.4476), Int. J. Mod. Phys. A 29 (2014) 1430044.
 *   Measurement of quarkonium production at forward rapidity in pp collisions at s= 7 TeV, [arXiv:1403.3648](http://arxiv.org/abs/1403.3648), Eur. Phys. J. C74 (2014) 2974.
 *   Centrality, rapidity and transverse momentum dependence of J/psi suppression in Pb-Pb collisions at sNN=2.76 TeV, [arXiv:1311.0214](http://arxiv.org/abs/1311.0214), Phys. Lett. B734 (2014) 314.

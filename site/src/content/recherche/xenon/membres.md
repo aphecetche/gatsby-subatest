@@ -8,7 +8,7 @@ category: "xenon"
 asides: ["xenon.+menu+"]
 layout: "recherche"
 ---
-![Photo Xenon Group](images/Recherche/Xenon/PhotoXenonGroup.jpg)
+![Photo Xenon Group](images/PhotoXenonGroup.jpg)
 
   
 

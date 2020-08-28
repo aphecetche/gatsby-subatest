@@ -37,6 +37,12 @@ const useStyles = makeStyles((theme) => ({
         },
       },
     },
+    "& li>ul": {
+      paddingLeft: theme.spacing(2),
+      "& li": {
+        borderBottom: "none",
+      },
+    },
   },
 }))
 
@@ -44,7 +50,10 @@ const RightSideMenu = ({ slug, children }) => {
   const classes = useStyles()
   const CustomListItem = React.useMemo(() => {
     return (props) => {
-      let cn = props.children.props.href === `/${slug}` ? "active" : ""
+      let cn = ""
+      if (props.children.props) {
+        cn = props.children.props.href === `/${slug}` ? "active" : ""
+      }
       return <li className={cn} {...props} />
     }
   }, [slug])

@@ -18,7 +18,9 @@ const useStyles = makeStyles((theme) => ({
 const Logo = () => {
   const logo = useStaticQuery(graphql`
     {
-      allFile(filter: { base: { regex: "/logo/" } }) {
+      allFile(
+        filter: { base: { regex: "/logo-subatech/" }, extension: { eq: "svg" } }
+      ) {
         nodes {
           publicURL
         }

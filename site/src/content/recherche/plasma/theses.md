@@ -1,7 +1,7 @@
 ---
 title: "Les Thèses "
 date: "2011-12-16 14:02:32 +0000 UTC"
-lastmod: "2017-09-29 14:32:16 +0000 UTC"
+lastmod: "2020-05-08 14:43:55 +0000 UTC"
 path: "recherche/plasma/theses.md"
 joomlaid: 34
 category: "plasma"
@@ -11,19 +11,26 @@ layout: "recherche"
 Les thèses en cours
 -------------------
 
+*   Préparation et analyse des premières données du détecteur MFT d'ALICE (LHC, CERN), _Rita Sadek, 2019-2022_
+*   Mesure de l'excès de J/Ψ à basse impulsion transverse dans les collisions PbPb au LHC avec ALICE, _Ophélie BUGNON_ , 2018-2021
+*   Étude de la production de bottomonium dans les collisions pp et PbPb à 5 TeV avec ALICE, _Florian Damas_, Co-tutelle avec le CEA Saclay, 2017-2020
 *   Étude de la production de psi primes au avec l'expérience ALICE avec et sans détecteur MFT, _Manuel GUITIERE_, 2017-2020
-*   Bottomonium production in heavy ion collisions at 5 TeV with ALICE and the upgrade of the muon spectrometer in preparation of the Run3, _Gabriele Gaetano FRONZÉ_, Cotutelle avec l'Université de Turin, 2016-2019
-*   Étude de la production de sondes dures et de photons isolés au LHC dans les collisions Pb-Pb avec l'expérience ALICE, _Erwann MASSON_, 2016-2019
-*   Étude de l'&eacutecoulement elliptique du J/psi dans les collisions Pb-Pb à \\sqrt{s}\_{NN} = 5 TeV avec le spectromètre à muons de l'expérience ALICE au LHC, _Audrey FRANCISCO_, 2015-2018
-*   Étude de la production inclusive de J/psi dans les collisions Pb-Pb à \\sqrt{s}\_{NN} = 5 TeV avec le spectromètre à muons de l'expérience ALICE au LHC, _Benjamin AUDURIER_, 2014-2017
 
-Les thèses soutenues depuis 2003
---------------------------------
+Les thèses soutenues 2015-2019
+------------------------------
 
-*   Etude des muons produits par les décroissances de la beauté et des bosons W dans les collisions p-p, p-Pb et Pb-Pb avec le spectromètre à muon d'ALICE au LHC, _Jianhui ZHU_, Cotutelle Ecole des Mines de Nantes et Université Normal de Chine Centrale (CCNU), le 1er avril 2017
-*   Etude de la structure des jets et de la fonction de fragmentation dans les collisions p-p et Pb-Pb dans ALICE, _Mengliang WANG_, Cotutelle Ecole des Mines de Nantes et Université Normal de Chine Centrale (CCNU), le 10 décembre 2016
-*   Isolated photon production in p-Pb collisions at 5.02 TeV with the ALICE experiment at LHC, _Lucile RONFLETTE_, le 23 novembre 2016
+*   [Mesure de la production de photons isolés dans les collisions proton-proton et proton-plomb au LHC avec l’expérience ALICE](https://tel.archives-ouvertes.fr/tel-02383220), _Erwann MASSON_,  soutenue le 28 Octobre 2019
+*   [Study of quarkonium production in ultra-relativistic nuclear collisions with ALICE at the LHC : and optimization of the muon identification algorithm](https://tel.archives-ouvertes.fr/tel-02178802), _Gabriele Gaetano FRONZE_ , Cotutelle avec l'Université de Turin, soutenue le 26 Janvier 2019 à Turin
+*   [Étude de l'écoulement elliptique du J/psi dans les collisions Pb-Pb à \\sqrt{s}\_{NN} = 5 TeV avec le spectromètre à muons de l'expérience ALICE au LHC,](https://tel.archives-ouvertes.fr/tel-02010296) _Audrey FRANCISCO_, soutenue le 24 Septembre 2018
+*   [Étude de la production inclusive de J/psi dans les collisions Pb-Pb à \\sqrt{s}\_{NN} = 5 TeV avec le spectromètre à muons de l'expérience ALICE au LHC](https://tel.archives-ouvertes.fr/tel-01970506) , _Benjamin AUDURIER_, Soutenue le 5 Octobre 2017
+*   [Etude des muons produits par les décroissances de la beauté et des bosons W dans les collisions p-p, p-Pb et Pb-Pb avec le spectromètre à muon d'ALICE au LHC](https://tel.archives-ouvertes.fr/tel-01639163), _Jianhui ZHU_, Cotutelle Ecole des Mines de Nantes et Université Normal de Chine Centrale (CCNU), le 1er avril 2017
+*   [Measurement of jet fragmentation functions and of their moments in pp collisions at s√=2.76 TeV with ALICE at the LHC,](http://cds.cern.ch/record/2295217?ln=fr) _Mengliang WANG_, Cotutelle Ecole des Mines de Nantes et Université Normal de Chine Centrale (CCNU), le 10 décembre 2016
+*   [Isolated photon production in p-Pb collisions at 5.02 TeV with the ALICE experiment at LHC](https://tel.archives-ouvertes.fr/tel-02506136) , _Lucile RONFLETTE_, le 23 novembre 2016
 *   [Mesure de la production de charmonium dans les collisions proton-proton et proton-plomb au LHC avec le détecteur ALICE](https://tel.archives-ouvertes.fr/tel-01343641), _Javier MARTIN BLANCO_, le 29 octobre 2015
+
+Les thèses soutenues 2010-2014
+------------------------------
+
 *   [Étude de la production inclusive de J/ψ dans les collisions Pb-Pb à √sNN=2,76 TeV avec le spectromètre à muons de l’expérience ALICE au LHC](https://tel.archives-ouvertes.fr/tel-01044653), _Antoine LARDEUX, le 13 février 2014_
 *   [Mesure de la production de photons directs dans les collisions proton proton au LHC à sqrt(s) = 7 TeV avec EMCal le détecteur ALICE](http://tel.archives-ouvertes.fr/tel-00952893), _Alexis MAS, le 13 décembre 2013_
 *   Mesure de la production de charme ouvert dans les collisions proton proton et Au-Au avec STAR à RHIC, _Witold BOROWSKI, le 11 octobre 2013_
@@ -32,6 +39,10 @@ Les thèses soutenues depuis 2003
 *   Production des saveurs lourdes dans les collisions Au-Au dans l'expérience STAR auprès du collisionneur RHIC, _Artemios GEROMITSOS_, 2010
 *   Physique photon-jet dans l'expérience ALICE auprès du collisionneur LHC au CERN, _Lamia BENHABIB_, 2010
 *   [Étude de la production de photons isolés en collisions proton-proton avec le calorimètre EMCal de l'expérience ALICE au LHC](http://tel.archives-ouvertes.fr/tel-00553136/fr/), _Raphaelle ICHOU_, le 6 octobre 2010
+
+Les thèses soutenues 2003-2009
+------------------------------
+
 *   [Étude des décroissances semi-muoniques des saveurs lourdes et de l'efficacité de trajectographie du spectromètre à muons](http://tel.archives-ouvertes.fr/tel-00464809/fr/), _Nicolas LE BRIS_, le 25 septembre 2009
 *   [La Physique des gamma-jets avec le calorimètre EMCal de l'expérience ALICE au LHC](http://tel.archives-ouvertes.fr/tel-00352948/fr/), _Guénolé BOURDAUD_, le 3 novembre 2008
 *   [Studies of baryon-baryon correlations in relativistic heavy ion collisions registered in the STAR experiment](http://www.if.pw.edu.pl/~gos/), _Hanna Paulina ZBROSZCZYK_, le 12 juin 2008

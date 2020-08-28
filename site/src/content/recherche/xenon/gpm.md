@@ -22,13 +22,13 @@ La photodétection consiste à convertir les photons incidents en un signal éle
 
 Nous développons un photodétecteur doté d'une photocathode d'iodure de césium déposée sur un THick Gaseous Electron Multiplier (THGEM) pour la photoconversion, et de MICRO MEsh GAseous Structure (MICROMEGAS) pour l'amplification des charges. Le schéma de principe décrit cette structure sur la figure 1.
 
-![PrincipeGPM](images/Recherche/Xenon/PrincipeGPM.gif)
+![PrincipeGPM](images/PrincipeGPM.gif)
 
 #### Schéma de principe de la détection de la lumière de scintillation du xénon liquide avec un GPM doté d'un THGEM, d'un PIM et d'un MICROMEGAS
 
 Le THGEM est un détecteur en FR4 ou G10 de quelques centaines de microns d'épaisseur percé de trous millimétriques. Les électrodes en cuivre recouvrent les deux faces de l'isolant. Une couche d'or ou de nickel est déposée sur les électrodes afin d'empêcher toute réaction chimique de la photocathode de CsI. La multiplication des charges primaires s'effectue par avalanche électronique au niveau de deux microstructures constituées de microgrilles métalliques (Ni, Cu) définissant des espaces d'amplification de l'ordre de la centaine de microns. Sous l'action d'un champ électrique de quelques dizaines de kV/cm, les électrons gagnent suffisamment d'énergie pour ioniser les molécules de gaz avec lesquelles ils collisionnent. Le signal est induit sur l'anode dans les derniers 50 microns. L'ensemble du détecteur est contenu dans une enveloppe cryogénique en acier inoxydable (304L). La figure 2 montre des photographies du prototype en développement dédié aux tests cryogéniques. Les premiers résultats obtenus à la température du xénon liquide sont prometteurs. Ils permettent d'envisager une augmentation de la zone active et une segmentation de l'anode.
 
-![GPMProto](images/Recherche/Xenon/GPMProto.gif)
+![GPMProto](images/GPMProto.gif)
 
 #### Photographie du prototype de GPM développé au laboratoire (Øanode = 32 mm)
 

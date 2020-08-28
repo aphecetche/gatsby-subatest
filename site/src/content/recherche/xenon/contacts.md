@@ -8,7 +8,7 @@ category: "xenon"
 asides: ["xenon.+menu+"]
 layout: "recherche"
 ---
-![Photo Dominique Thers](images/Recherche/Xenon/PhotoDominiqueThers.jpg)
+![Photo Dominique Thers](images/PhotoDominiqueThers.jpg)
 
 Dominique Thers
 

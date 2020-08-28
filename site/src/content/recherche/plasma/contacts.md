@@ -1,14 +1,14 @@
 ---
 title: "Contacts"
 date: "2011-12-16 14:03:07 +0000 UTC"
-lastmod: "2016-05-03 10:07:16 +0000 UTC"
+lastmod: "2019-10-02 09:00:26 +0000 UTC"
 path: "recherche/plasma/contacts.md"
 joomlaid: 35
 category: "plasma"
 asides: ["plasma.+menu+"]
 layout: "recherche"
 ---
-Chef du groupe / Plasma team leader : [Gines Martinez](http://gines.web.cern.ch/)
+Chef du groupe / Plasma team leader : Marie Germain
 
 Chef Muon/ Muon team leader : Laurent Aphecetche.
 

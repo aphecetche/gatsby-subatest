@@ -11,10 +11,10 @@ module.exports = {
         sources: [`${__dirname}/src/content`, `${__dirname}/src/pages`],
       },
     },
-    //    {
-    //      resolve: "gatsby-theme-mui",
-    //      options: {},
-    //    },
+    {
+      resolve: "gatsby-theme-mui",
+      options: {},
+    },
     // `gatsby-theme-search`,
     // {
     //   resolve: "gatsby-theme-ldap",

@@ -7,9 +7,9 @@ module.exports = {
   plugins: [
     {
       resolve: `gatsby-theme-mdx`,
-      // options: {
-      //   sources: ["content", "pages"],
-      // },
+      options: {
+        sources: [`${__dirname}/src/content`, `${__dirname}/src/pages`],
+      },
     },
     //    {
     //      resolve: "gatsby-theme-mui",

@@ -1,23 +1,22 @@
 module.exports = (themeOptions) => {
-  // const options = themeOptions || { sources: ["content"] };
-  // const sources = options.sources.map((s) => ({
-  //   resolve: `gatsby-source-filesystem`,
-  //   options: {
-  //     path: `${__dirname}/src/${s}`,
-  //   },
-  // }));
-  // console.log("theme-mdx sources=", sources);
+  const options = Object.keys(themeOptions).length
+    ? themeOptions
+    : {
+        sources: [`${__dirname}/src`],
+      };
+  const sources = options.sources.map((s) => ({
+    resolve: `gatsby-source-filesystem`,
+    options: {
+      path: s,
+    },
+  }));
   return {
     plugins: [
-      //      ...sources,
+      ...sources,
       {
-        resolve: `gatsby-source-filesystem`,
-        options: {
-          name: `content`,
-          //.path: `${__dirname}/src/content`,
-          path: `zob`,
-        },
+        resolve: `gatsby-remark-images`,
       },
+
       {
         resolve: `gatsby-plugin-mdx`,
         options: {

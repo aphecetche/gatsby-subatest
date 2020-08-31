@@ -1,5 +1,8 @@
 // src/gatsby-theme-material-ui-top-layout/theme.js
 
+const primary = "#0766ad";
+const secondary = "#98ca34";
+
 const theme = {
   typography: {
     fontFamily: "Open Sans",
@@ -8,10 +11,10 @@ const theme = {
   palette: {
     background: {},
     primary: {
-      main: "#0766ad",
+      main: primary,
     },
     secondary: {
-      main: "#98ca34",
+      main: secondary,
     },
     text: {},
   },
@@ -20,6 +23,9 @@ const theme = {
       "@global": {
         html: {
           WebkitFontSmoothing: "auto",
+        },
+        a: {
+          color: primary,
         },
       },
     },

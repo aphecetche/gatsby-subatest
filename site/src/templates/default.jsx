@@ -1,8 +1,13 @@
+/* eslint-disable react/display-name */
+
 import React from "react"
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "../components/layout"
 import { makeStyles, Grid } from "@material-ui/core"
+import { MDXProvider } from "@mdx-js/react"
+
+import OpenInNewIcon from "@material-ui/icons/OpenInNew"
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -20,10 +25,27 @@ const useStyles = makeStyles((theme) => ({
     "& p": {
       ...theme.typography.body1,
       textJustify: "justify",
-      fontSize: "0.875rem",
     },
   },
 }))
+
+// const CustomLink = (props) => {
+//   const re = /^http/
+//   if (props.href && re.test(props.href)) {
+//     return (
+//       <>
+//         <a {...props} />
+//         <OpenInNewIcon color="primary" fontSize="8" />
+//       </>
+//     )
+//   } else {
+//     return <a {...props} />
+//   }
+// }
+
+const DefaultComponents = {
+  //  a: CustomLink,
+}
 
 const DefaultLayout = ({ data }) => {
   const { mdx } = data
@@ -31,7 +53,7 @@ const DefaultLayout = ({ data }) => {
   const classes = useStyles()
 
   return (
-    <>
+    <MDXProvider components={DefaultComponents}>
       <Layout>
         <Grid container className={classes.root}>
           <Grid item xs={false} sm={1} />
@@ -44,7 +66,7 @@ const DefaultLayout = ({ data }) => {
           <Grid item xs={false} sm={1} />
         </Grid>
       </Layout>
-    </>
+    </MDXProvider>
   )
 }
 

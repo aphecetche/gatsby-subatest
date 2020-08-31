@@ -10,7 +10,6 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "row",
     ...theme.typography.body1,
-    fontSize: "0.875rem",
   },
   main: {
     "& h2": {

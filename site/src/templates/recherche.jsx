@@ -14,6 +14,11 @@ const useStyles = makeStyles((theme) => ({
     ...theme.typography.body1,
   },
   main: {
+    margin: 0,
+    [theme.breakpoints.down("xs")]: {
+      marginLeft: theme.spacing(1),
+      marginRight: theme.spacing(1),
+    },
     "& h2": {
       ...theme.typography.h4,
       color: theme.palette.primary.main,

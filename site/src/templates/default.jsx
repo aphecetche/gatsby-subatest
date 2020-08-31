@@ -21,6 +21,11 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   main: {
+    margin: 0,
+    [theme.breakpoints.down("xs")]: {
+      marginLeft: theme.spacing(1),
+      marginRight: theme.spacing(1),
+    },
     "& p": {
       ...theme.typography.body1,
       textJustify: "justify",

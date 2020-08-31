@@ -4,6 +4,8 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "../components/layout"
 import { makeStyles, Grid } from "@material-ui/core"
 import Asides from "gatsby-theme-asides/src/components/Asides"
+import { MDXProvider } from "@mdx-js/react"
+import DebugComponents from "../components/DebugComponents"
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -35,7 +37,7 @@ const RechercheLayout = ({ data }) => {
     ))
 
   return (
-    <>
+    <MDXProvider components={DebugComponents}>
       <Layout>
         <Grid container className={classes.root}>
           <Grid item xs={false} sm={1} />
@@ -51,7 +53,7 @@ const RechercheLayout = ({ data }) => {
           </Grid>
         </Grid>
       </Layout>
-    </>
+    </MDXProvider>
   )
 }
 

@@ -6,6 +6,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "../components/layout"
 import { makeStyles, Grid } from "@material-ui/core"
 import { MDXProvider } from "@mdx-js/react"
+import DebugComponents from "../components/DebugComponents"
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -27,31 +28,13 @@ const useStyles = makeStyles((theme) => ({
   },
 }))
 
-// const CustomLink = (props) => {
-//   const re = /^http/
-//   if (props.href && re.test(props.href)) {
-//     return (
-//       <>
-//         <a {...props} />
-//         <OpenInNewIcon color="primary" fontSize="8" />
-//       </>
-//     )
-//   } else {
-//     return <a {...props} />
-//   }
-// }
-
-const DefaultComponents = {
-  //  a: CustomLink,
-}
-
 const DefaultLayout = ({ data }) => {
   const { mdx } = data
   const { frontmatter, body } = mdx
   const classes = useStyles()
 
   return (
-    <MDXProvider components={DefaultComponents}>
+    <MDXProvider components={DebugComponents}>
       <Layout>
         <Grid container className={classes.root}>
           <Grid item xs={false} sm={1} />

@@ -8,7 +8,7 @@ category: "radiochimie"
 asides: ["radiochimie.+menu+"]
 layout: "recherche"
 ---
-![radiochimie](images/Recherche/Radiochimie/radiochimie.jpg)
+![radiochimie](images/radiochimie.jpg)
 
 **L**es activités de recherche du groupe de radiochimie sont dédiées aux questions fondamentales et appliquées en lien avec le comportement des substances radioactives dans l’environnement, dans le cycle électronucléaire et pour les applications médicales.
 

@@ -8,6 +8,11 @@ category: "prisma"
 asides: ["prisma.+menu+"]
 layout: "recherche"
 ---
+
+import vid from "./videos/DC210_small.mp4"
+
  {gallery}Recherche/Prisma/Portfolio,crop=0{/gallery}
 
-{mp4}Prisma/DC210\_small{/mp4}
+<video width="100%" controls>
+<source src={vid} type="video/mp4" />
+</video>

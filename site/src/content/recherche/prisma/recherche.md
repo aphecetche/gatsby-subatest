@@ -8,6 +8,7 @@ category: "prisma"
 asides: ["prisma.+menu+"]
 layout: "recherche"
 ---
+
 Nos 3 expertises scientifiques sont présentées de manière synthétique ci-après.
 
 **RaMI, Radioisotopes Médicaux Innovants** - **Mots-clés : santé, médecine nucléaire, isotopes**
@@ -36,42 +37,42 @@ En préambule, la liste des 56 publications, 70 conférences, thèses, HDR de l�
 
 ##### Les activités développées sont les suivantes :
 
-*   Mesures de sections efficaces de production : technique des stacked foils dans l’air et sous vide, faisceaux de protons, de deutéron et de particules alpha, spectroscopie gamma, comparaison avec les données de la littérature et les modélisations théoriques
-*   Production d’isotopes : voies de production, contaminants, rendement de production en cible épaisse (Thick Target Yield, TTY), développement de cibles haute puissance en collaboration avec le service mécanique du laboratoire Subatech et l’équipe R&D du GIP ARRONAX
-*   Activation neutronique : projets **TheraneaN** 2010-2013 puis **TheraneaM** 2014-2019, contrat avec [**AAA/Novartis**](https://www.adacap.com/)
-*   Études pour la valorisation des fines : isotopes d’intérêt pour la médecine ou l’industrie nucléaire, contrats avec [**ORANO**](https://www.orano.group/fr)
-*   Ionisation laser et séparation en masse : Projet **SMILES**
+-   Mesures de sections efficaces de production : technique des stacked foils dans l’air et sous vide, faisceaux de protons, de deutéron et de particules alpha, spectroscopie gamma, comparaison avec les données de la littérature et les modélisations théoriques
+-   Production d’isotopes : voies de production, contaminants, rendement de production en cible épaisse (Thick Target Yield, TTY), développement de cibles haute puissance en collaboration avec le service mécanique du laboratoire Subatech et l’équipe R&D du GIP ARRONAX
+-   Activation neutronique : projets **TheraneaN** 2010-2013 puis **TheraneaM** 2014-2019, contrat avec [**AAA/Novartis**](https://www.adacap.com/)
+-   Études pour la valorisation des fines : isotopes d’intérêt pour la médecine ou l’industrie nucléaire, contrats avec [**ORANO**](https://www.orano.group/fr)
+-   Ionisation laser et séparation en masse : Projet **SMILES**
 
 ##### Faits marquants de la période 2015-2020 :
 
-*   Production en routine de Strontium-82 à partir d’une cible Rubidium métal (protons de 70 MeV et une intensité de 150 \*A soit 10 kW).
-*   Utilisation du Cu-ATSM pour le diagnostic du cancer du rectum, premier patient le 23 mai 2019 ; aboutissement des travaux sur la production de Cuivre-64 en collaboration avec le GIP ARRONAX, l’ICO et le CHU de Nantes par la mise en place d’un essai clinique.
+-   Production en routine de Strontium-82 à partir d’une cible Rubidium métal (protons de 70 MeV et une intensité de 150 \*A soit 10 kW).
+-   Utilisation du Cu-ATSM pour le diagnostic du cancer du rectum, premier patient le 23 mai 2019 ; aboutissement des travaux sur la production de Cuivre-64 en collaboration avec le GIP ARRONAX, l’ICO et le CHU de Nantes par la mise en place d’un essai clinique.
 
 ![CU64](images/Images/CU64.png)
 
-*   Production d’erbium-169 de très haute activité spécifique pour une potentielle radiothérapie ciblée - [publication](https://doi.org/10.1016/j.nimb.2019.04.022). Preuve de concept pour l’intérêt de la technique de séparation de masse dans la production d’isotopes (R. Formento et al.).
-*   Design d’un colis de transport de type B dédié aux isotopes médicaux (thèse de M. Maietta - [article web](https://www.lemerpax.com/mission-accomplie-pour-maddalena-maietta-et-lemer-pax/))
-*   Comment les données nucléaires collectées pour la production de radionucléides médicaux pourraient contraindre les codes nucléaires (C. Duchemin) - [publication](https://doi.org/10.1051/epjconf/201714608008)
+-   Production d’erbium-169 de très haute activité spécifique pour une potentielle radiothérapie ciblée - [publication](https://doi.org/10.1016/j.nimb.2019.04.022). Preuve de concept pour l’intérêt de la technique de séparation de masse dans la production d’isotopes (R. Formento et al.).
+-   Design d’un colis de transport de type B dédié aux isotopes médicaux (thèse de M. Maietta - [article web](https://www.lemerpax.com/mission-accomplie-pour-maddalena-maietta-et-lemer-pax/))
+-   Comment les données nucléaires collectées pour la production de radionucléides médicaux pourraient contraindre les codes nucléaires (C. Duchemin) - [publication](https://doi.org/10.1051/epjconf/201714608008)
 
 #### IRMa, Interaction Rayonnement Matière - Analyse par faisceaux d’ions, contrôle non destructif de matériaux
 
 ##### Les activités développées sont les suivantes :
 
-*   Mesures de données nucléaires : sections efficaces de production de rayons X et gamma pour les mesures quantitatives de haute énergie PIXE et PIGE
-*   Ion Beam Analysis : analyse par faisceau d’ions PIXE et PIGE à haute énergie
-*   Plate-forme EasyTom : radiographie rayons X et tomographie 3D
-*   Plate-forme TOMOROBOT
+-   Mesures de données nucléaires : sections efficaces de production de rayons X et gamma pour les mesures quantitatives de haute énergie PIXE et PIGE
+-   Ion Beam Analysis : analyse par faisceau d’ions PIXE et PIGE à haute énergie
+-   Plate-forme EasyTom : radiographie rayons X et tomographie 3D
+-   Plate-forme TOMOROBOT
 
 ##### Faits marquants de la période 2015-2020 :
 
-*   Développement d’une méthode pour l’analyse d’échantillons multicouches avec la méthode PIXE à haute énergie (A. Subercaze - [publication](https://doi.org/10.1016/j.nimb.2017.02.014))
-*   Mesure des sections efficaces de production des rayons X lors de l’interaction de protons avec la matière (M. Hazim et al., soumis à NIMB)
-*   Projet Inter-site IMT Atlantique “Post-doc – Appel numérique 2019” avec le Département Image et Traitement de l’Information (ITI) et le Département Systèmes Energétiques et Environnement dans le cadre du projet Carnot TSN : MISS - Analyse d’images de systèmes poreux complexes par tomographie RX appliquée aux cartouches filtrantes (E. Lys)
-*   Caractérisation de possibles défauts dans un dispositif de refroidissement de carte électronique par tomographie à rayons X pour le projet MFT, expérience Alice @ CERN, en collaboration avec l’équipe Plasma du laboratoire SUBATECH, - 2017-2019 (E. Lys)
+-   Développement d’une méthode pour l’analyse d’échantillons multicouches avec la méthode PIXE à haute énergie (A. Subercaze - [publication](https://doi.org/10.1016/j.nimb.2017.02.014))
+-   Mesure des sections efficaces de production des rayons X lors de l’interaction de protons avec la matière (M. Hazim et al., soumis à NIMB)
+-   Projet Inter-site IMT Atlantique “Post-doc – Appel numérique 2019” avec le Département Image et Traitement de l’Information (ITI) et le Département Systèmes Energétiques et Environnement dans le cadre du projet Carnot TSN : MISS - Analyse d’images de systèmes poreux complexes par tomographie RX appliquée aux cartouches filtrantes (E. Lys)
+-   Caractérisation de possibles défauts dans un dispositif de refroidissement de carte électronique par tomographie à rayons X pour le projet MFT, expérience Alice @ CERN, en collaboration avec l’équipe Plasma du laboratoire SUBATECH, - 2017-2019 (E. Lys)
 
 ![MFT](images/Images/MFT.png)
 
-*   ANR AVINECK - Le cou de l’oiseau, un bras pour les robots (X. de la Bernardie)
+-   ANR AVINECK - Le cou de l’oiseau, un bras pour les robots (X. de la Bernardie)
 
 ![AVINECK](images/Images/AVINECK.png)
 
@@ -79,14 +80,14 @@ En préambule, la liste des 56 publications, 70 conférences, thèses, HDR de l�
 
 ##### Les activités développées sont les suivcantes :
 
-*   Mesures et contrôle in situ du débit de dose : signal de Bremsstrahlung, PIXE, détecteur DIAMANT, détecteur PEPITES, gamma-caméra, chambre d’ionisation
-*   Plate-forme d’irradiation : cellules et petits animaux, faisceaux de protons et de particules alpha, thérapie flash
+-   Mesures et contrôle in situ du débit de dose : signal de Bremsstrahlung, PIXE, détecteur DIAMANT, détecteur PEPITES, gamma-caméra, chambre d’ionisation
+-   Plate-forme d’irradiation : cellules et petits animaux, faisceaux de protons et de particules alpha, thérapie flash
 
 ##### Faits marquants de la période 2015-2020 :
 
-*   Validation de la plateforme radiobiologique - [publication](https://doi.org/10.1093/rpd/ncy301)
-*   Expériences d’irradiation par faisceau alpha ARRONAX GIP C70 avec pic de Bragg étalé (SOBP)
+-   Validation de la plateforme radiobiologique - [publication](https://doi.org/10.1093/rpd/ncy301)
+-   Expériences d’irradiation par faisceau alpha ARRONAX GIP C70 avec pic de Bragg étalé (SOBP)
 
 ![SOBP](images/Images/SOBP.png)
 
-*   Développement d’un profileur faisceau ultra fin pour des faisceaux de particules chargées dans le cadre de l’ANR [**PEPITES**](https://anr.fr/Projet-ANR-17-CE31-0015) - [publication](https://doi.org/10.1016/j.nima.2018.09.134)
+-   Développement d’un profileur faisceau ultra fin pour des faisceaux de particules chargées dans le cadre de l’ANR [**PEPITES**](https://anr.fr/Projet-ANR-17-CE31-0015) - [publication](https://doi.org/10.1016/j.nima.2018.09.134)

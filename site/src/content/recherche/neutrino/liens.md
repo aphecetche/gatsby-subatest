@@ -10,7 +10,7 @@ layout: "recherche"
 ---
 **Our projects**
 
-[![DC logo](images/Recherche/neutrino/DoubleChooz/DC_logo.png)](http://doublechooz.in2p3.fr/Status_and_News/status_and_news.php)![SOLID logo](images/Recherche/neutrino/Solid/SOLID_logo.png)![JUNO logo](images/Recherche/neutrino/JUNO/JUNO_logo.png)  ![Image result for km3net](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDw_N5edL_S4LC49GkfzZfQRfagvssAFWNSEFWEjwviCxR7dXv7w)
+[![DC logo](images/DoubleChooz/DC_logo.png)](http://doublechooz.in2p3.fr/Status_and_News/status_and_news.php)![SOLID logo](images/Solid/SOLID_logo.png)![JUNO logo](images/JUNO/JUNO_logo.png)  ![Image result for km3net](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDw_N5edL_S4LC49GkfzZfQRfagvssAFWNSEFWEjwviCxR7dXv7w)
 
 **Other projects**
 

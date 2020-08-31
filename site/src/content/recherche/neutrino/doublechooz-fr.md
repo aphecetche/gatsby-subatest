@@ -22,7 +22,7 @@ Son objectif scientifique principale est la mesure de l'angle de mélange θ13�
 
 Le principe de detection est la désintegration beta inverse: \\(\\bar{\\nu}\_e+p \\rightarrow e^++n\\) (seuil en energie de 1.8 MeV). L'annhilation du positron produit un signal rapide ("prompt") et le neutron est détecté via sa capture (de quelque µs à quelque centaine de µs après le signal prompt) par des noyaux de Gd et de H dissous dans le liquide scintillant. La coincidence des ces deux signaux permet d'identifier les neutrinos et de s’affranchir d’une proportion importante du bruit de fond.
 
-![DC detector](images/Recherche/neutrino/DoubleChooz/DC-detector.jpg)
+![DC detector](images/DoubleChooz/DC-detector.jpg)
 
 **Nos activités:**
 

@@ -8,4 +8,7 @@ category: "radiochimie"
 asides: ["radiochimie.+menu+"]
 layout: "recherche"
 ---
-{loadposition membres}
+
+import Members from "components/members.jsx"
+
+<Members group="radio"/>

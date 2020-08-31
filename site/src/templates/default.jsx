@@ -7,8 +7,6 @@ import Layout from "../components/layout"
 import { makeStyles, Grid } from "@material-ui/core"
 import { MDXProvider } from "@mdx-js/react"
 
-import OpenInNewIcon from "@material-ui/icons/OpenInNew"
-
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",

@@ -13,4 +13,4 @@ Cet événement s’est ouvert par une présentation très appréciée de Yann P
 
 Pour plus de détails sur cet événement et consulter le livret d’abstracts : jed3m2019nantes.sciencesconf.org
 
-![PhotoJED](images/Enseignement/PhotoJED.JPG)
+![PhotoJED](images/PhotoJED.JPG)

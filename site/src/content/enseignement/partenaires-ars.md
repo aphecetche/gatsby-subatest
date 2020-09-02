@@ -33,4 +33,4 @@ Ces dernières années, plus de 80%!d(MISSING)es diplômés ont été embauchés
 
 Ils ont recruté nos étudiants ou les ont accueillis en stage :
 
-![debouchesmars2](images/Enseignement/debouchesmars2.jpg)
+![debouchesmars2](images/debouchesmars2.jpg)

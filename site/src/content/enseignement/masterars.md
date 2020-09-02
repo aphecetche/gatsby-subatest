@@ -7,7 +7,7 @@ joomlaid: 265
 category: "Enseignement"
 asides: ["Enseignement.+menu+"]
 ---
-[](images/Enseignement/EDT-26.09.2014.pdf)![PFA](images/PFA.png)
+[](pdf/EDT-26.09.2014.pdf)![PFA](images/PFA.png)
 
 La spécialité du Master Physique fondamentale et applications est une formation supérieure à bac +5 dans le domaine de la physique subatomique et des rayonnements ionisants qui a pour objectif de :
 
@@ -33,4 +33,4 @@ Formation co-habilitée entre l’Université de Nantes et l’IMT Atlantique, l
 
  → Permettre pour les étudiants ayant suivi le parcours RIA, l'inscription au concours d'entrée au Diplôme de Qualification en Physique Radiologiques et Médicale ([DQPRM](http://www-instn.cea.fr/-DQPRM-Physique-medicale-.html)), qui a pour but de former des personnes spécialisées en radiophysique médicale dont la mission principale est de garantir la qualité et la sécurité dans l'utilisation médicale des rayonnements ionisants.
 
-![bandeauimagesMARS](images/Enseignement/bandeauimagesMARS.jpg)
+![bandeauimagesMARS](pdf/bandeauimagesMARS.jpg)

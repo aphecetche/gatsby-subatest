@@ -7,7 +7,7 @@ joomlaid: 294
 category: "Enseignement"
 asides: ["Enseignement.+menu+"]
 ---
-![PFA](images/Enseignement/PFA.png)
+![PFA](images/PFA.png)
 
 ### Programme de la spécialité (M2) :
 
@@ -15,7 +15,7 @@ L'année de spécialité de M2 applications et recherches subatomiques présente
 
 → Le premier semestre (de septembre à février, 360h de présentiel + 240 heures de travail personnel) est constitué d'enseignements de tronc commun et de spécialisation dédiés à chaque option :
 
-[![MARS 1 page2012](images/Enseignement/MARS_1_page2012.jpg)](images/Enseignement/MARS_1_page2012.jpg "MARS 1 page2012")
+[![MARS 1 page2012](images/MARS_1_page2012.jpg)](images/MARS_1_page2012.jpg "MARS 1 page2012")
 
 Les enseignements se déroulent principalement sur le site de l'IMT, mais aussi à la Faculté des Sciences, à la Faculté de Médecine et au Cyclotron Arronax ; des visites d'installations et de sites industriels sont également programmées.
 
@@ -33,4 +33,4 @@ Cette spécialité de master peut accueillir environ 30 étudiants par an selon 
 
 Recrutement sur dossier et entretien.
 
-![bandeauimagesMARS](images/Enseignement/bandeauimagesMARS.jpg)
+![bandeauimagesMARS](images/bandeauimagesMARS.jpg)

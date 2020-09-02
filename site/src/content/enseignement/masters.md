@@ -18,4 +18,4 @@ Ce master est spécialisé dans la gestion des déchets nucléaires. Ce Master d
     
     La spécialité de Master « Physique Fondamentale et Application" PFA est une formation destinée, à l’issue d’un cursus de 2 années (M1 et M2) , à approfondir les connaissances et développer les compétences dans le domaine de la physique subatomique et des rayonnements ionisants. Elle a pour double objectif de former les étudiants à et par la recherche et de former des spécialistes de type "ingénieur-expert".
     
-    \[ [emploi du temps du Master PFA](images/Enseignement/PLAGIFICATION_MARS_20.09.2012.pdf) \]
+    \[ [emploi du temps du Master PFA](pdf/PLAGIFICATION_MARS_20.09.2012.pdf) \]

@@ -6,6 +6,7 @@ const useStyles = makeStyles((theme) => ({
   secondary: {
     "& h6": {
       color: theme.palette.primary.light,
+      fontSize: "0.5rem",
     },
   },
 }));

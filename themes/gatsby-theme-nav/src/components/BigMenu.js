@@ -10,32 +10,30 @@ const useStyles = makeStyles((theme) => ({
     background: "black",
     display: "flex",
     flexDirection: "column",
-    padding: "1rem",
+    padding: theme.spacing(2),
   },
   title: {
-    margin: "0.5rem 0",
-    padding: "0",
+    margin: theme.spacing(1, 0, 1, 0),
+    padding: theme.spacing(0, 0, 1, 0),
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
     borderBottom: `2px solid ${theme.palette.primary.main}`,
-    "& h4, & h5": {
-      color: "white",
+    color: "white",
+    "& h6": {
       padding: "0",
       margin: "0",
+      fontSize: "1.1rem",
     },
   },
   navgrouplist: {
-    margin: "0",
+    margin: theme.spacing(2, 0, 0, 0),
+    padding: "0",
     display: "flex",
     flexWrap: "wrap",
-    "& li": {
-      display: "block",
-    },
     "& > li": {
-      minWidth: "23%",
-      marginRight: "1em",
+      margin: theme.spacing(0, 5, 0, 0),
     },
   },
 }));
@@ -46,7 +44,7 @@ const BigMenu = ({ title, groups, onClose }) => {
     <Grid container className={css.bigmenu}>
       <Grid item container className={css.title}>
         <Grid item>
-          <Typography variant="h5">{title}</Typography>
+          <Typography variant="h6">{title}</Typography>
         </Grid>
         <Grid item>
           <CloseButton onClick={onClose}>Fermer</CloseButton>

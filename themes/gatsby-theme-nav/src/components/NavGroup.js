@@ -6,14 +6,15 @@ const useStyles = makeStyles((theme) => ({
   navgroup: {
     padding: "0",
     margin: "0",
+    marginBottom: theme.spacing(2),
     display: "flex",
-    width: "max-content",
     flexDirection: "column",
   },
   title: {
     margin: "0",
     color: theme.palette.primary.main,
-    padding: "0 0 1rem 0",
+    fontSize: "1.0rem",
+    padding: theme.spacing(0, 0, 1, 0),
   },
   linklist: {
     listStyle: "none",

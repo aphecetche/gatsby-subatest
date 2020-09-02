@@ -28,7 +28,8 @@ const useStyles = makeStyles((theme) => ({
     },
     "& p": {
       ...theme.typography.body1,
-      textJustify: "justify",
+      textAlign: "justify",
+      textJustify: "inter-character",
     },
   },
 }))

@@ -1,7 +1,7 @@
 ---
 title: "Master PFA: Présentation"
 date: "2012-09-14 14:30:51 +0000 UTC"
-lastmod: "2018-12-18 15:26:36 +0000 UTC"
+lastmod: "2020-07-02 14:44:35 +0000 UTC"
 path: "enseignement/masterars.md"
 joomlaid: 265
 category: "Enseignement"
@@ -15,7 +15,7 @@ La spécialité du Master Physique fondamentale et applications est une formatio
 *   Former des spécialistes de type ingénieur-expert
 *   Participer à la formation des futurs physiciens médicaux
 
-Formation co-habilitée entre l’université de Nantes et l’école des mines de Nantes, la spécialité de M2 ARS propose trois options :
+Formation co-habilitée entre l’Université de Nantes et l’IMT Atlantique, la spécialité de M2 PFA propose trois options :
 
 *   Recherche en Physique Subatomique (RPS)
 *   Rayonnements Ionisants et Applications médicales (RIA)

@@ -1,7 +1,7 @@
 ---
 title: "Détection des rayonnements"
 date: "2014-02-07 07:21:14 +0000 UTC"
-lastmod: "2014-04-24 08:26:11 +0000 UTC"
+lastmod: "2019-12-13 08:49:24 +0000 UTC"
 path: "smart/detection-des-rayonnements.md"
 joomlaid: 332
 category: "Smart"
@@ -13,11 +13,11 @@ Le service possède de nombreux systèmes de détection qui varient selon la nat
 
 SMART dispose de 6 détecteurs, au germanium hyperpur (GeHP), pour la détermination des émetteurs gamma : Be-7, K-40, Co-60, Cs-134, Cs-137, Pb-210, Ra-226, Ra-228, Ru-106, ...Cette analyse permet d’identifier rapidement les émetteurs gamma présents et en particulier de pouvoir distinguer la radioactivité naturelle de la radioactivité artificielle. De plus cette analyse est non destructive.
 
-SMART possède aussi 2 chaînes de détection de rayonnement X permettant de quantifier le Fe-55, le Mo-93, le Ni-59,…
+SMART possède aussi 1 chaîne de détection de rayonnement X permettant de quantifier le Fe-55, le Mo-93, le Ni-59,…
 
 ### Compteur proportionnel à gaz :
 
-Cet appareil permet d’obtenir les indices alpha global et bêta global de tous types d’échantillons (eaux, filtres, solides,…). Toutefois, la mesure ne permet pas d’identifier le ou les radionucléides à l’origine de l’activité mesurée. Le laboratoire possède deux appareils de type IN20 (24 chambres de détection).
+Cet appareil permet d’obtenir les indices alpha global et bêta global de tous types d’échantillons (eaux, filtres, solides,…). Toutefois, la mesure ne permet pas d’identifier le ou les radionucléides à l’origine de l’activité mesurée. Le laboratoire possède deux appareils de type IN20 (16 chambres de détection) et Berthold (20 chambres de détection).
 
 ### Spectrométrie alpha :
 

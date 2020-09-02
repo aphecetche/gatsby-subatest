@@ -1,7 +1,7 @@
 ---
 title: "Liens"
 date: "2014-02-07 07:31:30 +0000 UTC"
-lastmod: "2014-04-25 12:41:03 +0000 UTC"
+lastmod: "2019-12-13 08:50:07 +0000 UTC"
 path: "smart/nos-partenaires.md"
 joomlaid: 338
 category: "Smart"
@@ -14,8 +14,6 @@ SMART fait parti du [réseau becquerel](http://reseau-becquerel.in2p3.fr/) : pl
  SMART est également partenaire de laboratoire de chimie :
 
 \- [Inovalys](http://www.inovalys.fr/) pour les échantillons de l’environnement
-
-\- [Eurofins](http://www.eurofins.fr/fr-fr.aspx) pour les échantillons à contenus radiologiques
 
 ###  Institutions
 

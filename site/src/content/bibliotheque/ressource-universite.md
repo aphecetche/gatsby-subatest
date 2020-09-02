@@ -1,13 +1,13 @@
 ---
 title: "Ressources Universite"
 date: "2012-03-07 12:45:16 +0000 UTC"
-lastmod: "2017-03-14 09:20:42 +0000 UTC"
+lastmod: "2020-05-14 17:01:36 +0000 UTC"
 path: "bibliotheque/ressource-universite.md"
 joomlaid: 170
 category: "Bibliotheque"
 asides: ["Bibliotheque.+menu+"]
 ---
-### [Portail Nantilus:](http://nantilus.univ-nantes.fr/repons/portal/)  Portail documentaire de l'Université de Nantes
+### [Portail Nantilus:](https://nantilus.univ-nantes.fr/vufind/)  Portail documentaire de l'Université de Nantes
 
 *   Ressources Electroniques
 *   Thèses

@@ -1,18 +1,16 @@
 ---
 title: "Communication"
 date: "2012-05-21 09:40:33 +0000 UTC"
-lastmod: "2017-03-08 14:00:19 +0000 UTC"
+lastmod: "2020-08-17 13:55:14 +0000 UTC"
 path: "communication/communication.md"
 joomlaid: 220
 category: "Communication"
 asides: ["Communication.+menu+"]
 ---
-> Ce qui fait le prix de la science, de la connaissance abstraite, c’est qu’elle est communicable
-> 
-> Arthur Schopenhauer
+"_Ce qui fait le prix de la science, de la connaissance abstraite, c’est qu’elle est communicable_"
 
-C’est une tradition chère à SUBATECH que celle d’aller vers le public et d’avoir en permanence le souci de vulgariser les sciences dites dures. C’est en ce sens que notre laboratoire a mis en place un certain nombre d’actions de communications, de [vulgarisation scientifique](index.php?option=com_weblinks&view=category&id=45&Itemid=352).
+Arthur Schopenhauer
 
-Ces actions se traduisent sous des formes diverses, que ce soient des rencontres avec le grand public lors des fêtes de la science, les portes ouvertes, mais aussi plusieurs expositions, que ce soient envers les lycéens au travers de « l’Ecole des deux infinis », reliant le monde de l’éducation à celui de la recherche. L’accent ayant été mis ces dernières années sur la sensibilisation des jeunes aux métiers de la recherche, grâce notamment à l’organisation d’un [passeport recherche](http://www.prun.net/labo-des-savoirs/passeport-recherche-2012--le-lhc/), qui consiste à accompagner une classe tout au long de l’année sur un projet, mais également aux Master Class, de même que les [rencontres internationales lycéennes](http://www.lesateliersdelaradioprotection.com/spip.php?article1), organisées cette année par SUBATECH.
+C’est une tradition chère à SUBATECH que celle d’aller vers le public et d’avoir en permanence le souci de vulgariser les sciences dites dures. C’est en ce sens que la cellule communication, avec la contribution du personnel de Subatech (chercheurs, personnel IT, doctorants..) et le soutien des services de communication de nos tutelles (CNRS, IMT Atlantique, Université de Nantes) ainsi que de notre partenaire la région, a pour objectif de diffuser les problématiques et les résultats de la recherche scientifique fondamentale ou appliquée. Elle se traduit essentiellement par des actions vers le grand public et les scolaires (participation à la Fête de la Science, à la Nuit Blanche des Chercheurs, interventions dans des établissements scolaires, Masterclasses ...) et par l’organisation de nombreux [séminaires](fr/communication/seminaires?view=seminars), [colloques ou autres workshops](fr/), qu’ils soient internes (avec les cafés scientifiques)  ou internationaux, mais aussi par la publication de rapports, plaquettes ou autres supports (films, expositions,…).La vulgarisation  ou diffusion de la culture scientifique et technique (aussi appelée « médiation scientifique » ou « vulgarisation scientifique ») vise à expliquer la démarche scientifique, à transmettre les connaissances scientifiques des chercheurs à tout public non-scientifique et à encourager le débat sur la base de ces connaissances.
 
-La communication institutionnelle se traduit quant à elle par l’organisation de nombreux [séminaires](index.php?option=com_subatech&view=seminars&Itemid=323), colloques ou autres workshop, qu’ils soient internes ou internationaux, mais aussi par la publication de rapports, plaquettes ou autres supports (films, expositions,…).
+##### **Contact**Mail :  [comm@subatech.in2p3.fr](mailto:comm@subatech.in2p3.fr)Téléphone : 02.51.85.84.83

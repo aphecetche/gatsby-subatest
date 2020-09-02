@@ -12,7 +12,7 @@ Voici quelques liens pertinents pour la thématique :
 
 **Sites de vulgarisation:**
 
-Document pédagogique sur notre activité de recherche: [clickez ici ♥](images/Recherche/TheorieBE/fichiers/presentation.pdf) 
+Document pédagogique sur notre activité de recherche: [clickez ici ♥](imagesBE/fichiers/presentation.pdf) 
 
 **Bases de données:**
 

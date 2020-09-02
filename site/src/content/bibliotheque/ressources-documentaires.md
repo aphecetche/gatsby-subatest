@@ -12,10 +12,10 @@ asides: ["Bibliotheque.+menu+"]
 
 [Ressources IMT Atlantique](https://intranet.imt-atlantique.fr/ressources-documentaires/)
 
-[Ressources Université](index.php?option=com_content&view=article&id=170)
+[Ressources Université](/bibliotheque/ressource-universite.md)
 
-[Ressources CNRS](index.php?option=com_content&view=article&id=114)
+[Ressources CNRS](/bibliotheque/ressources-cnrs.md)
 
-[Ressources propres SUBATECH](index.php?option=com_content&view=article&id=172)
+[Ressources propres SUBATECH](/bibliotheque/ressources-subatec.md)
 
-[Quelques bases de données](index.php?option=com_content&view=article&id=224)
+[Quelques bases de données](/bibliotheque/bases-de-donnees.md)

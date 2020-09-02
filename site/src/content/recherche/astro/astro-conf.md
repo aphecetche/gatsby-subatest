@@ -8,7 +8,7 @@ category: "astro"
 asides: ["astro.+menu+"]
 layout: "recherche"
 ---
-![Sans nom lun. sept. 24 2012](images/Recherche/Astro/Sans_nom_lun._sept._24_2012.png)Voici une liste probablement non exhaustive des présentations faites par les membres du groupe lors de conférences et de workshops. Les comptes-rendus et éventuellement les présentations sont accessibles sur le site de Codalema (partie publique) dans la rubrique ["Documents/Conferences"](http://codalema.in2p3.fr/spip.php?rubrique14). Notre groupe proposent généralement une ou plusieurs contributions orales aux ateliers et conférences en lien direct avec les rayons cosmiques et la radio détection.
+![Sans nom lun. sept. 24 2012](images/Sans_nom_lun._sept._24_2012.png)Voici une liste probablement non exhaustive des présentations faites par les membres du groupe lors de conférences et de workshops. Les comptes-rendus et éventuellement les présentations sont accessibles sur le site de Codalema (partie publique) dans la rubrique ["Documents/Conferences"](http://codalema.in2p3.fr/spip.php?rubrique14). Notre groupe proposent généralement une ou plusieurs contributions orales aux ateliers et conférences en lien direct avec les rayons cosmiques et la radio détection.
 
 *   ARENA : international workshop on Acoustic and Radio EeV Neutrino Detection Activities
 *   ECRS : European Cosmic Ray Symposium

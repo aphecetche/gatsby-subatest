@@ -1,7 +1,7 @@
 ---
 title: "Présentation du groupe "
 date: "2012-01-12 17:06:30 +0000 UTC"
-lastmod: "2019-02-26 16:12:06 +0000 UTC"
+lastmod: "2019-11-26 13:22:30 +0000 UTC"
 path: "recherche/sen/erdre-presentation.md"
 joomlaid: 65
 category: "sen"
@@ -27,6 +27,8 @@ La désintégration β\- d'un noyau s'accompagnant par l'émission d'une paire d
 Actuellement le groupe compte 4 membres permanents, 1 thésard et 1 post-doc.
 
 Nous collaborons avec les équipes de l’IPN d’Orsay et du LPSC de Grenoble qui développent le code MCNP Utility for Reactor Evolution (MURE), disponible sur le site de la NEA.
+
+Le groupe fait également partie de la collaboration internationale TAS et collabore étroitement avec l'IFIC de Valencia et l'université de Surrey.
 
 Le groupe  est cofinancé par le CNRS/IN2P3, SUBATECH, NEEDS, l’Université de Nantes, l’IMT Atlantique et CHANDA.
 

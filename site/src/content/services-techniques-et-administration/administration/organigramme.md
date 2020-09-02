@@ -1,14 +1,14 @@
 ---
 title: "Organigramme"
 date: "2012-02-05 14:27:14 +0000 UTC"
-lastmod: "2019-01-28 14:06:52 +0000 UTC"
+lastmod: "2020-06-24 12:57:33 +0000 UTC"
 path: "services-techniques-et-administration/administration/organigramme.md"
 joomlaid: 106
 category: "Administration"
 asides: ["Administration.+menu+"]
 layout: "services-techniques-et-administration"
 ---
-[\[ Version imprimable (PDF) \]](images/Administration/Organigramme_exterieur_012019-1.pdf)
+[\[ Version imprimable (PDF) \]](images/Organigramme_exterieur_062020.pdf)
 
 *   [Direction](#)
     *   [Directeur](#)
@@ -18,7 +18,6 @@ layout: "services-techniques-et-administration"
     *   [Secrétariat de direction](fr/laboratoire/administration/presentation)
 *   [Physique](/recherche)
     *   [Plasma](fr/recherche/univers-a-haute-energie/plasma/membres)
-    *   [Astro](fr/recherche/univers-a-haute-energie/astro/membres)
     *   [Théorie](fr/recherche/univers-a-haute-energie/theorie/membres)
     *   [Prisma](fr/recherche/nucleaire-et-environnement/prisma/membres)
     *   [Structure et Energie nucléaires](fr/recherche/univers-a-haute-energie/sen/membres)
@@ -37,6 +36,7 @@ layout: "services-techniques-et-administration"
         *   [Finances](fr/laboratoire/administration/presentation)
         *   [Missions](fr/laboratoire/administration/missions)
         *   [Ressources humaines](fr/laboratoire/administration/presentation)
+        *   [Communication interne et Evènementiel](fr/laboratoire/administration/presentation)
 *   [Conseils](#)
     *   [Conseil Scientifique](fr/laboratoire/nos-activites/conseil-scientifique)
     *   [Conseil de laboratoire](#)
@@ -50,7 +50,7 @@ layout: "services-techniques-et-administration"
     *   [Master PFA](#)
     *   [Enseignement IMT Atlantique](#)
     *   [Option Ingénierie Nucléaire](#)
-    *   [Master SNEAM /SARENA](#)
+    *   [Master NE /SARENA](#)
     *   [Projets Européens](#)
     *   [CSSI](#)
     *   [Qualité](#)

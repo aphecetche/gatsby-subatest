@@ -8,17 +8,7 @@ category: "plasma"
 asides: ["plasma.+menu+"]
 layout: "recherche"
 ---
-
-import vid from "./videos/alice-text-xvid.mp4"
-
-
 Quelques liens pertinents pour la thématique : 
 
-*   Video de vulgarisation
-    <video controls>
-    <source src={vid} type="video/mp4" />
-    </video>
+*   Video de vulgarisation : {m4v}plasma/alice-text-xvid{/m4v}
 *   Video de vulgarisation sur les collisions hadroniques au LHC: [Simulation des collisions pp et noyau-noyau](http://www.youtube.com/watch?v=IjlEAtlt4Pk)
-
-
-`youtube: https://www.youtube.com/watch?v=IjlEAtlt4Pk`

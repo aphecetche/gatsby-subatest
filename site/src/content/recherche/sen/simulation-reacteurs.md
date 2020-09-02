@@ -19,55 +19,55 @@ Les centrales nucléaires émettent en permanence un flux d’antineutrinos trè
 
 Dans les années 70, naquit l’idée que les neutrinos pourraient également servir à des applications liées aux centrales nucléaires \[3\]. En effet, les nombreux antineutrinos émis par les centrales proviennent essentiellement de la fission des isotopes d’Uranium et de Plutonium (235U, 239Pu, 241Pu, 238U). Le tableau suivant indique les caractéristiques énergétiques de la fission de ces 4 noyaux.
 
-<!--   -->
-<!--  -->
-<!-- 235U -->
-<!--  -->
-<!-- 239Pu -->
-<!--  -->
-<!-- 238U -->
-<!--  -->
-<!-- 241Pu -->
-<!--  -->
-<!-- Ef (MeV) -->
-<!--  -->
-<!-- 201.7 -->
-<!--  -->
-<!-- 210.0 -->
-<!--  -->
-<!-- 205.0 -->
-<!--  -->
-<!-- 212.4 -->
-<!--  -->
-<!-- <En > (MeV) -->
-<!--  -->
-<!-- 1.46 -->
-<!--  -->
-<!-- 1.32 -->
-<!--  -->
-<!-- 1.56 -->
-<!--  -->
-<!-- 1.44 -->
-<!--  -->
-<!-- <Nn\> -->
-<!--  -->
-<!-- (E>1.8MeV) -->
-<!--  -->
-<!-- 5.58 -->
-<!--  -->
-<!-- (1.92) -->
-<!--  -->
-<!-- 5.09 -->
-<!--  -->
-<!-- (2.38) -->
-<!--  -->
-<!-- 6.69 -->
-<!--  -->
-<!-- (1.45) -->
-<!--  -->
-<!-- 5.89 -->
-<!--  -->
-<!-- (1.83) -->
+ 
+
+235U
+
+239Pu
+
+238U
+
+241Pu
+
+Ef (MeV)
+
+201.7
+
+210.0
+
+205.0
+
+212.4
+
+n > (MeV)
+
+1.46
+
+1.32
+
+1.56
+
+1.44
+
+n>
+
+(E>1.8MeV)
+
+5.58
+
+(1.92)
+
+5.09
+
+(2.38)
+
+6.69
+
+(1.45)
+
+5.89
+
+(1.83)
 
 Les produits de fission sont des noyaux riches en neutrons et radioactifs. Lors de leur décroissance bêta, ils émettent un antineutrino. Le spectre en énergie des antineutrinos d’un réacteur en résultant reflète ainsi la distribution des produits de fission. La conséquence est que le spectre en énergie des antineutrinos reflète également la composition du combustible. Des changements dans le spectre en énergie en fonction du taux d’irradiation, ainsi que la corrélation entre le flux d’antineutrinos et la puissance thermique d’un réacteur ont déjà été mis en évidence expérimentalement.
 
@@ -115,7 +115,7 @@ La puissance résiduelle est générée par la décroissance beta et gamma des p
 
 \[2\] Voir les proceedings de conference suivants : AAP, Applied Antineutrino Physics workshop, 2007, Paris, [http://www.apc.univ-paris7.fr/AAP2007/schedule.phtml](http://www.apc.univ-paris7.fr/AAP2007/schedule.phtml) ; Nuclear Reactor Simulations for Unveiling Diversion Scenarios : capabilities of the antineutrino probe, M. Fallot, V.M. Bui et al., GLOBAL 2009 Proceedings Paris, Sept. 2000 ; Towards reactor neutrino applied physics, M. Fallot, S. Cormon, M. Cribier, L. Giot, B. Guillon, T. Lasserre, A. Letourneau, D. Lhuillier et J.   Martino, International Conference on Nuclear Data for Science and Technology, ND 2007 Proceedings, Nice, France ; Non proliferation studies with the Double Chooz detector, S. Cormon, M. Cribier, M. Fallot, T. Lasserre, A. Letourneau, D. Lhuillier et J. Martino XXII International Conference on Neutrino Physics and Astrophysics Neutrino 2006 proceedings, Santa Fe, New Mexico (USA).
 
-\[3\] MURE : MCNP Utility for Reactor Evolution. O. Meplan et al., Proceedings of the ENC 2005 (CD-Rom). [](http://www.nea.fr/tools/) [http://www.nea.fr/tools/](http://www.nea.fr/tools/) abstract/detail/nea-1845. O. Meplan, Tech. Rep. LPSC 0912 and IPNO-09-01 (2009). 
+\[3\] MURE : MCNP Utility for Reactor Evolution. O. Meplan et al., Proceedings of the ENC 2005 (CD-Rom). [](http://www.nea.fr/tools/)[http://www.nea.fr/tools/](http://www.nea.fr/tools/) abstract/detail/nea-1845. O. Meplan, Tech. Rep. LPSC 0912 and IPNO-09-01 (2009). 
 
 \[4\] P. Huber, Phys. Rev. C84, 024617 (2011).
 
@@ -147,5 +147,4 @@ Voir aussi les proceedings suivants :Towards reactor monitoring with antineutrin
 
 \[17\] BR2 reactor coupled MCNPX and MURE simulations for the SoLid experiment, L. Giot, M. Fallot, S. Kalcheva, E. Koonen, Proceeding for the RRFM 2015 conference (European Research Reactor Conference), April 2015.
 
-\[18\] New MURE developments for the calculation of Displacement Per Atoms, L. Giot, A. Onillon, M. Fallot et al., Rapport d’activité SUBATECH 2014.
-
+\[18\] New MURE developments for the calculation of Displacement Per Atoms, L. Giot, A. Onillon, M. Fallotet al., Rapport d’activité SUBATECH 2014.

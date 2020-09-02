@@ -1,7 +1,7 @@
 ---
 title: "Ressources CNRS"
 date: "2012-02-27 17:06:16 +0000 UTC"
-lastmod: "2018-11-29 09:17:42 +0000 UTC"
+lastmod: "2019-07-29 12:47:11 +0000 UTC"
 path: "bibliotheque/ressources-cnrs.md"
 joomlaid: 114
 category: "Bibliotheque"

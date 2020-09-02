@@ -1,7 +1,7 @@
 ---
 title: "Présentation"
 date: "2013-11-07 13:26:07 +0000 UTC"
-lastmod: "2014-09-08 08:16:52 +0000 UTC"
+lastmod: "2019-12-13 08:48:21 +0000 UTC"
 path: "smart/presentation.md"
 joomlaid: 326
 category: "Smart"
@@ -21,4 +21,4 @@ Nos principales missions sont :
 
 \- Les mesures liées au démantèlement d’installations nucléaires et à la gestion des déchets.
 
-Au titre de ces activités, SUBATECH dispose d'une autorisation ASN n°T440325L3 pour la détention et l'utilisation de sources radioactives scellées et non scellées.
+Au titre de ces activités, SUBATECH dispose d'une autorisation ASN n°T440325 pour la détention et l'utilisation de sources radioactives scellées et non scellées.

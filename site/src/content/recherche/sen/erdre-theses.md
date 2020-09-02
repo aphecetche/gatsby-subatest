@@ -1,7 +1,7 @@
 ---
 title: "Thèses"
 date: "2012-01-12 17:08:25 +0000 UTC"
-lastmod: "2019-02-12 15:07:10 +0000 UTC"
+lastmod: "2019-11-26 11:39:46 +0000 UTC"
 path: "recherche/sen/erdre-theses.md"
 joomlaid: 69
 category: "sen"
@@ -11,7 +11,7 @@ layout: "recherche"
 Thèses en cours
 ---------------
 
-\- Pas de thèse en cours
+#### \- Thèse de doctorat de Arthur Beloeuvre
 
 Thèses soutenues
 ----------------

@@ -1,7 +1,7 @@
 ---
-title: "Stage \"Observation en Entreprise\": session 2018 fermée"
+title: "Stage \"Observation en Entreprise\": sessions à venir"
 date: "2018-04-23 10:50:23 +0000 UTC"
-lastmod: "2018-10-11 15:19:09 +0000 UTC"
+lastmod: "2020-07-02 14:20:20 +0000 UTC"
 path: "actualités/stage-observation-en-entreprise-session-du-18-au-21-juin-2018-classe-de-seconde.md"
 joomlaid: 443
 category: "Actualités"

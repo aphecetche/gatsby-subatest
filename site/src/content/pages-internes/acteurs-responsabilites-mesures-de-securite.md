@@ -1,7 +1,7 @@
 ---
 title: "Acteurs, responsabilités, mesures de sécurité"
 date: "2013-02-06 13:50:48 +0000 UTC"
-lastmod: "2018-09-04 15:57:30 +0000 UTC"
+lastmod: "2020-06-25 15:28:27 +0000 UTC"
 path: "pages-internes/acteurs-responsabilites-mesures-de-securite.md"
 joomlaid: 306
 category: "Pages internes "
@@ -16,33 +16,32 @@ La responsabilité éditoriale est déléguée au comité web, qui est en charge
 
 Le comité web est composé des personnes suivantes :
 
+*   Farah Alibay
 *   Laurent Aphecetche
 *   Khalil Chawoshi
 *   Marie Germain
 *   Andrey Kalinichev
 *   Lilian Martin
+*   Tanja Pierret
 
 Un alias mél a été défini : comiteweb@subatech.in2p3.fr et est proposée comme destinataire par défaut des mél envoyés au « webmaster » du site.
 
 Le comité web n’a pas directement en charge la _production_ du contenu, qui est gérée par une vingtaine d’éditeurs, représentant les différents groupes et services. Chaque éditeur ne peut créer/modifier que des articles de la catégorie le concernant. Chaque éditeur possède un compte Joomla (nom d’utilisateur et mot de passe) dont il seul responsable, comme tout autre compte informatique du laboratoire (en particulier une attention particulière doit être portée à la qualité du mot de passe et à sa non divulgation).
 
-*   Amanda Porta (Erdre)
-*   Andry Kalinichev (Radiochimie)
+*   Amanda Porta (SEN)
+*   Andrey Kalinichev (Radiochimie)
 *   Arnaud Guertin (Prisma)
-*   Bernard Kubica (Communication)
-*   Christophe Renard (Electronique)
+*   Farah Alibay et Tanja Pierret (Communication)
+*   Frédéric Lefèvre (Electronique)
 *   Gines Martinez (Plasma)
-*   Grégoire Besse (Théorie)
+*   Jacopo Ghiglieri (Théorie)
 *   Khalil Chawoshi (Informatique)
-*   Lilian Martin (Astro)
+*   Lilian Martin (Neutrino)
 *   Jean-Pierre Cussonneau (Xénon)
-*   Marie Germain (Bibliothèque)
 *   Meriadeg Guillamet (Mécanique)
 *   Séverine Gadeyne (Enseignement)
 *   Sara Diglio (Séminaires)
-*   Stéphane Peigné (Théorie Haute Energie)
 *   Tanja Pierret (Séminaires, Evènements, Offres de thèse/emploi, Administration, Bibliothèque)
-*   Virginia De La Motta (Théorie Basse Energie)
 
 A noter qu’au sein du comité web 4 personnes ont des rôles d’édition étendus (ils peuvent éditer n’importe quelle catégorie) : Khalil a le rôle « administrateur » au sens Joomla du terme, Laurent a le rôle « administrateur », Lilian et Tanja sont éditeurs pour toutes les catégories.
 

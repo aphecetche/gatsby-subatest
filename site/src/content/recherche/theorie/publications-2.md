@@ -145,7 +145,7 @@ layout: "recherche"
 *   Algebraic solutions of integrodifferential CRPA equations; E.S. Hernandez and V. de la Mota; Zeitschrift fur Physik A 329 (1988) 21.
 *   Ternary fission through compact and creviced shapes; J. Mignen, G. Royer, J. Phys. G: Nucl. Phys 13 (1987) 987.
 *   On the projectile fragmentation in heavy-ion reactions at intermediate energies, G. Royer, Y. Raffray, A. Oubahadou, B. Remaud, Nucl. Phys. A 466 (1987) 139.
-*   A solvable version of the collisional Random Phase Approximation; V. de la Mota and E.S. Hernandez, [Zeitschrift fur Physik A 328 (1987) 177](images/Recherche/TheorieBE/articles/Zphys87.pdf).
+*   A solvable version of the collisional Random Phase Approximation; V. de la Mota and E.S. Hernandez, [Zeitschrift fur Physik A 328 (1987) 177](imagesBE/articles/Zphys87.pdf).
 *   Unifying the Boltzmannian and the second RPA approaches to nuclear dissipation; E.S. Hernandez and V. de la Mota, Jounal of Physiscs G: Nuclear Physics 13 (1987) L189.
 *   Relaxed-density potential and fusion cross-section saturation for light and medium nuclei; G. Royer, J. Phys. G: Nucl. Phys 12 (1986) 623.
 *   Static and dynamic fusion barriers in heavy-ion reactions; G. Royer, B. Remaud, Nucl. Phys. A 444 (1985) 477.

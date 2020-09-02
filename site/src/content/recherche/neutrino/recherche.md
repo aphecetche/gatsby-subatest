@@ -22,12 +22,12 @@ Nos objectifs sont la mesure des angles de mélanges de la matrice PMS, des term
 
 Nous sommes principalement impliqués dans 3 expériences avec des système de détection à très courte distance (quelques mètres), à courte distance (quelques centaines de mètres) et à distance intermédiaire (~ 50 km) de réacteurs nucléaires.
 
-![SOLIDthumb](images/group/SOLIDthumb.png)    [![DCthumb](images/group/DCthumb.png)](index.php?option=com_content&view=article&id=412:double-chooz-experiment-2&catid=60:neutrino-recherche&lang=en-GB&Itemid=920)    [![JUNOthumb](images/group/JUNOthumb.png)](index.php?option=com_content&view=article&id=411:juno-experiment&catid=60:neutrino-recherche&lang=en-GB&Itemid=920)
+![SOLIDthumb](images/group/SOLIDthumb.png)    [![DCthumb](images/group/DCthumb.png)](/.md)    [![JUNOthumb](images/group/JUNOthumb.png)](/.md)
 
 * * *
 
 **2) neutrinos astrophysiques de haute énergie**
 
-**Expérience visant la détection de neutrinos (d'origines atmosphériques et astrophysiques) dans le cadre du [projet KM3Net](index.php?option=com_content&view=article&id=426:la-collaboration-km3net&catid=60:neutrino-recherche&lang=fr-FR&Itemid=420), un réseau de télescopes au fond de la mer Méditerrannée****.** Ces télescopes ont également accès aux neutrinos d'ultra haute énergie produits seulement dans les phénomènes les plus violents de l'univers (dans la gamme TeV - EeV).  
+**Expérience visant la détection de neutrinos (d'origines atmosphériques et astrophysiques) dans le cadre du [projet KM3Net](/recherche/neutrino/la-collaboration-km3net.md), un réseau de télescopes au fond de la mer Méditerrannée****.** Ces télescopes ont également accès aux neutrinos d'ultra haute énergie produits seulement dans les phénomènes les plus violents de l'univers (dans la gamme TeV - EeV).  
 
                        ![km3net thumb](images/group/km3net_thumb.png)

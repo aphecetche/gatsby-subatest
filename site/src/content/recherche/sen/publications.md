@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 date: "2012-02-10 13:05:29 +0000 UTC"
-lastmod: "2019-02-19 16:28:49 +0000 UTC"
+lastmod: "2019-11-26 14:14:49 +0000 UTC"
 path: "recherche/sen/publications.md"
 joomlaid: 109
 category: "sen"
@@ -11,11 +11,18 @@ layout: "recherche"
 Publications dans journaux avec comité de lecture
 -------------------------------------------------
 
-#### 2019
+#### **2019**
 
+* * *
+
+*   M. Estienne et al., _Updated Summation Model: An Improved Agreement with the Daya Bay Antineutrino Fluxes_, Phys. Rev. Lett. **123**, (2019) 022502.
 *   V. Guadilla et al., _Large Impact of the Decay of Niobium Isomers on the Reactor ¯νe Summation Calculations_, Phys. Rev. Lett. **122** (2019) 042502.
+*   V. Guadilla al., Total absorption γ -ray spectroscopy of niobium isomers, Phys. Rev. C 100 (2) (2019) 024311 .
+*   V. Guadilla et al., _Total absorption γ-ray spectroscopy of the β-delayed neutron emitters 137I and 95Rb_, Phys. Rev. C 100 (4) (2019) 044305.
 
-#### 2018
+#### **2018**
+
+* * *
 
 *    Y. Abreu et al., _Optimisation of the Scintillation Light Collection and Uniformity for the Solid Experiment_, J. of Inst. **13** (2018) P09005.
 
@@ -25,7 +32,9 @@ Publications dans journaux avec comité de lecture
 
 *   V. Guadilla et al., _Characterization and Performance of the DTAS Detector_, Nucl. Inst. Meth. A **910** (2018) 79.
 
-#### 2017
+#### **2017**
+
+* * *
 
 *   E. Valencia et al., _Total Absorption γ-ray Spectroscopy of the β-delayed Neutrons 87Br, 88Br and 94Rb_, Phys. Rev. C **95** (2017) 024320.
 
@@ -39,7 +48,9 @@ Publications dans journaux avec comité de lecture
 
 *   Y. Abreu et al., _A Novel Segmented-Scintillator Antineutrino Detector_, J. of Inst **12** (2017) P04024.
 
-#### 2016
+#### **2016**
+
+* * *
 
 *   Y. Abe et al., _Characterization of the Spontaneous Light Emission of the PMTs used in the Double Chooz Experiment_, J. of Inst. **11** (2016) P08001.
     
@@ -54,16 +65,18 @@ Publications dans journaux avec comité de lecture
 *   G. Boireau et al., _Online Monitoring of the Osiris Reactor with the Nucifer Neutrino Detector_, Phys. Rev. D **93** (2016) 112006.
     
 
-#### 2015
+#### **2015**
 
-*   A.-A. Zakari-Issoufou et al. _Total Absorption Spectroscopy Study of 92Rb Decay: A Major Contributor to Reactor Antineutrino Flux_, Phys. Rev. Lett. **115**, 102503 (2015)
+* * *
+
+*   A.-A. Zakari-Issoufou et al., _Total Absorption Spectroscopy Study of 92Rb Decay: A Major Contributor to Reactor Antineutrino Flux_, Phys. Rev. Lett. **115**, 102503 (2015)
     
 
-*   Y. Abe et al. _Improved Measurements of the Neutrino Mixing Angle theta(13) with the Double Chooz Detector_, Journal of High Energy Physics **1502**, 74 (2015).
+*   Y. Abe et al., _Improved Measurements of the Neutrino Mixing Angle theta(13) with the Double Chooz Detector_, Journal of High Energy Physics **1502**, 74 (2015).
     
-*   M. Ernoult et al. _Advanced Plutonium Management in PWR, Complementarity of Thorium and Uranium_, Progress in Nuclear Energy **78**, 330 (2015).
+*   M. Ernoult et al., _Advanced Plutonium Management in PWR, Complementarity of Thorium and Uranium_, Progress in Nuclear Energy **78**, 330 (2015).
     
-*   B. Leniau, B. Mouginot, N. Thiolliere, and et al. _A Neural Network Approach for Burn-up Calculation and Its Application to the Dynamic Fuel Cycle Code CLASS_, Annals of Nuclear Energy **81**, 125 (2015).
+*   B. Leniau, B. Mouginot, N. Thiolliere, and et al., _A Neural Network Approach for Burn-up Calculation and Its Application to the Dynamic Fuel Cycle Code CLASS_, Annals of Nuclear Energy **81**, 125 (2015).
     
 *   B. Mouginot, B. Leniau, N. Thiollière et al., _MOX fuel enrichment prediction in PWR using polynomial models_, Annals of Nuclear Energy, Volume 85, November 2015, Pages 812-819, ISSN 0306-4549.
     
@@ -72,48 +85,55 @@ Publications dans journaux avec comité de lecture
 *   N. Thiollière, F. Courtin et al., _Prediction of required MgO volumic fraction in ADS fuel dedicated to minor actinides transmutation_. Progress in Nuclear Energy, Volume 85, November 2015, Pages 518-524, ISSN 0149-1970.
     
 *   M. Lebois et al., _Comparative measurement of prompt fission γ-ray emission from fast-neutron-induced fission of 235U and 238U_, Phys. Rec. C **92** (2015) 034618.
+    
 
-#### 2014
+**2014**
 
-*   Y. Abe et al. _Precision Muon Reconstruction in Double Chooz_, Nuclear Instruments & Methods in Physics Research Section a-Accelerators Spectrometers Detectors and Associated Equipment **764**, 330 (2014).
+* * *
+
+*   Y. Abe et al., _Precision Muon Reconstruction in Double Chooz_, NIM A **764**, 330 (2014).
     
-*   Y. Abe et al. _Background-Independent Measurement of theta(13) in Double Chooz_, Physics Letters B **735**, 51 (2014).
+*   Y. Abe et al., _Background-Independent Measurement of theta(13) in Double Chooz_, Phys. Lett. B **735**, 51 (2014).
     
-*   Y. Abe et al. _Improved Measurements of the Neutrino Mixing Angle theta(13) with the Double Chooz Detector_, Journal of High Energy Physics **1410**, 086 (2014).
+*   Y. Abe et al., _Improved Measurements of the Neutrino Mixing Angle theta(13) with the Double Chooz Detector_, JHEP **1410**, 086 (2014).
     
-*   Y. Abe et al. _Ortho-Positronium Observation in the Double Chooz Experiment_, Journal of High Energy Physics **1410**, 032 (2014).
+*   Y. Abe et al., _Ortho-Positronium Observation in the Double Chooz Experiment_, JHEP **1410**, 032 (2014).
     
 *   A. Algora et al., Total Absorption Study of Beta Decays Relevant for Nuclear Applications and Nuclear Structure, Nuclear Data Sheets **120**, 12 (2014).
     
-*   S. Cormon et al. _Determination of the Sensitivity of the Antineutrino Probe for Reactor Core Monitoring_, Nuclear Data Sheets **120**, 141 (2014).
+*   S. Cormon et al., _Determination of the Sensitivity of the Antineutrino Probe for Reactor Core Monitoring_, Nuclear Data Sheets **120**, 141 (2014).
     
-*   A. S. Cucoanes. _The Nucifer Experiment_, Nuclear Data Sheets **120**, 157 (2014).
+*   A. S. Cucoanes., _The Nucifer Experiment_, Nuclear Data Sheets **120**, 157 (2014).
     
-*   M. Estienne et al. _Contribution of Recently Measured Nuclear Data to Reactor Antineutrino Energy Spectra Predictions_, Nuclear Data Sheets **120**, 149 (2014).
+*   M. Estienne et al., _Contribution of Recently Measured Nuclear Data to Reactor Antineutrino Energy Spectra Predictions_, Nuclear Data Sheets **120**, 149 (2014).
     
-*   M. Fallot. _The Detection of Reactor Antineutrinos for Reactor Core Monitoring: An Overview_, Nuclear Data Sheets **120**, 137 (2014).
+*   M. Fallot., _The Detection of Reactor Antineutrinos for Reactor Core Monitoring: An Overview_, Nuclear Data Sheets **120**, 137 (2014).
     
-*   X. Ledoux et al. _The Neutrons for Science Facility at SPIRAL-2_, Nuclear Data Sheets **119**, 353 (2014).
+*   X. Ledoux et al., _The Neutrons for Science Facility at SPIRAL-2_, Nuclear Data Sheets **119**, 353 (2014).
     
-*   A. Onillon. _Reactor and Antineutrino Spectrum Calculations for the Double Chooz First Phase Results_, Nuclear Data Sheets **120**, 153 (2014).
+*   A. Onillon., _Reactor and Antineutrino Spectrum Calculations for the Double Chooz First Phase Results_, Nuclear Data Sheets **120**, 153 (2014).
     
-*   L. Zanini et al. _Measurement of Volatile Radionuclides Production and Release Yields Followed by a Post-Irradiation Analysis of a Pb/Bi Filled Ta Target at ISOLDE_, Nuclear Data Sheets **119**, 292 (2014).
-    
-
-#### 2013
-
-*   Y. Abe et al. _Direct Measurement of Backgrounds Using Reactor-off Data in Double Chooz_, Physical Review D **87**, 011102 (2013).
-    
-*   Y. Abe et al. _First Measurement of theta(13) from Delayed Neutron Capture on Hydrogen in the Double Chooz Experiment_, Physics Letters B **723**, 66 (2013).
-    
-*   F. Beissel and et al. _Trigger and Timing System of the Double Chooz Experiment_, JINST **8**, T01003 (2013).
-    
-*   L. Giot and et al. _Isotopic Production Cross Sections of Residual Nuclei in Spallation Reactions Induced by 136Xe Projectiles on Proton at 500 A MeV_, Nucl. Phys. A **899**, 116 (2013).
-    
-*   K.-H. Schmidt and et al. _High-Precision Measurement of Total Fission Cross Sections in Spallation Reactions_, Physical Review C **87**, 034601 (2013).
+*   L. Zanini et al., _Measurement of Volatile Radionuclides Production and Release Yields Followed by a Post-Irradiation Analysis of a Pb/Bi Filled Ta Target at ISOLDE_, Nuclear Data Sheets **119**, 292 (2014).
     
 
-#### 2012
+#### **2013**
+
+* * *
+
+*   Y. Abe et al., _Direct Measurement of Backgrounds Using Reactor-off Data in Double Chooz_, Phys. Rev. D **87**, 011102 (2013).
+    
+*   Y. Abe et al., _First Measurement of theta(13) from Delayed Neutron Capture on Hydrogen in the Double Chooz Experiment_, Phys. Lett. B **723**, 66 (2013).
+    
+*   F. Beissel and et al., _Trigger and Timing System of the Double Chooz Experiment_, JINST **8**, T01003 (2013).
+    
+*   L. Giot and et al., _Isotopic Production Cross Sections of Residual Nuclei in Spallation Reactions Induced by 136Xe Projectiles on Proton at 500 A MeV_, Nucl. Phys. A **899**, 116 (2013).
+    
+*   K.-H. Schmidt and et al., _High-Precision Measurement of Total Fission Cross Sections in Spallation Reactions_, Phys. Rev. C **87**, 034601 (2013).
+    
+
+#### **2012**
+
+* * *
 
 *   Y. Abe et al. _Indication of Reactor (nu)over-Bar(e) Disappearance in the Double Chooz Experiment_, Physical Review Letters **108**, 131801 (2012).
     
@@ -128,7 +148,9 @@ Publications dans journaux avec comité de lecture
 *   C. L. Jones et al. _Reactor Simulation for Antineutrino Experiments Using DRAGON and MURE_, Physical Review D **86**, 012001 (2012).
     
 
-####  2011
+####  **2011**
+
+* * *
 
 *   M. Assie et al. _SPECTROSCOPY OF THE UNBOUND NUCLEUS Na-18_, International Journal of Modern Physics E-Nuclear Physics **20**, 971 (2011).
     
@@ -144,10 +166,12 @@ Publications dans journaux avec comité de lecture
     
 *   J. L. Tain et al. _Beta Decay Studies of Neutron Rich Nuclei Using Total Absorption Gamma-Ray Spectroscopy and Delayed Neutron Measurements_, Journal of the Korean Physical Society **59**, 1499 (2011).
     
-*   L. Zanini et al., _Experience from the post-test analysis of MEGAPIE_, Journal of Nuclear Materials, 415 367–377 (2011)
+*   L. Zanini et al., _Experience from the post-test analysis of MEGAPIE_, Journal of Nuclear Materials, 415 367–377 (2011).
     
 
-#### 2010
+#### **2010**
+
+* * *
 
 *   S. P. Chabod, J.-C. David, D. Ene, D. Ridikas, and N. Thiolliere. _In-Target Radioactive Nuclei Production Rates with EURISOL Single-Stage Target Configuration_, European Physical Journal A **45**, 131 (2010).
     
@@ -156,11 +180,15 @@ Publications dans journaux avec comité de lecture
 *   J. A. Scarpaci and M. Fallot. _Probing Preformed Alpha Particles in the Ground State of Nuclei_, Phys. Rev. C **82**, (2010).
     
 
-#### 2009
+#### **2009**
 
-*   Stefano Panebianco et al., _Neutronic characterization of the MEGAPIE target_, Annals of Nuclear Energy, 36 350-354 (2009)
+* * *
 
-#### 2008
+*   Stefano Panebianco et al., _Neutronic characterization of the MEGAPIE target_, Annals of Nuclear Energy, 36 350-354 (2009).
+
+#### **2008**
+
+* * *
 
 *   M. Dierckx et al., _WEBEXPIR: Windowless target electron beam experimental irradiation_  , Journal of Nuclear Materials, 376 302-306 (2008)
     
@@ -168,10 +196,12 @@ Publications dans journaux avec comité de lecture
     
 *   F. Haddad et al., _ARRONAX, a high energy and high intensity cyclotron for nuclear medicine_, European Journal of Nuclear Medicine and Molecular Imaging, 35:1377–1387 (2008)
     
-*   L. Zanini et al., _Neutronic and Nuclear Post-Test Analysis of MEGAPIE_, PSI Bericht Nr. 08-04, ISSN 1019-0643 (2008)
+*   L. Zanini et al., _Neutronic and Nuclear Post-Test Analysis of MEGAPIE_, PSI Bericht Nr. 08-04, ISSN 1019-0643 (2008).
     
 
-#### 2007
+#### **2007**
+
+* * *
 
 *   B. Jurado et al., _Mass measurements of neutron-rich nuclei near the N=20 and 28 shell closures,_ Physics Letters B649, 43-48 2007.
     
@@ -190,7 +220,9 @@ Publications dans journaux avec comité de lecture
 *   K. Rusek, L. Giot, P. Roussel-Chomaz, _Influence of the transfer reactions on p+6He elastic scattering_, European Physics Journal A 32 (2):159-163 2007.
     
 
-#### 2006
+#### **2006**
+
+* * *
 
 *   E. Becheva et al., _The N=14 shell closure in 22O viewed through a neutron sensitive probe_, Phys. Rev. Lett. 96, 012501(2006).
     
@@ -207,13 +239,16 @@ Publications dans journaux avec comité de lecture
 *   F. Skaza et al. _Experimental evidence for subshell closure in He-8 and indication of a resonant state in 7He below 1 MeV_, Physical Review C73 044301 2006.
     
 
-#### 2005
+#### **2005**
+
+* * *
 
 *   P. Adrich et al., _Evidence for Pygmy and Giant Dipole Resonances in 130Sn and 132Sn_, Phys. Rev. Lett. 95, 132501 (2005).
     
 *   M. Fallot et al., _Direct decay of the GQR in 40Ca through alpha-particle emission_, Phys. Lett. B 613 (2005)128-133.
     
 *   A.Guertin et al., _Neutron and light charged particle production in proton induced reactions on 208Pb at 62.9 MeV_, European Physical Journal A, 23, p. 49-60 2005
+    
 *   L. Giot et al., _Investigation of 6He cluster structures_, Physical Review C71 064311, 2005.
     
 *   FD. Santos et al., _Study of 19Na at SPIRAL_, European Physical Journal A24 :237-247 2005.
@@ -221,7 +256,9 @@ Publications dans journaux avec comité de lecture
 *   F. Skaza et al., _Important pickup coupling effect on 8He(p, p) elastic scattering_, Physics Letters B 619, 82-87 2005.
     
 
-#### 2004
+#### **2004**
+
+* * *
 
 *   F. Barrue et al., _Electron emission induced by fast heavy ions in a thin silicon crystal_, Physical Review A 70 032902 2004.
     
@@ -236,14 +273,18 @@ Publications dans journaux avec comité de lecture
 *   T. Zerguerras et al., _Study of light proton-rich nuclei by complete kinematics measurements_, European Physical Journal A, vol 20 number 3 (2004)389.
     
 
-#### 2003
+#### **2003**
+
+* * *
 
 *   K. Boretzky et al., _Two-Phonon Giant Resonances in 136Xe, 208Pb, and 238U_, Physical Review C 68, 024317 (2003).
     
 *   M. Fallot et al., _Anharmonic Vibrations in nuclei_, Nuclear Physics A 729 (2003) 699-712.
     
 
-#### 2002
+#### **2002**
+
+* * *
 
 *   M.V. Andrés et al., _Microscopic description of Coulomb and nuclear excitation of multiphonon states in 40Ca + 40Ca collisions_, Physical Review C, Vol. 65 (2002) 14608.
     
@@ -252,8 +293,12 @@ Publications dans journaux avec comité de lecture
 *   M. Fallot et al., _Coulomb versus nuclear break-up of 11Be halo nucleus in a non perturbative framework,_ Nuclear Physics A 700(1-2)(2002)70.
     
 
-Publications dans des actes de congress
----------------------------------------
+* * *
+
+* * *
+
+Publications dans des actes de congrès
+--------------------------------------
 
 *   BR2 Reactor Coupled MCNPX and MURE Simulations for the SoLid Experiment, L. Giot, M. Fallot, S. Kacheva, E. Koonen, Proceedings of the European Research Reactor Conference RRFM 2015, 19 - 23 April 2015, Bucharest, Romania
     
@@ -418,6 +463,10 @@ Publications dans des actes de congress
     
 *   Guertin and al., Light charged particles production cross sections in 62.9 MeV proton induced reactions on 208Pb, Proceedings of the XL International Winter Meeting on Nuclear Physics, p. 224-234, Bormio (Italie)   2002
     
+
+* * *
+
+* * *
 
 Publications sans comité de lecture :
 -------------------------------------

@@ -14,7 +14,7 @@ Par contre dans les collisions d’ions lourds, notamment aux énergies de RHIC 
 
 ### Conditions initiales  fluctuantes
 
-Ce traitement hydrodynamique avec conditions initiales fluctuantes permet d’expliquer des effets spectaculaires, comme les corrélations entre deux particules émises au même angle azimutal mais avec des rapidités très différentes (“ridge effect”, voir la Figure). Cette corrélation montre non seulement l’existence d’un fluide, mais aussi la présence de sous-structures des flux à une échelle de 10\-16 mètres!![klaus-ridge](images/Recherche/TheorieHE/klaus-ridge.jpg) 
+Ce traitement hydrodynamique avec conditions initiales fluctuantes permet d’expliquer des effets spectaculaires, comme les corrélations entre deux particules émises au même angle azimutal mais avec des rapidités très différentes (“ridge effect”, voir la Figure). Cette corrélation montre non seulement l’existence d’un fluide, mais aussi la présence de sous-structures des flux à une échelle de 10\-16 mètres!![klaus-ridge](imagesHE/klaus-ridge.jpg) 
 
 Nous avons publié en 2002 le premier article sur les conditions initiales “événement-par-événement”. Depuis 2006 nous étudions l’évolution hydrodynamique. Nous avons été les  pionniers du traitement hydrodynamique avec conditions initiales fluctuantes, très en vogue actuellement.
 

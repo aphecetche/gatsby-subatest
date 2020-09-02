@@ -1,7 +1,7 @@
 ---
 title: "Liens"
 date: "2012-03-02 09:20:41 +0000 UTC"
-lastmod: "2017-10-27 14:25:46 +0000 UTC"
+lastmod: "2020-08-18 15:42:06 +0000 UTC"
 path: "recherche/astro/liens.md"
 joomlaid: 162
 category: "astro"
@@ -9,6 +9,8 @@ asides: ["astro.+menu+"]
 layout: "recherche"
 ---
 Quelques liens pertinents pour la thématique : sites du vulgarisation, bases de données, banques d'images et de vidéos, etc... et pour les activités du groupe.
+
+**Le site du projet [CODALEMA](codalema.in2p3.fr), récemment mis à jour et rassemblant des informations sur les instruments, les publications, les thèses.**
 
 **Les sites de nos principaux partenaires :**
 

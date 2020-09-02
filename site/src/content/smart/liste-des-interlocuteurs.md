@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 date: "2014-02-07 07:30:25 +0000 UTC"
-lastmod: "2018-10-23 12:34:00 +0000 UTC"
+lastmod: "2019-12-13 08:49:52 +0000 UTC"
 path: "smart/liste-des-interlocuteurs.md"
 joomlaid: 337
 category: "Smart"
@@ -67,8 +67,8 @@ Gaëlle GUEREL
 
 Chargé de radioprotection
 
-Emmanuel PLEIBER
+Marcel MOKILI
 
-02.51.85.84.06
+02.51.85.84.49
 
   [Pour venir](fr/laboratoire/venir-a-subatech/plan-dacces)

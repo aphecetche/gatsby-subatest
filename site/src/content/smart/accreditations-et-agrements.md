@@ -1,7 +1,7 @@
 ---
 title: "Accréditations et agréments"
 date: "2013-11-07 14:07:55 +0000 UTC"
-lastmod: "2018-10-23 12:42:51 +0000 UTC"
+lastmod: "2020-08-04 06:30:50 +0000 UTC"
 path: "smart/accreditations-et-agrements.md"
 joomlaid: 327
 category: "Smart"
@@ -21,7 +21,7 @@ Le service est engagé dans un processus d’amélioration continue et dans une 
 
 \- l’implication d’un personnel qualifié bénéficiant d’une formation continue garant de compétences.
 
-Reconnu au niveau national, SMART dispose d’[agréments](images/SMART/liste_agrements_au_03-07-2018.pdf) délivrés par :
+Reconnu au niveau national, SMART dispose d’[agréments](images/SMART/Agrements_Subatech_07-2020.pdf) délivrés par :
 
 \- l’Autorité de Sûreté Nucléaire (ASN) permettant de fournir des résultats répondant aux exigences du Réseau National de Mesure de Radioactivité dans l’environnement ,
 

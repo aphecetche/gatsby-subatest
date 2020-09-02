@@ -8,6 +8,6 @@ category: "theorie"
 asides: ["theorie.+menu+"]
 layout: "recherche"
 ---
-[Activités ¨basses énergies¨](/recherche/theorie/theoriebe-presentation.md)  
+[Activités ¨basses énergies¨](/recherche/theorie/theoriebe-presentation)  
 
-[Activités ¨hautes énergies¨](/recherche/theorie/sous-groupe-hautes-energies.md)
+[Activités ¨hautes énergies¨](/recherche/theorie/sous-groupe-hautes-energies)

@@ -10,4 +10,4 @@ layout: "recherche"
 ---
 La perte d'energie partonique revisitee
 
-![lightfermionloss-tprod-0](imagesHE/lightfermionloss-tprod-0.jpg)
+![lightfermionloss-tprod-0](images/lightfermionloss-tprod-0.jpg)

@@ -8,7 +8,11 @@ category: "neutrino"
 asides: ["neutrino.+menu+"]
 layout: "recherche"
 ---
-{loadposition membres}
+
+import Members from "gatsby-theme-ldap/src/components/Members"
+
+<Members group="neutrino" />
+
 
 **Émérite**
 

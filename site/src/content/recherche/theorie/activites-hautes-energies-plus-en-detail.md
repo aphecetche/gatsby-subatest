@@ -12,7 +12,7 @@ layout: "recherche"
 
 Une thématique principale est l'étude de l'interaction forte dans un domaine d'énergie allant du GeV au TeV. La matière nucléaire ordinaire (les noyaux atomiques dans des conditions "normales" de température et de pression) est constituée de protons et de neutrons (nucléons), lesquels sont composés de particules _élémentaires_ appelées quarks et gluons soumises à l'interaction forte. Les particules _composites_ constituées de quarks et de gluons (et donc sensibles à l'interaction forte), dénommées hadrons, comprennent en plus des nucléons toute une collection de particules de durée de vie brève (pions, kaons, hypérons, quarkonia,...).
 
-![qcd-coupling](imagesHE/qcd-coupling.jpg)La théorie fondamentale de l'interaction forte, la chromodynamique quantique (QCD pour "Quantum Chromodynamics"), est exprimée au niveau mathématique en fonction des seuls quarks et gluons.  Depuis son élaboration au début des années 1970, la QCD a été testée et vérifiée (et continue à l'être) dans des collisions impliquant des hadrons d'énergie supérieure à la masse du nucléon (d'ordre \\(1 \\,\\rm{GeV}/c^2\\)) et permettant ainsi de sonder le contenu des hadrons en quarks et gluons.  Dans le domaine d'énergie \\(Q \\gg 1 \\,\\rm{GeV}\\), la constante de couplage \\(\\alpha\_s\\) de QCD devient petite (c'est la propriété de liberté asymptotique de QCD, voir Figure ci-contre), et les techniques bien établies des calculs perturbatifs en théorie des champs peuvent être utilisées. Bien que la QCD n'atteigne pas, dans ses prédictions, le degré de précision de l'electrodynamique quantique (QED), c'est en raison du succès de la QCD perturbative (PQCD) qu'il est actuellement établi que la QCD est la théorie fondamentale correcte de l'interaction forte.
+![qcd-coupling](images/qcd-coupling.jpg)La théorie fondamentale de l'interaction forte, la chromodynamique quantique (QCD pour "Quantum Chromodynamics"), est exprimée au niveau mathématique en fonction des seuls quarks et gluons.  Depuis son élaboration au début des années 1970, la QCD a été testée et vérifiée (et continue à l'être) dans des collisions impliquant des hadrons d'énergie supérieure à la masse du nucléon (d'ordre \\(1 \\,\\rm{GeV}/c^2\\)) et permettant ainsi de sonder le contenu des hadrons en quarks et gluons.  Dans le domaine d'énergie \\(Q \\gg 1 \\,\\rm{GeV}\\), la constante de couplage \\(\\alpha\_s\\) de QCD devient petite (c'est la propriété de liberté asymptotique de QCD, voir Figure ci-contre), et les techniques bien établies des calculs perturbatifs en théorie des champs peuvent être utilisées. Bien que la QCD n'atteigne pas, dans ses prédictions, le degré de précision de l'electrodynamique quantique (QED), c'est en raison du succès de la QCD perturbative (PQCD) qu'il est actuellement établi que la QCD est la théorie fondamentale correcte de l'interaction forte.
 
 Il est ainsi communément admis que toutes les propriétés de l'interaction forte doivent _en principe_ découler de l'expression mathématique de la QCD. Cependant, certaines observations résistent toujours à une démonstration à partir des premiers principes. En particulier, la propriété de confinement des quarks et gluons -- le fait que les seules particules sensibles à l'interaction forte détectées expérimentalement soient des hadrons et non des quarks et gluons isolés -- n'est pas totalement comprise. De même, l'origine physique de la masse des hadrons reste mystérieuse, malgré le succès des calculs de QCD sur réseau pour prédire les masses hadroniques. Les questions du confinement et de la masse des hadrons font partie des problèmes impliquant une échelle d'énergie de l'ordre du GeV, ou \\(\\alpha\_s\\) est d'ordre 1, rendant la PQCD a priori inapplicable.
 
@@ -36,17 +36,17 @@ Divers axes de recherche sont suivis, différenciés en fonction du domaine d'é
 
 *   *   **Phénoménologie des processus durs** -- Dans le cadre de la PQCD, on cherche à confronter les calculs théoriques aux données expérimentales pour les processus _durs_ (impliquant une échelle \\( Q \\gg 1\\,\\rm{GeV}\\)). Ceci permet de tester plus avant la PQCD, notamment dans le cadre des théorèmes de factorisation. Diverses thématiques sont abordées:
         
-        *   [Quarks lourds et quarkonia dans le QGP](/recherche/theoriehe/quarks-lourds-et-quarkonia-dans-un-plasma.md)
-        *   [Propagation des partons dans la matière nucléaire](/recherche/theoriehe/propagation-des-partons-dans-la-matiere-nucleaire.md)
+        *   [Quarks lourds et quarkonia dans le QGP](/recherche/theoriehe/quarks-lourds-et-quarkonia-dans-un-plasma)
+        *   [Propagation des partons dans la matière nucléaire](/recherche/theoriehe/propagation-des-partons-dans-la-matiere-nucleaire)
         *   Production de photons
 
 *   *   **Etude globale d'événements** -- Nous étudions différents phénomènes à l'interface entre le langage hadronique et le langage partonique:[](fr/recherche/theorie-haute-energie/theoriehe-nouvelles/205-werner1)
-        *   [Formation, évolution et hadronisation du plasma de quarks et de gluons](/recherche/theoriehe/werner1.md)
-        *   [Gerbes de rayons cosmiques](/recherche/theoriehe/gerbes-de-rayons-cosmiques.md)
+        *   [Formation, évolution et hadronisation du plasma de quarks et de gluons](/recherche/theoriehe/werner1)
+        *   [Gerbes de rayons cosmiques](/recherche/theoriehe/gerbes-de-rayons-cosmiques)
 
 D'autre part, notons des implications dans d'autres axes de recherche:
 
 *   *   **Autres thématiques: théorie pure, valorisation et applications**:
-        *   [Théorie des champs](/recherche/theoriehe/theorie-quantique-des-champs.md)
-        *   [Sens électrique des poissons](/recherche/theoriehe/electrolocation.md)
+        *   [Théorie des champs](/recherche/theoriehe/theorie-quantique-des-champs)
+        *   [Sens électrique des poissons](/recherche/theoriehe/electrolocation)
         *   Applications de QM

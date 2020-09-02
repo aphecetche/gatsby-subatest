@@ -11,16 +11,16 @@
  *
  * See: https://www.gatsbyjs.org/docs/creating-a-local-plugin/#developing-a-local-plugin-that-is-outside-your-project
  */
-const ldap = require("ldapjs")
+const ldap = require("ldapjs");
 
-exports.onPreInit = (_, pluginOptions) => {
-  console.log("gatsby-source-ldap options:", JSON.stringify(pluginOptions))
-}
+exports.onPreInit = ({ reporter }, pluginOptions) => {
+  reporter.info(`gatsby-theme-ldap options: ${JSON.stringify(pluginOptions)}`);
+};
 
 // note that the getMembers should never fails : if we cannot get the LDAP data
 // we simply return a fake members array with only one element which is constructed
 // in a way that the Members component won't fail trying to render it
-const getMembers = disabled =>
+const getMembers = (disabled, reporter) =>
   new Promise((resolve, reject) => {
     const noMembers = [
       {
@@ -31,15 +31,17 @@ const getMembers = disabled =>
         group: "",
         title: "",
       },
-    ]
+    ];
 
     if (disabled) {
-      console.log("I am disabled. Just return no members")
-      resolve(noMembers)
-      return
+      reporter.warn(
+        "gatsby-theme-ldap is disabled (from options) : just returning no members"
+      );
+      resolve(noMembers);
+      return;
     }
 
-    const client = ldap.createClient({ url: "ldaps://ccdirectory.in2p3.fr" })
+    const client = ldap.createClient({ url: "ldaps://ccdirectory.in2p3.fr" });
     const opts = {
       filter: `(ou=UMR6457)`,
       scope: "sub",
@@ -52,21 +54,21 @@ const getMembers = disabled =>
         "businessCategory",
         "title",
       ],
-    }
+    };
 
-    var members = []
+    var members = [];
 
-    console.log("createClient done")
+    reporter.info("gatsby-theme-ldap: createClient done");
 
-    client.bind("", "", function(err) {
+    client.bind("", "", function (err) {
       if (err) {
-        console.log("bind to ldap server failed")
-        resolve(noMembers)
-        return
+        reporter.error("gatsby-theme-ldap: bind to ldap server failed");
+        resolve(noMembers);
+        return;
       } else {
-        console.log("Performing ldap search")
-        client.search("ou=people,dc=in2p3,dc=fr", opts, function(err, res) {
-          res.on("searchEntry", function(entry) {
+        reporter.info("gatsby-theme-ldap: performing ldap search");
+        client.search("ou=people,dc=in2p3,dc=fr", opts, function (err, res) {
+          res.on("searchEntry", function (entry) {
             const {
               cn,
               mail,
@@ -74,38 +76,39 @@ const getMembers = disabled =>
               roomNumber,
               businessCategory,
               title,
-            } = entry.object
+            } = entry.object;
             members.push({
               name: cn
                 .split(" ")
-                .filter(w => /\d+/.test(w) === false)
+                .filter((w) => /\d+/.test(w) === false)
                 .join(" "),
               mail,
               telephoneNumber: String(telephoneNumber || ""),
               roomNumber: String(roomNumber || ""),
               group: String(businessCategory),
               title: String(title),
-            })
-          })
-          res.on("end", function(result) {
+            });
+          });
+          res.on("end", function (result) {
             if (result.status === 0) {
-              client.unbind(res.end)
+              client.unbind(res.end);
             }
-            resolve(members)
-          })
-        })
+            reporter.info(`gatsby-theme-ldap: got ${members.length} members`);
+            resolve(members);
+          });
+        });
       }
-    })
-  })
+    });
+  });
 
 exports.sourceNodes = async (
-  { actions, createContentDigest, createNodeId },
+  { actions, reporter, createContentDigest, createNodeId },
   pluginOptions
 ) => {
-  const { createNode } = actions
+  const { createNode } = actions;
 
-  return getMembers(pluginOptions.disabled).then(members => {
-    members.forEach(m => {
+  return getMembers(pluginOptions.disabled, reporter).then((members) => {
+    members.forEach((m) => {
       createNode({
         ...m,
         id: createNodeId(`member-${m.name}`),
@@ -115,7 +118,7 @@ exports.sourceNodes = async (
           type: "Member",
           contentDigest: createContentDigest(m),
         },
-      })
-    })
-  })
-}
+      });
+    });
+  });
+};

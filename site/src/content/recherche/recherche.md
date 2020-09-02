@@ -10,15 +10,15 @@ asides: ["Recherche.+menu+"]
 Les activités de recherche de SUBATECH gravitent autour d’un domaine, le nucléaire, que ce soit dans ses aspects les plus fondamentaux ou très appliqués, tant expérimentaux que théoriques, avec des recherches menées à la fois dans le domaine de la physique nucléaire et de la chimie nucléaire.
 
 *   Radiochimie
-    *   [Recherche fondamentale](/recherche/radiochimie/radiochimie-presentation.md)
+    *   [Recherche fondamentale](/recherche/radiochimie/radiochimie-presentation)
     *   Service de Métrologie et d'Analyse de la Radioactivité et des Eléments Traces [(SMART)](SMART/web/index.html)
 *   Physique
-    *   L'étude du [plasma de quarks et de gluon](/recherche/plasma/presentation-groupe-plasma.md), état de la matière lors des premiers microseconds apres le big bang, via les collisions enrte ions lourds auprès du [LHC](http://www.lhc-france.fr/) avec le detecteur [ALICE](http://aliweb.cern.ch/)
-    *   Les rayons cosmiques de ultra haute énergie : la [radiodétection](/recherche/astro/astro-presentation.md)
-    *   [L'énergie nucléaire](/recherche/sen/erdre-presentation.md) avec le traitement des déchets, la surveillance et les études de [scénarios électro-nucléaires](fr/recherche/univers-a-haute-energie/neutrino/activites-de-recherche/scenarios-electro-nucleaires)
-    *   [Production de radio-isotopes pour des applications médicales, analyse non-destructive de matériaux, capteurs pour la robotique](/recherche/prisma/presentation.md)
-    *   La [théorie](/recherche/theorie/theoriehe-presentation.md), depuis les basses énergies jusqu'aux plus hautes énergies dans l'Univers
-    *   Le [Xenon liquide](/recherche/xenon/presentation.md) au service de l'imagerie médicale et de la recherche de la matière noire
+    *   L'étude du [plasma de quarks et de gluon](/recherche/plasma/presentation-groupe-plasma), état de la matière lors des premiers microseconds apres le big bang, via les collisions enrte ions lourds auprès du [LHC](http://www.lhc-france.fr/) avec le detecteur [ALICE](http://aliweb.cern.ch/)
+    *   Les rayons cosmiques de ultra haute énergie : la [radiodétection](/recherche/astro/astro-presentation)
+    *   [L'énergie nucléaire](/recherche/sen/erdre-presentation) avec le traitement des déchets, la surveillance et les études de [scénarios électro-nucléaires](fr/recherche/univers-a-haute-energie/neutrino/activites-de-recherche/scenarios-electro-nucleaires)
+    *   [Production de radio-isotopes pour des applications médicales, analyse non-destructive de matériaux, capteurs pour la robotique](/recherche/prisma/presentation)
+    *   La [théorie](/recherche/theorie/theoriehe-presentation), depuis les basses énergies jusqu'aux plus hautes énergies dans l'Univers
+    *   Le [Xenon liquide](/recherche/xenon/presentation) au service de l'imagerie médicale et de la recherche de la matière noire
     *   L'observation des neutrinos pour l'étude de leurs propriétés fondamentales à travers les expériences [Double Chooz](fr/recherche/univers-a-haute-energie/neutrino/activites-de-recherche/double-chooz), [SoLid](fr/recherche/univers-a-haute-energie/neutrino/activites-de-recherche/solid) et [Juno](fr/recherche/univers-a-haute-energie/neutrino/activites-de-recherche/juno) ou l'étude du flux de neutrinos astrophysiques de haute énergie avec l'expérience [KM3NeT](fr/recherche/univers-a-haute-energie/neutrino/activites-de-recherche/km3net).
 
 L'ensemble des activités scientifiques de SUBATECH ne se conçoit que dans un cadre international, en général au sein de collaborations relativement larges et faisant intervenir des partenaires étrangers ([ALICE](http://aliweb.cern.ch/), [Double Chooz](http://doublechooz.in2p3.fr), [XENON](http://xenon1t.org/), [KM3NeT](http://www.km3net.org/) ..). Cela sous entend la participation des équipes de recherche dans des réseaux et des structures fédératives et l'obtention de soutiens financiers auprès d'agences locales, nationales et internationales pour la réalisation de ces activités.  

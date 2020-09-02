@@ -8,4 +8,4 @@ category: "sen"
 asides: ["sen.+menu+"]
 layout: "recherche"
 ---
-[simulations de réacteurs](fr/component/content/article?id=193), [scénarios électronucléaires](fr/component/content/article?id=189) et activites expérimentales associées ([Nucifer](fr/component/content/article?id=192) et [TAGS](fr/component/content/article?id=194))
+[simulations de réacteurs](/recherche/sen/simulation-reacteurs), [scénarios électronucléaires](/recherche/sen/systeme-et-scenarios) et activites expérimentales associées ([Nucifer](/recherche/sen/nucifer) et [TAGS](/recherche/sen/tags))

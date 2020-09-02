@@ -8,4 +8,8 @@ category: "Informatique"
 asides: ["Informatique.+menu+"]
 layout: "services-techniques-et-administration"
 ---
-{loadposition membres}
+
+import Members from "gatsby-theme-ldap/src/components/Members"
+
+<Members group="Informatique" />
+

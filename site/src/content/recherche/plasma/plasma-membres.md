@@ -8,4 +8,8 @@ category: "plasma"
 asides: ["plasma.+menu+"]
 layout: "recherche"
 ---
-{loadposition membres}
+
+import Members from "gatsby-theme-ldap/src/components/Members"
+
+<Members group="plasma" />
+

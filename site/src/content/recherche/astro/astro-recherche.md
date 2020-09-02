@@ -20,7 +20,7 @@ Nos activités s'insèraient dans la cadre des études menées sur les rayons co
 La radio détection des grandes gerbes de particules secondaires issues de l'intéraction du rayon cosmique dans l'atmosphère est une des techniques qui a été ré-explorée au début des années 2000 (par CODALEMA en France et LOPES en Allemagne).
 
 Objectifs scientifiques :![RAuger](images/RAuger.JPG)
------------------------------------------------------
+---------------------------------------------------------------------
 
 Un des objectifs principaux du groupe consistait à exploiter systématiquement l'instrument **CODALEMA** afin de poursuivre la pose des différents jalons nécessaires à l'élaboration d'un système de radio détection des rayons cosmiques compatible avec les spécifications de très larges réseaux au sol. L'expérience CODALEMA est installée depuis 2002.
 

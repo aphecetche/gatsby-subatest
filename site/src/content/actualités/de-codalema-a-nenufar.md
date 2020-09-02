@@ -13,10 +13,10 @@ Ses qualités d'amplificateur à très bas bruit lui ont valu non seulement d'ê
 
 Le radio-télescope est actuellement en construction. 52 des 96 mini-réseaux de 19 antennes qui le constitueront ont déjà été déployées sur le terrain. NenuFAR a un statut de précurseur pour le futur radio radio-télescope [SKA](https://skatelescope.org/).
 
-![IMGP0772](images/Recherche/Astro/IMGP0772.JPG)
+![IMGP0772](images/IMGP0772.JPG)
 
 Une partie des mini-réseaux du radio-télescope NenuFAR.
 
-![DSC02582](images/Recherche/Astro/DSC02582.JPG)
+![DSC02582](images/DSC02582.JPG)
 
 Un LONAMOS (le minuscule circuit noir au centre du circuit imprimé) installé sur une des antennes de NenuFAR.

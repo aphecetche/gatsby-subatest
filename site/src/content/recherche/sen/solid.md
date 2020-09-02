@@ -12,7 +12,7 @@ Le neutrino est l’un des ingrédients les plus énigmatique de la physique des
 
 La qualité du projet SoLid repose sur deux points forts sans équivalent : la source d’antineutrino et la technologie de détection. L’expérience prend place auprès du réacteur de recherche BR2 du SCK-CEN (Mol, Belgique) permettant la mesure d’oscillation pour des distances comprises entre 5 et 12 m. Outre ce bras de levier important, le site se distingue par son environnement de bruit de fond exceptionnellement bas et par l’absence de contrainte temporelle. Le dispositif expérimental repose quant à lui sur une technologie innovante de détection neutron très finement segmentée. L’utilisation de couche de 6LiF:ZnS permet de discriminer distinctement le signal neutron et la segmentation, de localiser les interactions antineutrinos et de rejeter efficacement les sources de bruit de fond importantes. Combiné à l’environnement favorable de BR2, notre dispositif permet d’obtenir une sensibilité sans précédent.
 
-![solid1](images/Recherche/Erdre/Solid/solid1.png)
+![solid1](images/Solid/solid1.png)
 
 `SoLid @ BR2`
 
@@ -24,11 +24,11 @@ Ce projet est mené par une collaboration internationale rodée (Angleterre, Bel
 
 Subatech est impliqué depuis le commencement du projet dans des contributions clefs : conception mécanique, calculs de cœur BR2 et spectres antineutrinos associés, simulation géant4 et analyse des données. Subatech a en charge le groupe réacteur (SCK-CEN, LPC Caen, Subatech) ainsi que la coordination de l’analyse de l’expérience SoLid.
 
-`![solid2](images/Recherche/Erdre/Solid/solid2.png)`
+`![solid2](images/Solid/solid2.png)`
 
 `SoLid Module 1 deployed at BR2, IBD candidate from data`
 
-![solid3](images/Recherche/Erdre/Solid/solid3.png)
+![solid3](images/Solid/solid3.png)
 
 `SoLid sensitivity for the two phases`
 

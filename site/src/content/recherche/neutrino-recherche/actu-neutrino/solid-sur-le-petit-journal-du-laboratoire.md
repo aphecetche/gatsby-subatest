@@ -8,4 +8,4 @@ category: "Actu-Neutrino"
 asides: ["Actu-Neutrino.+menu+"]
 layout: "recherche/neutrino-recherche"
 ---
-### ![SoLid LePetitJournal 2017](images/Recherche/neutrino/Solid/gallery_/SoLid_LePetitJournal_2017.jpg)
+### ![SoLid LePetitJournal 2017](images/Solid/gallery_/SoLid_LePetitJournal_2017.jpg)

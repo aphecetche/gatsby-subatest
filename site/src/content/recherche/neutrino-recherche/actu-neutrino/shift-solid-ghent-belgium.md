@@ -12,4 +12,4 @@ Assemblage en 3 phases: Hervé place les cubes dans le cadre d’aluminium qu’
 
  -- Hervé Carduner, Benoit Viaud 
 
-![20170516 155846](images/Recherche/neutrino/Solid/gallery_/ShiftGhent1/20170516_155846.jpg "Assembling one of the SoLid planes with 256 cubes ")  ![20170516 122223](images/Recherche/neutrino/Solid/gallery_/ShiftGhent1/20170516_122223.jpg "Inserting the optical fibers ")  ![IMG 20170515 151100](images/Recherche/neutrino/Solid/gallery_/ShiftGhent1/IMG_20170515_151100.jpg "Connecting the electronics")
+![20170516 155846](images/Solid/gallery_/ShiftGhent1/20170516_155846.jpg "Assembling one of the SoLid planes with 256 cubes ")  ![20170516 122223](images/Solid/gallery_/ShiftGhent1/20170516_122223.jpg "Inserting the optical fibers ")  ![IMG 20170515 151100](images/Solid/gallery_/ShiftGhent1/IMG_20170515_151100.jpg "Connecting the electronics")

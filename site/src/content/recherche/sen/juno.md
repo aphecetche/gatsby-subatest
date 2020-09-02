@@ -12,6 +12,6 @@ L’expérience JUNO, basé dans le sud de la Chine auprès de 2 centrales nucl�
 
 Le groupe de Subatech cherche à s’investir dans la partie multi-calorimétrie (lecture du volume cible par des PMTs 20’ et 3’) et électronique associée, ainsi que sur le systeme d’aquisition de données capable d’assurer la prise de données en cas d’effondrement d’une supernova dans la galaxie (un million d’évènements en quelques secondes à acquérir).
 
-![juno](images/Recherche/Erdre/Juno/juno.png)
+![juno](images/Juno/juno.png)
 
  Contact : Frederic Yermia ([Frederic.Yermia@subatech.in2p3.fr](mailto:yermia@subatech.in2p3.fr))

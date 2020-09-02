@@ -11,4 +11,4 @@ Depuis le 3 juin le LHC fournit des collisions proton-proton à une énergie rec
 
 L'expérience ALICE a débuté sa prise de données avec de nouveaux détecteurs installés fin 2014 donc le nouveau calorimètre DCAL auquel le laboratoire subatech a activement participé.
 
-![EventDisplay13TeVDCALN](images/Recherche/Plasma/EventDisplay13TeVDCALN.png)
+![EventDisplay13TeVDCALN](images/EventDisplay13TeVDCALN.png)

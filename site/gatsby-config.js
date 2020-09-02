@@ -16,11 +16,11 @@ module.exports = {
       options: {},
     },
     // `gatsby-theme-search`,
-    // {
-    //   resolve: "gatsby-theme-ldap",
-    //   options: {
-    //     disabled: !(process.env.WITHLDAP === "yes"),
-    //   },
-    // },
+    {
+      resolve: "gatsby-theme-ldap",
+      options: {
+        disabled: !(process.env.WITHLDAP === "yes"),
+      },
+    },
   ],
 }

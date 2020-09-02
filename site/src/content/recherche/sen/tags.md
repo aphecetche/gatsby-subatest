@@ -8,11 +8,11 @@ category: "sen"
 asides: ["sen.+menu+"]
 layout: "recherche"
 ---
-Les propriétés de décroissance β\- des produits de fission sont importantes pour la simulation du spectre d’antineutrinos émis par les réacteurs (importants pour les projets [Double Chooz,](fr/component/content/article?id=191) [Nucifer](fr/component/content/article?id=192) et Solid) et pour le calcul de la puissance résiduelle des réacteurs à l'arrêt. La puissance résiduelle, comme les neutrinos, est générée dans les cœurs par la décroissance bêta des produits de fission. Elle représente ~7%!d(MISSING)e la puissance nominale du réacteur et sa production continue aussi après l’arrêt des réactions de fissions. Son estimation précise est, donc, importante pour une bonne gestion du combustible et pour augmenter la sûreté des réacteurs.
+Les propriétés de décroissance β\- des produits de fission sont importantes pour la simulation du spectre d’antineutrinos émis par les réacteurs (importants pour les projets [Double Chooz,](/recherche/sen/double-chooz) [Nucifer](/recherche/sen/nucifer) et Solid) et pour le calcul de la puissance résiduelle des réacteurs à l'arrêt. La puissance résiduelle, comme les neutrinos, est générée dans les cœurs par la décroissance bêta des produits de fission. Elle représente ~7%!d(MISSING)e la puissance nominale du réacteur et sa production continue aussi après l’arrêt des réactions de fissions. Son estimation précise est, donc, importante pour une bonne gestion du combustible et pour augmenter la sûreté des réacteurs.
 
 Un projet experimental a démarré en Janvier 2009, avec la participation de membres du groupe ERDRE et une équipe de Valencia (J.-L. Tain et A. Algora) à une réunion organisée par l'AIEA à Vienne sur la possibilité d’améliorer le calcul de la puissance résiduelle en re-mesurant avec la méthode TAS (Total Absorption Spectroscopy) certain noyaux sélectionnés \[1\]. Cette réunion a été le point départ d'une collaboration entre les deux groupes pour identifier et mesurer les produits de fission qui sont intéressants à la fois pour la puissance résiduelle, à la fois pour les antineutrinos et, dans la plus part des cas, pour les deux.
 
-![Tags1](images/Recherche/Erdre/tags/Tags1.gif)![tags2](images/Recherche/Erdre/tags/tags2.gif)
+![Tags1](images/tags/Tags1.gif)![tags2](images/tags/tags2.gif)
 
 Figure 1 : detecteur TAGS (gauche) installee à l’accélérateur de Jyväskylä (droite)
 
@@ -26,7 +26,7 @@ Actuellement l’équipe de SUBATECH est en train d'ecrire les articles associé
 
 Une nouvelle expérience de mesures de propriétés de décroissance beta de produits de fission intéressants pour la détermination des spectres en énergie des antineutrinos avec la méthode TAGS, proposée par notre équipe, a été acceptée par l’accélérateur de Jyväskylä et a été réalisée en février 2014. 25 noyaux ont été mesuré, la plus parts importants pour le calcule des spectres antineutrinos mais certains d'intérêt aussi pour le calcule de la puissance résiduelle et pour l'étude de la structure nucléaire. L’article apparu sur le journal "JYFL Accellerator News" de février 2014 pour décrire cette expérience est reporté en figure 2.
 
-![articlejyv](images/Recherche/Erdre/tags/articlejyv.png)
+![articlejyv](images/tags/articlejyv.png)
 
 figure 2 : article apparu dans journal JYFL Accellerator News de fevrier 2014 sur notre experience TAS
 
@@ -34,7 +34,7 @@ Dans le cadre de ce projet notre groupe a déposé une proposition d’expérien
 
 Le [workshop "Collective mode studies through beta decay measurement"](http://indico.cern.ch/event/354566/) en lien avec ces activités et avec but principal de developper une de nos idées proposé pour l'experience a ALTO, a été organisé et effectué à Nantes en février 2015. 
 
-[ENGLISH VERSION](en/component/content/article?id=255)
+[ENGLISH VERSION](/)
 
 Bibligraphie\[1\] http://www-nds.iaea.org/tagscm
 

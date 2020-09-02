@@ -20,7 +20,7 @@ This measurement presents a new challenge which call for a new type of technolog
 
 This experiment uses a novel approach to detect anti-neutrino with a highly segmented detector based on Lithium-6. With the combination of high granularity, high neutron-gamma discrimination using 6LiF:ZnS(Ag) and precise localization of the Inverse Beta Decay products, a better experimental sensitivity can be achieved compared to other state-of-the-art technology. This compact system requires minimum passive shielding allowing for very close stand off to the reactor. The experimental set up of the SoLid experiment and the BR2 reactor, the new principle of neutrino detection and the detector design made the experiment one of the main suitable experiment for the sterile neutrino search. Along with this world leading measurement, this project will deliver the best flux measurement of 235U, the key ingredient of flux prediction for future experiments.
 
-![solid1](images/Recherche/Erdre/Solid/solid1.png)
+![solid1](images/Solid/solid1.png)
 
 _SoLid @ BR2_
 
@@ -28,7 +28,7 @@ A reduced-size prototype (4x4x4 cubes ; 8kg), has already been constructed in Ju
 
 Finally, one module (SM1) has been built by the SoLid collaboration, funded by Subatech (Mines Carnot) and installed at BR2 at 5.5 m from the core, at the end of 2014 for commissioning and for many days of data taking before the BR2 2015 stop. This first phase of the SoLid project is, first, providing the expertise for the detector construction and its rationalization and for a better understanding of the full size detector response. However, the first promising analysis demonstrates clearly the expected performance. The Inverse Beta decay analysis is currently in progress.
 
-![solid2](images/Recherche/Erdre/Solid/solid2.png)
+![solid2](images/Solid/solid2.png)
 
 _SoLid Module 1 deployed at BR2, IBD candidate from data_
 
@@ -46,7 +46,7 @@ The total detector will enable a competitive and timely search of oscillation co
 
 TheSubatech laboratory had a central role in the R&D phase of SoLid with contribution to the design. He is also involved in the core simulation, the calculation of the neutrino flux (reactor working group), the GEANT4 simulation and the SM1 analysis. Subatech is in charge of the physics coordination of the SoLid experiment.
 
-![solid3](images/Recherche/Erdre/Solid/solid3.png)
+![solid3](images/Solid/solid3.png)
 
 _SoLid sensitivity for the two phases_
 

@@ -7,7 +7,7 @@ joomlaid: 104
 category: "Services techniques et administration"
 asides: ["Services techniques et administration.+menu+"]
 ---
-toto => catégorie 'Services [techniques](images/Recherche/Plasma/0_90_PtHard_PPgFree.pdf)'
+toto => catégorie 'Services [techniques](images/0_90_PtHard_PPgFree.pdf)'
 
 \\( \\frac{a}{\\sqrt{b}} \\)
 

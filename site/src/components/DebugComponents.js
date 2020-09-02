@@ -2,8 +2,9 @@ import React from "react"
 import ErrorIcon from "@material-ui/icons/Error"
 
 const CustomLink = (props) => {
+  const external = /^http/
   const re = /(^index\.php)|(article?)/
-  if (props.href && re.test(props.href)) {
+  if (props.href && re.test(props.href) && !external.test(props.href)) {
     return (
       <>
         <a {...props} />

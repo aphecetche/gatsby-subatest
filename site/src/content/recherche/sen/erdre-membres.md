@@ -8,7 +8,11 @@ category: "sen"
 asides: ["sen.+menu+"]
 layout: "recherche"
 ---
-{loadposition membres}
+
+import Members from "gatsby-theme-ldap/src/components/Members"
+
+<Members group="sen" />
+
 
 *   Beloeuvre Arthur - Doctorant - H125 - [arthur.beloeuvre@subatech.in2p3.fr](mailto:arthur.beloeuvre@subatech.in2p3.fr)
 

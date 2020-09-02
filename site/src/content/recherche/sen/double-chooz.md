@@ -14,7 +14,7 @@ L’expérience Double Chooz a pour but la mesure de l’angle de mélange θ13,
 
 Double Chooz consiste en l’installation de deux détecteurs identiques auprès des réacteurs de la centrale de Chooz dans les Ardennes, à 400m (« détecteur proche ») et 1050m (« détecteur lointain »). Le premier détecteur mesure le spectre des antineutrinos précisément à un endroit où ils n’ont pas encore changé de saveur, et le second mesure à nouveau le spectre après oscillation. Le détecteur proche va également réaliser la mesure la plus précise du spectre en énergie des antineutrinos des réacteurs. L’étude des corrélations entre les mesures et l’historique de puissance et l’inventaire des cœurs des réacteurs de la centrale permettra de fournir une limite de sensibilité de la « méthode antineutrinos » pour le suivi d’un réacteur nucléaire. La méthode de détection utilise la réaction bêta inverse (seuil 1.8MeV) : \\(\\bar{\\nu}\_e+p \\rightarrow e^++n\\). On utilise une cible remplie par 10.3m3 de liquide scintillant comme cible active. Le neutron est détecté via sa capture par des noyaux de Gd dissous dans le liquide scintillant, après sa thermalisation dans la cible. La signature de l’interaction d’un antineutrino est donc fournie par la détection en coïncidence retardée entre le signal de perte d’énergie du positron et le signal de décroissance des noyaux de Gd après capture du neutron, dans une fenêtre de l’ordre de 30μs. Cette méthode permet de s’affranchir d’une proportion importante du bruit de fond.
 
-![DC](images/Recherche/Erdre/DC.png)
+![DC](images/DC.png)
 
 Le détecteur lointain de Double Chooz.
 

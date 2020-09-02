@@ -8,4 +8,4 @@ category: "sen"
 asides: ["sen.+menu+"]
 layout: "recherche"
 ---
-Le detecteur [Veto à muons cosmiques de Nucifer](/services-techniques-et-administration/mecanique/projets-realisations.md) a été conçu, construit, caracterisé et installé aupres du reacteur OSIRIS par le groupe ERDRE en collaboration etroite avec le service Mécanique et le service Electronique. Suivez ce [lien](fr/component/content/article?id=289) pour plus de detail.
+Le detecteur [Veto à muons cosmiques de Nucifer](/services-techniques-et-administration/mecanique/projets-realisations) a été conçu, construit, caracterisé et installé aupres du reacteur OSIRIS par le groupe ERDRE en collaboration etroite avec le service Mécanique et le service Electronique. Suivez ce [lien](/) pour plus de detail.

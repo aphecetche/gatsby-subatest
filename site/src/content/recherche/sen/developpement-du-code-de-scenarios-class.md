@@ -12,7 +12,7 @@ Il est apparu que les programmes existants destinés à réaliser des projection
 
 Nous avons donc entrepris le développement d'un code de scénario appellé CLASS (Core Library for Advanced Scenario Simulation) est un programme de simulation de scénarios en cours de développement à Subatech. Son objectif sur le court terme est de calculer l'inventaire en matière radioactive d'un parc nucléaire complexe à l'équilibre ou en phase de transition. Sur le plus long terme, il deviendra un outil multi-critères d'évaluation de scénarios électronucléaires intégrant des notions de non-prolifération, de risque ou encore d'économie. Le développement de ce code se fait en collaboration avec l'Institut de Physique Nucléaire d'Orsay se présente sous la forme de librairie C++, gérant l'ensemble des phases clefs de l'étude de scénarios (cf figure 3)
 
-![CLASS](images/Recherche/Erdre/CLASS.png)
+![CLASS](images/CLASS.png)
 
 Figure 3: Schéma de fonctionnement du code CLASS
 
@@ -20,7 +20,7 @@ Il sera possible d'y implémenter des usines de traitement, dont le rôle sera d
 
 Contrairement aux programmes de scénarios existants, le but de ce code est de rester souple, en permettant à l'utilisateur de faire exactement ce qu'il souhaite, l'ensemble des paramètres clefs étant accessible et modifiable... Par exemple, si l'on veut réaliser un scénario utilisant des réacteurs innovants, il suffit de générer la base de données formatée correspondante.
 
-A l'instar de MURE (MCNP Utility for Reactor Evolution)\* \[[5](fr/component/content/article?id=203)\], le but est de permettre aux utilisateurs d'améliorer et de corriger le code, en y apportant leur contribution via une correction de bugs ou l'ajout d'un module ou d'une fonctionnalité permettant ainsi d'accroître la richesse et la profondeur des scénarios simulés.
+A l'instar de MURE (MCNP Utility for Reactor Evolution)\* \[[5](/recherche/sen/bibliographie)\], le but est de permettre aux utilisateurs d'améliorer et de corriger le code, en y apportant leur contribution via une correction de bugs ou l'ajout d'un module ou d'une fonctionnalité permettant ainsi d'accroître la richesse et la profondeur des scénarios simulés.
 
 L'avantage majeur d'avoir un code ouvert à l'utilisateur est la possibilité quasi sans limite de simulation de scénarios. Il serait possible de mener des études précises des transitions envisageables entre les technologies actuelles et les technologies futures.
 

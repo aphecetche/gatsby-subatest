@@ -8,12 +8,12 @@ category: "sen"
 asides: ["sen.+menu+"]
 layout: "recherche"
 ---
-*   [Introduction et contexte](fr/component/content/article?id=198)
+*   [Introduction et contexte](/recherche/sen/introduction-et-contexte)
     
-*   [Le concept MUST](fr/component/content/article?id=199)
+*   [Le concept MUST](/recherche/sen/le-concept-must)
     
-*   [Développement du code de scénarios CLASS](fr/component/content/article?id=200)
+*   [Développement du code de scénarios CLASS](/recherche/sen/developpement-du-code-de-scenarios-class)
     
-*   [Scénarios ADS étendus](fr/component/content/article?id=201)
+*   [Scénarios ADS étendus](/recherche/sen/scenarios-ads-etendus)
     
-*   [Scénarios de sortie du nucléaire](fr/component/content/article?id=202)
+*   [Scénarios de sortie du nucléaire](/recherche/sen/scenarios-de-sortie-du-nucleaire)

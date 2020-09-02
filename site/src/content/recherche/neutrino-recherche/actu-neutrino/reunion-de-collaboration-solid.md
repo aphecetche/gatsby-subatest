@@ -10,6 +10,6 @@ layout: "recherche/neutrino-recherche"
 ---
 La réunion de collaboration [SoLid](http://www.solid-experiment.org/) s’est tenue à l’UFR Sciences de Nantes du 12 au 14 juin 2019 . Ces 3 jours ont permis de préparer les prochains résultats de mesure d’antineutrinos auprès du réacteur de recherche BR2 en Belgique afin de les présenter à la prochaine conférence EPS-HEP 2019. L’ensemble des participant.e.s ont apprécié le site universitaire et d’autre part les galettes nantaises à déguster le soir !
 
-![IMG 9384](images/Recherche/neutrino/Solid/IMG_9384.png)
+![IMG 9384](images/Solid/IMG_9384.png)
 
- ![collaboration web](images/Recherche/neutrino/Solid/collaboration-web.png)
+ ![collaboration web](images/Solid/collaboration-web.png)

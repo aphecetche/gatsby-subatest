@@ -48,7 +48,7 @@ Rejoindre à pied l'arrêt de bus Beaujoire  et emprunter le Chronobus n°6 ou 
 
 #### En venant de l'aéroport
 
-Prendre la [navette aéroport](images/Administration/navette_aeroport_-_horaires_du_26-08-13_au_11-07-14.pdf) à l'arrêt Nantes Atlantique Bouguenais et descendre à l'arrêt Commerce.
+Prendre la [navette aéroport](doc/navette_aeroport_-_horaires_du_26-08-13_au_11-07-14.pdf) à l'arrêt Nantes Atlantique Bouguenais et descendre à l'arrêt Commerce.
 
 Ensuite, prendre le tramway ligne 1 direction La Beaujoire jusqu'au terminus. Rejoindre à pied l'arrêt de bus Beaujoire  et emprunter le Chronobus n°6 ou le bus n°75 jusqu'à l'arrêt "Chantrerie Grandes Ecoles".
 

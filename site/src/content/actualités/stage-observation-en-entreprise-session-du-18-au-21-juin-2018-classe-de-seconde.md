@@ -17,7 +17,7 @@ Les objectifs sont : - découvrir l'organisation et le fonctionnement du labora
 
 L'élève effectue son stage sous la responsabilité d'un personnel du laboratoire.
 
-*   Déroulement du stage ([modèle semaine type](images/Administration/Accueil_des_stages_d_observation.pdf))
+*   Déroulement du stage ([modèle semaine type](doc/Accueil_des_stages_d_observation.pdf))
 
 Du lundi au jeudi (inclus), de 9h00 à 12h30 et de 14h00 à 17h00. Repas du midi dans un restaurant administratif (coût du repas : moins de 4 euros).
 

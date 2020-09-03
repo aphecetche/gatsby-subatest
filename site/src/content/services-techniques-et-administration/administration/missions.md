@@ -12,4 +12,4 @@ Pour tout projet de visite au laboratoire, merci de remplir le document suivant 
 
 Tous ces renseignements nous seront utiles pour préparer votre venue.
 
-Document à nous renvoyer : [(format .Doc)](images/Administration/Fiche_de_renseignements_2018.docx.doc) ([format PDF](images/Administration/Fiche_de_renseignements_2018.pdf))
+Document à nous renvoyer : [(format .Doc)](images/Administration/Fiche_de_renseignements_2018.docx.doc) ([format PDF](doc/Fiche_de_renseignements_2018.pdf))

@@ -10,9 +10,9 @@ layout: "enseignement"
 ---
 **Sujet de stage Master2 /Internship Proposal:**
 
-*    [**Etude de la technique d’ionisation laser couplée à la séparation en masse à des fins environnementales et médicales : applications au cuivre**](pdf/proposition_PRISMA_stage_M2ARS_19-20-MAINZ.docx)
+*    [**Etude de la technique d’ionisation laser couplée à la séparation en masse à des fins environnementales et médicales : applications au cuivre**](images/proposition_PRISMA_stage_M2ARS_19-20-MAINZ.docx)
 
-*   [**Réalisation de cibles enrichies en gadolinium 155 par différentes méthodes pour des mesures de sections efficaces de production du Tb, isotopes pour la médecine**](pdf/proposition_PRISMA_stage_M2ARS_19-20-SIDONIE.docx)
+*   [**Réalisation de cibles enrichies en gadolinium 155 par différentes méthodes pour des mesures de sections efficaces de production du Tb, isotopes pour la médecine**](images/proposition_PRISMA_stage_M2ARS_19-20-SIDONIE.docx)
 
 *   **[Développement de la méthode TMC au calcul de pulses de fission avec le code SERPENTcode SERPENT](images/Stage-Subatech-PulseTMC-2019M2-Français.pdf)**
 

@@ -18,4 +18,4 @@ Le Laboratoire dispose également de ressources propres:
 
 ### Revues papier:
 
-localisation des revues papier: [Revues subatech.pdf](images/Communication/bibliotheque/REVUES-Subatech.pdf)
+localisation des revues papier: [Revues subatech.pdf](doc/bibliotheque/REVUES-Subatech.pdf)

@@ -4,20 +4,23 @@ import NavLink from "./NavLink";
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    margin: 0,
+    padding: theme.spacing(0, 0, 2, 0),
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    margin: 0,
-    padding: theme.spacing(0, 0, 2, 0),
     "& ul": {
       margin: `0 ${theme.spacing(1)}`,
+      padding: 0,
       display: "flex",
       flexDirection: "row",
+      flexWrap: "wrap",
+      //maxWidth: "800px",
       justifyContent: "flex-start",
       listStyle: "none",
       "& li": {
-        margin: 0,
-        padding: theme.spacing(0, 2),
+        margin: theme.spacing(0, 2),
+        //padding: theme.spacing(0, 2),
         fontWeight: "100",
         fontSize: "1.0rem",
       },

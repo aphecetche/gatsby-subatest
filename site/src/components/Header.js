@@ -8,8 +8,8 @@ import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { useMediaQuery } from "@material-ui/core"
 import Hamburger from "./hamburger"
 import nav from "./navigation.json"
-
 import ToggleDarkMode from "./ToggleDarkMode"
+import DebugPalette from "./DebugPalette"
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -18,18 +18,10 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "row",
   },
   toolbar: {
+    flexWrap: "wrap",
     justifyContent: "space-between",
   },
 }))
-
-const ColorPatch = ({ color }) => {
-  const st = {
-    background: color,
-    height: "50px",
-    width: "50px",
-  }
-  return <div style={st} />
-}
 
 const Header = ({ data = nav }) => {
   const [active, setActive] = useState("")
@@ -45,17 +37,12 @@ const Header = ({ data = nav }) => {
       <AppBar className={classes.main} position="static">
         <Toolbar className={classes.toolbar}>
           <Logo />
-          <ColorPatch color={theme.palette.primary.main} />
-          <ColorPatch color={theme.palette.primary.light} />
-          <ColorPatch color={theme.palette.primary.dark} />
-          <ColorPatch color={theme.palette.secondary.main} />
-          <ColorPatch color={theme.palette.secondary.light} />
-          <ColorPatch color={theme.palette.secondary.dark} />
           <PrimaryNavigation
             links={primary}
             active={active}
             setActive={setActive}
           />
+          {/*  <DebugPalette /> */}
           <ToggleDarkMode />
           {small && <Hamburger />}
         </Toolbar>

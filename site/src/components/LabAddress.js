@@ -10,6 +10,7 @@ const useStyles = makeStyles((theme) => ({
     "& a": {
       textDecoration: "none",
       color: "inherit",
+      textAlign: "center",
     },
     "& a[href^=tel]": {
       marginTop: theme.spacing(1),
@@ -29,12 +30,17 @@ const LabAddress = () => {
   return (
     <address className={classes.main}>
       <Link to="/services-techniques-et-administration/administration/venir-a-subatech/">
-        Subatech - UMR 6457 - Laboratoire de physique subatomique et des
-        technologies associées
+        Subatech - UMR 6457
       </Link>
       <Link to="/services-techniques-et-administration/administration/venir-a-subatech/">
-        4 rue Alfred Kastler - La Chantrerie - BP 20722 - 44307 Nantes cedex -
-        France
+        Laboratoire de physique subatomique et des technologies associées
+      </Link>
+      <Link to="/services-techniques-et-administration/administration/venir-a-subatech/">
+        4 rue Alfred Kastler - La Chantrerie - BP 20722
+      </Link>
+
+      <Link to="/services-techniques-et-administration/administration/venir-a-subatech/">
+        44307 Nantes cedex - France
       </Link>
       <a href="tel:+33251858483">Tél: +33 (0)2 51 85 84 83</a>
     </address>

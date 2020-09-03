@@ -9,6 +9,8 @@ import { useMediaQuery } from "@material-ui/core"
 import Hamburger from "./hamburger"
 import nav from "./navigation.json"
 
+import ToggleDarkMode from "./ToggleDarkMode"
+
 const useStyles = makeStyles((theme) => ({
   main: {
     background: theme.palette.background.paper,
@@ -39,6 +41,7 @@ const Header = ({ data = nav }) => {
             active={active}
             setActive={setActive}
           />
+          <ToggleDarkMode />
           {small && <Hamburger />}
         </Toolbar>
       </AppBar>

@@ -1,39 +1,51 @@
 import React from "react";
 import { Link } from "gatsby";
 import { Button, makeStyles } from "@material-ui/core";
+import clsx from "clsx";
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
   root: {
-    fontFamily: "Open Sans Condensed",
-    fontSize: "1.125rem",
-    letterSpacing: "0.15em",
-    fontWeight: "300",
+    letterSpacing: "inherit",
     userSelect: "none",
     display: "block",
-    color: "currentColor",
+    color: theme.palette.primary.main,
+    fontSize: "inherit",
+    fontWeight: "inherit",
     textDecoration: "none",
     textTransform: "none",
     borderRadius: 0,
-    padding: "0.25rem 0.5rem",
-    borderBottom: "2px solid transparent",
+    padding: 0,
+    margin: 0,
     "&:not([href])": {
       cursor: "pointer",
     },
     "&:hover": {
-      borderBottom: "2px solid currentColor",
-      background: "transparent",
+      color: theme.palette.secondary.main,
+      background: "inherit",
     },
   },
-});
+  active: {
+    color: theme.palette.secondary.main,
+  },
+  condensed: {
+    fontFamily: "Open Sans Condensed",
+  },
+}));
 
-const Superlink = ({ to, children, onClick, className }) => {
+const NavLink = ({ to, children, condensed = false, onClick, active }) => {
   const classes = useStyles();
   // if we provide an onClick function, then
   // it's not a "regular" link, i.e. we
   // disable the href
+  const cn = clsx(
+    classes.root,
+    active && classes.active,
+    condensed && classes.condensed
+  );
+
   if (onClick) {
     return (
-      <Button className={classes.root} onClick={onClick}>
+      <Button className={cn} onClick={onClick}>
         {children}
       </Button>
     );
@@ -43,17 +55,17 @@ const Superlink = ({ to, children, onClick, className }) => {
   const re = /^http/;
   if (re.test(to)) {
     return (
-      <a className={className} href={to}>
+      <a className={cn} href={to}>
         {children}
       </a>
     );
   }
   // internal link : use Gatsby own Link component
   return (
-    <Link className={className} to={to}>
+    <Link className={cn} to={to}>
       {children}
     </Link>
   );
 };
 
-export default Superlink;
+export default NavLink;

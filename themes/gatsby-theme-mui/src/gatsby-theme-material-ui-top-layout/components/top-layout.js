@@ -7,7 +7,8 @@ import useMediaQuery from "@material-ui/core/useMediaQuery";
 
 const primary = {
   light: "#0766ad",
-  dark: "#67B3E5",
+  //dark: "#67B3E5",
+  dark: "#85C2E4",
 };
 const secondary = {
   light: "#98ca34",
@@ -15,6 +16,9 @@ const secondary = {
 };
 
 const createTheme = (dark) => ({
+  props: {
+    toto: dark ? "foncé" : "clair",
+  },
   typography: {
     fontFamily: "Open Sans",
     fontWeightRegular: "400",
@@ -33,11 +37,18 @@ const createTheme = (dark) => ({
   overrides: {
     MuiCssBaseline: {
       "@global": {
-        html: {
+        "html, body": {
+          height: "100%",
           WebkitFontSmoothing: "auto",
         },
         a: {
           color: primary[dark],
+        },
+        "#gatsby-focus-wrapper, #___gatsby": {
+          display: "flex",
+          flexDirection: "column",
+          height: "100%",
+          width: "100%",
         },
       },
     },
@@ -50,10 +61,10 @@ const themes = {
 };
 
 const useMode = () => {
-  const prefersMode = useMediaQuery("(prefers-color-scheme: dark)");
-  const dark = prefersMode ? "dark" : "light";
-  console.log("dark=", dark);
-  const [mode, setMode] = useState(dark);
+  // const prefersMode = useMediaQuery("(prefers-color-scheme: dark)");
+  // const dark = prefersMode ? "dark" : "light";
+  // console.log("dark=", dark);
+  const [mode, setMode] = useState("dark");
   //const utheme = React.useMemo(() => createMuiTheme(createTheme(themeShade)), [
   return [mode, setMode];
 };
@@ -63,6 +74,7 @@ export const ThemeContext = React.createContext({});
 export default function TopLayout({ children }) {
   const [mode, setMode] = useMode();
   console.log("mode=", mode, "setMode=", setMode);
+  console.log(JSON.stringify(themes[mode], null, 4));
   const utheme = themes[mode];
   return (
     <>

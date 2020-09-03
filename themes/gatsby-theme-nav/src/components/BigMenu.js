@@ -7,21 +7,23 @@ import { Grid, Typography } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
   bigmenu: {
-    background: "black",
-    display: "flex",
-    flexDirection: "column",
     padding: theme.spacing(2),
+    "& ul": {
+      listStyle: "none",
+    },
   },
-  title: {
+  header: {
     margin: theme.spacing(1, 0, 1, 0),
     padding: theme.spacing(0, 0, 1, 0),
-    display: "flex",
-    flexDirection: "row",
+    color: theme.palette.primary.main,
     justifyContent: "space-between",
     alignItems: "center",
-    borderBottom: `2px solid ${theme.palette.primary.main}`,
-    color: "white",
+    borderBottom: `2px solid ${theme.palette.primary.light}`,
+  },
+  title: {
     "& h6": {
+      ...theme.typography.h6,
+      background: "transparent",
       padding: "0",
       margin: "0",
       fontSize: "1.1rem",
@@ -42,9 +44,11 @@ const BigMenu = ({ title, groups, onClose }) => {
   const css = useStyles();
   return (
     <Grid container className={css.bigmenu}>
-      <Grid item container className={css.title}>
+      <Grid item container className={css.header}>
         <Grid item>
-          <Typography variant="h6">{title}</Typography>
+          <Typography variant="h6" component="h1" className={css.title}>
+            {title}
+          </Typography>
         </Grid>
         <Grid item>
           <CloseButton onClick={onClose}>Fermer</CloseButton>

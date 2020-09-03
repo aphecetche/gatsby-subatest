@@ -1,5 +1,5 @@
 import React from "react";
-import Superlink from "./Superlink";
+import NavLink from "./NavLink";
 import { makeStyles, Typography } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
@@ -26,13 +26,13 @@ const useStyles = makeStyles((theme) => ({
       padding: "0",
 
       "& a": {
+        fontSize: "1.0rem",
         display: "block",
+        //fontWeight: "100",
         textDecoration: "none",
-        fontWeight: "100",
-        color: theme.palette.background.paper,
+        color: theme.palette.text.primary,
         "&:hover": {
-          background: theme.palette.primary.main,
-          text: theme.palette.background.paper,
+          color: theme.palette.primary.main,
         },
         width: "max-content",
       },
@@ -53,7 +53,9 @@ const NavGroup = ({ title, links }) => {
         {!!links &&
           links.map((l) => (
             <li key={l.label}>
-              <Superlink to={l.to}>{l.label}</Superlink>
+              <NavLink condensed={false} to={l.to}>
+                {l.label}
+              </NavLink>
             </li>
           ))}
       </ul>

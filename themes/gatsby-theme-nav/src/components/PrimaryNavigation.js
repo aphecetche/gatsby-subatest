@@ -1,40 +1,36 @@
 import React from "react";
-import Superlink from "./Superlink";
+import NavLink from "./NavLink";
 import { makeStyles } from "@material-ui/core/styles";
-import { Typography } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
-  main: {
-    background: theme.palette.background.paper,
-    color: theme.palette.primary.main,
+  root: {
     "& ul": {
+      //letterSpacing: theme.spacing(0.25),
       listStyle: "none",
       display: "flex",
       alignItems: "center",
       flexWrap: "wrap",
-      margin: 0,
-      padding: "3px 0px 0px 0.25rem",
+      margin: theme.spacing(0, 0, 0, 2),
+      padding: 0,
       "& li": {
-        margin: 0,
+        fontSize: "1.2rem",
+        fontWeight: "100",
+        margin: theme.spacing(0, 2, 0, 0),
         padding: 0,
       },
     },
   },
-  active: { color: theme.palette.secondary.main },
 }));
 
 const PrimaryNavigation = ({ links, active, setActive }) => {
   const css = useStyles();
   return (
-    <nav className={css.main}>
+    <nav className={css.root}>
       <ul>
         {links.map((x) => (
-          <Typography
-            key={x.label}
-            className={x.label === active ? css.active : ""}
-            component="li"
-          >
-            <Superlink
+          <li key={x.label}>
+            <NavLink
+              active={x.label === active}
               to={x.to}
               onClick={(event) => {
                 event.preventDefault();
@@ -44,8 +40,8 @@ const PrimaryNavigation = ({ links, active, setActive }) => {
               }}
             >
               {x.label}
-            </Superlink>
-          </Typography>
+            </NavLink>
+          </li>
         ))}
       </ul>
     </nav>

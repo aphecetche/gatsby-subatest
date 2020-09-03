@@ -22,6 +22,15 @@ const useStyles = makeStyles((theme) => ({
   },
 }))
 
+const ColorPatch = ({ color }) => {
+  const st = {
+    background: color,
+    height: "50px",
+    width: "50px",
+  }
+  return <div style={st} />
+}
+
 const Header = ({ data = nav }) => {
   const [active, setActive] = useState("")
   const classes = useStyles()
@@ -36,6 +45,12 @@ const Header = ({ data = nav }) => {
       <AppBar className={classes.main} position="static">
         <Toolbar className={classes.toolbar}>
           <Logo />
+          <ColorPatch color={theme.palette.primary.main} />
+          <ColorPatch color={theme.palette.primary.light} />
+          <ColorPatch color={theme.palette.primary.dark} />
+          <ColorPatch color={theme.palette.secondary.main} />
+          <ColorPatch color={theme.palette.secondary.light} />
+          <ColorPatch color={theme.palette.secondary.dark} />
           <PrimaryNavigation
             links={primary}
             active={active}

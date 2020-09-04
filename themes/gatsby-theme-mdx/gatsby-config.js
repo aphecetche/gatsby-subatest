@@ -15,6 +15,7 @@ module.exports = (themeOptions) => {
     plugins: [
       ...sources,
       `gatsby-plugin-sharp`,
+      `gatsby-transformer-sharp`,
       `gatsby-remark-embed-video`,
       `gatsby-remark-responsive-iframe`,
       `gatsby-remark-images`,

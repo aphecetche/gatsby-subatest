@@ -34,7 +34,7 @@ const BottomNavigation = () => {
     <nav className={classes.root}>
       <ul>
         <li>
-          <NavLink to="/general/tutelles">Tutelles</NavLink>
+          <NavLink to="/general/tutelles2">Tutelles</NavLink>
         </li>
         <li>
           <NavLink to="http://intranet-subatech">Intranet</NavLink>

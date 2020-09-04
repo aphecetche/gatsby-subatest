@@ -48,7 +48,7 @@ const RechercheLayout = ({ data }) => {
           <Grid item xs={false} sm={1} />
           <Grid item xs={12} sm={6} className={classes.main}>
             <main className={classes.main}>
-              <h2>{frontmatter.title}</h2>
+              {frontmatter.title && <h2>{frontmatter.title}</h2>}
               <MDXRenderer>{body}</MDXRenderer>
             </main>
           </Grid>

@@ -5,8 +5,8 @@ lastmod: "2020-02-10 13:14:14 +0000 UTC"
 path: "enseignement/stages-et-thèses/proposition-de-stages-2013-2014.md"
 joomlaid: 324
 category: "Stages et thèses"
-asides: ["Stages et thèses.+menu+"]
-layout: "enseignement"
+asides: ["seignement.+menu+"]
+layout: "recherche"
 ---
 **Sujet de stage Master2 /Internship Proposal:**
 
@@ -16,7 +16,7 @@ layout: "enseignement"
 
 *   **[Développement de la méthode TMC au calcul de pulses de fission avec le code SERPENTcode SERPENT](images/Stage-Subatech-PulseTMC-2019M2-Français.pdf)**
 
-**[Development of the Total Monte Carlo method with the SERPENT code applied to fission pulses](images/Internship-Subatech-PulseTMC-2019M2-English.pdf)**
+    **[Development of the Total Monte Carlo method with the SERPENT code applied to fission pulses](images/Internship-Subatech-PulseTMC-2019M2-English.pdf)**
 
 *   **[Recherche de production de paires de J/y dans les collisions pp à 13 TeV avec ALICE](images/StageM2_2019-2020.pdf)**
 

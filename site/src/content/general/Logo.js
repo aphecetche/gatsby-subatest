@@ -1,6 +1,7 @@
 import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import Img from "gatsby-theme-mdx"
+import { graphql } from "gatsby"
 
 const useStyles = makeStyles((theme) => ({
   logo: {

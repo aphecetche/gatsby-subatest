@@ -36,7 +36,6 @@ const LogoGroup2 = () => {
     `
   )
   const classes = useStyles()
-  console.log("data=", JSON.stringify(data))
   return (
     <div className={classes.root}>
       <Logo

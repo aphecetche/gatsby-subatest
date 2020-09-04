@@ -42,7 +42,7 @@ const Header = ({ data = nav }) => {
             active={active}
             setActive={setActive}
           />
-          {/*  <DebugPalette /> */}
+          <DebugPalette />
           <ToggleDarkMode />
           {small && <Hamburger />}
         </Toolbar>

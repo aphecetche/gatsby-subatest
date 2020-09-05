@@ -25,6 +25,11 @@ const Asides = ({ slug, regexp }) => {
     }
   `);
 
+  const isSSR = typeof window === "undefined";
+  if (isSSR) {
+    return null;
+  }
+
   const re = new RegExp(regexp);
   const asides = data.allMdx.edges.filter((n) =>
     n.node.fileAbsolutePath.match(re)

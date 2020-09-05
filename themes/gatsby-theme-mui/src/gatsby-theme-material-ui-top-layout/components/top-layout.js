@@ -31,19 +31,21 @@ const ThemedLayout = ({ children }) => {
 const getInitialColorMode = () => {
   // see if user has already explicitely chosen the color
   // if they have, let's use it
-  const color = window.localStorage.getItem("color-mode");
+  const hasWindow = typeof window !== "undefined";
+  const color = hasWindow
+    ? window.localStorage.getItem("color-mode")
+    : undefined;
   const valid = color === "dark" || color === "light";
   if (valid) {
-    console.log("color from localStorage");
     return color;
   }
   // otherwise check the media query
-  const mql = window.matchMedia("(prefers-color-scheme: dark)");
+  const mql = hasWindow
+    ? window.matchMedia("(prefers-color-scheme: dark)")
+    : undefined;
   if (mql) {
-    console.log("color from mediaQuery");
     return mql.matches ? "dark" : "light";
   }
-  console.log("color from default");
   return color ? color : "dark";
 };
 

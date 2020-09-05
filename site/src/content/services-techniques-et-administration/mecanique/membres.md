@@ -6,8 +6,9 @@ path: "services-techniques-et-administration/mecanique/membres.md"
 joomlaid: 150
 category: "Mecanique"
 asides: ["Mecanique.+menu+"]
-layout: "services-techniques-et-administration"
+layout: "recherche"
 ---
+
 ### Bureau d'études :
 
 *   Technicien (TCE)

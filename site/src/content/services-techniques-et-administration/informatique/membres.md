@@ -6,7 +6,7 @@ path: "services-techniques-et-administration/informatique/membres.md"
 joomlaid: 154
 category: "Informatique"
 asides: ["Informatique.+menu+"]
-layout: "services-techniques-et-administration"
+layout: "recherche"
 ---
 
 import Members from "gatsby-theme-ldap/src/components/Members"

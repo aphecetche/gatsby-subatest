@@ -6,7 +6,7 @@ path: "services-techniques-et-administration/informatique/service-informatique.m
 joomlaid: 124
 category: "Informatique"
 asides: ["Informatique.+menu+"]
-layout: "services-techniques-et-administration"
+layout: "recherche"
 ---
 Les missions du Service Informatique sont les suivantes :
 

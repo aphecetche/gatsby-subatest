@@ -6,7 +6,7 @@ path: "services-techniques-et-administration/electronique/membres.md"
 joomlaid: 152
 category: "Electronique"
 asides: ["Electronique.+menu+"]
-layout: "services-techniques-et-administration"
+layout: "recherche"
 ---
 
 import Members from "gatsby-theme-ldap/src/components/Members"

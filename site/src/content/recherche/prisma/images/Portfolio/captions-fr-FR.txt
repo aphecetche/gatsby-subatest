@@ -1,0 +1,20 @@
+﻿toto.jpg|toto|toto.
+CND_01_Analyse_interf.jpg|CND|Montage optique pour l'analyse des signaux d'interférence.
+CND_02_DC210.jpg|CND|Moyen de contrôle thermique des défauts embarqué sur un robot poly-articulé.
+CND_03_MP16T5_Ind.jpg|CND|Moyen de contrôle multi-modal (infra rouge, laser, ultra son) embarqué sur une tête de soudure à induction pour la fixation d'omégas sur une plaque de carbone PEEK destinée à l'aviation.
+CND_04_MP16T5_Ind2.jpg|CND|Moyen de contrôle multi-modal (infra rouge, laser, ultra son) embarqué sur une tête de soudure à induction pour la fixation d'omégas sur une plaque de carbone PEEK destinée à l'aviation.
+CND_05_MP16T5_US.jpg|CND|Moyen de contrôle multi-modal (infra rouge, laser, ultra son) embarqué sur une tête de soudure à ultra son pour la fixation d'omégas sur une plaque de carbone PEEK destinée à l'aviation.
+PIX_01_PIXE_alignement.jpg|PIXE|Banc PIXE en phase d'alignement sur la ligne AX du cyclotron ARRONAX.
+PIX_02_PIXE_blindage.jpg|PIXE|Blindage du détecteur germanium utilisé dans les expériences PIXE.
+PIX_03_Caracterisation_faisceau.jpg|PIXE|Banc de mesure pour la caractéristion du faisceau utilisé pour les expériences PIXE.
+RAD_01_Caisson_du_dispositif_stacked-foils_sur_AXIII.JPG|Radio-isotopes|Caisson du dispositif stacked-foils sur AXIII.
+RAD_02_Vue_du_dispositif_stacked-foils_integre_au_caisson.JPG|Radio-isotopes|Vue du dispositif stacked-foils intégré au caisson.
+RAD_03_Bride_du_dispositif_stacked-foils.JPG|Radio-isotopes|Bride du dispositif stacked-foils.
+RAD_04_Feuille_de_thorium-232_PMMA.JPG|Radio-isotopes|Feuille mince de thorium-232 et support en PMMA pour son installation sur la bride du dispositif stacked-foils.
+RAD_05_Dispositif_Nice_III_sur_AXIII.jpg|Radio-isotopes|Dispositif Nice III sur AXIII.
+RAD_06_Capsule_pour_dispositif_Nice_III.jpg|Radio-isotopes|Capsule d'irradiation pour dispositif Nice III.
+RAD_07_Kapton.jpg|Radio-isotopes|Feuille de Kapton installée en bout de ligne AXIII pour assurer le maintien du vide.
+RAD_08_Detecteur_gamma_HP-Ge.JPG|Radio-isotopes|Détecteur gamma HP-Ge utilisé pour la mesure des raies d'émission des radio-isotopes produits.
+
+
+

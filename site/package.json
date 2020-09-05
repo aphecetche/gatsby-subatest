@@ -1,0 +1,52 @@
+{
+  "name": "site",
+  "private": true,
+  "description": "Site web pour le laboratoire Subatech, Nantes, France",
+  "version": "0.1.0",
+  "author": "Laurent Aphecetche",
+  "dependencies": {
+    "gatsby": "^2.24.47",
+    "gatsby-remark-relative-images": "^2.0.2",
+    "gatsby-theme-asides": "*",
+    "gatsby-theme-mdx": "*",
+    "gatsby-theme-nav": "*",
+    "gatsby-theme-ldap": "*",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.0.1",
+    "eslint": "^7.3.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.0",
+    "gatsby-plugin-root-import": "^2.0.5",
+    "gatsby-theme-mui": "*",
+    "gatsby-theme-ldap": "*",
+    "prettier-eslint-cli": "^5.0.0",
+    "prop-types": "^15.7.2"
+  },
+  "peerDependencies": {
+    "gatsby-theme-mui": "*"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "env-cmd -f .env gatsby develop -H 0.0.0.0",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "pnpm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aphecetche/gatsby-subatest"
+  },
+  "bugs": {
+    "url": "https://github.com/aphecetche/gatsby-subatest"
+  }
+}

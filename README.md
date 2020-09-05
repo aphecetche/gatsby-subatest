@@ -1,64 +1,71 @@
-# Web Subatech - [Gatsby](https://gatsbyjs.org) version
+# Web Subatech - 2020 Version
 
-## Initial setup for developpers
+Cette page explique comment développer pour le nouveau site web de Subatech
+([pourquoi changeons-nous ?](./CMS-vs-SSG.md))
 
-### Install nodejs
+## Prérequis
+
+### Installer nodejs
 
 See [nodejs](https://nodejs.org/en/) (LTS version)
 
-### Install gatsby-cli
+### Installer yarn
+
+### Installer gatsby-cli
 
 ```
 npm install -g gatsby-cli
 ```
 
-### Clone repo and install npm packages
+### Récupérer le dépot git
 
 ```
-cd someplace
+cd qqpart
 git clone https://github.com/aphecetche/gatsby-subatest
 cd gatsby-subatest
-npm install
+yarn install
 ```
 
-### Run the npm develop script
+### Créer un .env
 
-First create a local `.env` file containing :
+Créer un fichier local `.env` contenant :
 
 ```
 GATSBY_GRAPHQL_IDE=playground
 ```
 
-If you also want to generate the members pages from LDAP you must add :
+Si vous voulez également générer les pages "membres" (depuis la source LDAP)
+vous devez ajouter :
 
 ```
 WITHLDAP=true
 ```
 
-to the `.env` file. Note that this can only work if running the build from a machine in the in2p3.fr domain.
+au fichier `.env`. A noter : les réquêtes LDAP ne peuvent fonctionner que si
+vous utilisez une machine au sein du domaine `in2p3.fr`.
 
 
-(note that by construction, `.env` file are not meant to be committed to the repository as they might contain sensitive information like e.g. access tokens)
+Par construction, le fichier `.env` n'a _pas_ vocation à être commis sur le
+dépot git.
 
-The enter development mode :
+## Développement courant
 
+Une fois le dépot récupéré et les outils de base (nodejs, yarn et gatsby-cli) installés, le mode de dévelopement consiste grossièrement à :
+
+- lancer le mode de développement
+- modifier des fichiers (ou en ajouter des nouveaux) jusqu'à être satisfait du résultat
+- commettre les changements dans git
+
+
+
+Pour lancer le mode de développement, lancer la commande suivante dans un terminal :
+
+```shell
+yarn workspace site develop
 ```
-npm run develop
-```
 
-Open local site on [http://localhost:8000](http://localhost:8000)
+Et ouvrez la page [http://localhost:8000](http://localhost:8000) dans votre navigateur de choix.
 
-At this point, any edit on a `src` file (markdown, js or css) should be seen live thanks to hot reloading.
+Une fois cela fait, lorsque vous changez un fichier (markdown, js, etc...)  et sauvegardez ce fichier, le site est reconstruit et le changement apparaît (quasi) instantanément dans le navigateur.
 
-It's pretty basic for the moment. All is basically "Work In Progress" ;-)
 
-Only the text of the main content (articles) have been transfered (automatically, so do not edit them) from Joomla (from HTML to Markdown, using [aphecetche/joomla2markdown](https://github.com/aphecetche/joomla2markdown), using a dev site in [containers](https://github.com/aphecetche/docker-subaweb)). Images are not included in the git repo for the moment.
-
-What has been developped a bit though is a [search prototype](http://localhost:8000/search) using [lunr](https://lunrjs.com)
-
-The obvious next steps are :
-
-- add the right side menus in the team pages
-- deal with "special" content like seminars, job offers, etc...
-- bring some images to see how to properly deal with them ...
-- ...

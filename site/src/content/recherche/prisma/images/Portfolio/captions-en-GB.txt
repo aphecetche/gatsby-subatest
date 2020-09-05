@@ -1,0 +1,17 @@
+﻿toto.jpg|toto|toto.
+CND_01_Analyse_interf.jpg|CND|Optical system dedicated to analyse interference signals.
+CND_02_DC210.jpg|CND|Heat control system for defect detection hosted by a multi-articulated robot.
+CND_03_MP16T5_Ind.jpg|CND|Multi-modal control system (infra red, laser, ultra sound) hosted by an induction welding head for omegas fixing on a PEEK carbon plate for aviation.
+CND_04_MP16T5_Ind2.jpg|CND|Multi-modal control system (infra red, laser, ultra sound) hosted by an induction welding head for omegas fixing on a PEEK carbon plate for aviation.
+CND_05_MP16T5_US.jpg|CND|Multi-modal control system (infra red, laser, ultra sound) hosted by an ultrasonic welding head for omegas fixing on a PEEK carbon plate for aviation.
+PIX_01_PIXE_alignement.jpg|PIXE|PIXE bench in alignment procedure on ARRONAX AX beam line.
+PIX_02_PIXE_blindage.jpg|PIXE|Germanium detector shielding used during PIXE experiments.
+PIX_03_Caracterisation_faisceau.jpg|PIXE|Measure bench for characterization of the beam used during PIXE experiments.
+RAD_01_Caisson_du_dispositif_stacked-foils_sur_AXIII.JPG|Radio-isotopes|Stacked-foils experiment on AXIII beam line at ARRONAX.
+RAD_02_Vue_du_dispositif_stacked-foils_integre_au_caisson.JPG|Radio-isotopes|Stacked-foils device in its vacuum chamber.
+RAD_03_Bride_du_dispositif_stacked-foils.JPG|Radio-isotopes|Stacked-foils flange.
+RAD_04_Feuille_de_thorium-232_PMMA.JPG|Radio-isotopes|Thorium-232 thin foil and its PMMA support for setup on the stacked-foils flange.
+RAD_05_Dispositif_Nice_III_sur_AXIII.jpg|Radio-isotopes|Nice III device on AXIII beam line at ARRONAX.
+RAD_06_Capsule_pour_dispositif_Nice_III.jpg|Radio-isotopes|Nice III irradiation capsule.
+RAD_07_Kapton.jpg|Radio-isotopes|Kapton foil at the end of the AXIII beam line to maintain the vacuum.
+RAD_08_Detecteur_gamma_HP-Ge.JPG|Radio-isotopes|HP-Ge gamma detector used to measure emission rays of the produced radio-isotopes.

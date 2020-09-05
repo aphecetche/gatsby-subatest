@@ -1,4 +1,4 @@
 [build]
 
-base = "site/"
-command = "gatsby build"
+command = "yarn workspace site build"
+public = "site/public"

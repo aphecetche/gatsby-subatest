@@ -1,6 +1,6 @@
 import PropTypes from "prop-types"
 import React, { useState } from "react"
-import Logo from "./logo"
+import Logo from "./Logo"
 import PrimaryNavigation from "gatsby-theme-nav/src/components/PrimaryNavigation"
 import SecondaryNavigation from "gatsby-theme-nav/src/components/SecondaryNavigation"
 import { AppBar, Toolbar } from "@material-ui/core"

@@ -1,0 +1,22 @@
+[
+  {
+    "img": "logo-ubl.jpg",
+    "alt": "Logo UBL",
+    "href": "https://u-bretagneloire.fr"
+  },
+  {
+    "img": "logo-osuna.jpg",
+    "alt": "Logo OSUNA",
+    "href": "http://www.osuna.univ-nantes.fr"
+  },
+  {
+    "img": "logo-3mpl.jpg",
+    "alt": "Logo ED",
+    "href": "https://ed-3m.doctorat-bretagneloire.fr"
+  },
+  {
+    "img": "logo-institut-carnot.jpg",
+    "alt": "Logo IC",
+    "href": "https://www.carnot-mines.eu"
+  }
+]

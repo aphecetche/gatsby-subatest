@@ -6,9 +6,8 @@ path: "services-techniques-et-administration/informatique/contacts.md"
 joomlaid: 155
 category: "Informatique"
 asides: ["Informatique.+menu+"]
-layout: "services-techniques-et-administration"
+layout: "recherche"
 ---
-{loadposition contact}
 
 Responsable du service informatique : Khalil Chawoshi
 

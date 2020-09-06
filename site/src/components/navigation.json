@@ -28,10 +28,27 @@
         "title": "Administration",
         "links": [
           {
-            "to": "/services-techniques-et-administration/adminitration",
+            "to": "/services-techniques-et-administration/administration/presentation",
             "label": "Présentation"
           }
         ]
+      },
+      {
+              "title": "Venir à Subatech",
+              "links": [
+                      {
+                              "to": "/services-techniques-et-administration/administration/venir-a-subatech",
+                              "label": "Accès"
+                      },
+                      {
+                              "to": "/services-techniques-et-administration/administration/hebergement",
+                              "label":"Hébergement"
+                      },
+                      {
+                              "to": "/actualites/stage-observation-en-entreprise-session-du-18-au-21-juin-2018-classe-de-seconde",
+                              "label": "Stages d'observation"
+                      }
+              ]
       }
     ]
   },
@@ -179,12 +196,12 @@
             "label": "Séminaires (*)"
           },
           {
-            "to": "/communication/vulgarisation",
-            "label": "Vulgarisation (*)"
-          },
-          {
             "to": "/communication/bibliotheque",
             "label": "Bibliothèque (*)"
+          },
+          {
+            "to": "/communication/communication",
+            "label": "Culture scientifique et technique"
           }
         ]
       }
@@ -205,7 +222,7 @@
             "label": "Informatique"
           },
           {
-            "to": "/services-techniques-et-administration/electronique/service-electronique",
+            "to": "/services-techniques-et-administration/electronique/presentation",
             "label": "Electronique"
           },
           {

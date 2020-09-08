@@ -5,12 +5,12 @@ component: "RightSideMenu"
 
 ## Equipe Radiochimie
 
--   [Présentation](./radiochimie-presentation)
+-   [Présentation](/recherche/radiochimie/radiochimie-presentation)
 -   Activités de recherche
-    -   [Transfert](./transfert)
-    -   [Radioisotopes & ultra-traces](./radioisotopes)
-    -   [Physico-chimie sour irradiation](./radiolyse)
--   [Membres](./radiochimie-membres)
--   [Publications](./radiochimie-publications)
--   [Présentations de conférences, séminaires et posters](./radiochimie-communication)
--   [Thèses](./radiochimie-theses)
+    -   [Transfert](/recherche/radiochimie/transfert)
+    -   [Radioisotopes & ultra-traces](/recherche/radiochimie/radioisotopes)
+    -   [Physico-chimie sour irradiation](/recherche/radiochimie/radiolyse)
+-   [Membres](/recherche/radiochimie/radiochimie-membres)
+-   [Publications](/recherche/radiochimie/radiochimie-publications)
+-   [Présentations de conférences, séminaires et posters](/recherche/radiochimie/radiochimie-communication)
+-   [Thèses](/recherche/radiochimie/radiochimie-theses)

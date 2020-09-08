@@ -29,6 +29,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           node {
             frontmatter {
               aside
+              fragment
               layout
             }
             fields {
@@ -46,6 +47,9 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const defaultComponent = path.resolve(`./src/templates/default.jsx`)
   result.data.allMdx.edges.forEach(({ node }) => {
     if (node.frontmatter.aside !== null) {
+      return
+    }
+    if (node.frontmatter.fragment !== null) {
       return
     }
     let layout = node.frontmatter.layout

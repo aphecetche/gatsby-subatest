@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import { makeStyles, Grid } from "@material-ui/core"
 import Asides from "gatsby-theme-asides/src/components/Asides"
 import { MDXProvider } from "@mdx-js/react"

@@ -3,7 +3,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import { makeStyles, Grid } from "@material-ui/core"
 import { MDXProvider } from "@mdx-js/react"
 import DebugComponents from "../components/DebugComponents"
@@ -46,7 +46,7 @@ const DefaultLayout = ({ data }) => {
           <Grid item xs={false} sm={1} />
           <Grid item xs={12} sm={10} className={classes.main}>
             <main>
-              <h1>{frontmatter.title}</h1>
+              {frontmatter.title && <h1>{frontmatter.title}</h1>}
               <MDXRenderer>{body}</MDXRenderer>
             </main>
           </Grid>

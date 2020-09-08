@@ -13,6 +13,7 @@
 - [ ] rename recherche.jsx to something like with-right-side-menu or sth alike
 - [ ] electronique presentation : add the image gallery, fix the logo size, add links to experiments ?
 - [ ] revamp the general/Logo.js component to handle _all_ logos (i.e. query all /logo/ images and have the logo regex, size and file type as a parameter to the Logo component)
+- [ ] multilanguage support (english)
 
 ## To go beyond current site
 

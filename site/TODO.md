@@ -17,6 +17,7 @@
 
 ## To go beyond current site
 
+- [ ] RightMenu => floating menu (follow scroll)
 - [X] make an overflow menu, or a toggle (see https://material.io/design/color/dark-theme.html#behavior) to switch between light and dark modes
 - [ ] extract search functionality into an external theme
 - [ ] connect the search theme (i.e. add a component to launch search and one for presenting results)

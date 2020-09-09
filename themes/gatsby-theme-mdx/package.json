@@ -32,9 +32,11 @@
     "gatsby-plugin-sharp": "^2.6.31",
     "gatsby-remark-copy-linked-files": "^2.3.12",
     "gatsby-remark-embed-video": "^3.0.10",
+    "gatsby-remark-image-attributes": "^0.2.3",
     "gatsby-remark-images": "^3.3.27",
     "gatsby-remark-responsive-iframe": "^2.4.12",
     "gatsby-source-filesystem": "^2.3.24",
-    "gatsby-transformer-sharp": "^2.5.14"
+    "gatsby-transformer-sharp": "^2.5.14",
+    "remark-unwrap-images": "^2.0.0"
   }
 }

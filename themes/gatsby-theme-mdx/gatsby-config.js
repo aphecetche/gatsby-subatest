@@ -1,3 +1,5 @@
+//const unwrapImages = require("remark-unwrap-images");
+
 module.exports = (themeOptions) => {
   const options = Object.keys(themeOptions).length
     ? themeOptions
@@ -22,6 +24,7 @@ module.exports = (themeOptions) => {
       {
         resolve: `gatsby-plugin-mdx`,
         options: {
+          //    remarkPlugins: [unwrapImages],
           gatsbyRemarkPlugins: [
             {
               resolve: `gatsby-remark-embed-video`,
@@ -30,14 +33,23 @@ module.exports = (themeOptions) => {
               resolve: `gatsby-remark-responsive-iframe`,
             },
             {
-              resolve: `gatsby-remark-images`,
+              resolve: `gatsby-remark-copy-linked-files`,
               options: {
-                maxWidth: 1200,
+                ignoreFileExtensions: ["png", "jpg", "jpeg"],
               },
             },
             {
-              resolve: `gatsby-remark-copy-linked-files`,
-              options: {},
+              resolve: `gatsby-remark-images`,
+              options: {
+                maxWidth: 1000,
+              },
+            },
+            {
+              resolve: `gatsby-remark-image-attributes`,
+              options: {
+                dataAttributes: true,
+                styleAttributes: ["border"],
+              },
             },
           ],
           extensions: [".mdx", ".md"],

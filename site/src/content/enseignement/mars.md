@@ -5,8 +5,8 @@ lastmod: "2019-01-23 16:08:56 +0000 UTC"
 path: "enseignement/mars.md"
 joomlaid: 294
 category: "Enseignement"
+asides: ["Enseignement.+menu+"]
 layout: "recherche"
-asides: ["menu.+pfa+"]
 ---
 ![PFA](images/PFA.png)
 
@@ -32,6 +32,6 @@ Cette spécialité de master peut accueillir environ 30 étudiants par an selon 
 *   6 en RPS
 *   8 en DNM
 
-    Recrutement sur dossier et entretien.
+Recrutement sur dossier et entretien.
 
-    ![bandeauimagesMARS](images/bandeauimagesMARS.jpg)
+![bandeauimagesMARS](images/bandeauimagesMARS.jpg)

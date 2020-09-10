@@ -6,7 +6,7 @@ path: "services-techniques-et-administration/administration/ressources-humaines.
 joomlaid: 225
 category: "Administration"
 asides: ["Administration.+menu+"]
-layout: "services-techniques-et-administration"
+layout: "recherche"
 ---
 Les personnels permanents de Subatech sont des fonctionnaires recrutés par voie de concours ou par voie de mobilité auxquels s'ajoutent des personnels en contrat à durée indéterminée de l'IMT Atlantique et de l’association ARMINES.
 

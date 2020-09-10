@@ -6,7 +6,7 @@ path: "services-techniques-et-administration/administration/missions.md"
 joomlaid: 226
 category: "Administration"
 asides: ["Administration.+menu+"]
-layout: "services-techniques-et-administration"
+layout: "recherche"
 ---
 Pour tout projet de visite au laboratoire, merci de remplir le document suivant et nous le faire suivre à g\_internation@subatech.in2p3.fr
 

@@ -6,7 +6,7 @@ path: "services-techniques-et-administration/administration/organigramme.md"
 joomlaid: 106
 category: "Administration"
 asides: ["Administration.+menu+"]
-layout: "services-techniques-et-administration"
+layout: "recherche"
 ---
 [\[ Version imprimable (PDF) \]](images/Organigramme_exterieur_062020.pdf)
 

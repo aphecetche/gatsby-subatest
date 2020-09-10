@@ -6,6 +6,6 @@ path: "enseignement/stages-et-thèses/propositions-de-theses-2012-2013.md"
 joomlaid: 270
 category: "Stages et thèses"
 asides: ["Stages et thèses.+menu+"]
-layout: "enseignement"
+layout: "recherche"
 ---
 

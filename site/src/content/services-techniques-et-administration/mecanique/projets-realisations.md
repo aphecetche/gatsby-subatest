@@ -6,7 +6,7 @@ path: "services-techniques-et-administration/mecanique/projets-realisations.md"
 joomlaid: 173
 category: "Mecanique"
 asides: ["Mecanique.+menu+"]
-layout: "services-techniques-et-administration"
+layout: "recherche"
 ---
 Projets du bureau d'études :
 ----------------------------

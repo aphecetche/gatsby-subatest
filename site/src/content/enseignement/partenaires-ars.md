@@ -5,8 +5,8 @@ lastmod: "2019-01-23 16:10:04 +0000 UTC"
 path: "enseignement/partenaires-ars.md"
 joomlaid: 295
 category: "Enseignement"
+asides: ["Enseignement.+menu+"]
 layout: "recherche"
-asides: ["nseignement.+menu+"]
 ---
 ### Partenariats et collaborations :
 

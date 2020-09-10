@@ -6,7 +6,7 @@ path: "services-techniques-et-administration/administration/administration.md"
 joomlaid: 125
 category: "Administration"
 asides: ["Administration.+menu+"]
-layout: "services-techniques-et-administration"
+layout: "recherche"
 ---
 
 import Members from "gatsby-theme-ldap/src/components/Members"

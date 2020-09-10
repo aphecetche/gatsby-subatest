@@ -8,4 +8,4 @@ category: "theorie"
 asides: ["theorie.+menu+"]
 layout: "recherche"
 ---
-{loadposition contact}
+

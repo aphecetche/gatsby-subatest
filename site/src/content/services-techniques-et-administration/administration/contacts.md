@@ -6,8 +6,6 @@ path: "services-techniques-et-administration/administration/contacts.md"
 joomlaid: 157
 category: "Administration"
 asides: ["Administration.+menu+"]
-layout: "services-techniques-et-administration"
+layout: "recherche"
 ---
-Qui contacter pour quoi 
-
-{loadposition contact}
+Qui contacter pour quoi

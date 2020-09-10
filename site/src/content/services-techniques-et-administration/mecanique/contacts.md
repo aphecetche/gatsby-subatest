@@ -6,7 +6,7 @@ path: "services-techniques-et-administration/mecanique/contacts.md"
 joomlaid: 151
 category: "Mecanique"
 asides: ["Mecanique.+menu+"]
-layout: "services-techniques-et-administration"
+layout: "recherche"
 ---
 _Service Mécanique_ _SUBATECH__4 rue Alfred KASTLER_
 

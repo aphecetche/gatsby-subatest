@@ -6,6 +6,6 @@ path: "enseignement/stages-et-thèses/archives.md"
 joomlaid: 271
 category: "Stages et thèses"
 asides: ["Stages et thèses.+menu+"]
-layout: "enseignement"
+layout: "recherche"
 ---
 

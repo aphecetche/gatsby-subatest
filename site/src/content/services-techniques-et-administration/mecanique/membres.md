@@ -8,7 +8,6 @@ category: "Mecanique"
 asides: ["Mecanique.+menu+"]
 layout: "recherche"
 ---
-
 ### Bureau d'études :
 
 *   Technicien (TCE)

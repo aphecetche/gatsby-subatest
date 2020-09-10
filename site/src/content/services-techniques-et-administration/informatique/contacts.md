@@ -8,7 +8,6 @@ category: "Informatique"
 asides: ["Informatique.+menu+"]
 layout: "recherche"
 ---
-
 Responsable du service informatique : Khalil Chawoshi
 
 Sécurite Informatique (CSSI) : J.M. Barbet

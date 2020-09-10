@@ -6,7 +6,7 @@ path: "services-techniques-et-administration/administration/presentation.md"
 joomlaid: 156
 category: "Administration"
 asides: ["Administration.+menu+"]
-layout: "services-techniques-et-administration"
+layout: "recherche"
 ---
 Responsable Administrative
 --------------------------

@@ -6,7 +6,7 @@ path: "enseignement/stages-et-thèses/propositions-de-stages-et-theses-2012-2013
 joomlaid: 269
 category: "Stages et thèses"
 asides: ["Stages et thèses.+menu+"]
-layout: "enseignement"
+layout: "recherche"
 ---
 #### [Conventions de stages de l'Université de Nantes](http://www.sciences-techniques.univ-nantes.fr/26474633/0/fiche___pagelibre/&RH=1308826588953%!)(MISSING)
 

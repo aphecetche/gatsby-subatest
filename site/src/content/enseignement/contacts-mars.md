@@ -5,8 +5,8 @@ lastmod: "2020-01-17 13:44:32 +0000 UTC"
 path: "enseignement/contacts-mars.md"
 joomlaid: 296
 category: "Enseignement"
+asides: ["Enseignement.+menu+"]
 layout: "recherche"
-asides: ["menu.+pfa+"]
 ---
 ### Contacts pour le master PFA
 

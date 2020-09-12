@@ -7,10 +7,13 @@
   "dependencies": {
     "@material-ui/lab": "^4.0.0-alpha.56",
     "gatsby": "^2.24.47",
+    "gatsby-plugin-meta-redirect": "^1.1.1",
+    "gatsby-plugin-netlify": "^2.3.15",
     "gatsby-remark-relative-images": "^2.0.2",
-    "gatsby-theme-asides": "*",
+    "gatsby-theme-intl": "*",
     "gatsby-theme-ldap": "*",
     "gatsby-theme-mdx": "*",
+    "gatsby-theme-mui": "*",
     "gatsby-theme-nav": "*",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
@@ -22,14 +25,10 @@
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.0",
     "gatsby-plugin-root-import": "^2.0.5",
-    "gatsby-theme-ldap": "*",
-    "gatsby-theme-mui": "*",
     "prettier-eslint-cli": "^5.0.0",
     "prop-types": "^15.7.2"
   },
-  "peerDependencies": {
-    "gatsby-theme-mui": "*"
-  },
+  "peerDependencies": {},
   "keywords": [
     "gatsby"
   ],
@@ -41,6 +40,7 @@
     "start": "pnpm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "restart": "yarn clean && yarn develop",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {

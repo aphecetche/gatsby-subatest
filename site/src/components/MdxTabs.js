@@ -5,8 +5,9 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import { Tab } from "@material-ui/core"
 import { TabPanel, TabContext, TabList } from "@material-ui/lab"
 import withStyles from "@material-ui/styles/withStyles"
+import { useTranslation } from "gatsby-theme-intl"
 
-export const styles = (theme) => ({
+export const styles = () => ({
   root: {},
   tablist: {},
   tab: {},
@@ -17,12 +18,13 @@ const MdxTabs = (props) => {
   const { data, ariaLabel, classes, className } = props
   const [value, setValue] = useState("0")
   const nodes = data.edges
+  const { t } = useTranslation()
   const head = nodes.map((n, i) => (
     <Tab
       className={clsx(classes.tab)}
       key={n.node.id}
       value={i.toString()}
-      label={n.node.frontmatter.title}
+      label={t(n.node.frontmatter.title)}
     />
   ))
 

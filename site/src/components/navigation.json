@@ -34,21 +34,21 @@
         ]
       },
       {
-              "title": "Venir à Subatech",
-              "links": [
-                      {
-                              "to": "/services-techniques-et-administration/administration/venir-a-subatech",
-                              "label": "Accès"
-                      },
-                      {
-                              "to": "/services-techniques-et-administration/administration/hebergement",
-                              "label":"Hébergement"
-                      },
-                      {
-                              "to": "/actualites/stage-observation-en-entreprise-session-du-18-au-21-juin-2018-classe-de-seconde",
-                              "label": "Stages d'observation"
-                      }
-              ]
+        "title": "Venir à Subatech",
+        "links": [
+          {
+            "to": "/services-techniques-et-administration/administration/venir-a-subatech",
+            "label": "Accès"
+          },
+          {
+            "to": "/services-techniques-et-administration/administration/hebergement",
+            "label": "Hébergement"
+          },
+          {
+            "to": "/actualites/stage-observation-en-entreprise-session-du-18-au-21-juin-2018-classe-de-seconde",
+            "label": "Stages d'observation"
+          }
+        ]
       }
     ]
   },
@@ -239,15 +239,27 @@
     "groups": [
       {
         "links": [
-          { "to": "/", "label": "Contact" },
-          { "to": "/", "label": "Liens" }
+          {
+            "to": "/",
+            "label": "Contact"
+          },
+          {
+            "to": "/",
+            "label": "Liens"
+          }
         ]
       },
       {
         "title": "Le service SMART",
         "links": [
-          { "to": "/smart/presentation", "label": "Présentation" },
-          { "to": "/smart/moyens-humains", "label": "Moyens humains" },
+          {
+            "to": "/smart/presentation",
+            "label": "Présentation"
+          },
+          {
+            "to": "/smart/moyens-humains",
+            "label": "Moyens humains"
+          },
           {
             "to": "/smart/techniques-et-equipements",
             "label": "Techniques et équipements"
@@ -261,8 +273,14 @@
       {
         "title": "Nos prestations",
         "links": [
-          { "to": "/smart/prelevements", "label": "Prélèvements" },
-          { "to": "/smart/pre-traitements", "label": "Pré-traitements" },
+          {
+            "to": "/smart/prelevements",
+            "label": "Prélèvements"
+          },
+          {
+            "to": "/smart/pre-traitements",
+            "label": "Pré-traitements"
+          },
           {
             "to": "/smart/detection-des-rayonnements",
             "label": "Détection des rayonnements"
@@ -271,7 +289,10 @@
             "to": "/smart/nature-des-echantillons-et-des-prestations",
             "label": "Nature des échantillons et des prestations"
           },
-          { "to": "/smart/actions-r-d", "label": "Actions R&D" }
+          {
+            "to": "/smart/actions-r-d",
+            "label": "Actions R&D"
+          }
         ]
       }
     ]

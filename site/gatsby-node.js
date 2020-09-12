@@ -8,25 +8,91 @@ const path = require(`path`)
 const fs = require("fs")
 const { createFilePath } = require("gatsby-source-filesystem")
 
-exports.onCreateNode = ({ node, getNode, actions }) => {
-  const { createNodeField } = actions
+const validFilePath = (path) => {
+  const re = /(\.en\/$)|(\.fr\/$)|(\.xx\/$)/
+  return path.search(re) >= 0
+}
+
+const extractLanguage = (slug) => {
+  const s = slug.replace(/\/$/, "").split(".")
+  return s[s.length - 1]
+}
+
+exports.onCreateNode = ({ node, getNode, actions, reporter, createNodeId }) => {
+  const { createNodeField, createNode } = actions
   if (node.internal.type === "Mdx") {
-    const slug = createFilePath({ node, getNode })
-    createNodeField({
-      node,
-      name: "slug",
-      value: slug,
-    })
+    const localizedSlug = createFilePath({ node, getNode })
+    if (!validFilePath(localizedSlug)) {
+      reporter.panic(
+        localizedSlug +
+          " is not a valid slug : missing the .fr | .en | .xx extension"
+      )
+    }
+    const language = extractLanguage(localizedSlug)
+    const slug = localizedSlug.replace("." + language, "")
+    addNodeField(createNodeField, node, slug, language)
   }
 }
 
+const addNodeField = (createNodeField, node, slug, language) => {
+  createNodeField({
+    node,
+    name: "slug",
+    value: slug,
+  })
+  createNodeField({
+    node,
+    name: "language",
+    value: language,
+  })
+}
+
+const excludePage = ({ aside, fragment }) => {
+  if (aside !== null) {
+    return true
+  }
+  if (fragment !== null) {
+    return true
+  }
+  return false
+}
+
+const createMdxPage = (translations, createPage, node, defaultComponent) => {
+  let comp = node.frontmatter.layout
+    ? path.resolve(`./src/templates/${node.frontmatter.layout}.jsx`)
+    : defaultComponent
+  if (!fs.existsSync(comp)) {
+    comp = defaultComponent
+  }
+  let languages = [node.fields.language]
+
+  if (languages.includes("xx")) {
+    languages = ["fr", "en"]
+  }
+
+  languages.forEach((lang) => {
+    const path = "/" + lang + node.fields.slug
+    createPage({
+      path: path,
+      component: comp,
+      context: {
+        slug: node.fields.slug,
+        language: lang,
+        translations,
+      },
+    })
+  })
+}
+
 exports.createPages = async ({ actions, graphql, reporter }) => {
-  const { createPage } = actions
+  const { createPage, createRedirect } = actions
+  //allMdx(filter: { fields: { slug: { regex: "/erdre/" } } }) {
   const result = await graphql(`
     query {
       allMdx {
         edges {
           node {
+            fileAbsolutePath
             frontmatter {
               aside
               fragment
@@ -34,6 +100,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
             }
             fields {
               slug
+              language
             }
           }
         }
@@ -44,29 +111,22 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     reporter.panicOnBuild(`Error while running GraphQL query in createPages.`)
     return
   }
-  const defaultComponent = path.resolve(`./src/templates/default.jsx`)
-  result.data.allMdx.edges.forEach(({ node }) => {
-    if (node.frontmatter.aside !== null) {
-      return
+  const defaultComponent = path.resolve(`./src/templates/DefaultLayout.jsx`)
+  const edges = result.data.allMdx.edges
+  const allTranslations = ["fr", "en"]
+  edges.forEach(({ node }) => {
+    if (!excludePage(node.frontmatter)) {
+      // translations is the list of languages this page exists in
+      const translations = edges
+        .filter((e) => e.node.fields.slug === node.fields.slug)
+        .map((e) => e.node.fields.language)
+      createMdxPage(
+        translations.includes("xx") ? allTranslations : translations,
+        createPage,
+        node,
+        defaultComponent
+      )
     }
-    if (node.frontmatter.fragment !== null) {
-      return
-    }
-    let layout = node.frontmatter.layout
-    if (!layout) {
-      layout = "default"
-    }
-    let comp = path.resolve(`./src/templates/${layout}.jsx`)
-    if (!fs.existsSync(comp)) {
-      comp = defaultComponent
-    }
-    createPage({
-      path: node.fields.slug,
-      component: comp,
-      context: {
-        slug: node.fields.slug,
-      },
-    })
   })
 }
 
@@ -76,4 +136,53 @@ exports.onCreateWebpackConfig = ({ actions }) => {
       modules: [path.resolve(__dirname, "src"), "node_modules"],
     },
   })
+}
+
+exports.onCreatePage = ({ page, actions }) => {
+  const { createPage, deletePage } = actions
+
+  if (!page.context.language) {
+    // we don't have a language so it's not a Mdx page
+    // so we must create versions for both translations
+
+    console.log("Dealing with page ", page.path)
+    deletePage(page)
+
+    const routes = ["", "/fr", "/en"]
+    routes.forEach((r) => {
+      const path = r + page.path
+      const newPage = {
+        ...page,
+        path: path,
+        context: {
+          ...page.context,
+          slug: path,
+          language: r ? r.replace(/\//, "") : "fr",
+          // by default we assume that pages can handle both languages
+          // TODO: how to disable some languages for some (non-mdx) pages ?
+          translations: ["fr", "en"],
+        },
+      }
+      createPage(newPage)
+    })
+  }
+}
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+
+  createTypes(`
+    type Mdx implements Node {
+      frontmatter: MdxFrontmatter!
+    }
+    type MdxFrontmatter {
+      title: String!
+      category: String
+      asides: [String]
+      layout: String
+      fragment: Boolean
+      aside: Boolean
+      component: String
+    }
+  `)
 }

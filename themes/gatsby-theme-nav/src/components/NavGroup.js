@@ -1,6 +1,7 @@
 import React from "react";
 import NavLink from "./NavLink";
 import { makeStyles, Typography } from "@material-ui/core";
+import PropTypes from "prop-types";
 
 const useStyles = makeStyles((theme) => ({
   navgroup: {
@@ -63,4 +64,13 @@ const NavGroup = ({ title, links }) => {
   );
 };
 
+NavGroup.propTypes = {
+  title: PropTypes.string,
+  links: PropTypes.arrayOf(
+    PropTypes.shape({
+      label: PropTypes.string,
+      to: PropTypes.string,
+    })
+  ),
+};
 export default NavGroup;

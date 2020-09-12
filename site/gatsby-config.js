@@ -8,7 +8,11 @@ module.exports = {
     {
       resolve: `gatsby-theme-mdx`,
       options: {
-        sources: [`${__dirname}/src/content`, `${__dirname}/src/pages`],
+        sources: [
+          `${__dirname}/src/content`,
+          `${__dirname}/src/pages`,
+          `${__dirname}/src/components/asides`,
+        ],
       },
     },
     {
@@ -21,6 +25,18 @@ module.exports = {
       options: {
         disabled: !(process.env.WITHLDAP === "yes"),
       },
+    },
+    {
+      resolve: `gatsby-theme-intl`,
+      options: {},
+    },
+    {
+      resolve: `gatsby-plugin-netlify`,
+      options: {},
+    },
+    {
+      resolve: `gatsby-plugin-meta-redirect`,
+      options: {},
     },
   ],
 }

@@ -3,7 +3,6 @@ import { graphql } from "gatsby"
 import MdxTabs from "components/MdxTabs"
 
 const TestPage = ({ data }) => {
-  console.log("data=", data)
   return (
     <>
       <h1>TestPage</h1>

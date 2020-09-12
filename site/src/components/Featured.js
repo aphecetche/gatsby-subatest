@@ -7,6 +7,7 @@ import Jobs from "components/Jobs"
 import Seminars from "components/Seminars"
 import useMediaQuery from "@material-ui/core/useMediaQuery"
 import { useTheme } from "@material-ui/core/styles"
+import { useTranslation } from "gatsby-theme-intl"
 
 const useStyles = makeStyles((theme) => ({
   root: {},
@@ -19,7 +20,8 @@ const Featured = () => {
   const classes = useStyles()
   const theme = useTheme()
   const matches = useMediaQuery(theme.breakpoints.up("sm"))
-  const variant = matches ? "fullWith" : "scrollable"
+  const { t } = useTranslation()
+  const variant = matches ? "fullWidth" : "scrollable"
 
   const handleChange = (event, newValue) => {
     setValue(newValue)
@@ -29,15 +31,14 @@ const Featured = () => {
       <TabContext value={value}>
         <TabList
           className={classes.scrollable}
-          centered
           variant={variant}
           onChange={handleChange}
           aria-label="Actualités"
         >
-          <Tab value="0" label="Evénements" />
-          <Tab value="1" label="Offres d'emploi" />
-          <Tab value="2" label="Offres de thèses" />
-          <Tab value="3" label="Seminaires" />
+          <Tab value="0" label={t("événements")} />
+          <Tab value="1" label={t("offres d'emploi")} />
+          <Tab value="2" label={t("offres de thèses")} />
+          <Tab value="3" label={t("séminaires")} />
         </TabList>
         <TabPanel className={classes.panel} value="0">
           <Events />

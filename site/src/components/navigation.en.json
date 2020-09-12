@@ -1,0 +1,101 @@
+[
+  {
+    "title": "About us",
+    "to": "/en/general/presentation"
+  },
+  {
+    "title": "Research",
+    "to": "/en/recherche/recherche",
+    "groups": [
+      {
+        "links": [
+          {
+            "to": "/en/recherche/recherche",
+            "label": "Foreword"
+          },
+          {
+            "to": "http://hal.in2p3.fr/SUBATECH/",
+            "label": "Publications"
+          }
+        ]
+      },
+      {
+        "title": "Nuclear and environnement",
+        "links": [
+          {
+            "to": "/en/recherche/radiochimie/radiochimie-presentation",
+            "label": "Radiochemistry"
+          },
+          {
+            "to": "/en/recherche/prisma/presentation",
+            "label": "Prisma"
+          },
+          {
+            "to": "/en/recherche/sen/erdre-presentation",
+            "label": "SEN"
+          }
+        ]
+      },
+      {
+        "title": "Nuclear and Health",
+        "links": [
+          {
+            "to": "/en/recherche/xenon/presentation",
+            "label": "Xenon"
+          },
+          {
+            "to": "/en/recherche/prisma/presentation",
+            "label": "Prisma"
+          },
+          {
+            "to": "/en/recherche/radiochimie/radiochimie-presentation",
+            "label": "Radiochemistry"
+          }
+        ]
+      },
+      {
+        "title": "High Energy Universe",
+        "links": [
+          {
+            "to": "/en/recherche/plasma/presentation-groupe-plasma",
+            "label": "Plasma"
+          },
+          {
+            "to": "/en/recherche/astro/astro-presentation",
+            "label": "Astro"
+          },
+          {
+            "to": "/en/recherche/sen/erdre-presentation",
+            "label": "SEN"
+          },
+          {
+            "to": "/en/recherche/xenon/presentation",
+            "label": "Xenon"
+          },
+          {
+            "to": "/en/recherche/theorie/theoriehe-presentation",
+            "label": "Theory"
+          },
+          {
+            "to": "/en/recherche/neutrino/neutrino-presentation",
+            "label": "Neutrino"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Crafts",
+    "to": "/en/services-techniques-et-administration/services-techniques",
+    "groups": [
+      {
+        "links": [
+          {
+            "to": "/en/services-techniques-et-administration/electronique/presentation",
+            "label": "Electronics"
+          }
+        ]
+      }
+    ]
+  }
+]

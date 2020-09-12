@@ -1,9 +1,9 @@
 import React from "react";
 import NavGroup from "./NavGroup";
 import CloseButton from "./CloseButton";
-
 import { makeStyles } from "@material-ui/core/styles";
 import { Grid, Typography } from "@material-ui/core";
+import PropTypes from "prop-types";
 
 const useStyles = makeStyles((theme) => ({
   bigmenu: {
@@ -68,4 +68,14 @@ const BigMenu = ({ title, groups, onClose }) => {
   );
 };
 
+BigMenu.propTypes = {
+  title: PropTypes.string,
+  groups: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string,
+      to: PropTypes.string,
+    })
+  ),
+  onClose: PropTypes.func,
+};
 export default BigMenu;

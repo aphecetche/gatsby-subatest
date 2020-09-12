@@ -8,6 +8,7 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
     "gatsby": "^2.24.47",
+    "gatsby-theme-intl": "*",
     "gatsby-theme-mui": "*",
     "prettier": "^2.1.0",
     "prettier-eslint-cli": "^5.0.0",
@@ -16,6 +17,7 @@
   },
   "peerDependencies": {
     "gatsby": "^2.24.47",
+    "gatsby-theme-intl": "*",
     "gatsby-theme-mui": "*",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
@@ -23,6 +25,16 @@
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
-    "develop": "gatsby develop"
+    "develop": "gatsby develop",
+    "test": "jest"
+  },
+  "dependencies": {
+    "babel-jest": "^26.3.0",
+    "babel-preset-gatsby": "^0.5.10",
+    "eslint": "^7.9.0",
+    "eslint-plugin-jest": "^24.0.2",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.4.2",
+    "react-test-renderer": "^16.13.1"
   }
 }

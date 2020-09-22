@@ -9,7 +9,6 @@ const capitalize = (s) => {
 
 const Member = ({ member }) => {
   const { name, roomNumber, telephoneNumber, title, mail } = member;
-  console.log(name, roomNumber, telephoneNumber, mail);
   const normalizedName = name
     .split(" ")
     .map((n) => capitalize(n))

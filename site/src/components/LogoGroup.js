@@ -19,7 +19,6 @@ const useStyles = makeStyles((theme) => ({
 }))
 
 const LogoGroup = ({ logos }) => {
-  console.log("logos=", logos)
   const classes = useStyles()
   const logoImages = logos.map((n) => (
     <div key={n.img} className={classes.logo}>

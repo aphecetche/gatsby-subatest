@@ -1,15 +1,15 @@
-import PropTypes from "prop-types"
-import React, { useState } from "react"
+import DebugPalette from "./DebugPalette"
+import Hamburger from "./hamburger"
 import Logo from "./Logo"
-import PrimaryNavigation from "gatsby-theme-nav/src/components/PrimaryNavigation"
-import SecondaryNavigation from "gatsby-theme-nav/src/components/SecondaryNavigation"
+import { PrimaryNavigation, SecondaryNavigation } from "gatsby-theme-nav"
+import React, { useState } from "react"
+import ToggleDarkMode from "./ToggleDarkMode"
+import nav from "./navigation.json"
+import nav_en from "./navigation.en.json"
 import { AppBar, Toolbar } from "@material-ui/core"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { useMediaQuery } from "@material-ui/core"
-import Hamburger from "./hamburger"
-import nav from "./navigation.json"
-import ToggleDarkMode from "./ToggleDarkMode"
-import DebugPalette from "./DebugPalette"
+import { usePageContext } from "gatsby-theme-intl"
 
 const useStyles = makeStyles((theme) => ({
   main: {
@@ -23,13 +23,19 @@ const useStyles = makeStyles((theme) => ({
   },
 }))
 
-const Header = ({ data = nav }) => {
+const Header = () => {
+  const { language } = usePageContext()
   const [active, setActive] = useState("")
   const classes = useStyles()
   const theme = useTheme()
   const small = useMediaQuery(theme.breakpoints.down("xs"))
+  const data = language !== "fr" ? nav_en : nav
   const primary = data.map((x) => {
-    return { label: x.title, to: x.to }
+    return {
+      label: x.title,
+      to: x.to,
+      hasSecondary: x.groups && x.groups.length,
+    }
   })
 
   return (
@@ -56,10 +62,6 @@ const Header = ({ data = nav }) => {
       />
     </>
   )
-}
-
-Header.propTypes = {
-  data: PropTypes.array,
 }
 
 export default Header

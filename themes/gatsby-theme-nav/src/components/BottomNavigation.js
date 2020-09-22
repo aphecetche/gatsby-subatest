@@ -1,23 +1,25 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core";
 import NavLink from "./NavLink";
+import Language from "./Language";
+import { useTranslation } from "gatsby-theme-intl";
+import PropTypes from "prop-types";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    margin: 0,
     padding: theme.spacing(0, 0, 2, 0),
     display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
+    flexDirection: "row",
+    justifyContent: "center",
     "& ul": {
       margin: `0 ${theme.spacing(1)}`,
       padding: 0,
       display: "flex",
       flexDirection: "row",
       flexWrap: "wrap",
-      //maxWidth: "800px",
       justifyContent: "flex-start",
       listStyle: "none",
+      alignItems: "center",
       "& li": {
         margin: theme.spacing(0, 2),
         //padding: theme.spacing(0, 2),
@@ -28,27 +30,36 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+const WrapLink = ({ to, label }) => {
+  const { t, i18n } = useTranslation();
+  if (!i18n.exists(label)) {
+    return null;
+  }
+  const lab = t(label);
+  return (
+    <li>
+      <NavLink to={to}>{lab}</NavLink>
+    </li>
+  );
+};
+
+WrapLink.propTypes = {
+  to: PropTypes.string,
+  label: PropTypes.string,
+};
+
 const BottomNavigation = () => {
   const classes = useStyles();
   return (
     <nav className={classes.root}>
       <ul>
-        <li>
-          <NavLink to="/general/tutelles2">Tutelles</NavLink>
-        </li>
-        <li>
-          <NavLink to="http://intranet-subatech">Intranet</NavLink>
-        </li>
-        <li>
-          <NavLink to="/general/annuaires">Annuaires</NavLink>
-        </li>
-        <li>
-          <NavLink to="/general/mentions-legales">Mentions légales</NavLink>
-        </li>
-        <li>
-          <NavLink to="/general/nous-contacter">Contact</NavLink>
-        </li>
+        <WrapLink to="/general/tutelles2" label="Tutelles" />
+        <WrapLink to="http://intranet-subatech" label="Intranet" />
+        <WrapLink to="/general/annuaires" label="Annuaires" />
+        <WrapLink to="/general/mentions-legales" label="Mentions légales" />
+        <WrapLink to="/general/nous-contacter" label="Contact" />
       </ul>
+      <Language />
     </nav>
   );
 };

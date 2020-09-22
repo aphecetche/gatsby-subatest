@@ -1,0 +1,11 @@
+---
+title: "Parton propagation in nuclear matter"
+date: "2013-02-13 11:33:28 +0000 UTC"
+lastmod: "2020-02-03 12:46:13 +0000 UTC"
+path: "recherche/theorie/parton-propagation-in-nuclear-matter.en.md"
+joomlaid: 362
+category: "theorie"
+asides: ["theorie.+menu+"]
+layout: "recherche"
+---
+A parton crossing a nuclear medium undergoes multiple collisions, which induce gluon radiation. This radiative energy loss is often proposed as the main effect responsible for the suppression of hadron production rates observed in AA compared to pA or pp collisions. This attenuation was observed by a number of different experiments for different energies and target nuclei.For example, jet-quenching - the attenuation of jets or hadrons with large pT in heavy ion collisions - is probably the most dramatic QGP signal at RHIC and LHC. In 1982, Bjorken is the first to propose that parton energy loss in a dense and deconfined medium might lead to jet quenching. The substantial jet quenching observed at RHIC and LHC is compatible with parton energy loss being much greater in the QGP than in ordinary nuclear matter. Although we can reasonably claim that a deconfined medium was produced, many questions remain. What is the parametric dependence of energy loss? What is the associated probability distribution? Is collisional energy loss really negligible at high energy?To understand and interpret jet-quenching in the QGP, a better understanding of nuclear attenuation in pA collisions is required. A spectacular attenuation is indeed observed for the production of quarkonium states (J/psi, Upsilon), charmed hadrons, but also light hadrons, in pA collisions when the energy of the detected particle increases. We have recently shown that in such processes, nuclear attenuation could also be due to parton energy loss. For example, the radiated energy associated with the production of large-xF quarkonium turns out to be qualitatively similar to the energy loss of a color charge through traversing the nucleus. In particular, it is proportional to xF, which naturally explains the significant [J/ψ nuclear attenuation](/recherche/theoriehe/j-psi-nuclear-attenuation.en) nuclear attenuation observed in proton-nucleus collisions.

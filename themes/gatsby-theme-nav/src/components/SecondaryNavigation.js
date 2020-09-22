@@ -15,7 +15,15 @@ const SecondaryNavigation = ({ data, active, setActive }) => {
     event.preventDefault();
     setActive("");
   };
-  const menu = data.filter((x) => x.title === active);
+  const menu = data.filter((x) => {
+    if (!x.groups) {
+      return false;
+    }
+    return x.title === active;
+  });
+  if (!menu) {
+    return null;
+  }
   return (
     <Paper elevation={2} className={css.secondary}>
       <nav aria-label="Secondary">

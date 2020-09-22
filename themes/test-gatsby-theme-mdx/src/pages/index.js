@@ -3,7 +3,6 @@ import Img from "gatsby-image";
 import { graphql } from "gatsby";
 
 const IndexPage = ({ data }) => {
-  console.log("data=", JSON.stringify(data));
   return (
     <>
       <p>This is IndexPage</p>

@@ -1,9 +1,24 @@
 import React from "react";
-import { Link } from "gatsby";
-import { Button, makeStyles } from "@material-ui/core";
+import { Link, useStaticQuery, graphql } from "gatsby";
+import { Button } from "@material-ui/core";
 import clsx from "clsx";
+import PropTypes from "prop-types";
+import withStyles from "@material-ui/styles/withStyles";
+import { localizeUrl } from "gatsby-theme-intl";
+import ErrorIcon from "@material-ui/icons/Error";
+import Tooltip from "@material-ui/core/Tooltip";
+import Typography from "@material-ui/core/Typography";
 
-const useStyles = makeStyles((theme) => ({
+const MissingLink = ({ value, children }) => (
+  <Tooltip color="error" title={`Missing link ${value}`}>
+    <Typography color="error">
+      <ErrorIcon color="error" />
+      {children}
+    </Typography>
+  </Tooltip>
+);
+
+export const styles = (theme) => ({
   root: {
     letterSpacing: "inherit",
     userSelect: "none",
@@ -30,22 +45,53 @@ const useStyles = makeStyles((theme) => ({
   condensed: {
     fontFamily: "Open Sans Condensed",
   },
-}));
+  button: {},
+});
 
-const NavLink = ({ to, children, condensed = false, onClick, active }) => {
-  const classes = useStyles();
+const stripTrailingPath = (p) => {
+  if (p.endsWith("/") && p !== "/") {
+    return p.slice(0, -1);
+  }
+  return p;
+};
+
+export const isSamePath = (p1, p2) => {
+  return stripTrailingPath(p1) === stripTrailingPath(p2);
+};
+
+const NavLink = (props) => {
+  const {
+    to,
+    classes,
+    className,
+    children,
+    condensed,
+    onClick,
+    active,
+  } = props;
+
+  const data = useStaticQuery(graphql`
+    {
+      allSitePage {
+        totalCount
+        nodes {
+          path
+        }
+      }
+    }
+  `);
+
   // if we provide an onClick function, then
   // it's not a "regular" link, i.e. we
   // disable the href
-  const cn = clsx(
-    classes.root,
-    active && classes.active,
-    condensed && classes.condensed
-  );
+  const cn = clsx(className, classes.root, {
+    [active]: classes.active,
+    [condensed]: classes.condensed,
+  });
 
   if (onClick) {
     return (
-      <Button className={cn} onClick={onClick}>
+      <Button className={clsx(cn, classes.button)} onClick={onClick}>
         {children}
       </Button>
     );
@@ -61,11 +107,31 @@ const NavLink = ({ to, children, condensed = false, onClick, active }) => {
     );
   }
   // internal link : use Gatsby own Link component
+  const lto = localizeUrl(to);
+  console.log("NavLink render");
+  const ok =
+    data.allSitePage.nodes.filter((n) => {
+      return isSamePath(n.path, `${lto}`);
+    }).length > 0;
+
   return (
-    <Link className={cn} to={to}>
-      {children}
+    <Link className={cn} to={lto}>
+      {ok ? children : <MissingLink value={lto}>{children}</MissingLink>}
     </Link>
   );
 };
 
-export default NavLink;
+NavLink.propTypes = {
+  to: PropTypes.string,
+  classes: PropTypes.object,
+  className: PropTypes.string,
+  children: PropTypes.any,
+  condensed: PropTypes.bool,
+  onClick: PropTypes.func,
+  active: PropTypes.bool,
+};
+
+NavLink.defaultProps = {
+  condensed: false,
+};
+export default withStyles(styles)(NavLink);

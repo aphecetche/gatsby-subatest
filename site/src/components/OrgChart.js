@@ -1,40 +1,28 @@
 import React from "react"
-import org from "./orgchart.yaml"
+import Direction from "./orgchart/Direction"
+import Physique from "./orgchart/Physique"
+import Radiochimie from "./orgchart/Radiochimie"
+import ServicesTechniques from "./orgchart/ServicesTechniques"
+import Conseils from "./orgchart/Conseils"
+import ChargesDeMission from "./orgchart/ChargesDeMission"
+import Grid from "@material-ui/core/Grid"
 
-const Person = ({ name, link }) => {
-  return link ? <a href={link}>{name}</a> : <span>{name}</span>
-}
-
-const parseKeys = (o) => {
-  const keys = Object.keys(o)
-
-  const items = keys.map((k) => {
-    if (typeof o[k] === "string") {
-      return <li>{o[k]}</li>
-    } else {
-      return (
-        <>
-          <li>{k}</li>
-          <ul key={`sub${k}`}>{parseKeys(o[k])}</ul>
-        </>
-      )
-    }
-  })
-  return <ul>{items}</ul>
-}
+import { makeStyles } from "@material-ui/core"
+const useStyles = makeStyles((theme) => ({
+  root: {},
+}))
 
 const OrgChart = () => {
-  const json = JSON.stringify(org, null, 4)
-
-  const l1 = parseKeys(org)
-
+  const classes = useStyles()
   return (
-    <>
-      <h2>Parsed</h2>
-      {l1}
-      <h2>JSON</h2>
-      <pre>{json}</pre>
-    </>
+    <Grid container className={classes.root}>
+      <Direction />
+      <Physique />
+      <Radiochimie />
+      <ServicesTechniques />
+      <Conseils />
+      <ChargesDeMission />
+    </Grid>
   )
 }
 

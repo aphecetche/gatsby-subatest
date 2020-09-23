@@ -1,5 +1,5 @@
 import OrgChart from "components/OrgChart"
 
-ceci est l'organigramme
+[ Version imprimable (PDF) ](./pdf/Organigramme_exterieur_062020.pdf)
 
 <OrgChart/>

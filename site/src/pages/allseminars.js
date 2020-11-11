@@ -1,25 +1,17 @@
 import React from "react"
-// import { useTranslation } from "gatsby-theme-intl"
-
-// const Seminars = () => {
-//   const { t } = useTranslation()
-//   const what = t("séminaires").toLowerCase()
-//   const msg = t("future_list", { what })
-//   return <p>{msg}</p>
 import {StaticQuery, graphql } from "gatsby"
 import Layout from "components/Layout"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import moment from "moment";
 import 'moment/locale/fr'
 
-
-export default function Seminars() {
+export default function allSeminars() {
   // store the dates between which we show seminars
-  const earlydate= moment().subtract(1,'M')
-  const latedate= moment().add(3,'M')
+  const todaydate= moment()
   moment.locale('fr')
-
   return (
+    <Layout>
+    <h1>Séminaires</h1>
     <table>
     <StaticQuery
       query={graphql`
@@ -46,20 +38,24 @@ export default function Seminars() {
       `}
       render={data => (
         data.allMdx.edges.map(({ node }, index) => {
-          if((moment(node.frontmatter.date).isAfter(earlydate)&&moment(node.frontmatter.date).isBefore(latedate)))
+          //if((moment(node.frontmatter.date).isAfter(earlydate)&&moment(node.frontmatter.date).isBefore(latedate)))
           // if(moment(node.frontmatter.date).isAfter(earlydate))
           //   return
           // {node.frontmatter.type==='heures-thesards'&&<tr><td></td><td></td></tr>}
           // {(moment(node.frontmatter.date).isAfter(earlydate)&&moment(node.frontmatter.date).isBefore(latedate))&& "a"}
           // <td>{node.frontmatter.type==='heures-thésards'&& "a"}</td>
           //<td>{earlydate}</td> 
-         return <tr><td>{moment(node.frontmatter.date).format("DD-MM-YYYY")}</td><td><a href={node.fields.slug}>{node.frontmatter.title}</a></td><td>{node.frontmatter.type}</td></tr>
-         return 
+         return <tr>
+             <td>{moment(node.frontmatter.date).isAfter(todaydate) ? moment(node.frontmatter.date).format("Do MMMM YYYY, HH:mm") : moment(node.frontmatter.date).format("Do MMMM YYYY") }</td>
+             <td>{node.frontmatter.author}</td>
+             <td><a href={node.fields.slug}>{node.frontmatter.title}</a></td>
+             <td>{node.frontmatter.type}</td></tr>
+         //return 
         })
       )}
     />
-    <tr><td></td><td></td><td></td><a href="allseminars">Plus...</a></tr>
     </table>
+    </Layout>
   )
 }
 

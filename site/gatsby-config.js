@@ -38,5 +38,13 @@ module.exports = {
       resolve: `gatsby-plugin-meta-redirect`,
       options: {},
     },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /assets/
+        },
+      },
+    },
   ],
 }

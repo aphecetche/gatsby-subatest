@@ -7,6 +7,7 @@ import Layout from "components/Layout"
 import Antenne from "../assets/svg/antenne.svg"
 import Alice from "../assets/svg/alice.svg"
 import KM3NeT from "../assets/svg/km3net-line.svg"
+import KM3NeTBis from "../assets/svg/km3net-line-bis.svg"
 import Astate from "../assets/svg/chaine-decroissance-radioactive.svg"
 import NvsZ from "../assets/svg/n-vs-z.svg"
 import TTbar from "../assets/svg/decroissance-ttbar.svg"
@@ -86,6 +87,9 @@ const HomePage = () => {
         </Grid>
         <Grid item xs={12} sm={4} md={2}>
           <KM3NeT className={classes.drawing} />
+        </Grid>
+        <Grid item xs={12} sm={4} md={2}>
+          <KM3NeTBis className={classes.drawing} />
         </Grid>
         <Grid item xs={12} sm={4} md={2}>
           <Astate className={classes.drawing} />

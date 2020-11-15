@@ -12,6 +12,13 @@
   "Intranet":"Intranet",
   "Contact":"Contact",
   "global_message": "Le site est actuellement en cours de développement. Ne faîtes pas trop attention au contenu... ;-)",
-  "changer_de_langue":"Switch to english"
+  "changer_de_langue":"Switch to english",
+  "Plus" : "Plus",
+  "spécialisé" : "séminaire spécialisé ",
+  "heures-thésards" : "heures thésards ",
+  "communication-scientifique" : "colloque & café scientifique ",
+  "soutenance-thèse" : "soutenance de thèse ", 
+  "généraliste" : "séminaire généraliste",
+  "ITA" : "séminaire ITA"
 }
 

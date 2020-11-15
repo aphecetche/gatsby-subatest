@@ -11,5 +11,12 @@
   "séminaires": "seminars",
   "future_list": "list of {{what}} will go here",
   "global_message": "Site is undergoing heavy changes at the moment. Please do not pay too much attention.",
-  "changer_de_langue":"Passer au français"
+  "changer_de_langue":"Passer au français",
+  "Plus" : "More",
+  "spécialisé" : "specialized seminar",
+  "heures-thésards" : "grad seminars",
+  "communication-scientifique" : "colloquium & scientific coffee",
+  "soutenance-thèse" : "PhD defence",
+  "généraliste" : "non-specialized seminar",
+  "ITA" : "ITA seminar"
 }

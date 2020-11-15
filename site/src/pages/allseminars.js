@@ -1,18 +1,22 @@
 import React from "react"
-import {StaticQuery, graphql } from "gatsby"
+import {StaticQuery, graphql,Link } from "gatsby"
 import Layout from "components/Layout"
-import { MDXRenderer } from "gatsby-plugin-mdx"
+// import { MDXRenderer } from "gatsby-plugin-mdx"
 import moment from "moment";
 import 'moment/locale/fr'
+import { useTranslation,usePageContext, localizeUrl } from "gatsby-theme-intl";
 
-export default function allSeminars() {
+export default function AllSeminars() {
   // store the dates between which we show seminars
   const todaydate= moment()
-  moment.locale('fr')
+  const { language: currentLanguage } = usePageContext();
+  const { t } = useTranslation()
+  const sems = t("séminaires")
+  moment.locale(currentLanguage)
   return (
     <Layout>
-    <h1>Séminaires</h1>
-    <table>
+    <h1 style={{textTransform: 'capitalize'}}>{sems}</h1>
+    <ul>
     <StaticQuery
       query={graphql`
       query {
@@ -22,7 +26,9 @@ export default function allSeminars() {
            node {
              frontmatter
              {title
+              title2
              author
+             author2
              date
              location
              type
@@ -45,16 +51,17 @@ export default function allSeminars() {
           // {(moment(node.frontmatter.date).isAfter(earlydate)&&moment(node.frontmatter.date).isBefore(latedate))&& "a"}
           // <td>{node.frontmatter.type==='heures-thésards'&& "a"}</td>
           //<td>{earlydate}</td> 
-         return <tr>
-             <td>{moment(node.frontmatter.date).isAfter(todaydate) ? moment(node.frontmatter.date).format("Do MMMM YYYY, HH:mm") : moment(node.frontmatter.date).format("Do MMMM YYYY") }</td>
-             <td>{node.frontmatter.author}</td>
-             <td><a href={node.fields.slug}>{node.frontmatter.title}</a></td>
-             <td>{node.frontmatter.type}</td></tr>
+         return <li>
+             {moment(node.frontmatter.date, "YYYY-MM-DD HH:mm:ss Z").isAfter(todaydate) ? <b>{moment(node.frontmatter.date,"YYYY-MM-DD HH:mm:ss Z").format("Do MMMM YYYY, HH:mm")}</b> : moment(node.frontmatter.date,"YYYY-MM-DD HH:mm:ss Z").format("Do MMMM YYYY") },&nbsp;
+             <span style={{textTransform: 'capitalize'}}>{node.frontmatter.author.toLowerCase()} {(node.frontmatter.author!==""&&node.frontmatter.author2!=="") ?  "&" : ""} {node.frontmatter.author2.toLowerCase()}</span> :&nbsp;
+             <Link to={localizeUrl(node.fields.slug,currentLanguage)}>{node.frontmatter.title}
+             {(node.frontmatter.title!==""&&node.frontmatter.title2!=="") ?  " & " : ""}{node.frontmatter.title2}</Link>,&nbsp;
+             {t(node.frontmatter.type)}</li>
          //return 
         })
       )}
     />
-    </table>
+    </ul>
     </Layout>
   )
 }

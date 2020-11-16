@@ -12,6 +12,8 @@ module.exports = {
           `${__dirname}/src/content`,
           `${__dirname}/src/pages`,
           `${__dirname}/src/components/asides`,
+          `${__dirname}/src/seminars/dev`,
+          `${__dirname}/src/seminars/2020`,
         ],
       },
     },

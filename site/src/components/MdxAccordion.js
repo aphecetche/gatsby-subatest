@@ -13,7 +13,7 @@ export const styles = () => ({
   root: {},
   tablist: {},
   tab: {},
-  tabpanel: {},
+  tabpanel: { flexDirection: "column" },
 })
 
 const MdxAccordion = (props) => {

@@ -1,5 +1,5 @@
 import React from "react"
-import MdxTabs from "components/MdxTabs"
+import MdxAccordion from "components/MdxAccordion"
 import Layout from "components/Layout"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { graphql } from "gatsby"
@@ -33,7 +33,7 @@ const Featured = ({ data }) => {
   return (
     <Layout>
       <MDXRenderer>{data.head.body}</MDXRenderer>
-      <MdxTabs classes={classes} data={data.axe} />
+      <MdxAccordion classes={classes} data={data.axe} />
     </Layout>
   )
 }

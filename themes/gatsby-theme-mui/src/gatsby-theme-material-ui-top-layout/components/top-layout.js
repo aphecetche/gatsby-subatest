@@ -6,13 +6,14 @@ import ThemeContext from "./theme-context";
 
 import createTheme from "./create-themes";
 import { createMuiTheme } from "@material-ui/core";
-
-const defaultTheme = createMuiTheme();
+import createPalette from "./create-palette";
 
 const themes = {
-  dark: createMuiTheme(createTheme("dark", defaultTheme)),
-  light: createMuiTheme(createTheme("light", defaultTheme)),
+  dark: createMuiTheme(createTheme(createMuiTheme(createPalette("dark")))),
+  light: createMuiTheme(createTheme(createMuiTheme(createPalette("light")))),
 };
+
+console.log("themes=", JSON.stringify(themes, null, 4));
 
 const ThemedLayout = ({ children }) => {
   const context = useContext(ThemeContext);

@@ -10,10 +10,15 @@ import { AppBar, Toolbar } from "@material-ui/core"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
 import { useMediaQuery } from "@material-ui/core"
 import { usePageContext } from "gatsby-theme-intl"
+import DevOnly from "components/DevOnly"
 
 const useStyles = makeStyles((theme) => ({
   main: {
-    background: theme.palette.background.paper,
+    background: theme.palette.background.default,
+    display: "flex",
+    flexDirection: "row",
+  },
+  dev: {
     display: "flex",
     flexDirection: "row",
   },
@@ -48,8 +53,10 @@ const Header = () => {
             active={active}
             setActive={setActive}
           />
-          <DebugPalette />
-          <ToggleDarkMode />
+          <DevOnly className={classes.dev}>
+            <DebugPalette />
+            <ToggleDarkMode />
+          </DevOnly>
           {small && <Hamburger />}
         </Toolbar>
       </AppBar>

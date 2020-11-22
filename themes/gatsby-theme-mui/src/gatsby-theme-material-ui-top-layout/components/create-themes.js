@@ -1,48 +1,22 @@
-const primary = {
-  light: "#0766ad",
-  //dark: "#67B3E5",
-  dark: "#85C2E4",
-};
-const secondary = {
-  light: "#98ca34",
-  dark: "#CDE59F",
-};
-
-const background = {
-  light: "#FFFFFF",
-  dark: "#000000",
-};
-
-const createTheme = (dark, defaultTheme) => {
-  console.log("defaultTheme=", JSON.stringify(defaultTheme, null, 4));
-  console.log("spacing=", defaultTheme.spacing(1));
+const createTheme = (theme) => {
+  const palette = theme.palette;
   return {
     typography: {
       fontFamily: "Open Sans",
       fontWeightRegular: "400",
     },
-    palette: {
-      type: dark,
-      primary: {
-        main: primary[dark],
-      },
-      secondary: {
-        main: secondary[dark],
-      },
-      background: {
-        default: background[dark],
-      },
-      text: {},
-    },
+    palette,
     overrides: {
       MuiCssBaseline: {
         "@global": {
           "html, body": {
             height: "100%",
             WebkitFontSmoothing: "auto",
+            background: theme.palette.background.paper,
+            color: theme.palette.text.primary,
           },
           a: {
-            color: primary[dark],
+            color: theme.palette.primary.main,
           },
           "#gatsby-focus-wrapper, #___gatsby": {
             display: "flex",
@@ -54,34 +28,33 @@ const createTheme = (dark, defaultTheme) => {
       },
       MuiAccordion: {
         root: {
-          color: primary[dark],
+          color: theme.palette.primary.main,
           position: "inherit",
-          backgroundImage: "linear-gradient(left, #98ca34, #ffffff)",
+          backgroundImage: `linear-gradient(left, ${theme.palette.secondary.main}, ${theme.palette.background.paper})`,
           backgroundRepeat: "repeat-x",
-          marginBottom: defaultTheme.spacing(2),
-          //...defaultTheme.typography.body2,
+          marginBottom: theme.spacing(2),
         },
       },
       MuiAccordionDetails: {
         root: {
           flexDirection: "column",
-          backgroundColor: background[dark],
-          color: defaultTheme.palette.text.primary,
+          backgroundColor: theme.palette.background.paper,
+          color: theme.palette.text.primary,
         },
       },
       MuiAccordionSummary: {
         root: {
           flexDirection: "row-reverse",
           paddingLeft: 0,
-          backgroundColor: background[dark],
+          backgroundColor: theme.palette.background.paper,
           marginBottom: "2px",
         },
         content: {
-          paddingLeft: defaultTheme.spacing(2),
+          paddingLeft: theme.spacing(2),
           textTransform: "capitalize",
         },
         expandIcon: {
-          color: primary[dark],
+          color: theme.palette.primary.main,
         },
       },
     },

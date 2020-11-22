@@ -47,7 +47,7 @@ const getInitialColorMode = () => {
     ? window.matchMedia("(prefers-color-scheme: dark)")
     : undefined;
   if (mql) {
-    return mql.matches ? "dark" : "light";
+    return mql.matches ? "light" : "dark";
   }
   return color ? color : "light";
 };

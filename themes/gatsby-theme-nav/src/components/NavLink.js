@@ -45,7 +45,11 @@ export const styles = (theme) => ({
   condensed: {
     fontFamily: "Open Sans Condensed",
   },
-  button: {},
+  button: {
+    "& span": {
+      pointerEvents: "none",
+    },
+  },
 });
 
 const stripTrailingPath = (p) => {

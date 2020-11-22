@@ -41,7 +41,7 @@ const PrimaryNavigation = (props) => {
                         event.preventDefault();
                         x.label === active
                           ? setActive("")
-                          : setActive(event.target.innerHTML);
+                          : setActive(event.target.textContent);
                       }
                     : null
                 }

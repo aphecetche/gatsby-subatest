@@ -7,9 +7,11 @@ import ThemeContext from "./theme-context";
 import createTheme from "./create-themes";
 import { createMuiTheme } from "@material-ui/core";
 
+const defaultTheme = createMuiTheme();
+
 const themes = {
-  dark: createMuiTheme(createTheme("dark")),
-  light: createMuiTheme(createTheme("light")),
+  dark: createMuiTheme(createTheme("dark", defaultTheme)),
+  light: createMuiTheme(createTheme("light", defaultTheme)),
 };
 
 const ThemedLayout = ({ children }) => {

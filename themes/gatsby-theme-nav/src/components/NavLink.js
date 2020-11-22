@@ -108,7 +108,6 @@ const NavLink = (props) => {
   }
   // internal link : use Gatsby own Link component
   const lto = localizeUrl(to);
-  console.log("NavLink render");
   const ok =
     data.allSitePage.nodes.filter((n) => {
       return isSamePath(n.path, `${lto}`);

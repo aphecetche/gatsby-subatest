@@ -8,41 +8,92 @@ const secondary = {
   dark: "#CDE59F",
 };
 
-const createTheme = (dark) => ({
-  typography: {
-    fontFamily: "Open Sans",
-    fontWeightRegular: "400",
-  },
-  palette: {
-    type: dark,
-    background: {},
-    primary: {
-      main: primary[dark],
+const background = {
+  light: "#FFFFFF",
+  dark: "#000000",
+};
+
+const createTheme = (dark, defaultTheme) => {
+  console.log("defaultTheme=", JSON.stringify(defaultTheme, null, 4));
+  console.log("spacing=", defaultTheme.spacing(1));
+  return {
+    typography: {
+      fontFamily: "Open Sans",
+      fontWeightRegular: "400",
     },
-    secondary: {
-      main: secondary[dark],
+    palette: {
+      type: dark,
+      primary: {
+        main: primary[dark],
+      },
+      secondary: {
+        main: secondary[dark],
+      },
+      background: {
+        default: background[dark],
+      },
+      text: {},
     },
-    text: {},
-  },
-  overrides: {
-    MuiCssBaseline: {
-      "@global": {
-        "html, body": {
-          height: "100%",
-          WebkitFontSmoothing: "auto",
+    overrides: {
+      MuiCssBaseline: {
+        "@global": {
+          "html, body": {
+            height: "100%",
+            WebkitFontSmoothing: "auto",
+          },
+          a: {
+            color: primary[dark],
+          },
+          "#gatsby-focus-wrapper, #___gatsby": {
+            display: "flex",
+            flexDirection: "column",
+            height: "100%",
+            width: "100%",
+          },
         },
-        a: {
+      },
+      MuiAccordion: {
+        root: {
           color: primary[dark],
+          position: "inherit",
+          backgroundImage: "linear-gradient(left, #98ca34, #ffffff)",
+          backgroundRepeat: "repeat-x",
+          marginBottom: defaultTheme.spacing(2),
+          //...defaultTheme.typography.body2,
         },
-        "#gatsby-focus-wrapper, #___gatsby": {
-          display: "flex",
+      },
+      MuiAccordionDetails: {
+        root: {
           flexDirection: "column",
-          height: "100%",
-          width: "100%",
+          backgroundColor: background[dark],
+          color: defaultTheme.palette.text.primary,
+        },
+      },
+      MuiAccordionSummary: {
+        root: {
+          flexDirection: "row-reverse",
+          paddingLeft: 0,
+          backgroundColor: background[dark],
+          marginBottom: "2px",
+        },
+        content: {
+          paddingLeft: defaultTheme.spacing(2),
+          textTransform: "capitalize",
+        },
+        expandIcon: {
+          color: primary[dark],
         },
       },
     },
-  },
-});
+    props: {
+      MuiAccordion: {
+        elevation: 0,
+      },
+      MuiAccordionSummary: {
+        elevation: 0,
+      },
+    },
+  };
+};
 
 export default createTheme;

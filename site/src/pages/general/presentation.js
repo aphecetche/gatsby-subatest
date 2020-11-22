@@ -8,7 +8,7 @@ import PropTypes from "prop-types"
 
 const useStyles = makeStyles((theme) => ({
   root: {},
-  tablist: {},
+  /*  tablist: {},
   tab: {
     textTransform: "none",
     ...theme.typography.h6,
@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
       minWidth: "200px",
       marginRight: theme.spacing(2, "!important"),
     },
-  },
+  }, */
 }))
 
 const Featured = ({ data }) => {

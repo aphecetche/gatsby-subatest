@@ -1,5 +1,4 @@
 import DebugPalette from "./DebugPalette"
-import Hamburger from "./hamburger"
 import Logo from "./Logo"
 import { PrimaryNavigation, SecondaryNavigation } from "gatsby-theme-nav"
 import React, { useState } from "react"
@@ -8,12 +7,16 @@ import nav from "./navigation.json"
 import nav_en from "./navigation.en.json"
 import { AppBar, Toolbar } from "@material-ui/core"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
-import { useMediaQuery } from "@material-ui/core"
 import { usePageContext } from "gatsby-theme-intl"
+import DevOnly from "components/DevOnly"
 
 const useStyles = makeStyles((theme) => ({
   main: {
-    background: theme.palette.background.paper,
+    background: theme.palette.background.default,
+    display: "flex",
+    flexDirection: "row",
+  },
+  dev: {
     display: "flex",
     flexDirection: "row",
   },
@@ -27,8 +30,6 @@ const Header = () => {
   const { language } = usePageContext()
   const [active, setActive] = useState("")
   const classes = useStyles()
-  const theme = useTheme()
-  const small = useMediaQuery(theme.breakpoints.down("xs"))
   const data = language !== "fr" ? nav_en : nav
   const primary = data.map((x) => {
     return {
@@ -48,9 +49,10 @@ const Header = () => {
             active={active}
             setActive={setActive}
           />
-          <DebugPalette />
+          <DevOnly className={classes.dev}>
+            <DebugPalette />
+          </DevOnly>
           <ToggleDarkMode />
-          {small && <Hamburger />}
         </Toolbar>
       </AppBar>
       <SecondaryNavigation

@@ -11,9 +11,6 @@ import ExpandMoreIcon from "@material-ui/icons/ExpandMore"
 
 export const styles = () => ({
   root: {},
-  tablist: {},
-  tab: {},
-  tabpanel: { flexDirection: "column" },
 })
 
 const MdxAccordion = (props) => {
@@ -23,24 +20,16 @@ const MdxAccordion = (props) => {
 
   const accordions = nodes.map((n) => (
     <Accordion key={n.node.id}>
-      <AccordionSummary
-        className={clsx(classes.tab)}
-        expandIcon={<ExpandMoreIcon />}
-        id={n.node.id}
-      >
+      <AccordionSummary expandIcon={<ExpandMoreIcon />} id={n.node.id}>
         {t(n.node.frontmatter.title)}
       </AccordionSummary>
-      <AccordionDetails className={clsx(classes.tabpanel)}>
+      <AccordionDetails>
         <MDXRenderer>{n.node.body}</MDXRenderer>
       </AccordionDetails>
     </Accordion>
   ))
 
-  return (
-    <div className={clsx(classes.root, className)}>
-      {accordions}
-    </div>
-  )
+  return <div className={clsx(classes.root, className)}>{accordions}</div>
 }
 
 MdxAccordion.propTypes = {

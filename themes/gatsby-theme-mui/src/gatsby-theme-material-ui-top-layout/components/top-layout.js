@@ -6,11 +6,14 @@ import ThemeContext from "./theme-context";
 
 import createTheme from "./create-themes";
 import { createMuiTheme } from "@material-ui/core";
+import createPalette from "./create-palette";
 
 const themes = {
-  dark: createMuiTheme(createTheme("dark")),
-  light: createMuiTheme(createTheme("light")),
+  dark: createMuiTheme(createTheme(createMuiTheme(createPalette("dark")))),
+  light: createMuiTheme(createTheme(createMuiTheme(createPalette("light")))),
 };
+
+console.log("themes=", JSON.stringify(themes, null, 4));
 
 const ThemedLayout = ({ children }) => {
   const context = useContext(ThemeContext);
@@ -44,9 +47,9 @@ const getInitialColorMode = () => {
     ? window.matchMedia("(prefers-color-scheme: dark)")
     : undefined;
   if (mql) {
-    return mql.matches ? "dark" : "light";
+    return mql.matches ? "light" : "dark";
   }
-  return color ? color : "dark";
+  return color ? color : "light";
 };
 
 export default function TopLayout({ children }) {

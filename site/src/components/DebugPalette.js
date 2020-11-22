@@ -3,7 +3,6 @@ import { makeStyles, useTheme } from "@material-ui/core/styles"
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    background: theme.palette.background.paper,
     display: "flex",
     flexDirection: "row",
   },

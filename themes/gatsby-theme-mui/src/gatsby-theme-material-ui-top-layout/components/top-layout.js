@@ -49,7 +49,7 @@ const getInitialColorMode = () => {
   if (mql) {
     return mql.matches ? "dark" : "light";
   }
-  return color ? color : "dark";
+  return color ? color : "light";
 };
 
 export default function TopLayout({ children }) {

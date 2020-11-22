@@ -13,8 +13,6 @@ const themes = {
   light: createMuiTheme(createTheme(createMuiTheme(createPalette("light")))),
 };
 
-console.log("themes=", JSON.stringify(themes, null, 4));
-
 const ThemedLayout = ({ children }) => {
   const context = useContext(ThemeContext);
   const { color } = context;

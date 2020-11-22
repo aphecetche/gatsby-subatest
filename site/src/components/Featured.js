@@ -1,13 +1,13 @@
-import React, { useState } from "react"
-import { Tab } from "@material-ui/core"
-import { TabPanel, TabContext, TabList } from "@material-ui/lab"
+import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import Events from "components/Events"
 import Jobs from "components/Jobs"
 import Seminars from "components/Seminars"
-import useMediaQuery from "@material-ui/core/useMediaQuery"
-import { useTheme } from "@material-ui/core/styles"
 import { useTranslation } from "gatsby-theme-intl"
+import Accordion from "@material-ui/core/Accordion"
+import AccordionSummary from "@material-ui/core/AccordionSummary"
+import AccordionDetails from "@material-ui/core/AccordionDetails"
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore"
 
 const useStyles = makeStyles((theme) => ({
   root: {},
@@ -16,43 +16,46 @@ const useStyles = makeStyles((theme) => ({
 }))
 
 const Featured = () => {
-  const [value, setValue] = useState("0")
   const classes = useStyles()
-  const theme = useTheme()
-  const matches = useMediaQuery(theme.breakpoints.up("sm"))
   const { t } = useTranslation()
-  const variant = matches ? "fullWidth" : "scrollable"
 
-  const handleChange = (event, newValue) => {
-    setValue(newValue)
-  }
   return (
     <div className={classes.root}>
-      <TabContext value={value}>
-        <TabList
-          className={classes.scrollable}
-          variant={variant}
-          onChange={handleChange}
-          aria-label="Actualités"
-        >
-          <Tab value="0" label={t("événements")} />
-          <Tab value="1" label={t("offres d'emploi")} />
-          <Tab value="2" label={t("offres de thèses")} />
-          <Tab value="3" label={t("séminaires")} />
-        </TabList>
-        <TabPanel className={classes.panel} value="0">
-          <Events />
-        </TabPanel>
-        <TabPanel value="1">
-          <Jobs />
-        </TabPanel>
-        <TabPanel value="2">
-          <Jobs phds />
-        </TabPanel>
-        <TabPanel value="3">
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          {t("séminaires")}
+        </AccordionSummary>
+        <AccordionDetails>
           <Seminars />
-        </TabPanel>
-      </TabContext>
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          {t("événements")}
+        </AccordionSummary>
+        <AccordionDetails>
+          <Events />
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          {t("offres d'emploi")}
+        </AccordionSummary>
+        <AccordionDetails>
+          <Jobs />
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion>
+        <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+          {t("offres de thèses")}
+        </AccordionSummary>
+        <AccordionDetails>
+          <Jobs phds />
+        </AccordionDetails>
+      </Accordion>
     </div>
   )
 }

@@ -14,6 +14,7 @@ const createTheme = (theme) => {
             WebkitFontSmoothing: "auto",
             background: theme.palette.background.paper,
             color: theme.palette.text.primary,
+            border: "20px solid pink",
           },
           a: {
             color: theme.palette.primary.main,

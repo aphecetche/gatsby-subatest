@@ -5,9 +5,10 @@ component: "RightSideMenu"
 
 ## Equipe Prisma
 
--   [Présentation](./presentation)
--   [Activités de recherche](./recherche)
--   [Membres](./membres)
+
+-   [Présentation](/fr/recherche/prisma/presentation)
+-   [Activités de recherche](/fr/recherche/prisma/recherche)
+-   [Membres](/fr/recherche/prisma/membres)
 -   [Publications](./publications)
 -   [Equipements, méthodes et techniques](./equipements-methodes-techniques)
 -   [Présentations de conférences, séminaires et posters](./communication)

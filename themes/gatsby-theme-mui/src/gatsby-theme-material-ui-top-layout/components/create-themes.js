@@ -12,7 +12,7 @@ const createTheme = (theme) => {
           "html, body": {
             height: "100%",
             WebkitFontSmoothing: "auto",
-            background: theme.palette.background.paper,
+            background: "yellow",
             color: theme.palette.text.primary,
           },
           a: {

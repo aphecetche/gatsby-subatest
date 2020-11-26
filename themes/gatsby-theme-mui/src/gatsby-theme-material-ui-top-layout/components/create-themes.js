@@ -14,9 +14,10 @@ const createTheme = (theme) => {
             WebkitFontSmoothing: "auto",
             background: theme.palette.background.paper,
             color: theme.palette.text.primary,
+            border: "20px solid purple"
           },
           a: {
-            color: theme.palette.primary.main,
+            color: "lightgreen",
           },
           "#gatsby-focus-wrapper, #___gatsby": {
             display: "flex",

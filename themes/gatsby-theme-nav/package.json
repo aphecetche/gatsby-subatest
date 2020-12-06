@@ -26,7 +26,8 @@
     "build": "gatsby build",
     "clean": "gatsby clean",
     "develop": "gatsby develop",
-    "test": "jest"
+    "test": "jest",
+    "lint": "yarn run eslint \"./**/*.js\" --fix"
   },
   "dependencies": {
     "babel-jest": "^26.3.0",

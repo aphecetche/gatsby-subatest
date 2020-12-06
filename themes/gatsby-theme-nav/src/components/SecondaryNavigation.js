@@ -2,6 +2,7 @@ import React from "react";
 import BigMenu from "./BigMenu";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
+import PropTypes from "prop-types";
 
 const useStyles = makeStyles((theme) => ({
   secondary: {
@@ -40,4 +41,9 @@ const SecondaryNavigation = ({ data, active, setActive }) => {
   );
 };
 
+SecondaryNavigation.propTypes = {
+  data: PropTypes.array.isRequired,
+  setActive: PropTypes.func.isRequired,
+  active: PropTypes.string.isRequired,
+};
 export default SecondaryNavigation;

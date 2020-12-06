@@ -30,7 +30,9 @@ MdxContentWithEmbeddedImages.propTypes = {
       images: PropTypes.arrayOf(
         PropTypes.shape({ childImageSharp: PropTypes.any })
       ),
+      title: PropTypes.string,
     }),
+    body: PropTypes.string.isRequired,
   }),
   showTitle: PropTypes.bool,
 }

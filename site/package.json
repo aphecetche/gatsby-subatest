@@ -43,7 +43,7 @@
     "clean": "gatsby clean",
     "restart": "yarn clean && yarn develop",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "lint": "yarn run eslint \"./**/*.js?\" --fix"
+    "lint": "yarn run eslint \"**/*.js\" \"**/*.jsx\" --fix"
   },
   "repository": {
     "type": "git",

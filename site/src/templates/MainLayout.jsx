@@ -1,8 +1,7 @@
 import React from "react"
 import Layout from "components/Layout"
 import { makeStyles, Grid } from "@material-ui/core"
-import { MDXProvider } from "@mdx-js/react"
-import DebugComponents from "components/DebugComponents"
+import MdxContentProvider from "components/MdxContentProvider"
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -19,7 +18,7 @@ const MainLayout = ({ main, aside }) => {
   const asideWidth = 12 - mainWidth
 
   return (
-    <MDXProvider components={DebugComponents}>
+    <MdxContentProvider>
       <Layout>
         <Grid container className={classes.root}>
           <Grid item xs={false} sm={1} />
@@ -34,7 +33,7 @@ const MainLayout = ({ main, aside }) => {
           )}
         </Grid>
       </Layout>
-    </MDXProvider>
+    </MdxContentProvider>
   )
 }
 

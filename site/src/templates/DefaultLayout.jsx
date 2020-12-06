@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import MainLayout from "./MainLayout"
 import { getTranslatedContent } from "gatsby-theme-intl"
-import MdxContent from "components/MdxContent"
+import MdxContentWithEmbeddedImages from "components/MdxContentWithEmbeddedImages"
 import Asides from "components/Asides"
 
 const getAsideContent = (slug, frontmatter) => {
@@ -21,22 +21,22 @@ const DefaultLayout = (props) => {
   const { data, pageContext } = props
   const { language } = pageContext
   const { node } = getTranslatedContent(data.allMdx.edges, language)
-  let main = null
-  let aside = null
-  if (node) {
-    main = (
-      <>
-        {main}
-        <MdxContent title={node.frontmatter.title} body={node.body} />
-      </>
-    )
-    aside = getAsideContent(node.fields.slug, node.frontmatter)
-  }
-
+  let main = node ? <MdxContentWithEmbeddedImages node={node} /> : null
+  let aside = node ? getAsideContent(node.fields.slug, node.frontmatter) : null
   return <MainLayout main={main} aside={aside} pageContext={pageContext} />
 }
 
 export const mdxContent = graphql`
+  fragment mdxFrontMatterImages on File {
+    childImageSharp {
+      original {
+        src
+      }
+      fluid(quality: 90) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
   fragment mdxContent on Mdx {
     fields {
       language
@@ -46,7 +46,11 @@ export const mdxContent = graphql`
       title
       layout
       asides
+      images {
+        ...mdxFrontMatterImages
+      }
     }
+    id
     body
   }
 `

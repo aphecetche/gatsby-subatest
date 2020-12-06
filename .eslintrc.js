@@ -6,8 +6,9 @@ module.exports = {
   },
   extends: [
     "eslint:recommended",
-    "plugin:prettier/recommended",
     "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "plugin:jsx-a11y/recommended"
   ],
   globals: {
     Promise: true,
@@ -19,7 +20,7 @@ module.exports = {
     ecmaVersion: 11,
     sourceType: "module",
   },
-  plugins: ["prettier", "react"],
+  plugins: ["prettier", "react","jsx-a11y"],
   rules: {
     "prettier/prettier": "error",
   },

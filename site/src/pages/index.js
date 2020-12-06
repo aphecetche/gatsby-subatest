@@ -23,6 +23,9 @@ HomePage.propTypes = {
     head: PropTypes.shape({
       body: PropTypes.string,
     }),
+    allMdx: PropTypes.shape({
+      edges: PropTypes.array,
+    }),
   }),
 }
 

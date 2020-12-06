@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "components/Layout"
 import { makeStyles, Grid } from "@material-ui/core"
 import MdxContentProvider from "components/MdxContentProvider"
+import PropTypes from "prop-types"
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -36,5 +37,8 @@ const MainLayout = ({ main, aside }) => {
     </MdxContentProvider>
   )
 }
-
+MainLayout.propTypes = {
+  aside: PropTypes.node,
+  main: PropTypes.node,
+}
 export default MainLayout

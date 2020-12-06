@@ -1,6 +1,7 @@
 import React from "react"
 import { makeStyles } from "@material-ui/core"
 import { MDXRenderer } from "gatsby-plugin-mdx"
+import PropTypes from "prop-types"
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -29,5 +30,9 @@ const MdxContent = ({ title, body, images }) => {
     </main>
   )
 }
-
+MdxContent.propTypes = {
+  title: PropTypes.string,
+  images: PropTypes.object,
+  body: PropTypes.string,
+}
 export default MdxContent

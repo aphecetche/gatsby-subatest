@@ -18,8 +18,8 @@ const extractLanguage = (slug) => {
   return s[s.length - 1]
 }
 
-exports.onCreateNode = ({ node, getNode, actions, reporter, createNodeId }) => {
-  const { createNodeField, createNode } = actions
+exports.onCreateNode = ({ node, getNode, actions, reporter }) => {
+  const { createNodeField } = actions
   if (node.internal.type === "Mdx") {
     const localizedSlug = createFilePath({ node, getNode })
     if (!validFilePath(localizedSlug)) {
@@ -85,8 +85,7 @@ const createMdxPage = (translations, createPage, node, defaultComponent) => {
 }
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
-  const { createPage, createRedirect } = actions
-  //allMdx(filter: { fields: { slug: { regex: "/erdre/" } } }) {
+  const { createPage } = actions
   const result = await graphql(`
     query {
       allMdx {

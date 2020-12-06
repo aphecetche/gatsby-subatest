@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }))
 
-const useStylesOrg = makeStyles((theme) => ({
+const useStylesOrg = makeStyles(() => ({
   root: {
     padding: 0,
   },

@@ -22,6 +22,7 @@
     "env-cmd": "^10.0.1",
     "eslint": "^7.3.1",
     "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.0",
     "gatsby-plugin-root-import": "^2.0.5",
@@ -37,11 +38,12 @@
     "build": "gatsby build",
     "develop": "env-cmd -f .env gatsby develop -H 0.0.0.0",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "pnpm run develop",
+    "start": "yarn develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "restart": "yarn clean && yarn develop",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "lint": "yarn run eslint \"./**/*.js?\" --fix"
   },
   "repository": {
     "type": "git",

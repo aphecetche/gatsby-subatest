@@ -1,5 +1,6 @@
 import React from "react"
 import MdxContent from "components/MdxContent"
+import PropTypes from "prop-types"
 
 const MdxContentWithEmbeddedImages = ({ node, showTitle = true }) => {
   const IMAGE_KEY = "image"
@@ -23,4 +24,14 @@ const MdxContentWithEmbeddedImages = ({ node, showTitle = true }) => {
   )
 }
 
+MdxContentWithEmbeddedImages.propTypes = {
+  node: PropTypes.shape({
+    frontmatter: PropTypes.shape({
+      images: PropTypes.arrayOf(
+        PropTypes.shape({ childImageSharp: PropTypes.any })
+      ),
+    }),
+  }),
+  showTitle: PropTypes.bool,
+}
 export default MdxContentWithEmbeddedImages

@@ -3,37 +3,16 @@ import MdxAccordion from "components/MdxAccordion"
 import Layout from "components/Layout"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { graphql } from "gatsby"
-import { makeStyles } from "@material-ui/core/styles"
 import PropTypes from "prop-types"
-
-const useStyles = makeStyles((theme) => ({
-  root: {},
-  /*  tablist: {},
-  tab: {
-    textTransform: "none",
-    ...theme.typography.h6,
-    fontSize: "1rem",
-  },
-  tabpanel: {
-    flexGrow: 1,
-    "& p": {
-      textAlign: "justify",
-    },
-    "& span:first-of-type": {
-      float: "left",
-      width: "30%",
-      minWidth: "200px",
-      marginRight: theme.spacing(2, "!important"),
-    },
-  }, */
-}))
+import MdxContentProvider from "components/MdxContentProvider"
 
 const Featured = ({ data }) => {
-  const classes = useStyles()
   return (
     <Layout>
-      <MDXRenderer>{data.head.body}</MDXRenderer>
-      <MdxAccordion classes={classes} data={data.axe} />
+      <MdxContentProvider>
+        <MDXRenderer>{data.head.body}</MDXRenderer>
+        <MdxAccordion data={data.axe} />
+      </MdxContentProvider>
     </Layout>
   )
 }
@@ -46,15 +25,13 @@ export default Featured
 
 export const query = graphql`
   query {
-    axe: allMdx(filter: { frontmatter: { category: { regex: "/Axe/" } } }) {
+    axe: allMdx(
+      filter: { frontmatter: { category: { regex: "/Axe/" } } }
+      sort: { fields: [frontmatter___order], order: ASC }
+    ) {
       edges {
         node {
-          id
-          frontmatter {
-            category
-            title
-          }
-          body
+          ...mdxContent
         }
       }
     }

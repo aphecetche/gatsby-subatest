@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import React from "react"
 import clsx from "clsx"
-import { MDXRenderer } from "gatsby-plugin-mdx"
+import MdxContentWithEmbeddedImages from "components/MdxContentWithEmbeddedImages"
 import withStyles from "@material-ui/styles/withStyles"
 import { useTranslation } from "gatsby-theme-intl"
 import Accordion from "@material-ui/core/Accordion"
@@ -24,7 +24,7 @@ const MdxAccordion = (props) => {
         {t(n.node.frontmatter.title)}
       </AccordionSummary>
       <AccordionDetails>
-        <MDXRenderer>{n.node.body}</MDXRenderer>
+        <MdxContentWithEmbeddedImages node={n.node} showTitle={false} />
       </AccordionDetails>
     </Accordion>
   ))

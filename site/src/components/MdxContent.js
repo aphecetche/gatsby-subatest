@@ -20,12 +20,12 @@ const useStyles = makeStyles((theme) => ({
   },
 }))
 
-const MdxContent = ({ title, body }) => {
+const MdxContent = ({ title, body, images }) => {
   const classes = useStyles()
   return (
     <main className={classes.root}>
       {title && <h2>{title}</h2>}
-      <MDXRenderer>{body}</MDXRenderer>
+      <MDXRenderer images={images}>{body}</MDXRenderer>
     </main>
   )
 }

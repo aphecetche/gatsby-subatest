@@ -6,8 +6,9 @@ import CardContent from "@material-ui/core/CardContent"
 import List from "@material-ui/core/List"
 import Typography from "@material-ui/core/Typography"
 import { makeStyles } from "@material-ui/core"
+import PropTypes from "prop-types"
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   root: {},
   card: {},
   title: {},
@@ -35,4 +36,8 @@ const Division = ({ title, children }) => {
   )
 }
 
+Division.propTypes = {
+  title: PropTypes.string,
+  children: PropTypes.node.isRequired,
+}
 export default Division

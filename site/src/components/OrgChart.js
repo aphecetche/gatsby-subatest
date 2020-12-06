@@ -8,7 +8,7 @@ import ChargesDeMission from "./orgchart/ChargesDeMission"
 import Grid from "@material-ui/core/Grid"
 
 import { makeStyles } from "@material-ui/core"
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   root: {},
 }))
 

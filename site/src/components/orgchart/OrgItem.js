@@ -42,6 +42,11 @@ OrgItem.propTypes = {
   headline: PropTypes.string.isRequired,
   subheadline: PropTypes.string,
   link: PropTypes.string,
+  classes: PropTypes.shape({
+    root: PropTypes.string,
+    more: PropTypes.string,
+    text: PropTypes.string,
+  }),
 }
 
 export default withStyles(styles)(OrgItem)

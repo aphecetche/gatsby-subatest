@@ -31,7 +31,7 @@ const JsAsides = ({ asides }) => {
   })
 }
 
-const Asides = ({ slug, regexp }) => {
+const Asides = ({ regexp }) => {
   const { language: currentLanguage } = usePageContext()
   const data = useStaticQuery(graphql`
     query {

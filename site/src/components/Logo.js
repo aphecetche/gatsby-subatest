@@ -3,7 +3,7 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 import { makeStyles } from "@material-ui/core/styles"
 import { usePageContext } from "gatsby-theme-intl"
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
   logo: {
     boxSizing: "border-box",
     margin: 0,

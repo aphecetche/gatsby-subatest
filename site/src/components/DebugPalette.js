@@ -1,7 +1,7 @@
 import React from "react"
 import { makeStyles, useTheme } from "@material-ui/core/styles"
-
-const useStyles = makeStyles((theme) => ({
+import PropTypes from "prop-types"
+const useStyles = makeStyles(() => ({
   root: {
     display: "flex",
     flexDirection: "row",
@@ -15,6 +15,10 @@ const ColorPatch = ({ color }) => {
     width: "24px",
   }
   return <div style={st} />
+}
+
+ColorPatch.propTypes = {
+  color: PropTypes.string.isRequired,
 }
 
 const DebugPalette = () => {

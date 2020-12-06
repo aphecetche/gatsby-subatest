@@ -1,7 +1,7 @@
 import React from "react"
 import Img from "gatsby-theme-mdx"
 import { graphql, useStaticQuery } from "gatsby"
-
+import PropTypes from "prop-types"
 export const fluidImage = graphql`
   fragment fluidImage on File {
     childImageSharp {
@@ -46,4 +46,9 @@ const ImgLogo = ({ img, alt, href }) => {
   )
 }
 
+ImgLogo.propTypes = {
+  img: PropTypes.string.isRequired,
+  alt: PropTypes.string,
+  href: PropTypes.string,
+}
 export default ImgLogo

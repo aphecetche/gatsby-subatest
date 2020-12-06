@@ -4,6 +4,7 @@ import MainLayout from "./MainLayout"
 import { getTranslatedContent } from "gatsby-theme-intl"
 import MdxContentWithEmbeddedImages from "components/MdxContentWithEmbeddedImages"
 import Asides from "components/Asides"
+import PropTypes from "prop-types"
 
 const getAsideContent = (slug, frontmatter) => {
   let aside = null
@@ -26,6 +27,16 @@ const DefaultLayout = (props) => {
   return <MainLayout main={main} aside={aside} pageContext={pageContext} />
 }
 
+DefaultLayout.propTypes = {
+  data: PropTypes.shape({
+    allMdx: PropTypes.shape({
+      edges: PropTypes.array,
+    }),
+  }),
+  pageContext: PropTypes.shape({
+    language: PropTypes.string,
+  }),
+}
 export const mdxContent = graphql`
   fragment mdxFrontMatterImages on File {
     childImageSharp {

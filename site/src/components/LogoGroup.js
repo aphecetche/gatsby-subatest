@@ -1,6 +1,7 @@
 import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
 import ImgLogo from "./ImgLogo"
+import PropTypes from "prop-types"
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -28,4 +29,13 @@ const LogoGroup = ({ logos }) => {
   return <div className={classes.root}>{logoImages}</div>
 }
 
+LogoGroup.propTypes = {
+  logos: PropTypes.arrayOf(
+    PropTypes.shape({
+      img: PropTypes.string.isRequired,
+      alt: PropTypes.string,
+      href: PropTypes.string,
+    })
+  ),
+}
 export default LogoGroup

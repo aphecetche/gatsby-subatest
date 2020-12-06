@@ -1,6 +1,7 @@
 import React from "react"
 import Img from "gatsby-image"
 import { makeStyles } from "@material-ui/core"
+import PropTypes from "prop-types"
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -16,4 +17,7 @@ const TopLeft = ({ fluid }) => {
   return <Img className={classes.root} fluid={fluid} />
 }
 
+TopLeft.propTypes = {
+  fluid: PropTypes.object.isRequired,
+}
 export default TopLeft

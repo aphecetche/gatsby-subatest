@@ -6,6 +6,7 @@ import { MDXProvider } from "@mdx-js/react"
 import { makeStyles } from "@material-ui/core"
 import { usePageContext, localizeUrl } from "gatsby-theme-intl"
 import { NavLink, isSamePath } from "gatsby-theme-nav"
+import PropTypes from "prop-types"
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -52,21 +53,32 @@ const RightSideMenu = ({ children }) => {
   const classes = useStyles()
   const { language, slug } = usePageContext()
   const CustomListItem = React.useMemo(() => {
-    return (props) => {
+    const f = (props) => {
       let cn = ""
       if (props.children.props) {
         const same = isSamePath(
-          props.children.props.href,
+          localizeUrl(props.children.props.href, language),
           localizeUrl(slug, language)
         )
         cn = same ? "active" : ""
       }
       return <li className={cn} {...props} />
     }
+    f.propTypes = {}
+    return f
   }, [slug, language])
+
+  CustomListItem.propTypes = {
+    children: PropTypes.node.isRequired,
+  }
 
   const CustomLink = ({ href, children }) => {
     return <NavLink to={href}>{children}</NavLink>
+  }
+
+  CustomLink.propTypes = {
+    children: PropTypes.node.isRequired,
+    href: PropTypes.string,
   }
 
   const MyComponents = {
@@ -83,4 +95,7 @@ const RightSideMenu = ({ children }) => {
   )
 }
 
+RightSideMenu.propTypes = {
+  children: PropTypes.node.isRequired,
+}
 export default RightSideMenu

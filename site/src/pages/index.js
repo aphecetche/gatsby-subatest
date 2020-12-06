@@ -1,44 +1,55 @@
 import React from "react"
-import Featured from "components/Featured"
-import Layout from "components/Layout"
-import { MDXRenderer } from "gatsby-plugin-mdx"
-import { graphql } from "gatsby"
+import Layout from "components/layout"
 import PropTypes from "prop-types"
-import { usePageContext, getTranslatedContent } from "gatsby-theme-intl"
+import Accordions from "../components/accordions"
+import { SeminarsInRange } from "gatsby-theme-seminar"
+import { useTranslation } from "gatsby-theme-intl"
+import { Link } from "gatsby"
+import Events from "../components/events"
+import Jobs from "../components/jobs"
+import { graphql } from "gatsby"
+import Article from "gatsby-theme-article/src/components/article"
 
+const SeminarShortList = () => {
+  const { t } = useTranslation()
+  return (
+    <>
+      <SeminarsInRange />
+      <Link to="/seminars">{t("Plus")}</Link>
+    </>
+  )
+}
 const HomePage = ({ data }) => {
-  const edges = data.allMdx.edges
-  const { language } = usePageContext()
-  const { node: head } = getTranslatedContent(edges, language)
+  const { t } = useTranslation()
+  const { article: head } = data
+  head.title = null // ensure we don't show the title, even if we have one
+  const items = [
+    { title: t("séminaires"), content: <SeminarShortList /> },
+    { title: t("événements"), content: <Events /> },
+    { title: t("offres d'emploi"), content: <Jobs /> },
+    { title: t("offres de thèses"), content: <Jobs phds /> },
+  ]
   return (
     <Layout>
-      {head && <MDXRenderer>{head.body}</MDXRenderer>}
-      <Featured />
+      <Article article={head} />
+      <Accordions items={items} />
+      <p>ici les articles en vedette</p>
     </Layout>
   )
 }
 
 HomePage.propTypes = {
   data: PropTypes.shape({
-    head: PropTypes.shape({
-      body: PropTypes.string,
-    }),
-    allMdx: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
+    article: PropTypes.object,
   }),
 }
 
-export default HomePage
-
 export const query = graphql`
   query {
-    allMdx(filter: { fields: { slug: { eq: "/general/presentation/" } } }) {
-      edges {
-        node {
-          ...mdxContent
-        }
-      }
+    article(fileAbsolutePath: { regex: "/general/presentation/" }) {
+      ...articleContent
     }
   }
 `
+
+export default HomePage

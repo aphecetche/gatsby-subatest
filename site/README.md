@@ -4,7 +4,6 @@ All is still basically "Work In Progress" ;-)
 
 Only the the main content (articles) have been transfered (automatically, so do please do not edit them yet) from Joomla (from HTML to Markdown, using [aphecetche/joomla2markdown](https://github.com/aphecetche/joomla2markdown), using a dev site in [containers](https://github.com/aphecetche/docker-subaweb)).
 
-See the [TODO](./TODO.md)
 
 # Instructions/notes for editors
 
@@ -25,3 +24,6 @@ i.e. be of the form `somepage.fr.md` or `someotherpage.en.mdx`
 
 For `js(x)` pages the component can access the language directly and decide what to do with it.
 
+# For devs
+
+See the [TODO](./TODO.md) and [dev notes](./DEVNOTES.md)

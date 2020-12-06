@@ -1,0 +1,14 @@
+{
+  "name": "gatsby-theme-article",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "gatsby": "^2.28.0"
+  },
+  "dependencies": {
+    "gatsby-theme-mdx": "*",
+    "gatsby-theme-intl": "*"
+  }
+}

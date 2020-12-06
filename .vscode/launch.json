@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Gatsby develop",
+      "request": "launch",
+      "args": [
+        "/Users/laurent/github.com/aphecetche/gatsby-subatest/node_modules/.bin/gatsby",
+        "develop"
+      ],
+      "program": "/usr/local/bin/node",
+      "type": "node"
+    }
+  ]
+}

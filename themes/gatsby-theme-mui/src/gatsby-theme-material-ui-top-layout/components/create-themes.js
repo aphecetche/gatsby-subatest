@@ -1,5 +1,5 @@
 const createTheme = (theme) => {
-  const palette = theme.palette;
+  const palette = theme.palette
   return {
     typography: {
       fontFamily: "Open Sans",
@@ -66,7 +66,7 @@ const createTheme = (theme) => {
         elevation: 0,
       },
     },
-  };
-};
+  }
+}
 
-export default createTheme;
+export default createTheme

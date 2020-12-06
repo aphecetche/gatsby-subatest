@@ -1,5 +1,5 @@
-const remark = require("remark");
-const stripMarkdown = require("strip-markdown");
+const remark = require("remark")
+const stripMarkdown = require("strip-markdown")
 
 module.exports = {
   plugins: [
@@ -20,11 +20,9 @@ module.exports = {
             content: (node) => node.rawBody,
             slug: (node) => node.fields.slug,
             excerpt: (node) => {
-              const text = remark()
-                .use(stripMarkdown)
-                .processSync(node.rawBody);
-              const excerptLength = 140; // Hard coded excerpt length
-              return String(text).substring(0, excerptLength) + "...";
+              const text = remark().use(stripMarkdown).processSync(node.rawBody)
+              const excerptLength = 140 // Hard coded excerpt length
+              return String(text).substring(0, excerptLength) + "..."
             },
             date: (node) => node.frontmatter.date,
           },
@@ -33,4 +31,4 @@ module.exports = {
       },
     },
   ],
-};
+}

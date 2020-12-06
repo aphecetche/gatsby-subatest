@@ -5,7 +5,7 @@ Actuellement notre site (mis en place en 2012) utilise [Joomla](https://www.joom
 web (un mélange d'HTML, de CSS et éventuellement de Javascript) servies au
 client (le navigateur) sont générées de façon dynamique par le serveur. Le
 client fait appel à notre site qui abrite un script PHP. Ce script fait appel à
-une base de donnée pour chercher le contenu et  transforme ensuite ce contenu
+une base de donnée pour chercher le contenu et transforme ensuite ce contenu
 en html(+css+js) qui est renvoyé au client. La présence d'une base de donnée
 intermédiaire a plusieurs désavantages. En premier lieu, comme chaque page est
 générée de façon dynamique, la réactivité de notre site n'est pas excellente
@@ -18,7 +18,6 @@ des attaques informatiques. Un CMS n'est pas intrinsèquement une mauvaise
 technologie, mais compte-tenu de la taille de notre site (et la fréquence,
 assez faible, des changements), elle est au final assez peu adaptée.
 
-
 L'idée pour le nouveau site est de basculer sur un "générateur de site
 statique" (SSG, Static Site Generator, [Gatsby](https://www.gatsbyjs.com) en l'occurence), où l'on génère
 directement les pages html (+css+js) lorsque l'on "construit" (build) le site
@@ -28,5 +27,3 @@ exécuter, la sensibilité aux attaques informatiques est plus faible. Enfin, et
 c'est un critère déterminant, le développement est grandement
 facilité car une génération de test des pages peut se faire sur (presque)
 n'importe quelle machine, sans avoir à mettre en place une base de donnée.
-
-

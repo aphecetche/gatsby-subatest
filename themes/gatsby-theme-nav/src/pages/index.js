@@ -1,14 +1,14 @@
-import React, { useState } from "react";
-import PrimaryNavigation from "../components/PrimaryNavigation";
-import SecondaryNavigation from "../components/SecondaryNavigation";
-import { Grid, makeStyles } from "@material-ui/core";
+import React, { useState } from "react"
+import PrimaryNavigation from "../components/primary-navigation"
+import SecondaryNavigation from "../components/secondary-navigation"
+import { Grid, makeStyles } from "@material-ui/core"
 
 const useStyles = makeStyles({
   main: {
     display: "flex",
     flexDirection: "column",
   },
-});
+})
 
 const data = [
   {
@@ -34,14 +34,14 @@ const data = [
     title: "page2",
     to: "page2/toto",
   },
-];
+]
 
 const Demo = ({ initialActive = "" }) => {
-  const classes = useStyles();
-  const [active, setActive] = useState(initialActive);
+  const classes = useStyles()
+  const [active, setActive] = useState(initialActive)
   let primary = data.map((x) => {
-    return { label: x.title, to: x.to };
-  });
+    return { label: x.title, to: x.to }
+  })
   return (
     <Grid container xs={12} className={classes.main}>
       <Grid item>
@@ -54,7 +54,7 @@ const Demo = ({ initialActive = "" }) => {
       <Grid item></Grid>
       <SecondaryNavigation data={data} active={active} setActive={setActive} />
     </Grid>
-  );
-};
+  )
+}
 
-export default Demo;
+export default Demo

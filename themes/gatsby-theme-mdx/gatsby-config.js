@@ -48,7 +48,6 @@ module.exports = (themeOptions) => {
               resolve: `gatsby-remark-image-attributes`,
               options: {
                 dataAttributes: true,
-                styleAttributes: ["border"],
               },
             },
           ],

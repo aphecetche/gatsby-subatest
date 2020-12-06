@@ -1,19 +1,19 @@
-import React from "react";
-import { useStaticQuery, graphql } from "gatsby";
-import Obfuscate from "react-obfuscate";
-import PropTypes from "prop-types";
+import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
+import Obfuscate from "react-obfuscate"
+import PropTypes from "prop-types"
 
 const capitalize = (s) => {
-  const n = s.toLowerCase();
-  return n.charAt(0).toUpperCase() + n.slice(1);
-};
+  const n = s.toLowerCase()
+  return n.charAt(0).toUpperCase() + n.slice(1)
+}
 
 const Member = ({ member }) => {
-  const { name, roomNumber, telephoneNumber, title, mail } = member;
+  const { name, roomNumber, telephoneNumber, title, mail } = member
   const normalizedName = name
     .split(" ")
     .map((n) => capitalize(n))
-    .join(" ");
+    .join(" ")
   const s =
     normalizedName +
     " - " +
@@ -22,7 +22,7 @@ const Member = ({ member }) => {
     roomNumber +
     " - " +
     telephoneNumber +
-    " - ";
+    " - "
   return (
     <React.Fragment>
       {s}
@@ -30,8 +30,8 @@ const Member = ({ member }) => {
         <Obfuscate email={mail} />
       </span>
     </React.Fragment>
-  );
-};
+  )
+}
 
 Member.propTypes = {
   member: PropTypes.shape({
@@ -41,7 +41,7 @@ Member.propTypes = {
     title: PropTypes.string,
     mail: PropTypes.string,
   }),
-};
+}
 const Members = ({ group }) => {
   const data = useStaticQuery(
     graphql`
@@ -61,7 +61,7 @@ const Members = ({ group }) => {
         }
       }
     `
-  );
+  )
 
   if (data.allMember.edges.length < 2) {
     return (
@@ -69,20 +69,20 @@ const Members = ({ group }) => {
         The build of this site was made on a machine with no access the CCIN2P3
         LDAP
       </p>
-    );
+    )
   }
 
-  const reGroup = new RegExp(group, "i");
-  const reLeader = new RegExp("chef", "i");
+  const reGroup = new RegExp(group, "i")
+  const reLeader = new RegExp("chef", "i")
   const teamMembers = data.allMember.edges.filter((n) =>
     reGroup.test(n.node.group)
-  );
-  const teamLeader = teamMembers.find((n) => reLeader.test(n.node.group));
+  )
+  const teamLeader = teamMembers.find((n) => reLeader.test(n.node.group))
   const c = teamMembers.map((n) => (
     <li key={n.node.name}>
       <Member member={n.node} />
     </li>
-  ));
+  ))
   return (
     <React.Fragment>
       {teamLeader ? (
@@ -93,11 +93,11 @@ const Members = ({ group }) => {
       ) : null}
       <ul>{c}</ul>
     </React.Fragment>
-  );
-};
+  )
+}
 
 Members.propTypes = {
   group: PropTypes.string,
-};
+}
 
-export default Members;
+export default Members

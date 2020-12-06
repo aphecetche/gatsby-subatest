@@ -1,7 +1,7 @@
-import React from "react";
-import { navigate } from "gatsby";
+import React from "react"
+import { navigate } from "gatsby"
 // import css from "./search.module.css"
-import PropTypes from "prop-types";
+import PropTypes from "prop-types"
 
 const SearchForm = ({ query }) => (
   <form role="search" method="GET">
@@ -19,10 +19,10 @@ const SearchForm = ({ query }) => (
     />
     <button type="submit">Submit</button>
   </form>
-);
+)
 
 SearchForm.propTypes = {
   query: PropTypes.string.isRequired,
-};
+}
 
-export default SearchForm;
+export default SearchForm

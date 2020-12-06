@@ -1,9 +1,9 @@
-import React from "react";
-import { Link } from "gatsby";
+import React from "react"
+import { Link } from "gatsby"
 
 const SearchResults = ({ results, query }) => {
   if (!results.length) {
-    return null;
+    return null
   } else {
     return (
       <section aria-label="Search results for all posts">
@@ -21,8 +21,8 @@ const SearchResults = ({ results, query }) => {
           ))}
         </ul>
       </section>
-    );
+    )
   }
-};
+}
 
-export default SearchResults;
+export default SearchResults

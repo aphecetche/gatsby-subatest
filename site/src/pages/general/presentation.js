@@ -1,46 +1,69 @@
 import React from "react"
-import MdxAccordion from "components/MdxAccordion"
-import Layout from "components/Layout"
-import { MDXRenderer } from "gatsby-plugin-mdx"
+import Layout from "../../components/layout"
 import { graphql } from "gatsby"
 import PropTypes from "prop-types"
-import MdxContentProvider from "components/MdxContentProvider"
+import MdxContentProvider from "gatsby-theme-mdx/src/components/mdx-content-provider"
+import MdxContent from "gatsby-theme-mdx/src/components/mdx-content"
+import Accordions from "../../components/accordions"
 
-const Featured = ({ data }) => {
+const GeneralPresentation = ({ data, pageContext }) => {
+  const items = data.axes?.nodes
+    .filter((n) => n.language === pageContext.language)
+    .map((n) => ({
+      title: n.title,
+      content: <MdxContent body={n.body} images={n.images} />,
+    }))
+  const heads = data.head?.nodes.filter(
+    (n) => n.language === pageContext.language
+  )
+
+  const head = heads.length > 0 ? heads[0] : null
+
   return (
     <Layout>
       <MdxContentProvider>
-        <MDXRenderer>{data.head.body}</MDXRenderer>
-        <MdxAccordion data={data.axe} />
+        <MdxContent body={head?.body} images={head?.images} />
+        <Accordions items={items} />
       </MdxContentProvider>
     </Layout>
   )
 }
 
-Featured.propTypes = {
+GeneralPresentation.propTypes = {
   data: PropTypes.object,
+  pageContext: PropTypes.shape({ language: PropTypes.string.isRequired }),
 }
 
-export default Featured
+export default GeneralPresentation
 
+/** this query gets two sets of articles located in the `axes-de-recherche` subdirectory
+ *
+ * a first set of articles with a filename not containing "presentation" that should each
+ * relates to one "axe de recherche"
+ *
+ * a second set (possibly a single article) that can be used as a header to present
+ * the other articles
+ */
 export const query = graphql`
   query {
-    axe: allMdx(
-      filter: { frontmatter: { category: { regex: "/Axe/" } } }
-      sort: { fields: [frontmatter___order], order: ASC }
+    axes: allArticle(
+      filter: {
+        fileAbsolutePath: { regex: "/axes-de-recherche/(?!presentation)/" }
+      }
+      sort: { fields: rank, order: ASC }
     ) {
-      edges {
-        node {
-          ...mdxContent
-        }
+      nodes {
+        ...articleContent
       }
     }
-    head: mdx(fileAbsolutePath: { regex: "/general/presentation/" }) {
-      id
-      frontmatter {
-        title
+    head: allArticle(
+      filter: {
+        fileAbsolutePath: { regex: "/axes-de-recherche/presentation/" }
       }
-      body
+    ) {
+      nodes {
+        ...articleContent
+      }
     }
   }
 `

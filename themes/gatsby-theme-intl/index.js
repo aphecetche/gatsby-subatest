@@ -2,7 +2,7 @@
 //
 //
 
-import "./i18n";
+import "./i18n"
 
-export * from "./src/helpers/translate";
-export { usePageContext } from "./page-context";
+export * from "./src/helpers/translate"
+export { usePageContext } from "./page-context"

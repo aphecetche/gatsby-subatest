@@ -21,7 +21,7 @@ exports.onPreInit = ({ reporter }, pluginOptions) => {
 // we simply return a fake members array with only one element which is constructed
 // in a way that the Members component won't fail trying to render it
 const getMembers = (disabled, reporter) =>
-  new Promise((resolve, reject) => {
+  new Promise((resolve) => {
     const noMembers = [
       {
         name: "",

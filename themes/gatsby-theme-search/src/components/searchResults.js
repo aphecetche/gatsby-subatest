@@ -1,17 +1,17 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
 
 const SearchResults = ({ results, query }) => {
   if (!results.length) {
-    return null
+    return null;
   } else {
     return (
       <section aria-label="Search results for all posts">
         <h2 aria-live="polite">
-          {results.length} articles trouvés à propos de "{query}"
+          {results.length} articles trouvés à propos de &quot;{query}&quot;
         </h2>
         <ul>
-          {results.map(({ title, slug, excerpt, date }) => (
+          {results.map(({ title, slug, excerpt }) => (
             <li key={slug}>
               <h3>
                 <Link to={slug}>{title}</Link>
@@ -21,8 +21,8 @@ const SearchResults = ({ results, query }) => {
           ))}
         </ul>
       </section>
-    )
+    );
   }
-}
+};
 
-export default SearchResults
+export default SearchResults;

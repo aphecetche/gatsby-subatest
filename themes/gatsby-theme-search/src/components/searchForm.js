@@ -1,6 +1,7 @@
-import React from "react"
-import { navigate } from "gatsby"
+import React from "react";
+import { navigate } from "gatsby";
 // import css from "./search.module.css"
+import PropTypes from "prop-types";
 
 const SearchForm = ({ query }) => (
   <form role="search" method="GET">
@@ -11,13 +12,17 @@ const SearchForm = ({ query }) => (
       type="search"
       id="search-input"
       name="keywords"
-      onChange={e =>
+      onChange={(e) =>
         navigate(`/search?keywords=${encodeURIComponent(e.target.value)}`)
       }
       value={query}
     />
     <button type="submit">Submit</button>
   </form>
-)
+);
 
-export default SearchForm
+SearchForm.propTypes = {
+  query: PropTypes.string.isRequired,
+};
+
+export default SearchForm;

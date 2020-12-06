@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "description": "Search Features for Gatsuba",
   "main": "gatsby-config.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -18,6 +15,7 @@
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
-    "develop": "gatsby develop"
+    "develop": "gatsby develop",
+    "lint": "yarn run eslint \"./**/*.js\" --fix"
   }
 }

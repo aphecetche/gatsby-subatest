@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 // import { useTranslation } from "gatsby-theme-intl"
 
 // const Seminars = () => {
@@ -6,21 +6,21 @@ import React from "react"
 //   const what = t("séminaires").toLowerCase()
 //   const msg = t("future_list", { what })
 //   return <p>{msg}</p>
-import { StaticQuery, graphql, Link } from "gatsby"
+import { StaticQuery, graphql, Link } from "gatsby";
 // import Layout from "components/Layout"
 // import { MDXRenderer } from "gatsby-plugin-mdx"
-import moment from "moment"
-import "moment/locale/fr"
-import { useTranslation, usePageContext, localizeUrl } from "gatsby-theme-intl"
+import moment from "moment";
+import "moment/locale/fr";
+import { useTranslation, usePageContext, localizeUrl } from "gatsby-theme-intl";
 
 export default function Seminars() {
   // store the dates between which we show seminars
-  const earlydate = moment().subtract(1, "M")
-  const latedate = moment().add(3, "M")
+  const earlydate = moment().subtract(1, "M");
+  const latedate = moment().add(3, "M");
   //moment.locale('fr')
-  const { language: currentLanguage } = usePageContext()
-  const { t } = useTranslation()
-  const plus = t("Plus")
+  const { language: currentLanguage } = usePageContext();
+  const { t } = useTranslation();
+  const plus = t("Plus");
   return (
     <div>
       <ul>
@@ -85,8 +85,8 @@ export default function Seminars() {
                       {node.frontmatter.title2}
                     </Link>
                   </li>
-                )
-              return ""
+                );
+              return "";
             })
           }
         />
@@ -95,5 +95,5 @@ export default function Seminars() {
         <Link to="allseminars">{plus}...</Link>
       </p>
     </div>
-  )
+  );
 }

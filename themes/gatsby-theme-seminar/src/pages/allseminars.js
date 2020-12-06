@@ -1,20 +1,18 @@
-import React from "react"
-import { StaticQuery, graphql, Link } from "gatsby"
-import Layout from "components/Layout"
-// import { MDXRenderer } from "gatsby-plugin-mdx"
-import moment from "moment"
-import "moment/locale/fr"
-import { useTranslation, usePageContext, localizeUrl } from "gatsby-theme-intl"
+import React from "react";
+import { StaticQuery, graphql, Link } from "gatsby";
+import moment from "moment";
+import "moment/locale/fr";
+import { useTranslation, usePageContext, localizeUrl } from "gatsby-theme-intl";
 
 export default function AllSeminars() {
   // store the dates between which we show seminars
-  const todaydate = moment()
-  const { language: currentLanguage } = usePageContext()
-  const { t } = useTranslation()
-  const sems = t("séminaires")
-  moment.locale(currentLanguage)
+  const todaydate = moment();
+  const { language: currentLanguage } = usePageContext();
+  const { t } = useTranslation();
+  const sems = t("séminaires");
+  moment.locale(currentLanguage);
   return (
-    <Layout>
+    <>
       <h1 style={{ textTransform: "capitalize" }}>{sems}</h1>
       <ul>
         <StaticQuery
@@ -92,12 +90,12 @@ export default function AllSeminars() {
                   ,&nbsp;
                   {t(node.frontmatter.type)}
                 </li>
-              )
+              );
               //return
             })
           }
         />
       </ul>
-    </Layout>
-  )
+    </>
+  );
 }

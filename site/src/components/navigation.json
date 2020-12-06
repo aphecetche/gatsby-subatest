@@ -43,10 +43,6 @@
           {
             "to": "/services-techniques-et-administration/administration/hebergement",
             "label": "Hébergement"
-          },
-          {
-            "to": "/actualites/stage-observation-en-entreprise-session-du-18-au-21-juin-2018-classe-de-seconde",
-            "label": "Stages d'observation"
           }
         ]
       }
@@ -69,65 +65,54 @@
         ]
       },
       {
-        "title": "Nucléaire et environnement",
+        "title": "Axes thématiques",
         "links": [
+          { "to": "/fr/axes-de-recherche/sante", "label": "Santé" },
           {
-            "to": "/recherche/radiochimie/radiochimie-presentation",
-            "label": "Radiochimie"
+            "to": "/fr/axes-de-recherche/les-deux-infinis",
+            "label": "Les deux infinis"
           },
           {
-            "to": "/recherche/prisma/presentation",
-            "label": "Prisma"
+            "to": "/fr/axes-de-recherche/technologies-associees",
+            "label": "Technologies associées"
           },
           {
-            "to": "/recherche/sen/erdre-presentation",
-            "label": "SEN"
+            "to": "/fr/axes-de-recherche/energie-et-environnement",
+            "label": "Energie et environnement"
           }
         ]
       },
       {
-        "title": "Nucléaire et santé",
+        "title": "Equipes de recherche",
         "links": [
           {
-            "to": "/recherche/xenon/presentation",
-            "label": "Xénon"
+            "to": "/fr/recherche/neutrino/neutrino-presentation",
+            "label": "Neutrino"
           },
-          {
-            "to": "/recherche/prisma/presentation",
-            "label": "Prisma"
-          },
-          {
-            "to": "/recherche/radiochimie/radiochimie-presentation",
-            "label": "Radiochimie"
-          }
-        ]
-      },
-      {
-        "title": "Univers à haute énergie",
-        "links": [
           {
             "to": "/recherche/plasma/presentation-groupe-plasma",
             "label": "Plasma"
           },
+
           {
-            "to": "/recherche/astro/astro-presentation",
-            "label": "Astro"
+            "to": "/recherche/prisma/presentation",
+            "label": "Prisma"
+          },
+          {
+            "to": "/recherche/radiochimie/radiochimie-presentation",
+            "label": "Radiochimie"
           },
           {
             "to": "/recherche/sen/erdre-presentation",
             "label": "SEN"
-          },
-          {
-            "to": "/recherche/xenon/presentation",
-            "label": "Xénon"
           },
           {
             "to": "/recherche/theorie/theoriehe-presentation",
             "label": "Théorie"
           },
           {
-            "to": "/recherche/neutrino/neutrino-presentation",
-            "label": "Neutrino"
+            "to": "/recherche/xenon/presentation",
+            "label": "Xénon"
           }
         ]
       }

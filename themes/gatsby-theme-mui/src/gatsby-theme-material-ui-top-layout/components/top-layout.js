@@ -3,7 +3,7 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import Viewport from "gatsby-theme-material-ui-top-layout/src/components/viewport";
 import { ThemeProvider } from "@material-ui/styles";
 import ThemeContext from "./theme-context";
-
+import PropTypes from "prop-types";
 import createTheme from "./create-themes";
 import { createMuiTheme } from "@material-ui/core";
 import createPalette from "./create-palette";
@@ -27,6 +27,10 @@ const ThemedLayout = ({ children }) => {
       </ThemeProvider>
     </>
   );
+};
+
+ThemedLayout.propTypes = {
+  children: PropTypes.node.isRequired,
 };
 
 const getInitialColorMode = () => {
@@ -68,3 +72,7 @@ export default function TopLayout({ children }) {
     </ThemeContext.Provider>
   );
 }
+
+TopLayout.propTypes = {
+  children: PropTypes.node.isRequired,
+};

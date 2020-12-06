@@ -170,19 +170,29 @@ exports.onCreatePage = ({ page, actions }) => {
 
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions
-
-  createTypes(`
+  const typeDefs = `
     type Mdx implements Node {
       frontmatter: MdxFrontmatter!
     }
-    type MdxFrontmatter {
+    interface MdxFrontMatter {
+      title: String!
+    }
+    type MdxContentFrontMatter implements MdxFrontMatter {
       title: String!
       category: String
+      component: String
       asides: [String]
-      layout: String
       fragment: Boolean
       aside: Boolean
-      component: String
+      images: [File]       
+      layout: String
+      order: Int!
     }
-  `)
+    type MdxSeminarFrontMatter implements MdxFrontMatter {
+      title: String!
+      title2: String
+      author: String
+    }
+  `
+  createTypes(typeDefs)
 }

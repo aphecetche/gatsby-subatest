@@ -13,6 +13,7 @@
   "scripts": {
     "build": "gatsby build",
     "clean": "gatsby clean",
-    "develop": "gatsby develop"
+    "develop": "gatsby develop",
+    "lint": "yarn run eslint \"./**/*.js\" --fix"
   }
 }

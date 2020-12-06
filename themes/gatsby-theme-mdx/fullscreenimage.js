@@ -1,5 +1,6 @@
-import React from "react"
-import BackgroundImage from "gatsby-background-image"
+import React from "react";
+import BackgroundImage from "gatsby-background-image";
+import PropTypes from "prop-types";
 
 const FullScreenImage = ({ children, className, img }) => {
   return (
@@ -11,7 +12,13 @@ const FullScreenImage = ({ children, className, img }) => {
     >
       {children}
     </BackgroundImage>
-  )
-}
+  );
+};
 
-export default FullScreenImage
+FullScreenImage.propTypes = {
+  children: PropTypes.node.isRequired,
+  className: PropTypes.string,
+  img: PropTypes.object,
+};
+
+export default FullScreenImage;

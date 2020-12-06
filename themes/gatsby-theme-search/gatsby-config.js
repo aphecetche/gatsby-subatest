@@ -1,5 +1,5 @@
-const remark = require("remark")
-const stripMarkdown = require("strip-markdown")
+const remark = require("remark");
+const stripMarkdown = require("strip-markdown");
 
 module.exports = {
   plugins: [
@@ -16,21 +16,21 @@ module.exports = {
         ],
         resolvers: {
           Mdx: {
-            title: node => node.frontmatter.title,
-            content: node => node.rawBody,
-            slug: node => node.fields.slug,
-            excerpt: node => {
+            title: (node) => node.frontmatter.title,
+            content: (node) => node.rawBody,
+            slug: (node) => node.fields.slug,
+            excerpt: (node) => {
               const text = remark()
                 .use(stripMarkdown)
-                .processSync(node.rawBody)
-              const excerptLength = 140 // Hard coded excerpt length
-              return String(text).substring(0, excerptLength) + "..."
+                .processSync(node.rawBody);
+              const excerptLength = 140; // Hard coded excerpt length
+              return String(text).substring(0, excerptLength) + "...";
             },
-            date: node => node.frontmatter.date,
+            date: (node) => node.frontmatter.date,
           },
         },
         filename: "search_index.json",
       },
-    }
-  ]
-}
+    },
+  ],
+};

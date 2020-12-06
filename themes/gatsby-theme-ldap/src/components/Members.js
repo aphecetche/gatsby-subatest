@@ -1,6 +1,7 @@
 import React from "react";
 import { useStaticQuery, graphql } from "gatsby";
 import Obfuscate from "react-obfuscate";
+import PropTypes from "prop-types";
 
 const capitalize = (s) => {
   const n = s.toLowerCase();
@@ -32,6 +33,15 @@ const Member = ({ member }) => {
   );
 };
 
+Member.propTypes = {
+  member: PropTypes.shape({
+    name: PropTypes.string,
+    roomNumber: PropTypes.string,
+    telephoneNumber: PropTypes.string,
+    title: PropTypes.string,
+    mail: PropTypes.string,
+  }),
+};
 const Members = ({ group }) => {
   const data = useStaticQuery(
     graphql`
@@ -84,6 +94,10 @@ const Members = ({ group }) => {
       <ul>{c}</ul>
     </React.Fragment>
   );
+};
+
+Members.propTypes = {
+  group: PropTypes.string,
 };
 
 export default Members;

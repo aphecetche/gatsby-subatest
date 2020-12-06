@@ -1,5 +1,6 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
+import PropTypes from "prop-types";
 
 const useStyles = makeStyles((theme) => ({
   close: {
@@ -47,4 +48,8 @@ const CloseButton = ({ onClick, children }) => {
   );
 };
 
+CloseButton.propTypes = {
+  onClick: PropTypes.func.isRequired,
+  children: PropTypes.node.isRequired,
+};
 export default CloseButton;

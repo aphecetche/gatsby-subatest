@@ -18,6 +18,11 @@ const MissingLink = ({ value, children }) => (
   </Tooltip>
 );
 
+MissingLink.propTypes = {
+  value: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
+};
+
 export const styles = (theme) => ({
   root: {
     letterSpacing: "inherit",

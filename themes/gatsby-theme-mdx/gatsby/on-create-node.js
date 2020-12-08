@@ -28,13 +28,20 @@ module.exports = (
           );
         }
         const language = extractLanguage(localizedSlug);
-        const slug = localizedSlug.replace("." + language, "");
         const { frontmatter } = node;
         const fieldData = {
           title: frontmatter.title,
-          slug: slug,
+          slug: localizedSlug.replace("." + language, ""),
           language: language,
           category: frontmatter.category,
+          images: frontmatter.images,
+          component: frontmatter.component,
+          aside: frontmatter.aside,
+          asides: frontmatter.asides,
+          layout: frontmatter.layout,
+          order: frontmatter.order,
+          fragment: frontmatter.fragment,
+          rawBody: node.rawBody,
         };
         const { createNode, createParentChildLink } = actions;
         createNode({

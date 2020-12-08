@@ -1,12 +1,7 @@
 //const unwrapImages = require("remark-unwrap-images");
 
 module.exports = (themeOptions) => {
-  const options = Object.keys(themeOptions).length
-    ? themeOptions
-    : {
-        sources: [`${__dirname}/src`],
-      };
-  const sources = options.sources.map((s) => ({
+  const sources = themeOptions.sources.map((s) => ({
     resolve: `gatsby-source-filesystem`,
     options: {
       path: s,

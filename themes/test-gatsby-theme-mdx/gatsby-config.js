@@ -7,6 +7,7 @@ module.exports = {
         path: `${__dirname}/src/dir3`,
       },
     },
+
     {
       resolve: `gatsby-theme-mdx`,
       options: {
@@ -14,13 +15,8 @@ module.exports = {
       },
     },
     /*     {
-      resolve: `gatsby-theme-mdx`,
-      options: {
-        sources: [`${__dirname}/src/pages`],
-      },
-    },
- */ {
       resolve: `gatsby-plugin-mdx`,
     },
+ */
   ],
 };

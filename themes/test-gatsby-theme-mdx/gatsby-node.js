@@ -1,4 +1,4 @@
-exports.createPages = async ({ actions }) => {
+/* exports.createPages = async ({ actions }) => {
   const { createRedirect } = actions;
   createRedirect({
     fromPath: "/titi",
@@ -6,9 +6,5 @@ exports.createPages = async ({ actions }) => {
     isPermanent: false,
     redirectInBrowser: process.env.NODE_ENV === "development",
   });
-};
-
-/* exports.createSchemaCustomization = ({ actions }) => {
-  console.log("test-gatsby-theme-mdx createSchemaCustomization");
 };
  */

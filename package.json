@@ -17,6 +17,6 @@
                 }
         },
         "lint-staged": {
-                "*.{js,jsx}": "eslint . --fix"
+                "*.{js,jsx}": "yarn run lint"
         }
 }

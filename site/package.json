@@ -12,7 +12,7 @@
     "gatsby-remark-relative-images": "^2.0.2",
     "gatsby-theme-intl": "*",
     "gatsby-theme-ldap": "*",
-    "gatsby-theme-mdx": "*",
+    "gatsby-theme-article": "*",
     "gatsby-theme-mui": "*",
     "gatsby-theme-nav": "*",
     "gatsby-theme-seminar": "*",

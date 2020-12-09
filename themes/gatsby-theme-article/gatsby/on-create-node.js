@@ -18,8 +18,8 @@ module.exports = (
   if (node.internal.type === "Mdx") {
     const parent = getNode(node.parent);
     if (parent.internal.type === "File") {
-      console.log(parent.absolutePath);
       if (options.sources.includes(path.dirname(parent.absolutePath))) {
+        reporter.info(`gatsby-theme-mdx using ${parent.absolutePath}`);
         const localizedSlug = createFilePath({ node, getNode });
         if (!validFilePath(localizedSlug)) {
           reporter.panic(

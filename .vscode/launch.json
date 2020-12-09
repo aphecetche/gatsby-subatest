@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Gatsby develop",
+            "request": "launch",
+            "args": [
+                "workspace",
+                "test-gatsby-theme-seminar",
+                "run",
+                "develop"
+            ],
+            "program": "/Users/laurent/node_packages/bin/yarn",
+            "type": "pwa-node"
+        },
+    ]
+  }

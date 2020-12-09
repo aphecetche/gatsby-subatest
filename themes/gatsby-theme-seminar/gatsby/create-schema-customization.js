@@ -1,23 +1,27 @@
-module.exports = ({ actions, schema }) => {
-  console.log("gatsby-theme-mdx createSchemaCustomization");
+module.exports = ({ actions, schema, reporter }) => {
+  reporter.info("gatsby-theme-seminar createSchemaCustomization");
   const { createTypes } = actions;
 
-  const article = schema.buildObjectType({
-    name: "Article",
+  const seminar = schema.buildObjectType({
+    name: "Seminar",
     fields: {
       id: { type: `ID!` },
+      type: { type: "String!" },
       title: { type: "String!" },
+      title2: { type: "String" },
       slug: { type: "String" },
-      category: { type: "String" },
-      component: { type: "String" },
-      asides: { type: "[String]" },
+      location: { type: "String" },
       layout: { type: "String" },
-      rank: { type: "Int" },
-      aside: { type: "Boolean" },
-      images: { type: "[String]" },
-      fragment: { type: "Boolean" },
-      language: { type: "String" },
       fileAbsolutePath: { type: "String" },
+      date: { type: "String" },
+      author2: { type: "String" },
+      author: { type: "String" },
+      author_url2: { type: "String" },
+      author_url: { type: "String" },
+      author_filiation2: { type: "String" },
+      author_filiation: { type: "String" },
+      author_filiation_url2: { type: "String" },
+      author_filiation_url: { type: "String" },
       body: {
         type: "String!",
         resolve(source, args, context, info) {
@@ -35,5 +39,5 @@ module.exports = ({ actions, schema }) => {
     },
     interfaces: [`Node`],
   });
-  createTypes(article);
+  createTypes(seminar);
 };

@@ -27,7 +27,7 @@ export const query = graphql`
   query {
     axe: allArticle(
       filter: { category: { regex: "/Axe/" } }
-      sort: { fields: order, order: ASC }
+      sort: { fields: rank, order: ASC }
     ) {
       nodes {
         ...articleContent

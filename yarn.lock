@@ -7291,7 +7291,7 @@ gatsby-plugin-material-ui@^2.1.9:
     clean-css "^4.2.1"
     postcss "^7.0.17"
 
-gatsby-plugin-mdx@^1.2.36:
+gatsby-plugin-mdx@*, gatsby-plugin-mdx@^1.2.36:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-mdx/-/gatsby-plugin-mdx-1.6.0.tgz#2f64b044342b4cdfd9abc11595a1dca8338e8126"
   integrity sha512-d57DZiR9/uGt0qDYbY3RKrNFIeEQHA8e4yeku7GC/0kmoSN/ZLb1mRMy+0oFhNmIOvGqVEXpHClv8cilF9OqIg==

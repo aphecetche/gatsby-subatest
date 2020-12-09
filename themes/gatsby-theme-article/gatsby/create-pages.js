@@ -60,7 +60,9 @@ module.exports = async ({ actions, graphql, reporter }, options) => {
   }
   const defaultComponent = path.resolve(options.defaultLayout);
   const nodes = result.data.allArticle.nodes;
-  console.log("nodes=", JSON.stringify(nodes, null, 4));
+  reporter.info(
+    `gatsby-theme-mdx create-pages nodes ${JSON.stringify(nodes, null, 4)}`
+  );
   const allTranslations = ["fr", "en"];
   nodes.forEach((node) => {
     if (!excludePage(node)) {

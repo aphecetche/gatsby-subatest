@@ -1,8 +1,15 @@
 import React from "react";
-import AllSeminars from "gatsby-theme-seminar";
+import { AllSeminars, Seminars } from "gatsby-theme-seminar";
 
 const IndexPage = () => {
-  return <AllSeminars />;
+  return (
+    <>
+      <h1>tous les séminaires</h1>
+      <AllSeminars showTitle={false} />
+      <h1>séminaires récents et à venir</h1>
+      <Seminars />
+    </>
+  );
 };
 
 export default IndexPage;

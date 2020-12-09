@@ -6,25 +6,27 @@ import { graphql } from "gatsby"
 import PropTypes from "prop-types"
 import { usePageContext, getTranslatedContent } from "gatsby-theme-intl"
 
+const items = [
+  {
+    title: "zob",
+    content: <p>that would be zob</p>,
+  },
+]
 const HomePage = ({ data }) => {
-  const edges = data.allMdx.edges
   const { language } = usePageContext()
-  const { node: head } = getTranslatedContent(edges, language)
+  const { node: head } = getTranslatedContent(data.allArticle.nodes, language)
   return (
     <Layout>
       {head && <MDXRenderer>{head.body}</MDXRenderer>}
-      <Featured />
+      <Featured items={items} />
     </Layout>
   )
 }
 
 HomePage.propTypes = {
   data: PropTypes.shape({
-    head: PropTypes.shape({
-      body: PropTypes.string,
-    }),
-    allMdx: PropTypes.shape({
-      edges: PropTypes.array,
+    allArticle: PropTypes.shape({
+      nodes: PropTypes.array,
     }),
   }),
 }
@@ -33,11 +35,9 @@ export default HomePage
 
 export const query = graphql`
   query {
-    allMdx(filter: { fields: { slug: { eq: "/general/presentation/" } } }) {
-      edges {
-        node {
-          ...mdxContent
-        }
+    allArticle(filter: { slug: { eq: "/general/presentation/" } }) {
+      nodes {
+        ...articleContent
       }
     }
   }

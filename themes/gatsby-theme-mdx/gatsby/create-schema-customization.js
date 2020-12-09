@@ -12,10 +12,12 @@ module.exports = ({ actions, schema }) => {
       component: { type: "String" },
       asides: { type: "[String]" },
       layout: { type: "String" },
-      order: { type: "Int" },
+      rank: { type: "Int" },
       aside: { type: "Boolean" },
       images: { type: "[String]" },
       fragment: { type: "Boolean" },
+      language: { type: "String" },
+      fileAbsolutePath: { type: "String" },
       body: {
         type: "String!",
         resolve(source, args, context, info) {

@@ -25,21 +25,17 @@ export default Featured
 
 export const query = graphql`
   query {
-    axe: allMdx(
-      filter: { frontmatter: { category: { regex: "/Axe/" } } }
-      sort: { fields: [frontmatter___order], order: ASC }
+    axe: allArticle(
+      filter: { category: { regex: "/Axe/" } }
+      sort: { fields: order, order: ASC }
     ) {
-      edges {
-        node {
-          ...mdxContent
-        }
+      nodes {
+        ...articleContent
       }
     }
-    head: mdx(fileAbsolutePath: { regex: "/general/presentation/" }) {
+    head: article(fileAbsolutePath: { regex: "/general/presentation/" }) {
       id
-      frontmatter {
-        title
-      }
+      title
       body
     }
   }

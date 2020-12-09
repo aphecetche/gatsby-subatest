@@ -6,13 +6,11 @@ import MdxContentWithEmbeddedImages from "components/MdxContentWithEmbeddedImage
 import Asides from "components/Asides"
 import PropTypes from "prop-types"
 
-const getAsideContent = (slug, frontmatter) => {
+const getAsideContent = ({ slug, asides }) => {
   let aside = null
 
-  if (frontmatter.asides) {
-    aside = frontmatter.asides.map((a, i) => (
-      <Asides slug={slug} key={i} regexp={a} />
-    ))
+  if (asides) {
+    aside = asides.map((a, i) => <Asides slug={slug} key={i} regexp={a} />)
   }
 
   return aside
@@ -21,24 +19,24 @@ const getAsideContent = (slug, frontmatter) => {
 const DefaultLayout = (props) => {
   const { data, pageContext } = props
   const { language } = pageContext
-  const { node } = getTranslatedContent(data.allMdx.edges, language)
+  const { node } = getTranslatedContent(data.allArticle.nodes, language)
   let main = node ? <MdxContentWithEmbeddedImages node={node} /> : null
-  let aside = node ? getAsideContent(node.fields.slug, node.frontmatter) : null
+  let aside = node ? getAsideContent(node) : null
   return <MainLayout main={main} aside={aside} pageContext={pageContext} />
 }
 
 DefaultLayout.propTypes = {
   data: PropTypes.shape({
-    allMdx: PropTypes.shape({
-      edges: PropTypes.array,
+    allArticle: PropTypes.shape({
+      nodes: PropTypes.array,
     }),
   }),
   pageContext: PropTypes.shape({
     language: PropTypes.string,
   }),
 }
-export const mdxContent = graphql`
-  fragment mdxFrontMatterImages on File {
+export const articleContentFragments = graphql`
+  fragment articleImages on File {
     childImageSharp {
       original {
         src
@@ -48,18 +46,14 @@ export const mdxContent = graphql`
       }
     }
   }
-  fragment mdxContent on Mdx {
-    fields {
-      language
-      slug
-    }
-    frontmatter {
-      title
-      layout
-      asides
-      images {
-        ...mdxFrontMatterImages
-      }
+  fragment articleContent on Mdx {
+    language
+    slug
+    title
+    layout
+    asides
+    images {
+      ...articleImages
     }
     id
     body
@@ -68,11 +62,9 @@ export const mdxContent = graphql`
 
 export const query = graphql`
   query allTranslations($slug: String!) {
-    allMdx(filter: { fields: { slug: { eq: $slug } } }) {
-      edges {
-        node {
-          ...mdxContent
-        }
+    allArticle(filter: { fields: { slug: { eq: $slug } } }) {
+      nodes {
+        ...articleContent
       }
     }
   }

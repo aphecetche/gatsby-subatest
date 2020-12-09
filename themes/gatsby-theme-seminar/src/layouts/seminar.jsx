@@ -1,15 +1,15 @@
 /* eslint-disable react/display-name */
 
-import React from "react"
-import { graphql } from "gatsby"
-import { MDXRenderer } from "gatsby-plugin-mdx"
-import Layout from "../components/Layout"
-import { makeStyles, Grid } from "@material-ui/core"
-import { MDXProvider } from "@mdx-js/react"
-import DebugComponents from "../components/DebugComponents"
-import moment from "moment"
-import { useTranslation, usePageContext } from "gatsby-theme-intl"
-import PropTypes from "prop-types"
+import React from "react";
+import { graphql } from "gatsby";
+import { MDXRenderer } from "gatsby-plugin-mdx";
+import Layout from "../components/Layout";
+import { makeStyles, Grid } from "@material-ui/core";
+import { MDXProvider } from "@mdx-js/react";
+import DebugComponents from "../components/DebugComponents";
+import moment from "moment";
+import { useTranslation, usePageContext } from "gatsby-theme-intl";
+import PropTypes from "prop-types";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -35,15 +35,15 @@ const useStyles = makeStyles((theme) => ({
       textJustify: "inter-character",
     },
   },
-}))
+}));
 
 const SeminarLayout = ({ data }) => {
-  const { mdx } = data
-  const { frontmatter, body } = mdx
-  const classes = useStyles()
-  const { language: currentLanguage } = usePageContext()
-  const { t } = useTranslation()
-  moment.locale(currentLanguage)
+  const { mdx } = data;
+  const { frontmatter, body } = mdx;
+  const classes = useStyles();
+  const { language: currentLanguage } = usePageContext();
+  const { t } = useTranslation();
+  moment.locale(currentLanguage);
   return (
     <MDXProvider components={DebugComponents}>
       <Layout>
@@ -134,8 +134,8 @@ const SeminarLayout = ({ data }) => {
         </Grid>
       </Layout>
     </MDXProvider>
-  )
-}
+  );
+};
 
 export const query = graphql`
   query seminarLayout($slug: String!) {
@@ -160,7 +160,7 @@ export const query = graphql`
       slug
     }
   }
-`
+`;
 
 SeminarLayout.propTypes = {
   data: PropTypes.shape({
@@ -183,6 +183,6 @@ SeminarLayout.propTypes = {
       }),
     }),
   }),
-}
+};
 
-export default SeminarLayout
+export default SeminarLayout;

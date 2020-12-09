@@ -9,13 +9,14 @@ module.exports = {
       resolve: `gatsby-theme-mdx`,
       options: {
         sources: [
-          `${__dirname}/src/content`,
           `${__dirname}/src/pages`,
+          /*           `${__dirname}/src/content`,
           `${__dirname}/src/components/asides`,
+ */
         ],
       },
     },
-    {
+    /*     {
       resolve: `gatsby-theme-seminar`,
       options: {
         sources: [
@@ -24,7 +25,7 @@ module.exports = {
         ],
       },
     },
-    {
+ */ {
       resolve: "gatsby-theme-mui",
       options: {},
     },

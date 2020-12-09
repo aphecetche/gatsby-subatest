@@ -39,9 +39,10 @@ module.exports = (
           aside: frontmatter.aside,
           asides: frontmatter.asides,
           layout: frontmatter.layout,
-          order: frontmatter.order,
+          rank: frontmatter.rank,
           fragment: frontmatter.fragment,
           rawBody: node.rawBody,
+          fileAbsolutePath: node.fileAbsolutePath,
         };
         const { createNode, createParentChildLink } = actions;
         createNode({

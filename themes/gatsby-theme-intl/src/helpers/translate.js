@@ -40,9 +40,9 @@ const useTranslation = () => {
   };
 };
 
-const getTranslatedContent = (edges, locale) => {
-  const node = edges.filter(
-    (n) => n.node.fields.language === locale || n.node.fields.language === "xx"
+const getTranslatedContent = (nodes, locale) => {
+  const node = nodes.filter(
+    (n) => n.language === locale || n.language === "xx"
   );
   return { node: node.length > 0 ? node[0].node : null };
 };

@@ -1,34 +1,33 @@
-const path = require("path");
-const { createFilePath } = require("gatsby-source-filesystem");
-const crypto = require("crypto");
+const path = require("path")
+const { createFilePath } = require("gatsby-source-filesystem")
+const crypto = require("crypto")
 
 const validFilePath = (path) => {
-  const re = /(\.en\/$)|(\.fr\/$)|(\.xx\/$)/;
-  return path.search(re) >= 0;
-};
+  const re = /(\.en\/$)|(\.fr\/$)|(\.xx\/$)/
+  return path.search(re) >= 0
+}
 const extractLanguage = (slug) => {
-  const s = slug.replace(/\/$/, "").split(".");
-  return s[s.length - 1];
-};
+  const s = slug.replace(/\/$/, "").split(".")
+  return s[s.length - 1]
+}
 
 module.exports = (
   { node, getNode, createNodeId, actions, reporter },
   options
 ) => {
   if (node.internal.type === "Mdx") {
-    const parent = getNode(node.parent);
+    const parent = getNode(node.parent)
     if (parent.internal.type === "File") {
       if (options.sources.includes(path.dirname(parent.absolutePath))) {
-        reporter.info(`gatsby-theme-mdx using ${parent.absolutePath}`);
-        const localizedSlug = createFilePath({ node, getNode });
+        const localizedSlug = createFilePath({ node, getNode })
         if (!validFilePath(localizedSlug)) {
           reporter.panic(
             localizedSlug +
               " is not a valid slug : missing the .fr | .en | .xx extension"
-          );
+          )
         }
-        const language = extractLanguage(localizedSlug);
-        const { frontmatter } = node;
+        const language = extractLanguage(localizedSlug)
+        const { frontmatter } = node
         const fieldData = {
           title: frontmatter.title,
           slug: localizedSlug.replace("." + language, ""),
@@ -43,29 +42,29 @@ module.exports = (
           fragment: frontmatter.fragment,
           rawBody: node.rawBody,
           fileAbsolutePath: node.fileAbsolutePath,
-        };
-        const { createNode, createParentChildLink } = actions;
+        }
+        const { createNode, createParentChildLink } = actions
         createNode({
           ...fieldData,
           id: createNodeId(`${node.id} >>> Article`),
           parent: node.id,
           children: [],
           internal: {
-            type: "Article",
+            type: "MdxArticle",
             contentDigest: crypto
               .createHash(`md5`)
               .update(JSON.stringify(fieldData))
               .digest(`hex`),
             content: JSON.stringify(fieldData),
-            description: `Article`,
+            description: `Mdx implementation of the Article interface`,
           },
-        });
+        })
 
         createParentChildLink({
           parent: parent,
           child: node,
-        });
+        })
       }
     }
   }
-};
+}

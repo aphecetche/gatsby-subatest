@@ -1,10 +1,10 @@
 import React from "react"
-import MdxAccordion from "components/MdxAccordion"
-import Layout from "components/Layout"
+import MdxAccordion from "components/mdx-accordion"
+import Layout from "../../components/layout"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { graphql } from "gatsby"
 import PropTypes from "prop-types"
-import MdxContentProvider from "components/MdxContentProvider"
+import MdxContentProvider from "gatsby-theme-article/src/components/mdx-content-provider"
 
 const Featured = ({ data }) => {
   return (

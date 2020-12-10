@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 
-const React = require("react");
-const gatsby = jest.requireActual("gatsby");
+const React = require("react")
+const gatsby = jest.requireActual("gatsby")
 
 module.exports = {
   ...gatsby,
@@ -26,4 +26,4 @@ module.exports = {
   ),
   StaticQuery: jest.fn(),
   useStaticQuery: jest.fn(),
-};
+}

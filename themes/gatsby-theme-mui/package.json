@@ -4,13 +4,6 @@
   "version": "0.1.0",
   "description": "Visual Theming for Gatsuba",
   "main": "gatsby-config.js",
-  "scripts": {
-    "build": "gatsby build",
-    "clean": "gatsby clean",
-    "develop": "gatsby develop",
-    "lint": "yarn run eslint \"./**/*.js\" --fix"
-  },
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "@material-ui/core": "^4.11.0",

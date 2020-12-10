@@ -1,6 +1,6 @@
 import React from "react"
-import Division from "./Division"
-import OrgItem from "./OrgItem"
+import Division from "./division"
+import OrgItem from "./org-item"
 
 const Conseils = () => (
   <Division title="Conseils">

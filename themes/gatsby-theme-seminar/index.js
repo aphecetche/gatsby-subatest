@@ -1,4 +1,4 @@
-import AllSeminars from "components/all-seminars";
-import Seminars from "components/seminars";
+import Seminars from "components/seminars"
+import SeminarsInRange from "components/seminars-in-range"
 
-export { AllSeminars, Seminars };
+export { Seminars, SeminarsInRange }

@@ -13,7 +13,7 @@ See [nodejs](https://nodejs.org/en/) (LTS version)
 
 ### Installer yarn
 
-Par exemple en utilisant  `npm install -g yarn`
+Par exemple en utilisant `npm install -g yarn`
 
 ### Installer gatsby-cli
 
@@ -49,7 +49,7 @@ vous devez ajouter :
 au fichier `.env`. A noter : les réquêtes LDAP ne peuvent fonctionner que si
 vous utilisez une machine au sein du domaine `in2p3.fr`.
 
-Par construction, le fichier `.env` n'a *pas* vocation à être commis sur le
+Par construction, le fichier `.env` n'a _pas_ vocation à être commis sur le
 dépot git.
 
 ## Développement courant
@@ -57,9 +57,9 @@ dépot git.
 Une fois le dépot récupéré et les outils de base (nodejs, yarn et gatsby-cli)
 installés, le mode de dévelopement consiste grossièrement à :
 
--   lancer le mode de développement modifier des fichiers (ou en ajouter des
--   nouveaux) jusqu'à être satisfait du résultat commettre les changements dans
--   git
+- lancer le mode de développement modifier des fichiers (ou en ajouter des
+- nouveaux) jusqu'à être satisfait du résultat commettre les changements dans
+- git
 
 Pour lancer le mode de développement, lancer la commande suivante dans un
 terminal :
@@ -71,6 +71,6 @@ yarn workspace site develop
 Et ouvrez la page <http://localhost:8000> dans votre
 navigateur de choix.
 
-Une fois cela fait, lorsque vous changez un fichier (markdown, js, etc...)  et
+Une fois cela fait, lorsque vous changez un fichier (markdown, js, etc...) et
 sauvegardez ce fichier, le site est reconstruit et le changement apparaît
 (quasi) instantanément dans le navigateur.

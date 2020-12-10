@@ -1,4 +1,4 @@
-const path = require("path");
+const path = require("path")
 
 /** Loop over seminar nodes and create one page per seminar.
  *
@@ -12,30 +12,38 @@ module.exports = async ({ actions, graphql, reporter }, options) => {
       null,
       4
     )}`
-  );
-  const { createPage } = actions;
+  )
+  const { createPage } = actions
   const result = await graphql(`
     query {
       allSeminar {
         nodes {
+          id
           slug
         }
       }
     }
-  `);
+  `)
   if (result.errors) {
-    reporter.panicOnBuild(`Error while running GraphQL query in createPages.`);
-    return;
+    reporter.panicOnBuild(`Error while running GraphQL query in createPages.`)
+    return
   }
-  const defaultComponent = path.resolve(options.defaultLayout);
-  const nodes = result.data.allSeminar.nodes;
-  nodes.forEach((node) => {
+
+  // create one page per seminar
+  result.data.allSeminar.nodes.forEach((node) => {
     createPage({
       path: node.slug,
-      component: defaultComponent,
+      component: path.resolve(options.seminarLayout),
       context: {
-        slug: node.slug,
+        id: node.id,
       },
-    });
-  });
-};
+    })
+  })
+
+  // create page for list of seminars
+  createPage({
+    path: "/seminars",
+    component: path.resolve(options.seminarListLayout),
+    context: {},
+  })
+}

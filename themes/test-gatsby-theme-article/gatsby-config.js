@@ -9,14 +9,10 @@ module.exports = {
     },
 
     {
-      resolve: `gatsby-theme-mdx`,
+      resolve: `gatsby-theme-article`,
       options: {
         sources: [`${__dirname}/src/dir1`],
       },
     },
-    /*     {
-      resolve: `gatsby-plugin-mdx`,
-    },
- */
   ],
-};
+}

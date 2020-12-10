@@ -1,5 +1,5 @@
 import React from "react"
-import OrgItem from "./OrgItem"
+import OrgItem from "./org-item"
 import PropTypes from "prop-types"
 
 const Role = ({ title, name, link }) => (

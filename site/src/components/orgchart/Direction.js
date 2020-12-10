@@ -1,6 +1,6 @@
 import React from "react"
-import Division from "./Division"
-import Role from "./Role"
+import Division from "./division"
+import Role from "./role"
 
 const Direction = () => (
   <Division title="Direction">

@@ -1,11 +1,18 @@
 module.exports = ({ Joi }) => {
   return Joi.object({
-    defaultLayout: Joi.string()
-      .description("full patch to default layout md(x) file to use")
-      .default(`${__dirname}/../src/layouts/seminar.jsx`),
+    seminarLayout: Joi.string()
+      .description(
+        "full path to seminar layout md(x) file to use for one single seminar"
+      )
+      .default(`${__dirname}/../src/templates/seminar-query.js`),
+    seminarListLayout: Joi.string()
+      .description(
+        "full path to layout md(x) file to use for the list of seminars"
+      )
+      .default(`${__dirname}/../src/templates/seminars-query.js`),
     sources: Joi.array()
       .items(Joi.string())
       .description("array of paths where to look for md(x) seminar files")
       .default(`${__dirname}/../seminars`),
-  });
-};
+  })
+}

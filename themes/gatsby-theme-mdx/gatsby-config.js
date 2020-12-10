@@ -1,12 +1,10 @@
-//const unwrapImages = require("remark-unwrap-images");
-
 module.exports = (themeOptions) => {
   const sources = themeOptions.sources.map((s) => ({
     resolve: `gatsby-source-filesystem`,
     options: {
       path: s,
     },
-  }));
+  }))
   // Mind your steps : order of remark- plugins _IS_ important
   return {
     plugins: [
@@ -19,13 +17,18 @@ module.exports = (themeOptions) => {
       {
         resolve: `gatsby-plugin-mdx`,
         options: {
-          //    remarkPlugins: [unwrapImages],
           gatsbyRemarkPlugins: [
             {
               resolve: `gatsby-remark-embed-video`,
             },
             {
               resolve: `gatsby-remark-responsive-iframe`,
+            },
+            {
+              resolve: `gatsby-remark-image-attributes`,
+              options: {
+                dataAttributes: true,
+              },
             },
             {
               resolve: `gatsby-remark-copy-linked-files`,
@@ -39,16 +42,10 @@ module.exports = (themeOptions) => {
                 maxWidth: 1000,
               },
             },
-            {
-              resolve: `gatsby-remark-image-attributes`,
-              options: {
-                dataAttributes: true,
-              },
-            },
           ],
           extensions: [".mdx", ".md"],
         },
       },
     ],
-  };
-};
+  }
+}

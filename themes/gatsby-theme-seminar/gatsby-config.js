@@ -1,17 +1,15 @@
 module.exports = (themeOptions) => {
   return {
     plugins: [
-      /*       "gatsby-theme-intl", */
+      "gatsby-theme-intl",
       {
         resolve: `gatsby-theme-mdx`,
         options: themeOptions,
       },
-      /*
       {
         resolve: "gatsby-theme-mui",
         options: {},
       },
- */
     ],
-  };
-};
+  }
+}

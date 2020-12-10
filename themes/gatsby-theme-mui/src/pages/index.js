@@ -1,5 +1,5 @@
-import React from "react";
-import { Typography } from "@material-ui/core";
+import React from "react"
+import { Typography } from "@material-ui/core"
 
 const Demo = () => (
   <>
@@ -18,6 +18,6 @@ const Demo = () => (
       body2 secondary
     </Typography>
   </>
-);
+)
 
-export default Demo;
+export default Demo

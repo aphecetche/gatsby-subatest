@@ -1,5 +1,5 @@
 import { BottomNavigation } from "gatsby-theme-nav"
-import LabAddress from "./LabAddress"
+import LabAddress from "./lab-address"
 import Paper from "@material-ui/core/Paper"
 import React from "react"
 import { makeStyles } from "@material-ui/core"

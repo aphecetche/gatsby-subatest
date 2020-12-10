@@ -1,6 +1,6 @@
-const path = require("path");
-const { createFilePath } = require("gatsby-source-filesystem");
-const crypto = require("crypto");
+const path = require("path")
+const { createFilePath } = require("gatsby-source-filesystem")
+const crypto = require("crypto")
 
 const mdxNode2Seminar = ({ frontmatter, fileAbsolutePath }) => {
   return {
@@ -20,21 +20,21 @@ const mdxNode2Seminar = ({ frontmatter, fileAbsolutePath }) => {
     title: frontmatter.title,
     title2: frontmatter.title2,
     type: frontmatter.type,
-  };
-};
+  }
+}
 
 module.exports = (
   { node, getNode, createNodeId, actions, reporter },
   options
 ) => {
   if (node.internal.type === "Mdx") {
-    const parent = getNode(node.parent);
+    const parent = getNode(node.parent)
     if (parent.internal.type === "File") {
       if (options.sources.includes(path.dirname(parent.absolutePath))) {
-        reporter.info(`seminar=${parent.absolutePath}`);
-        const seminar = mdxNode2Seminar(node);
-        seminar.slug = "/seminar" + createFilePath({ node, getNode });
-        const { createNode, createParentChildLink } = actions;
+        reporter.info(`seminar=${parent.absolutePath}`)
+        const seminar = mdxNode2Seminar(node)
+        seminar.slug = "/seminar" + createFilePath({ node, getNode })
+        const { createNode, createParentChildLink } = actions
         createNode({
           ...seminar,
           id: createNodeId(`${node.id} >>> Seminar`),
@@ -49,13 +49,13 @@ module.exports = (
             content: JSON.stringify(seminar),
             description: `Seminar`,
           },
-        });
+        })
 
         createParentChildLink({
           parent: parent,
           child: node,
-        });
+        })
       }
     }
   }
-};
+}

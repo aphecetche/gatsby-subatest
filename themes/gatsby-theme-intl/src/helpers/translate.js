@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
-import ErrorIcon from "@material-ui/icons/Error";
-import Tooltip from "@material-ui/core/Tooltip";
-import Typography from "@material-ui/core/Typography";
-import { useTranslation as useT } from "react-i18next";
-import { usePageContext } from "../../page-context";
-import PropTypes from "prop-types";
+import React, { useEffect } from "react"
+import ErrorIcon from "@material-ui/icons/Error"
+import Tooltip from "@material-ui/core/Tooltip"
+import Typography from "@material-ui/core/Typography"
+import { useTranslation as useT } from "react-i18next"
+import { usePageContext } from "../../page-context"
+import PropTypes from "prop-types"
 
 const MissingTranslation = ({ value }) => (
   <Tooltip color="error" title={`Missing translation for ${value}`}>
@@ -13,45 +13,43 @@ const MissingTranslation = ({ value }) => (
       {value}
     </Typography>
   </Tooltip>
-);
+)
 
 MissingTranslation.propTypes = {
   value: PropTypes.string,
-};
+}
 
 const useTranslation = () => {
-  const { language } = usePageContext();
-  const { t: u, i18n } = useT();
+  const { language } = usePageContext()
+  const { t: u, i18n } = useT()
   useEffect(() => {
-    i18n.changeLanguage(language);
-  }, [language, i18n]);
+    i18n.changeLanguage(language)
+  }, [language, i18n])
   return {
     ...u,
     t: (msgid, values) => {
       if (!i18n.exists(msgid)) {
         if (i18n.language === "fr") {
-          return msgid;
+          return msgid
         }
-        return <MissingTranslation value={msgid} />;
+        return <MissingTranslation value={msgid} />
       }
-      return u(msgid, values);
+      return u(msgid, values)
     },
     i18n,
-  };
-};
+  }
+}
 
 const getTranslatedContent = (nodes, locale) => {
-  const node = nodes.filter(
-    (n) => n.language === locale || n.language === "xx"
-  );
-  return { node: node.length > 0 ? node[0].node : null };
-};
+  const node = nodes.filter((n) => n.language === locale || n.language === "xx")
+  return { node: node.length > 0 ? node[0].node : null }
+}
 
 /* ensure the slug is starting with /fr or /en */
 const localizeUrl = (url, language = "fr") => {
   if (url.match(/^\//) && !url.match(/^\/fr/) && !url.match(/^\/en/)) {
-    return "/" + language + url;
+    return "/" + language + url
   }
-  return url;
-};
-export { getTranslatedContent, useTranslation, localizeUrl };
+  return url
+}
+export { getTranslatedContent, useTranslation, localizeUrl }

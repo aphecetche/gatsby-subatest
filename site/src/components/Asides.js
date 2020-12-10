@@ -12,12 +12,12 @@ const createComponent = (componentName) => {
 
 const MdxAsides = ({ asides }) => {
   return asides.map((m) => {
-    const Component = m.node.childMdx.frontmatter.component
-      ? createComponent(`${m.node.childMdx.frontmatter.component}`)
+    const Component = m.component
+      ? createComponent(`${m.component}`)
       : MDXRenderer
     return (
-      <aside key={m.node.id}>
-        <Component>{m.node.childMdx.body}</Component>
+      <aside key={m.id}>
+        <Component>{m.body}</Component>
       </aside>
     )
   })
@@ -25,9 +25,9 @@ const MdxAsides = ({ asides }) => {
 
 const JsAsides = ({ asides }) => {
   return asides.map((m) => {
-    let cname = m.node.relativePath.split(".").slice(0, -1).join(".")
+    let cname = m.relativePath.split(".").slice(0, -1).join(".")
     const Component = createComponent(cname)
-    return <Component key={m.node.id} />
+    return <Component key={m.id} />
   })
 }
 
@@ -35,22 +35,20 @@ const Asides = ({ regexp }) => {
   const { language: currentLanguage } = usePageContext()
   const data = useStaticQuery(graphql`
     query {
-      allFile(filter: { extension: { regex: "/^md$|^mdx$|^js$|^jsx$/" } }) {
-        edges {
-          node {
-            relativePath
-            id
-            childMdx {
-              fields {
-                language
-              }
-              body
-              frontmatter {
-                component
-                aside
-              }
-            }
-          }
+      allFile(filter: { extension: { regex: "/^js$|^jsx$/" } }) {
+        nodes {
+          relativePath
+          id
+        }
+      }
+      allArticle {
+        nodes {
+          fileAbsolutePath
+          id
+          language
+          body
+          component
+          aside
         }
       }
     }
@@ -62,16 +60,13 @@ const Asides = ({ regexp }) => {
   }
 
   const re = new RegExp(regexp)
-  const mdxAsides = data.allFile.edges.filter(
+  const mdxAsides = data.allArticle.nodes.filter(
     (n) =>
-      n.node.relativePath.match(re) &&
-      n.node.childMdx &&
-      n.node.childMdx.frontmatter.aside === true &&
-      n.node.childMdx.fields.language === currentLanguage
+      n.fileAbsolutePath.match(re) &&
+      n.aside === true &&
+      n.language === currentLanguage
   )
-  const jsAsides = data.allFile.edges.filter(
-    (n) => n.node.relativePath.match(re) && n.node.childMdx === null
-  )
+  const jsAsides = data.allFile.nodes.filter((n) => n.relativePath.match(re))
 
   return (
     <Suspense fallback=<p>Loading...</p>>

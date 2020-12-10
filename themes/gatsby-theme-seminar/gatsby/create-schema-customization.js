@@ -1,6 +1,6 @@
 module.exports = ({ actions, schema, reporter }) => {
-  reporter.info("gatsby-theme-seminar createSchemaCustomization");
-  const { createTypes } = actions;
+  reporter.info("gatsby-theme-seminar createSchemaCustomization")
+  const { createTypes } = actions
 
   const seminar = schema.buildObjectType({
     name: "Seminar",
@@ -25,19 +25,19 @@ module.exports = ({ actions, schema, reporter }) => {
       body: {
         type: "String!",
         resolve(source, args, context, info) {
-          const type = info.schema.getType(`Mdx`);
+          const type = info.schema.getType(`Mdx`)
           const mdxNode = context.nodeModel.getNodeById({
             id: source.parent,
-          });
-          const resolver = type.getFields()["body"].resolve;
+          })
+          const resolver = type.getFields()["body"].resolve
           return resolver(mdxNode, {}, context, {
             fieldName: "body",
-          });
+          })
         },
       },
       rawBody: { type: "String!" },
     },
     interfaces: [`Node`],
-  });
-  createTypes(seminar);
-};
+  })
+  createTypes(seminar)
+}

@@ -1,6 +1,6 @@
 import React from "react"
-import Featured from "components/Featured"
-import Layout from "components/Layout"
+import Featured from "components/featured"
+import Layout from "components/layout"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { graphql } from "gatsby"
 import PropTypes from "prop-types"
@@ -9,12 +9,20 @@ import { usePageContext, getTranslatedContent } from "gatsby-theme-intl"
 const items = [
   {
     title: "zob",
-    content: <p>that would be zob</p>,
+    content: <p>that would be the zob content</p>,
+  },
+  {
+    title: "zib",
+    content: <h3>that would be the zib content</h3>,
   },
 ]
 const HomePage = ({ data }) => {
   const { language } = usePageContext()
-  const { node: head } = getTranslatedContent(data.allArticle.nodes, language)
+  let head = null
+  if (data.allArticle) {
+    const { node } = getTranslatedContent(data.allArticle.nodes, language)
+    head = node
+  }
   return (
     <Layout>
       {head && <MDXRenderer>{head.body}</MDXRenderer>}

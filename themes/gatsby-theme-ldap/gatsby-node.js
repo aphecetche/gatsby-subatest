@@ -11,11 +11,11 @@
  *
  * See: https://www.gatsbyjs.org/docs/creating-a-local-plugin/#developing-a-local-plugin-that-is-outside-your-project
  */
-const ldap = require("ldapjs");
+const ldap = require("ldapjs")
 
 exports.onPreInit = ({ reporter }, pluginOptions) => {
-  reporter.info(`gatsby-theme-ldap options: ${JSON.stringify(pluginOptions)}`);
-};
+  reporter.info(`gatsby-theme-ldap options: ${JSON.stringify(pluginOptions)}`)
+}
 
 // note that the getMembers should never fails : if we cannot get the LDAP data
 // we simply return a fake members array with only one element which is constructed
@@ -31,17 +31,17 @@ const getMembers = (disabled, reporter) =>
         group: "",
         title: "",
       },
-    ];
+    ]
 
     if (disabled) {
       reporter.warn(
         "gatsby-theme-ldap is disabled (from options) : just returning no members"
-      );
-      resolve(noMembers);
-      return;
+      )
+      resolve(noMembers)
+      return
     }
 
-    const client = ldap.createClient({ url: "ldaps://ccdirectory.in2p3.fr" });
+    const client = ldap.createClient({ url: "ldaps://ccdirectory.in2p3.fr" })
     const opts = {
       filter: `(ou=UMR6457)`,
       scope: "sub",
@@ -54,19 +54,19 @@ const getMembers = (disabled, reporter) =>
         "businessCategory",
         "title",
       ],
-    };
+    }
 
-    var members = [];
+    var members = []
 
-    reporter.info("gatsby-theme-ldap: createClient done");
+    reporter.info("gatsby-theme-ldap: createClient done")
 
     client.bind("", "", function (err) {
       if (err) {
-        reporter.error("gatsby-theme-ldap: bind to ldap server failed");
-        resolve(noMembers);
-        return;
+        reporter.error("gatsby-theme-ldap: bind to ldap server failed")
+        resolve(noMembers)
+        return
       } else {
-        reporter.info("gatsby-theme-ldap: performing ldap search");
+        reporter.info("gatsby-theme-ldap: performing ldap search")
         client.search("ou=people,dc=in2p3,dc=fr", opts, function (err, res) {
           res.on("searchEntry", function (entry) {
             const {
@@ -76,7 +76,7 @@ const getMembers = (disabled, reporter) =>
               roomNumber,
               businessCategory,
               title,
-            } = entry.object;
+            } = entry.object
             members.push({
               name: cn
                 .split(" ")
@@ -87,25 +87,25 @@ const getMembers = (disabled, reporter) =>
               roomNumber: String(roomNumber || ""),
               group: String(businessCategory),
               title: String(title),
-            });
-          });
+            })
+          })
           res.on("end", function (result) {
             if (result.status === 0) {
-              client.unbind(res.end);
+              client.unbind(res.end)
             }
-            reporter.info(`gatsby-theme-ldap: got ${members.length} members`);
-            resolve(members);
-          });
-        });
+            reporter.info(`gatsby-theme-ldap: got ${members.length} members`)
+            resolve(members)
+          })
+        })
       }
-    });
-  });
+    })
+  })
 
 exports.sourceNodes = async (
   { actions, reporter, createContentDigest, createNodeId },
   pluginOptions
 ) => {
-  const { createNode } = actions;
+  const { createNode } = actions
 
   return getMembers(pluginOptions.disabled, reporter).then((members) => {
     members.forEach((m) => {
@@ -118,7 +118,7 @@ exports.sourceNodes = async (
           type: "Member",
           contentDigest: createContentDigest(m),
         },
-      });
-    });
-  });
-};
+      })
+    })
+  })
+}

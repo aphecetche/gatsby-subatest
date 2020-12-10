@@ -1,6 +1,6 @@
 import React from "react"
 import Division from "./Division"
-import Team from "./Team"
+import Team from "./team"
 
 const Physique = () => (
   <Division title="Physique">

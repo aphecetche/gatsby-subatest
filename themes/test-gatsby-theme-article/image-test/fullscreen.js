@@ -1,7 +1,7 @@
-import React from "react";
-import Img from "gatsby-image";
-import { graphql } from "gatsby";
-import PropTypes from "prop-types";
+import React from "react"
+import Img from "gatsby-image"
+import { graphql } from "gatsby"
+import PropTypes from "prop-types"
 
 const IndexPage = ({ data }) => {
   return (
@@ -9,8 +9,8 @@ const IndexPage = ({ data }) => {
       <p>This is IndexPage</p>
       <Img fluid={data.univ.childImageSharp.fluid} />
     </>
-  );
-};
+  )
+}
 
 IndexPage.propTypes = {
   data: PropTypes.shape({
@@ -20,7 +20,7 @@ IndexPage.propTypes = {
       }),
     }),
   }).isRequired,
-};
+}
 
 export const fluidImage = graphql`
   fragment fluidImage on File {
@@ -30,7 +30,7 @@ export const fluidImage = graphql`
       }
     }
   }
-`;
+`
 
 export const pageQuery = graphql`
   query {
@@ -38,6 +38,6 @@ export const pageQuery = graphql`
       ...fluidImage
     }
   }
-`;
+`
 
-export default IndexPage;
+export default IndexPage

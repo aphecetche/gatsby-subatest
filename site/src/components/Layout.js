@@ -1,11 +1,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { makeStyles } from "@material-ui/core"
-import Header from "./Header"
-import Footer from "./Footer"
+import Header from "./header"
+import Footer from "./footer"
 import Alert from "@material-ui/lab/Alert"
 import { useTranslation, usePageContext } from "gatsby-theme-intl"
-import DevOnly from "components/DevOnly"
+import DevOnly from "components/dev-only"
 
 const TranslationInfo = () => {
   const pageContext = usePageContext()

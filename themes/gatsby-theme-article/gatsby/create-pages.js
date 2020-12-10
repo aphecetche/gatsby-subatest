@@ -1,46 +1,52 @@
-const path = require("path");
-const fs = require("fs");
+const path = require("path")
+const fs = require("fs")
 
 const excludePage = ({ aside, fragment }) => {
   if (aside !== null) {
-    return true;
+    return true
   }
   if (fragment !== null) {
-    return true;
+    return true
   }
-  return false;
-};
+  return false
+}
 
 const createMdxPage = (translations, createPage, node, defaultComponent) => {
   let comp = node.layout
     ? path.resolve(`./src/templates/${node.layout}.jsx`)
-    : defaultComponent;
+    : defaultComponent
   if (!fs.existsSync(comp)) {
-    comp = defaultComponent;
+    comp = defaultComponent
   }
-  let languages = [node.language];
+  let languages = [node.language]
 
   if (languages.includes("xx")) {
-    languages = ["fr", "en"];
+    languages = ["fr", "en"]
   }
 
   languages.forEach((lang) => {
-    const path = "/" + lang + node.slug;
+    const path = "/" + lang + node.slug
     createPage({
       path: path,
       component: comp,
       context: {
-        slug: node.slug,
+        id: node.id,
         language: lang,
-        translations,
+        translations, //FIXME: this should be a list of ids simply ?
       },
-    });
-  });
-};
+    })
+  })
+}
 
 module.exports = async ({ actions, graphql, reporter }, options) => {
-  console.log("create-pages options=", options);
-  const { createPage } = actions;
+  reporter.info(
+    `gatsby-theme-article create-pages options=${JSON.stringify(
+      options,
+      null,
+      4
+    )}`
+  )
+  const { createPage } = actions
   const result = await graphql(`
     query {
       allArticle {
@@ -48,34 +54,35 @@ module.exports = async ({ actions, graphql, reporter }, options) => {
           aside
           fragment
           layout
+          id
           slug
           language
         }
       }
     }
-  `);
+  `)
   if (result.errors) {
-    reporter.panicOnBuild(`Error while running GraphQL query in createPages.`);
-    return;
+    reporter.panicOnBuild(`Error while running GraphQL query in createPages.`)
+    return
   }
-  const defaultComponent = path.resolve(options.defaultLayout);
-  const nodes = result.data.allArticle.nodes;
-  reporter.info(
-    `gatsby-theme-mdx create-pages nodes ${JSON.stringify(nodes, null, 4)}`
-  );
-  const allTranslations = ["fr", "en"];
+  // note that the defaultLayout component must be a data-fetching
+  // wrapper that import the display component(s), see the example
+  // provided in templates/article-query.js
+  const defaultComponent = path.resolve(options.articleLayout)
+  const nodes = result.data.allArticle.nodes
+  const allTranslations = ["fr", "en"]
   nodes.forEach((node) => {
     if (!excludePage(node)) {
       // translations is the list of languages this page exists in
       const translations = nodes
         .filter((e) => e.slug === node.slug)
-        .map((e) => e.language);
+        .map((e) => e.language)
       createMdxPage(
         translations.includes("xx") ? allTranslations : translations,
         createPage,
         node,
         defaultComponent
-      );
+      )
     }
-  });
-};
+  })
+}

@@ -1,5 +1,5 @@
-import React from "react";
+import React from "react"
 
-const Toto = () => <p>You have ve been redirected</p>;
+const Toto = () => <p>You have ve been redirected</p>
 
-export default Toto;
+export default Toto

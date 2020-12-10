@@ -4,12 +4,6 @@
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "build": "gatsby build",
-    "clean": "gatsby clean",
-    "develop": "gatsby develop",
-    "lint": "yarn run eslint \"./**/*.js\" --fix"
-  },
   "author": "",
   "license": "ISC",
   "dependencies": {

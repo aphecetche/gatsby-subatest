@@ -9,12 +9,5 @@
     "gatsby-theme-mdx": "*",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
-  },
-  "scripts": {
-    "build": "gatsby build",
-    "clean": "gatsby clean",
-    "develop": "gatsby develop",
-    "lint": "yarn run eslint \"./**/*.js\" --fix",
-    "restart": "yarn clean && yarn develop"
   }
 }

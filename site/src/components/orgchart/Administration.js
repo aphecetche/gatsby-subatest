@@ -1,7 +1,7 @@
 import React from "react"
-import Service from "./Service"
+import Service from "./service"
 import List from "@material-ui/core/List"
-import OrgItem from "./OrgItem"
+import OrgItem from "./org-item"
 
 import { makeStyles } from "@material-ui/core"
 

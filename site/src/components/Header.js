@@ -1,14 +1,14 @@
-import DebugPalette from "./DebugPalette"
-import Logo from "./Logo"
+import DebugPalette from "./debug-palette"
+import Logo from "./logo"
 import { PrimaryNavigation, SecondaryNavigation } from "gatsby-theme-nav"
 import React, { useState } from "react"
-import ToggleDarkMode from "./ToggleDarkMode"
+import ToggleDarkMode from "./toggle-dark-mode"
 import nav from "./navigation.json"
 import nav_en from "./navigation.en.json"
 import { AppBar, Toolbar } from "@material-ui/core"
 import { makeStyles } from "@material-ui/core/styles"
 import { usePageContext } from "gatsby-theme-intl"
-import DevOnly from "components/DevOnly"
+import DevOnly from "components/dev-only"
 
 const useStyles = makeStyles((theme) => ({
   main: {

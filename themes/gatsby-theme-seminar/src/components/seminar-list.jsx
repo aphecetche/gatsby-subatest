@@ -3,9 +3,8 @@ import SeminarLink from "./seminar-link"
 
 const SeminarList = ({ seminars }) => (
   <>
-    {seminars.map((n) => (
-      <SeminarLink key={n.slug} {...n} />
-    ))}
+    {(seminars && seminars.map((n) => <SeminarLink key={n.slug} {...n} />)) ||
+      null}
   </>
 )
 

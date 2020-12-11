@@ -12,6 +12,7 @@ export const query = graphql`
         slug
         date
         author
+        title
       }
     }
   }

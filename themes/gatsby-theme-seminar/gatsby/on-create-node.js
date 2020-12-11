@@ -24,7 +24,7 @@ const mdxNode2Seminar = ({ frontmatter, fileAbsolutePath }) => {
 }
 
 module.exports = (
-  { node, getNode, createNodeId, actions, reporter },
+  { node, getNode, createNodeId, actions, reporter, createContentDigest },
   options
 ) => {
   if (node.internal.type === "Mdx") {
@@ -41,13 +41,10 @@ module.exports = (
           parent: node.id,
           children: [],
           internal: {
-            type: "Seminar",
-            contentDigest: crypto
-              .createHash(`md5`)
-              .update(JSON.stringify(seminar))
-              .digest(`hex`),
+            type: "MdxSeminar",
+            contentDigest: createContentDigest(seminar),
             content: JSON.stringify(seminar),
-            description: `Seminar`,
+            description: `MdxSeminar`,
           },
         })
 

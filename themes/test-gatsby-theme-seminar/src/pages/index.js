@@ -1,16 +1,16 @@
 import React from "react"
-import { Seminars, SeminarsInRange } from "gatsby-theme-seminar"
+import { SeminarsInRange } from "gatsby-theme-seminar"
+import { Link } from "gatsby"
 
-const IndexPage = () => {
+const IndexPage = ({ data }) => {
   return (
-    <p>Index will be here</p>
-    /*     <>
-      <h1>tous les séminaires</h1>
-      <Seminars />
-      <h1>séminaires récents et à venir</h1>
+    <>
+      <h1>Séminaires</h1>
+      <h2>récents et à venir</h2>
       <SeminarsInRange />
+      <h2>tous les séminaires</h2>
+      <Link to="/seminars">C'est par ici...</Link>
     </>
- */
   )
 }
 

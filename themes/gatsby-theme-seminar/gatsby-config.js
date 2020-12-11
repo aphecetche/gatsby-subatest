@@ -6,10 +6,6 @@ module.exports = (themeOptions) => {
         resolve: `gatsby-theme-mdx`,
         options: themeOptions,
       },
-      {
-        resolve: "gatsby-theme-mui",
-        options: {},
-      },
     ],
   }
 }

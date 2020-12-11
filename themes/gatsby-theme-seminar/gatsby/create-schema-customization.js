@@ -2,8 +2,30 @@ module.exports = ({ actions, schema, reporter }) => {
   reporter.info("gatsby-theme-seminar createSchemaCustomization")
   const { createTypes } = actions
 
+  createTypes(`interface Seminar @nodeInterface {
+    id: ID!
+    type: String!
+    title:  String!
+    title2: String
+    slug: String
+    location: String
+    layout: String
+    fileAbsolutePath: String
+    date: String
+    author2: String
+    author: String
+    author_url2: String
+    author_url: String
+    author_filiation2: String
+    author_filiation: String
+    author_filiation_url2: String
+    author_filiation_url: String
+    body: String!
+  }
+  `)
+
   const seminar = schema.buildObjectType({
-    name: "Seminar",
+    name: "MdxSeminar",
     fields: {
       id: { type: `ID!` },
       type: { type: "String!" },
@@ -37,7 +59,10 @@ module.exports = ({ actions, schema, reporter }) => {
       },
       rawBody: { type: "String!" },
     },
-    interfaces: [`Node`],
+    interfaces: [`Node`, `Seminar`],
+    extensions: {
+      infer: false,
+    },
   })
   createTypes(seminar)
 }

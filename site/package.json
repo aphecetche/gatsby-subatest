@@ -35,7 +35,7 @@
     "directory": "packages/site"
   },
   "scripts": {
-    "develop": "env-cmd -f .env gatsby develop -H 0.0.0.0",
+    "develop": "touch .env && env-cmd -f .env gatsby develop -H 0.0.0.0",
     "start": "gatsby develop",
     "build": "gatsby build",
     "clean": "gatsby clean",

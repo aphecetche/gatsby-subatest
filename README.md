@@ -15,10 +15,6 @@ See [nodejs](https://nodejs.org/en/) (LTS version)
 
 Par exemple en utilisant `npm install -g yarn`
 
-### Installer gatsby-cli
-
-    npm install -g gatsby-cli
-
 ### Récupérer le dépot git
 
     cd qqpart
@@ -26,11 +22,34 @@ Par exemple en utilisant `npm install -g yarn`
     cd gatsby-subatest
     yarn install
 
-### Créer un .env
+## Développement courant
 
-Créer un fichier local `site/.env`, vide (`touch site/.env`).
+Une fois le dépot récupéré et les outils de base (nodejs et yarn)
+installés, le mode de dévelopement consiste grossièrement à :
 
-Ce fichier peut être laissé vide la plupart du temps, sauf si vous voulez
+- lancer le mode de développement modifier des fichiers (ou en ajouter des
+- nouveaux) jusqu'à être satisfait du résultat commettre les changements dans
+- git
+
+Pour lancer le mode de développement, lancer la commande suivante dans un
+terminal :
+
+```shell
+yarn workspace site develop
+```
+
+Et ouvrez la page <http://localhost:8000> dans votre
+navigateur de choix.
+
+Une fois cela fait, lorsque vous changez un fichier (markdown, js, etc...) et
+sauvegardez ce fichier, le site est reconstruit et le changement apparaît
+(quasi) instantanément dans le navigateur.
+
+## Utilisation plus avancée (optionnelle) 
+
+### Changer des paramètres dans le .env
+
+Il existe un fichier `site/.env`, qui peut être laissé vide la plupart du temps, sauf si vous voulez
 utiliser deux notions avancées : l'interaction avec les données de Gatsby
 ou la génération des pages liées à LDAP. Dans le premier cas vous pouvez
 ajouter dans le fichier `site/.env` :
@@ -52,25 +71,13 @@ vous utilisez une machine au sein du domaine `in2p3.fr`.
 Par construction, le fichier `.env` n'a _pas_ vocation à être commis sur le
 dépot git.
 
-## Développement courant
+### Travailler sur les thèmes dans les sous-répertoires `themes/XXX`
 
-Une fois le dépot récupéré et les outils de base (nodejs, yarn et gatsby-cli)
-installés, le mode de dévelopement consiste grossièrement à :
+A noter que la commande `gatsby` est installée localement uniquement, et donc dans ces répertoires vous devez
+ l'utiliser via `yarn`, i.e. :
 
-- lancer le mode de développement modifier des fichiers (ou en ajouter des
-- nouveaux) jusqu'à être satisfait du résultat commettre les changements dans
-- git
-
-Pour lancer le mode de développement, lancer la commande suivante dans un
-terminal :
-
-```shell
-yarn workspace site develop
-```
-
-Et ouvrez la page <http://localhost:8000> dans votre
-navigateur de choix.
-
-Une fois cela fait, lorsque vous changez un fichier (markdown, js, etc...) et
-sauvegardez ce fichier, le site est reconstruit et le changement apparaît
-(quasi) instantanément dans le navigateur.
+ ```shell
+ yarn gatsby --help
+ yarn gatsby develop
+ yarn gatsby build
+ ```

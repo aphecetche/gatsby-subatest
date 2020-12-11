@@ -4,4 +4,4 @@ exports.createSchemaCustomization = require("./gatsby/create-schema-customizatio
 
 exports.onCreateNode = require("./gatsby/on-create-node")
 
-//exports.createPages = require("./gatsby/create-pages")
+exports.createPages = require("./gatsby/create-pages")

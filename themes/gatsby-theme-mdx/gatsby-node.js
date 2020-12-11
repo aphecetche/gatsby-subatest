@@ -7,11 +7,3 @@ exports.pluginOptionsSchema = ({ Joi }) => {
       .description("array of paths where to look for md(x) files"),
   })
 }
-
-exports.onCreateWebpackConfig = ({ actions }) => {
-  actions.setWebpackConfig({
-    resolve: {
-      modules: [path.resolve(__dirname, "src"), "node_modules"],
-    },
-  })
-}

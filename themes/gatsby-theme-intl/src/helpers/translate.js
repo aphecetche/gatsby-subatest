@@ -5,7 +5,18 @@ import PropTypes from "prop-types"
 
 const MissingTranslation = ({ value }) => {
   const msg = `Missing translation for ${value}`
-  return msg
+  return (
+    <p
+      style={{
+        color: "red",
+        border: "2px solid red",
+        background: "yellow",
+        padding: "8px",
+      }}
+    >
+      {msg}
+    </p>
+  )
 }
 
 MissingTranslation.propTypes = {

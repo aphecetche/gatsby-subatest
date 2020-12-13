@@ -1,32 +1,15 @@
 import React from "react"
-import Featured from "components/featured"
 import Layout from "components/layout"
-import { MDXRenderer } from "gatsby-plugin-mdx"
-import { graphql } from "gatsby"
 import PropTypes from "prop-types"
-import { usePageContext, getTranslatedContent } from "gatsby-theme-intl"
+import Accordions from "../components/accordions"
+import { SeminarsInRange } from "gatsby-theme-seminar"
 
-const items = [
-  {
-    title: "zob",
-    content: <p>that would be the zob content</p>,
-  },
-  {
-    title: "zib",
-    content: <h3>that would be the zib content</h3>,
-  },
-]
-const HomePage = ({ data }) => {
-  const { language } = usePageContext()
-  let head = null
-  if (data.allArticle) {
-    const { node } = getTranslatedContent(data.allArticle.nodes, language)
-    head = node
-  }
+const HomePage = () => {
+  const items = [{ title: "Séminaires", content: <SeminarsInRange /> }]
   return (
     <Layout>
-      {head && <MDXRenderer>{head.body}</MDXRenderer>}
-      <Featured items={items} />
+      <Accordions items={items} />
+      <p>ici les articles en vedette</p>
     </Layout>
   )
 }
@@ -40,13 +23,3 @@ HomePage.propTypes = {
 }
 
 export default HomePage
-
-export const query = graphql`
-  query {
-    allArticle(filter: { slug: { eq: "/general/presentation/" } }) {
-      nodes {
-        ...articleContent
-      }
-    }
-  }
-`

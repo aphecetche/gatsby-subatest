@@ -1,6 +1,6 @@
 import React, { useState } from "react"
-import PrimaryNavigation from "../components/PrimaryNavigation"
-import SecondaryNavigation from "../components/SecondaryNavigation"
+import PrimaryNavigation from "../components/primary-navigation"
+import SecondaryNavigation from "../components/secondary-navigation"
 import { Grid, makeStyles } from "@material-ui/core"
 
 const useStyles = makeStyles({

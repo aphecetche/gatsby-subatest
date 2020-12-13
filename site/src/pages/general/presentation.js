@@ -1,42 +1,58 @@
 import React from "react"
-import MdxAccordion from "components/mdx-accordion"
 import Layout from "../../components/layout"
-import { MDXRenderer } from "gatsby-plugin-mdx"
 import { graphql } from "gatsby"
 import PropTypes from "prop-types"
-import MdxContentProvider from "gatsby-theme-article/src/components/mdx-content-provider"
+import MdxContentProvider from "gatsby-theme-mdx/src/components/mdx-content-provider"
+import MdxContent from "gatsby-theme-mdx/src/components/mdx-content"
+import Accordions from "../../components/accordions"
 
-const Featured = ({ data }) => {
+const GeneralPresentation = ({ data, pageContext }) => {
+  const items = data.axes?.nodes
+    .filter((n) => n.language === pageContext.language)
+    .map((n) => ({
+      title: n.title,
+      content: <MdxContent body={n.body} images={n.images} />,
+    }))
+  const heads = data.head?.nodes.filter(
+    (n) => n.language === pageContext.language
+  )
+
+  const head = heads.length > 0 ? heads[0] : null
+
   return (
     <Layout>
       <MdxContentProvider>
-        <MDXRenderer>{data.head.body}</MDXRenderer>
-        <MdxAccordion data={data.axe} />
+        <MdxContent body={head?.body} images={head?.images} />
+        <Accordions items={items} />
       </MdxContentProvider>
     </Layout>
   )
 }
 
-Featured.propTypes = {
+GeneralPresentation.propTypes = {
   data: PropTypes.object,
 }
 
-export default Featured
+export default GeneralPresentation
 
 export const query = graphql`
   query {
-    axe: allArticle(
-      filter: { category: { regex: "/Axe/" } }
+    axes: allArticle(
+      filter: { fileAbsolutePath: { regex: "/axes-de-recherche/axe-/" } }
       sort: { fields: rank, order: ASC }
     ) {
       nodes {
         ...articleContent
       }
     }
-    head: article(fileAbsolutePath: { regex: "/general/presentation/" }) {
-      id
-      title
-      body
+    head: allArticle(
+      filter: {
+        fileAbsolutePath: { regex: "/axes-de-recherche/presentation/" }
+      }
+    ) {
+      nodes {
+        ...articleContent
+      }
     }
   }
 `

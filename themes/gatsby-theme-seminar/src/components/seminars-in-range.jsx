@@ -56,9 +56,10 @@ const SeminarsInRange = ({ plusMonth = 3, minusMonth = 1 }) => {
     `
   )
   const selectedSeminars = data.allSeminar.nodes.filter(
-    (seminar) =>
-      moment(seminar.date, "YYYY-MM-DD HH:mm:ss Z").isAfter(earlydate) &&
+    (seminar) => true
+    /*       moment(seminar.date, "YYYY-MM-DD HH:mm:ss Z").isAfter(earlydate) &&
       moment(seminar.date, "YYYY-MM-DD HH:mm:ss Z").isBefore(latedate)
+ */
   )
 
   const seminars = selectedSeminars.map((seminar) => (

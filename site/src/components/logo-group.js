@@ -1,6 +1,6 @@
 import React from "react"
 import { makeStyles } from "@material-ui/core/styles"
-import ImgLogo from "./ImgLogo"
+import ImgLogo from "./img-logo"
 import PropTypes from "prop-types"
 
 const useStyles = makeStyles((theme) => ({

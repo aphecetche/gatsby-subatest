@@ -30,7 +30,6 @@ module.exports = (
     const parent = getNode(node.parent)
     if (parent.internal.type === "File") {
       if (options.sources.includes(path.dirname(parent.absolutePath))) {
-        reporter.info(`seminar=${parent.absolutePath}`)
         const seminar = mdxNode2Seminar(node)
         seminar.slug = "/seminar" + createFilePath({ node, getNode })
         const { createNode, createParentChildLink } = actions

@@ -5,26 +5,17 @@
   "version": "0.1.0",
   "author": "Laurent Aphecetche",
   "dependencies": {
-    "@material-ui/lab": "^4.0.0-alpha.56",
-    "gatsby": "^2.24.47",
-    "gatsby-plugin-meta-redirect": "^1.1.1",
-    "gatsby-plugin-netlify": "^2.3.15",
-    "gatsby-remark-relative-images": "^2.0.2",
+    "gatsby": "^2.28.0",
+    "gatsby-theme-article": "*",
     "gatsby-theme-intl": "*",
     "gatsby-theme-ldap": "*",
-    "gatsby-theme-article": "*",
     "gatsby-theme-mui": "*",
     "gatsby-theme-nav": "*",
-    "gatsby-theme-seminar": "*",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "gatsby-theme-seminar": "*"
   },
   "devDependencies": {
-    "env-cmd": "^10.0.1",
-    "gatsby-plugin-root-import": "^2.0.5",
-    "prop-types": "^15.7.2"
+    "env-cmd": "^10.0.1"
   },
-  "peerDependencies": {},
   "keywords": [
     "gatsby"
   ],

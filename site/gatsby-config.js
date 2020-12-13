@@ -19,15 +19,16 @@ module.exports = {
       options: {
         sources: [
           `${__dirname}/src/pages`,
-          /*          `${__dirname}/src/content`,
-          `${__dirname}/src/components/asides`, */
+          `${__dirname}/src/content/axes-de-recherche`,
+          `${__dirname}/src/content/recherche`,
+          /* `${__dirname}/src/components/asides`, */
         ],
       },
     },
     {
       resolve: `gatsby-theme-seminar`,
       options: {
-        sources: [], // [`${__dirname}/src/seminars/2020`],
+        sources: [`${__dirname}/src/seminars/2020`],
       },
     },
     {
@@ -38,7 +39,5 @@ module.exports = {
     },
     // `gatsby-theme-search`,
     `gatsby-theme-intl`,
-    `gatsby-plugin-netlify`,
-    `gatsby-plugin-meta-redirect`,
   ],
 }

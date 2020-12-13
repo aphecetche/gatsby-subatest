@@ -3,10 +3,12 @@ import { MDXProvider } from "@mdx-js/react"
 import DebugComponents from "./debug-components"
 import Img from "gatsby-image"
 import PropTypes from "prop-types"
+import TopLeft from "./top-left"
 
 const ForwardedComponents = {
   ...DebugComponents,
   Img,
+  TopLeft,
 }
 
 const MdxContentProvider = ({ children }) => {

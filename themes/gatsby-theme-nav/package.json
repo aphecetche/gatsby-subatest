@@ -4,28 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
-  "devDependencies": {
-    "gatsby": "^2.24.47",
-    "gatsby-theme-intl": "*",
-    "gatsby-theme-mui": "*",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  },
-  "peerDependencies": {
-    "gatsby": "^2.24.47",
-    "gatsby-theme-intl": "*",
-    "gatsby-theme-mui": "*",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  },
   "dependencies": {
-    "babel-jest": "^26.3.0",
-    "babel-preset-gatsby": "^0.5.10",
-    "identity-obj-proxy": "^3.0.0",
-    "jest": "^26.4.2",
-    "react-test-renderer": "^16.13.1"
+    "gatsby": "^2.28.0",
+    "gatsby-theme-intl": "*",
+    "gatsby-theme-mui": "*"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest --config ../../jest.config.js"
   }
 }

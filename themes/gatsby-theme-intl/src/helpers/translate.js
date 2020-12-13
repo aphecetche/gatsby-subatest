@@ -1,19 +1,12 @@
 import React, { useEffect } from "react"
-import ErrorIcon from "@material-ui/icons/Error"
-import Tooltip from "@material-ui/core/Tooltip"
-import Typography from "@material-ui/core/Typography"
 import { useTranslation as useT } from "react-i18next"
 import { usePageContext } from "../../page-context"
 import PropTypes from "prop-types"
 
-const MissingTranslation = ({ value }) => (
-  <Tooltip color="error" title={`Missing translation for ${value}`}>
-    <Typography color="error">
-      <ErrorIcon color="error" />
-      {value}
-    </Typography>
-  </Tooltip>
-)
+const MissingTranslation = ({ value }) => {
+  const msg = `Missing translation for ${value}`
+  return msg
+}
 
 MissingTranslation.propTypes = {
   value: PropTypes.string,

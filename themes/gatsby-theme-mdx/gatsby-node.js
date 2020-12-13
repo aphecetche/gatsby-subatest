@@ -1,5 +1,3 @@
-const path = require(`path`)
-
 exports.pluginOptionsSchema = ({ Joi }) => {
   return Joi.object({
     sources: Joi.array()

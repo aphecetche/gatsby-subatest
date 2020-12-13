@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import PropTypes from "prop-types"
 
 const ArticleLink = ({ article }) => {
   return (
@@ -9,4 +10,11 @@ const ArticleLink = ({ article }) => {
   )
 }
 
+ArticleLink.propTypes = {
+  article: PropTypes.shape({
+    language: PropTypes.string.isRequired,
+    slug: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+  }),
+}
 export default ArticleLink

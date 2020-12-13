@@ -1,8 +1,9 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react"
 import { SeminarsInRange } from "gatsby-theme-seminar"
 import { Link } from "gatsby"
 
-const IndexPage = ({ data }) => {
+const IndexPage = () => {
   return (
     <>
       <h1>Séminaires</h1>

@@ -1,6 +1,5 @@
 const path = require("path")
 const { createFilePath } = require("gatsby-source-filesystem")
-const crypto = require("crypto")
 
 const mdxNode2Seminar = ({ frontmatter, fileAbsolutePath }) => {
   return {

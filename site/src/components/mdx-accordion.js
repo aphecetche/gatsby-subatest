@@ -1,7 +1,7 @@
 import PropTypes from "prop-types"
 import React from "react"
 import clsx from "clsx"
-import MdxArticle from "gatsby-theme-article/src/components/mdx-article"
+import Article from "gatsby-theme-article/src/components/article"
 import withStyles from "@material-ui/styles/withStyles"
 import { useTranslation } from "gatsby-theme-intl"
 import Accordion from "@material-ui/core/Accordion"
@@ -24,7 +24,7 @@ const MdxAccordion = (props) => {
         {t(n.node.frontmatter.title)}
       </AccordionSummary>
       <AccordionDetails>
-        <MdxArticle
+        <Article
           title={n.title}
           body={n.body}
           images={n.images}

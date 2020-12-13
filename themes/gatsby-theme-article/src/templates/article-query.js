@@ -1,8 +1,8 @@
 import { graphql } from "gatsby"
 
-import Article from "../components/article"
+import ArticlePage from "../components/article-page"
 
-export default Article
+export default ArticlePage
 
 export const query = graphql`
   fragment articleImages on File {

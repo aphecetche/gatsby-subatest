@@ -85,4 +85,16 @@ module.exports = async ({ actions, graphql, reporter }, options) => {
       )
     }
   })
+
+  // create also a page for all articles (useful e.g. for debugging)
+  const languages = ["fr", "en"]
+  languages.forEach((lang) =>
+    createPage({
+      path: "/" + lang + "/articles",
+      component: path.resolve(options.articlesLayout),
+      context: {
+        language: lang,
+      },
+    })
+  )
 }

@@ -11,7 +11,7 @@ module.exports = {
     {
       resolve: `gatsby-theme-article`,
       options: {
-        sources: [`${__dirname}/src/dir1`],
+        sources: [`${__dirname}/src/dir1`, `${__dirname}/src/dir2`],
       },
     },
   ],

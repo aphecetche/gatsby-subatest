@@ -7,7 +7,7 @@
     "site"
   ],
   "husky": {
-    "hooks-disabled": {
+    "hooks": {
       "pre-commit": "lint-staged"
     }
   },

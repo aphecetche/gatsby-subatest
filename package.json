@@ -7,7 +7,7 @@
     "site"
   ],
   "husky": {
-    "hookscd ": {
+    "hooks": {
       "pre-commit": "lint-staged"
     }
   },

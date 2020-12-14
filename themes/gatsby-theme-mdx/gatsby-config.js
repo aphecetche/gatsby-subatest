@@ -2,7 +2,7 @@ module.exports = (themeOptions) => {
   const sources = themeOptions.sources.map((s) => ({
     resolve: `gatsby-source-filesystem`,
     options: {
-      path: s,
+      ...s,
     },
   }))
   // Mind your steps : order of remark- plugins _IS_ important

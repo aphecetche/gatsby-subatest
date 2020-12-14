@@ -1,0 +1,11 @@
+{
+  "name": "gatsby-theme-orgchart",
+  "private": true,
+  "version": "0.1.0",
+  "author": "Laurent Aphecetche",
+  "dependencies": {
+    "gatsby": "^2.28.0",
+    "gatsby-theme-mui": "*"
+  },
+  "license": "MIT"
+}

@@ -11,7 +11,8 @@
     "gatsby-theme-ldap": "*",
     "gatsby-theme-mui": "*",
     "gatsby-theme-nav": "*",
-    "gatsby-theme-seminar": "*"
+    "gatsby-theme-seminar": "*",
+    "gatsby-theme-orgchart": "*"
   },
   "devDependencies": {
     "env-cmd": "^10.0.1"

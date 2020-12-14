@@ -1,7 +1,7 @@
 import React from "react"
-import Division from "./Division"
-import Service from "./Service"
-import Administration from "./Administration"
+import Division from "./division"
+import Service from "./service"
+import Administration from "./administration"
 
 const ServicesTechniques = () => (
   <Division title="Services techniques et administraton">

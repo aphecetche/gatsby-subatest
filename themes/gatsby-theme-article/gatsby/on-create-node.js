@@ -1,4 +1,3 @@
-const path = require("path")
 const { createFilePath } = require("gatsby-source-filesystem")
 const crypto = require("crypto")
 
@@ -11,6 +10,11 @@ const extractLanguage = (slug) => {
   return s[s.length - 1]
 }
 
+const shouldBeConsidered = (file, dirs) => {
+  const matches = dirs.filter((d) => file.search(d.path) >= 0)
+  return matches.length > 0
+}
+
 module.exports = (
   { node, getNode, createNodeId, actions, reporter },
   options
@@ -18,8 +22,18 @@ module.exports = (
   if (node.internal.type === "Mdx") {
     const parent = getNode(node.parent)
     if (parent.internal.type === "File") {
-      if (options.sources.includes(path.dirname(parent.absolutePath))) {
-        const localizedSlug = createFilePath({ node, getNode })
+      const ok = shouldBeConsidered(node.fileAbsolutePath, options.sources)
+      if (ok === true) {
+        const base =
+          parent.sourceInstanceName !== "__PROGRAMMATIC__"
+            ? "/" + parent.sourceInstanceName
+            : ""
+        const localizedSlug =
+          base +
+          createFilePath({
+            node,
+            getNode,
+          })
         if (!validFilePath(localizedSlug)) {
           reporter.panic(
             localizedSlug +

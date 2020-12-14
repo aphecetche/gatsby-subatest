@@ -10,8 +10,17 @@ module.exports = ({ Joi }) => {
         "full patch to default layout md(x) file to use for all articles"
       )
       .default(`${__dirname}/../src/templates/articles-query.js`),
+
     sources: Joi.array()
-      .items(Joi.string())
-      .description("array of paths where to look for md(x) files"),
+      .items({
+        name: Joi.string(),
+        path: Joi.string(),
+        ignore: Joi.array().items(
+          Joi.string(),
+          Joi.object().regex(),
+          Joi.function()
+        ),
+      })
+      .description("array of sources where to look for md(x) article files"),
   })
 }

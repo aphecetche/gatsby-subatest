@@ -11,7 +11,18 @@ module.exports = {
     {
       resolve: `gatsby-theme-article`,
       options: {
-        sources: [`${__dirname}/src/dir1`, `${__dirname}/src/dir2`],
+        sources: [
+          {
+            /* urls of the files in dir1 will start at /url1 */
+            name: "url1",
+            path: `${__dirname}/src/dir1`,
+          },
+          {
+            /* name is _not_ given so urls of the files in dir2 be starting at /, 
+            (and not at dir2) */
+            path: `${__dirname}/src/dir2`,
+          },
+        ],
       },
     },
   ],

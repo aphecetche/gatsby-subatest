@@ -1,7 +1,7 @@
 import React from "react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import PropTypes from "prop-types"
-
+import MdxContentProvider from "./mdx-content-provider"
 const MdxContent = ({ title, body, images }) => {
   const IMAGE_KEY = "image"
   const processedImages =
@@ -16,10 +16,11 @@ const MdxContent = ({ title, body, images }) => {
     }, {})
 
   return (
-    <>
+    <MdxContentProvider>
+      {" "}
       {title && <h2>{title}</h2>}
       <MDXRenderer images={processedImages}>{body}</MDXRenderer>
-    </>
+    </MdxContentProvider>
   )
 }
 

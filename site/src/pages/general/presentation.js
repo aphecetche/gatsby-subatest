@@ -39,7 +39,9 @@ export default GeneralPresentation
 export const query = graphql`
   query {
     axes: allArticle(
-      filter: { fileAbsolutePath: { regex: "/axes-de-recherche/axe-/" } }
+      filter: {
+        fileAbsolutePath: { regex: "/axes-de-recherche/(?!presentation)/" }
+      }
       sort: { fields: rank, order: ASC }
     ) {
       nodes {

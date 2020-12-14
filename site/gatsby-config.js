@@ -18,9 +18,21 @@ module.exports = {
       resolve: `gatsby-theme-article`,
       options: {
         sources: [
-          `${__dirname}/src/pages`,
-          `${__dirname}/src/content/axes-de-recherche`,
-          `${__dirname}/src/content/recherche`,
+          {
+            path: `${__dirname}/src/pages`,
+          },
+          {
+            name: "axes-de-recherche",
+            path: `${__dirname}/src/content/axes-de-recherche`,
+          },
+          {
+            name: "recherche",
+            path: `${__dirname}/src/content/recherche`,
+          },
+          {
+            name: "general",
+            path: `${__dirname}/src/content/general`,
+          },
           /* `${__dirname}/src/components/asides`, */
         ],
       },
@@ -28,7 +40,7 @@ module.exports = {
     {
       resolve: `gatsby-theme-seminar`,
       options: {
-        sources: [`${__dirname}/src/seminars/2020`],
+        sources: [], //[`${__dirname}/src/seminars/2020`],
       },
     },
     {
@@ -39,5 +51,6 @@ module.exports = {
     },
     // `gatsby-theme-search`,
     `gatsby-theme-intl`,
+    `gatsby-theme-orgchart`,
   ],
 }

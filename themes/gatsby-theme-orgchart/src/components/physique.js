@@ -1,5 +1,5 @@
 import React from "react"
-import Division from "./Division"
+import Division from "./division"
 import Team from "./team"
 
 const Physique = () => (

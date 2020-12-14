@@ -11,7 +11,13 @@ const excludePage = ({ aside, fragment }) => {
   return false
 }
 
-const createMdxPage = (translations, createPage, node, defaultComponent) => {
+const createMdxPage = (
+  translations,
+  createPage,
+  node,
+  defaultComponent,
+  reporter
+) => {
   let comp = node.layout
     ? path.resolve(`./src/templates/${node.layout}.jsx`)
     : defaultComponent
@@ -26,12 +32,14 @@ const createMdxPage = (translations, createPage, node, defaultComponent) => {
 
   languages.forEach((lang) => {
     const path = "/" + lang + node.slug
+    reporter.info(" ".repeat(34) + "> page : " + path)
     createPage({
       path: path,
       component: comp,
       context: {
         id: node.id,
         language: lang,
+        slug: node.slug,
         translations, //FIXME: this should be a list of ids simply ?
       },
     })
@@ -58,6 +66,7 @@ module.exports = async ({ actions, graphql, reporter }, options) => {
     reporter.panicOnBuild(`Error while running GraphQL query in createPages.`)
     return
   }
+
   // note that the defaultLayout component must be a data-fetching
   // wrapper that import the display component(s), see the example
   // provided in templates/article-query.js
@@ -70,11 +79,17 @@ module.exports = async ({ actions, graphql, reporter }, options) => {
       const translations = nodes
         .filter((e) => e.slug === node.slug)
         .map((e) => e.language)
+      reporter.info(
+        `gatsby-theme-article create-pages : dealing with node ${node.slug} ${
+          node.language
+        } ${JSON.stringify(translations)} `
+      )
       createMdxPage(
         translations.includes("xx") ? allTranslations : translations,
         createPage,
         node,
-        defaultComponent
+        defaultComponent,
+        reporter
       )
     }
   })
@@ -87,6 +102,7 @@ module.exports = async ({ actions, graphql, reporter }, options) => {
       component: path.resolve(options.articlesLayout),
       context: {
         language: lang,
+        slug: "/articles",
       },
     })
   )

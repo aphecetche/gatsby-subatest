@@ -7,11 +7,11 @@ Cette page explique comment développer pour le nouveau site web de Subatech
 
 ## Prérequis
 
-### Installer nodejs
+### Installer nodejs (version >= 12.18.1)
 
 See [nodejs](https://nodejs.org/en/) (LTS version)
 
-### Installer yarn
+### Installer yarn (version ^1.22.10)
 
 Par exemple en utilisant `npm install -g yarn`
 

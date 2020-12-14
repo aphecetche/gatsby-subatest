@@ -39,13 +39,6 @@ const createMdxPage = (translations, createPage, node, defaultComponent) => {
 }
 
 module.exports = async ({ actions, graphql, reporter }, options) => {
-  reporter.info(
-    `gatsby-theme-article create-pages options=${JSON.stringify(
-      options,
-      null,
-      4
-    )}`
-  )
   const { createPage } = actions
   const result = await graphql(`
     query {

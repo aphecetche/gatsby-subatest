@@ -33,7 +33,7 @@ SeminarHeader.propTypes = {
     type: PropTypes.string,
   }),
 }
-const SeminarsInRange = ({ plusMonth = 3, minusMonth = 1 }) => {
+const SeminarsInRange = ({ plusMonth = 3, minusMonth = 6 }) => {
   // store the dates between which we show seminars
   const earlydate = moment().subtract(minusMonth, "M")
   const latedate = moment().add(plusMonth, "M")
@@ -55,11 +55,11 @@ const SeminarsInRange = ({ plusMonth = 3, minusMonth = 1 }) => {
       }
     `
   )
+
   const selectedSeminars = data.allSeminar.nodes.filter(
-    (seminar) => true
-    /*       moment(seminar.date, "YYYY-MM-DD HH:mm:ss Z").isAfter(earlydate) &&
+    (seminar) =>
+      moment(seminar.date, "YYYY-MM-DD HH:mm:ss Z").isAfter(earlydate) &&
       moment(seminar.date, "YYYY-MM-DD HH:mm:ss Z").isBefore(latedate)
- */
   )
 
   const seminars = selectedSeminars.map((seminar) => (

@@ -34,8 +34,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }))
 
-const Seminar = ({ data }) => {
-  const { seminar } = data
+const Seminar = ({ seminar }) => {
   const classes = useStyles()
   const { language: currentLanguage } = usePageContext()
   const { t } = useTranslation()
@@ -130,23 +129,21 @@ const Seminar = ({ data }) => {
 }
 
 Seminar.propTypes = {
-  data: PropTypes.shape({
-    seminar: PropTypes.shape({
-      body: PropTypes.string,
-      type: PropTypes.string,
-      location: PropTypes.string,
-      date: PropTypes.string,
-      author: PropTypes.string,
-      title: PropTypes.string,
-      author_url: PropTypes.string,
-      author_filiation: PropTypes.string,
-      author_filiation_url: PropTypes.string,
-      author2: PropTypes.string,
-      title2: PropTypes.string,
-      author_url2: PropTypes.string,
-      author_filiation2: PropTypes.string,
-      author_filiation_url2: PropTypes.string,
-    }),
+  seminar: PropTypes.shape({
+    body: PropTypes.string,
+    type: PropTypes.string,
+    location: PropTypes.string,
+    date: PropTypes.string,
+    author: PropTypes.string,
+    title: PropTypes.string,
+    author_url: PropTypes.string,
+    author_filiation: PropTypes.string,
+    author_filiation_url: PropTypes.string,
+    author2: PropTypes.string,
+    title2: PropTypes.string,
+    author_url2: PropTypes.string,
+    author_filiation2: PropTypes.string,
+    author_filiation_url2: PropTypes.string,
   }),
 }
 

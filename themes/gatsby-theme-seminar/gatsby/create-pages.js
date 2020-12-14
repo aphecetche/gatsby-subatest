@@ -6,13 +6,6 @@ const path = require("path")
  * (i.e. disregard the layout frontmatter field that may exist in the seminar markdown file)
  */
 module.exports = async ({ actions, graphql, reporter }, options) => {
-  reporter.info(
-    `gatsby-theme-seminar create-pages options=${JSON.stringify(
-      options,
-      null,
-      4
-    )}`
-  )
   const { createPage } = actions
   const result = await graphql(`
     query {

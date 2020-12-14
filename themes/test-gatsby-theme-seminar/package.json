@@ -7,5 +7,10 @@
   "dependencies": {
     "gatsby": "^2.28.2",
     "gatsby-theme-seminar": "*"
+  },
+  "scripts":{
+    "start": "gatsby develop",
+    "clean": "gatsby clean",
+    "restart": "yarn clean && yarn start"
   }
 }

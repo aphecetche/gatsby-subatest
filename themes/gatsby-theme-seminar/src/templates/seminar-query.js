@@ -1,8 +1,8 @@
 import { graphql } from "gatsby"
 
-import Seminar from "../components/seminar"
+import SeminarPage from "../components/seminar-page"
 
-export default Seminar
+export default SeminarPage
 
 export const query = graphql`
   query SeminarPageLayout($id: String!) {

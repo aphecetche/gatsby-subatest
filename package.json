@@ -50,7 +50,7 @@
   "scripts": {
     "format": "yarn run prettier \"**/*.{js,jsx,json,yaml,yml}\" --write",
     "lint": "yarn run eslint \"**/*.{js,jsx}\" --fix",
-    "start": "yarn workspace site develop",
+    "start": "yarn workspace site start",
     "clean": "yarn workspace site clean",
     "restart": "yarn clean && yarn start",
     "build": "yarn workspace site build"

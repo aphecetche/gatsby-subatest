@@ -23,7 +23,7 @@ const mdxNode2Seminar = ({ frontmatter, fileAbsolutePath }) => {
 }
 
 module.exports = (
-  { node, getNode, createNodeId, actions, reporter, createContentDigest },
+  { node, getNode, createNodeId, actions, createContentDigest },
   options
 ) => {
   if (node.internal.type === "Mdx") {

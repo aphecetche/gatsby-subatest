@@ -31,6 +31,7 @@ const GeneralPresentation = ({ data, pageContext }) => {
 
 GeneralPresentation.propTypes = {
   data: PropTypes.object,
+  pageContext: PropTypes.shape({ language: PropTypes.string.isRequired }),
 }
 
 export default GeneralPresentation

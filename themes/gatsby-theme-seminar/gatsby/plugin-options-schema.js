@@ -10,9 +10,5 @@ module.exports = ({ Joi }) => {
         "full path to layout md(x) file to use for the list of seminars"
       )
       .default(`${__dirname}/../src/templates/seminars-query.js`),
-    sources: Joi.array()
-      .items(Joi.string())
-      .description("array of paths where to look for md(x) seminar files")
-      .default(`${__dirname}/../seminars`),
   })
 }

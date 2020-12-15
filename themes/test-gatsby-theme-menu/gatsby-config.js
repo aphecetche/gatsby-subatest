@@ -1,16 +1,16 @@
 module.exports = {
   plugins: [
+    `gatsby-theme-menu`,
     {
-      resolve: `gatsby-theme-menu`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        sources: [
-          {
-            path: `${__dirname}/src/dir1`,
-          },
-          {
-            path: `${__dirname}/src/dir2`,
-          },
-        ],
+        path: `${__dirname}/src/dir1`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/dir2`,
       },
     },
   ],

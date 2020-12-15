@@ -32,13 +32,14 @@ const createMdxPage = (
 
   languages.forEach((lang) => {
     const path = "/" + lang + node.slug
-    reporter.info(" ".repeat(34) + "> page : " + path)
+    reporter.verbose(" ".repeat(34) + "> page : " + path)
     createPage({
       path: path,
       component: comp,
       context: {
         id: node.id,
         language: lang,
+        refPath: node.path,
         slug: node.slug,
         translations, //FIXME: this should be a list of ids simply ?
       },
@@ -58,6 +59,7 @@ module.exports = async ({ actions, graphql, reporter }, options) => {
           id
           slug
           language
+          path
         }
       }
     }

@@ -5,54 +5,46 @@ module.exports = {
     author: `L. Aphecetche`,
   },
   /* a note on the (custom) gatsby-theme-XXX : one can not actually comment them out
-   * (e.g. for testing) as many queries in the site require their corresponding types to be defined.
+   * (e.g. for testing) as many queries in the site require their corresponding _types_ to be defined.
    *
-   * What can be done though (again, for testing only) is to comment out some of their sources
-   * option so not all data input will be available to them. But you should get at least
+   * What can be done though (again, for testing only) is to comment out some of the gatsby-source-filesystem
+   * plugins so not all data input will be available to them. But you should get at least
    * one data source of type MD(X) otherwise nothing will work...
    *
    * */
   plugins: [
-    "gatsby-theme-mui",
+    `gatsby-theme-mui`,
+    `gatsby-theme-menu`,
+    `gatsby-theme-article`,
+    `gatsby-theme-seminar`,
+    `gatsby-theme-intl`,
+    `gatsby-theme-orgchart`,
+    // `gatsby-theme-search`,
     {
-      resolve: `gatsby-theme-menu`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        sources: [
-          {
-            path: `${__dirname}/src/content/recherche/plasma`,
-          },
-        ],
+        name: `recherche/plasma`,
+        path: `${__dirname}/src/content/recherche/plasma`,
       },
     },
     {
-      resolve: `gatsby-theme-article`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        sources: [
-          {
-            path: `${__dirname}/src/pages`,
-          },
-          {
-            name: "axes-de-recherche",
-            path: `${__dirname}/src/content/axes-de-recherche`,
-          },
-          {
-            name: "recherche/plasma",
-            path: `${__dirname}/src/content/recherche/plasma`,
-          },
-          /*
-          {
-            name: "general",
-            path: `${__dirname}/src/content/general`,
-          },
-          */
-          /* `${__dirname}/src/components/asides`, */
-        ],
+        name: `recherche/neutrino`,
+        path: `${__dirname}/src/content/recherche/neutrino`,
       },
     },
     {
-      resolve: `gatsby-theme-seminar`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        sources: [], //[`${__dirname}/src/seminars/2020`],
+        path: `${__dirname}/src/pages`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "axes-de-recherche",
+        path: `${__dirname}/src/content/axes-de-recherche`,
       },
     },
     {
@@ -61,8 +53,5 @@ module.exports = {
         disabled: !(process.env.WITHLDAP === "yes"),
       },
     },
-    // `gatsby-theme-search`,
-    `gatsby-theme-intl`,
-    `gatsby-theme-orgchart`,
   ],
 }

@@ -1,7 +1,9 @@
-const path = require("path")
 const { createFilePath } = require("gatsby-source-filesystem")
 
 const mdxNode2Seminar = ({ frontmatter, fileAbsolutePath }) => {
+  if (frontmatter.category !== "seminar") {
+    return null
+  }
   return {
     author_filiation_url: frontmatter.author_filiation_url,
     author_filiation_url2: frontmatter.author_filiation_url2,
@@ -22,35 +24,39 @@ const mdxNode2Seminar = ({ frontmatter, fileAbsolutePath }) => {
   }
 }
 
-module.exports = (
-  { node, getNode, createNodeId, actions, createContentDigest },
-  options
-) => {
+module.exports = ({
+  node,
+  getNode,
+  createNodeId,
+  actions,
+  createContentDigest,
+}) => {
   if (node.internal.type === "Mdx") {
     const parent = getNode(node.parent)
     if (parent.internal.type === "File") {
-      if (options.sources.includes(path.dirname(parent.absolutePath))) {
-        const seminar = mdxNode2Seminar(node)
-        seminar.slug = "/seminar" + createFilePath({ node, getNode })
-        const { createNode, createParentChildLink } = actions
-        createNode({
-          ...seminar,
-          id: createNodeId(`${node.id} >>> Seminar`),
-          parent: node.id,
-          children: [],
-          internal: {
-            type: "MdxSeminar",
-            contentDigest: createContentDigest(seminar),
-            content: JSON.stringify(seminar),
-            description: `MdxSeminar`,
-          },
-        })
-
-        createParentChildLink({
-          parent: parent,
-          child: node,
-        })
+      const seminar = mdxNode2Seminar(node)
+      if (!seminar) {
+        return
       }
+      seminar.slug = "/seminar" + createFilePath({ node, getNode })
+      const { createNode, createParentChildLink } = actions
+      createNode({
+        ...seminar,
+        id: createNodeId(`${node.id} >>> Seminar`),
+        parent: node.id,
+        children: [],
+        internal: {
+          type: "MdxSeminar",
+          contentDigest: createContentDigest(seminar),
+          content: JSON.stringify(seminar),
+          description: `MdxSeminar`,
+        },
+      })
+
+      createParentChildLink({
+        parent: parent,
+        child: node,
+      })
     }
   }
 }

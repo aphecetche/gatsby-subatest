@@ -19,6 +19,7 @@ module.exports = ({ actions, schema, reporter }) => {
   language: String
   fileAbsolutePath: String
   body: String
+  path: String
   }`)
 
   const article = schema.buildObjectType({
@@ -33,6 +34,13 @@ module.exports = ({ actions, schema, reporter }) => {
       layout: { type: "String" },
       rank: { type: "Int" },
       aside: { type: "Boolean" },
+      path: {
+        type: "String",
+        resolve(source /*args,*/ /*context*/ /*,info*/) {
+          const dir = path.dirname(source.fileAbsolutePath)
+          return dir
+        },
+      },
       images: {
         type: "[File]",
         resolve(source, args, context /*,info*/) {

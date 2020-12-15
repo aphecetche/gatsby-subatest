@@ -1,12 +1,3 @@
-module.exports = (themeOptions) => {
-  return {
-    plugins: [
-      {
-        resolve: `gatsby-theme-mdx`,
-        options: {
-          sources: themeOptions.sources,
-        },
-      },
-    ],
-  }
+module.exports = {
+  plugins: [`gatsby-theme-mdx`],
 }

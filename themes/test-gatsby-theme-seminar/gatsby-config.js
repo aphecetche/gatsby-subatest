@@ -1,9 +1,10 @@
 module.exports = {
   plugins: [
+    `gatsby-theme-seminar`,
     {
-      resolve: `gatsby-theme-seminar`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        sources: [`${__dirname}/seminars`],
+        path: `${__dirname}/seminars`,
       },
     },
   ],

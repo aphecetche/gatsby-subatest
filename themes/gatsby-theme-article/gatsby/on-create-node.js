@@ -10,8 +10,10 @@ const extractLanguage = (slug) => {
   return s[s.length - 1]
 }
 
-const shouldBeConsidered = (file, dirs) => {
+const shouldBeConsidered = (file, dirs, reporter) => {
   const matches = dirs.filter((d) => file.search(d.path) >= 0)
+  reporter.info(`gatsby-theme-article ${file} ${matches.length > 0}`)
+
   return matches.length > 0
 }
 
@@ -22,7 +24,11 @@ module.exports = (
   if (node.internal.type === "Mdx") {
     const parent = getNode(node.parent)
     if (parent.internal.type === "File") {
-      const ok = shouldBeConsidered(node.fileAbsolutePath, options.sources)
+      const ok = shouldBeConsidered(
+        node.fileAbsolutePath,
+        options.sources,
+        reporter
+      )
       if (ok === true) {
         const base =
           parent.sourceInstanceName !== "__PROGRAMMATIC__"

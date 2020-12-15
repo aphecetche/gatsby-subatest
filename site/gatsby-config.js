@@ -15,6 +15,16 @@ module.exports = {
   plugins: [
     "gatsby-theme-mui",
     {
+      resolve: `gatsby-theme-menu`,
+      options: {
+        sources: [
+          {
+            path: `${__dirname}/src/content/recherche/plasma`,
+          },
+        ],
+      },
+    },
+    {
       resolve: `gatsby-theme-article`,
       options: {
         sources: [
@@ -26,13 +36,15 @@ module.exports = {
             path: `${__dirname}/src/content/axes-de-recherche`,
           },
           {
-            name: "recherche",
-            path: `${__dirname}/src/content/recherche`,
+            name: "recherche/plasma",
+            path: `${__dirname}/src/content/recherche/plasma`,
           },
+          /*
           {
             name: "general",
             path: `${__dirname}/src/content/general`,
           },
+          */
           /* `${__dirname}/src/components/asides`, */
         ],
       },

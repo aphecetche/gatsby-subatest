@@ -50,10 +50,10 @@ const getTranslatedContent = (nodes, locale) => {
 }
 
 /* ensure the slug is starting with /fr or /en */
-const localizeUrl = (url, language = "fr") => {
-  if (url.match(/^\//) && !url.match(/^\/fr/) && !url.match(/^\/en/)) {
+const localizeSlug = (url, language = "fr") => {
+  if (url && url.match(/^\//) && !url.match(/^\/fr/) && !url.match(/^\/en/)) {
     return "/" + language + url
   }
   return url
 }
-export { getTranslatedContent, useTranslation, localizeUrl }
+export { getTranslatedContent, useTranslation, localizeSlug }

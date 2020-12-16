@@ -1,13 +1,5 @@
 const { createFilePath } = require("gatsby-source-filesystem")
-
-const validFilePath = (path) => {
-  const re = /(\.en\/$)|(\.fr\/$)|(\.xx\/$)/
-  return path.search(re) >= 0
-}
-const extractLanguage = (slug) => {
-  const s = slug.replace(/\/$/, "").split(".")
-  return s[s.length - 1]
-}
+const intl = require("gatsby-theme-intl/src/helpers/slug")
 
 module.exports = ({
   node,
@@ -17,6 +9,7 @@ module.exports = ({
   actions,
   reporter,
 }) => {
+  //  console.log("gatsby-theme-article on-create-node", node)
   if (node.internal.type === "Mdx") {
     const parent = getNode(node.parent)
     if (parent.internal.type === "File") {
@@ -30,17 +23,17 @@ module.exports = ({
           node,
           getNode,
         })
-      if (!validFilePath(localizedSlug)) {
+      if (!intl.validFilePath(localizedSlug)) {
         reporter.panic(
           localizedSlug +
             " is not a valid slug : missing the .fr | .en | .xx extension"
         )
       }
-      const language = extractLanguage(localizedSlug)
+      const { language, unlocalized } = intl.extractLanguage(localizedSlug)
       const { frontmatter } = node
       const fieldData = {
         title: frontmatter.title,
-        slug: localizedSlug.replace("." + language, ""),
+        slug: unlocalized,
         language: language,
         category: frontmatter.category,
         images: frontmatter.images,

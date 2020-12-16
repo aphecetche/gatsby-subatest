@@ -6,11 +6,11 @@ import ArticlePage from "../components/article-page"
 export default ArticlePage
 
 export const query = graphql`
-  query ArticlePageQueryWithToto($id: String!, $refPath: String) {
+  query ArticlePageQueryWithToto($id: String!, $fileDir: String) {
     article(id: { eq: $id }) {
       ...articleContent
     }
-    menu(path: { eq: $refPath }) {
+    menu(fileDir: { eq: $fileDir }) {
       title
       links {
         name
@@ -18,7 +18,6 @@ export const query = graphql`
       }
       rank
       language
-      path
     }
   }
 `

@@ -4,7 +4,7 @@ import React from "react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { MDXProvider } from "@mdx-js/react"
 import { makeStyles } from "@material-ui/core"
-import { usePageContext, localizeUrl } from "gatsby-theme-intl"
+import { usePageContext, localizeSlug } from "gatsby-theme-intl"
 import { NavLink, isSamePath } from "gatsby-theme-nav"
 import PropTypes from "prop-types"
 
@@ -57,8 +57,8 @@ const RightSideMenu = ({ children }) => {
       let cn = ""
       if (props.children.props) {
         const same = isSamePath(
-          localizeUrl(props.children.props.href, language),
-          localizeUrl(slug, language)
+          localizeSlug(props.children.props.href, language),
+          localizeSlug(slug, language)
         )
         cn = same ? "active" : ""
       }

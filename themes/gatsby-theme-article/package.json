@@ -8,6 +8,7 @@
     "gatsby": "^2.28.0"
   },
   "dependencies": {
-    "gatsby-theme-mdx": "*"
+    "gatsby-theme-mdx": "*",
+    "gatsby-theme-intl": "*"
   }
 }

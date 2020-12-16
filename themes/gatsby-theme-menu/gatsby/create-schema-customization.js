@@ -13,6 +13,6 @@ module.exports = ({ actions, reporter }) => {
   title: String!
   links: [Link]
   rank: Int
-  path: String!
+  fileDir: String!
   }`)
 }

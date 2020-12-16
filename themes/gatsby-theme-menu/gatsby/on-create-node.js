@@ -1,6 +1,6 @@
 const yaml = require("js-yaml")
 const fs = require("fs")
-const path = require("path")
+const intl = require("gatsby-theme-intl/src/helpers/slug")
 
 module.exports = ({
   node,
@@ -10,6 +10,7 @@ module.exports = ({
   reporter,
 }) => {
   if (node.internal.type === "File" && node.extension === "yaml") {
+    console.log("yaml reading file", node.absolutePath)
     const doc = yaml.safeLoad(fs.readFileSync(node.absolutePath, "utf-8"))
     const items = doc.items
       ? Object.entries(doc.items).map((m) => {
@@ -17,14 +18,27 @@ module.exports = ({
           return { name: k, to: v }
         })
       : null
+
+    const filepath = node.name + "/"
+    reporter.info(
+      `gatsby-theme-menu: absolutepath=${node.absolutePath} filepath=${filepath}.`
+    )
+    if (!intl.validFilePath(filepath)) {
+      reporter.panic(
+        filepath +
+          " is not a valid filename : missing the .fr | .en | .xx extension"
+      )
+    }
+    const { language } = intl.extractLanguage(filepath)
+
     const fieldData = {
       title: doc.title,
       links: items,
       rank: doc.rank,
-      language: doc.language,
-      path: path.dirname(node.absolutePath),
+      language: language,
+      fileDir: node.dir,
     }
-    reporter.info("Dealing with " + node.absolutePath)
+
     const { createNode, createParentChildLink } = actions
     const menuNode = {
       ...fieldData,

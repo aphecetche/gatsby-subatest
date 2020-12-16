@@ -1,7 +1,7 @@
 import React from "react"
 import { Button } from "@material-ui/core"
 import { makeStyles } from "@material-ui/core"
-import { useTranslation, usePageContext, localizeUrl } from "gatsby-theme-intl"
+import { useTranslation, usePageContext, localizeSlug } from "gatsby-theme-intl"
 import { navigate } from "gatsby"
 
 const useStyles = makeStyles((theme) => ({
@@ -22,7 +22,7 @@ const Language = () => {
   if (translations) {
     disabled = !translations.includes(alternate)
   }
-  const lslug = localizeUrl(slug)
+  const lslug = localizeSlug(slug)
   const re = new RegExp(`^/${currentLanguage}/`)
   const target = lslug.replace(re, `/${alternate}/`)
 

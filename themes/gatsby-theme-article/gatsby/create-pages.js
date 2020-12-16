@@ -1,5 +1,6 @@
 const path = require("path")
 const fs = require("fs")
+const intl = require("gatsby-theme-intl/src/helpers/slug")
 
 const excludePage = ({ aside, fragment }) => {
   if (aside !== null) {
@@ -32,6 +33,10 @@ const createMdxPage = (
 
   languages.forEach((lang) => {
     const path = "/" + lang + node.slug
+    const p2 = intl.localizeSlug(node.slug, lang)
+    if (path !== p2) {
+      reporter.panic(`p2=${p2} != path=${path}`)
+    }
     reporter.verbose(" ".repeat(34) + "> page : " + path)
     createPage({
       path: path,
@@ -39,7 +44,7 @@ const createMdxPage = (
       context: {
         id: node.id,
         language: lang,
-        refPath: node.path,
+        fileDir: node.path,
         slug: node.slug,
         translations, //FIXME: this should be a list of ids simply ?
       },

@@ -4,7 +4,7 @@ import { Button } from "@material-ui/core"
 import clsx from "clsx"
 import PropTypes from "prop-types"
 import withStyles from "@material-ui/styles/withStyles"
-import { localizeUrl } from "gatsby-theme-intl"
+import { localizeSlug } from "gatsby-theme-intl"
 import ErrorIcon from "@material-ui/icons/Error"
 import Tooltip from "@material-ui/core/Tooltip"
 import Typography from "@material-ui/core/Typography"
@@ -108,7 +108,7 @@ const NavLink = (props) => {
     )
   }
   // internal link : use Gatsby own Link component
-  const lto = localizeUrl(to)
+  const lto = localizeSlug(to)
   const ok =
     data.allSitePage.nodes.filter((n) => {
       return isSamePath(n.path, `${lto}`)

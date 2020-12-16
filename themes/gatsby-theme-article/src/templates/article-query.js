@@ -20,7 +20,6 @@ export const query = graphql`
     slug
     title
     layout
-    asides
     images {
       ...articleImages
     }

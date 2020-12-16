@@ -1,11 +1,10 @@
-module.exports = ({ page, actions, reporter }) => {
+module.exports = ({ page, actions }) => {
   const { createPage, deletePage } = actions
 
   if (!page.context.language) {
     // we don't have a language
     // so we must create versions for both translations
 
-    reporter.info(`site on-create-page : dealing with page ${page.path}`)
     deletePage(page)
 
     const routes = ["", "/fr", "/en"]

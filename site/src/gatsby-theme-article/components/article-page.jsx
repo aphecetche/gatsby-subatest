@@ -6,7 +6,6 @@ import MainWithAside from "../../layouts/main-with-aside"
 import Menu from "gatsby-theme-menu/src/components/menu"
 
 const ArticlePage = ({ data, pageContext }) => {
-  console.log("data=", JSON.stringify(data, null, 2))
   const { article, menu } = data
   let aside = null
   if (menu) {
@@ -15,9 +14,7 @@ const ArticlePage = ({ data, pageContext }) => {
   const main = <Article article={article} pageContext={pageContext} />
   return (
     <Layout>
-      <div style={{ border: "5px solid pink" }}>
-        <MainWithAside main={main} aside={aside} />
-      </div>
+      <MainWithAside main={main} aside={aside} />
     </Layout>
   )
 }

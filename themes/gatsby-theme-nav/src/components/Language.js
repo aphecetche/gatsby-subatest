@@ -15,7 +15,6 @@ const Language = () => {
   const classes = useStyles()
   const { t, i18n } = useTranslation()
   const pageContext = usePageContext()
-  console.log("pageContext=", pageContext)
   const { translations, slug, language: currentLanguage } = pageContext
   const alternate = currentLanguage === "fr" ? "en" : "fr"
   let disabled = true

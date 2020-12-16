@@ -9,7 +9,6 @@ module.exports = ({
   actions,
   reporter,
 }) => {
-  //  console.log("gatsby-theme-article on-create-node", node)
   if (node.internal.type === "Mdx") {
     const parent = getNode(node.parent)
     if (parent.internal.type === "File") {
@@ -38,8 +37,6 @@ module.exports = ({
         category: frontmatter.category,
         images: frontmatter.images,
         component: frontmatter.component,
-        aside: frontmatter.aside,
-        asides: frontmatter.asides,
         layout: frontmatter.layout,
         rank: frontmatter.rank,
         fragment: frontmatter.fragment,

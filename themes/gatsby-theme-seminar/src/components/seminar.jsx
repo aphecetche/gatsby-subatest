@@ -14,12 +14,6 @@ const useStyles = makeStyles((theme) => ({
     flexDirection: "row",
     ...theme.typography.body1,
   },
-  aside: {
-    "& ul": {
-      listStyle: "none",
-      border: "1px solid red",
-    },
-  },
   main: {
     margin: 0,
     [theme.breakpoints.down("xs")]: {

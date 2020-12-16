@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Laurent Aphecetche",
   "dependencies": {
-    "gatsby": "^2.28.0",
+    "gatsby": "^2.28.2",
     "gatsby-theme-article": "*",
     "gatsby-theme-intl": "*",
     "gatsby-theme-ldap": "*",

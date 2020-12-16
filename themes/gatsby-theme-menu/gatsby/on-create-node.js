@@ -10,19 +10,15 @@ module.exports = ({
   reporter,
 }) => {
   if (node.internal.type === "File" && node.extension === "yaml") {
-    console.log("yaml reading file", node.absolutePath)
     const doc = yaml.safeLoad(fs.readFileSync(node.absolutePath, "utf-8"))
-    const items = doc.items
-      ? Object.entries(doc.items).map((m) => {
+    const links = doc.links
+      ? Object.entries(doc.links).map((m) => {
           const [k, v] = m
           return { name: k, to: v }
         })
       : null
 
     const filepath = node.name + "/"
-    reporter.info(
-      `gatsby-theme-menu: absolutepath=${node.absolutePath} filepath=${filepath}.`
-    )
     if (!intl.validFilePath(filepath)) {
       reporter.panic(
         filepath +
@@ -33,7 +29,7 @@ module.exports = ({
 
     const fieldData = {
       title: doc.title,
-      links: items,
+      links: links,
       rank: doc.rank,
       language: language,
       fileDir: node.dir,

@@ -2,23 +2,14 @@ const path = require("path")
 const fs = require("fs")
 const intl = require("gatsby-theme-intl/src/helpers/slug")
 
-const excludePage = ({ aside, fragment }) => {
-  if (aside !== null) {
-    return true
-  }
+const excludePage = ({ fragment }) => {
   if (fragment !== null) {
     return true
   }
   return false
 }
 
-const createMdxPage = (
-  translations,
-  createPage,
-  node,
-  defaultComponent,
-  reporter
-) => {
+const createMdxPage = (translations, createPage, node, defaultComponent) => {
   let comp = node.layout
     ? path.resolve(`./src/templates/${node.layout}.jsx`)
     : defaultComponent
@@ -32,12 +23,7 @@ const createMdxPage = (
   }
 
   languages.forEach((lang) => {
-    const path = "/" + lang + node.slug
-    const p2 = intl.localizeSlug(node.slug, lang)
-    if (path !== p2) {
-      reporter.panic(`p2=${p2} != path=${path}`)
-    }
-    reporter.verbose(" ".repeat(34) + "> page : " + path)
+    const path = intl.localizeSlug(node.slug, lang)
     createPage({
       path: path,
       component: comp,
@@ -58,7 +44,6 @@ module.exports = async ({ actions, graphql, reporter }, options) => {
     query {
       allArticle {
         nodes {
-          aside
           fragment
           layout
           id
@@ -86,17 +71,11 @@ module.exports = async ({ actions, graphql, reporter }, options) => {
       const translations = nodes
         .filter((e) => e.slug === node.slug)
         .map((e) => e.language)
-      reporter.info(
-        `gatsby-theme-article create-pages : dealing with node ${node.slug} ${
-          node.language
-        } ${JSON.stringify(translations)} `
-      )
       createMdxPage(
         translations.includes("xx") ? allTranslations : translations,
         createPage,
         node,
-        defaultComponent,
-        reporter
+        defaultComponent
       )
     }
   })
@@ -105,7 +84,7 @@ module.exports = async ({ actions, graphql, reporter }, options) => {
   const languages = ["fr", "en"]
   languages.forEach((lang) =>
     createPage({
-      path: "/" + lang + "/articles",
+      path: intl.localizeSlug("/articles", lang),
       component: path.resolve(options.articlesLayout),
       context: {
         language: lang,

@@ -10,10 +10,8 @@ module.exports = ({ actions, schema, reporter }) => {
   slug: String!
   category: String
   component: String
-  asides: [String]
   layout: String
   rank: Int
-  aside: Boolean
   images: [File]
   fragment: Boolean
   language: String
@@ -30,10 +28,8 @@ module.exports = ({ actions, schema, reporter }) => {
       slug: { type: "String!" },
       category: { type: "String" },
       component: { type: "String" },
-      asides: { type: "[String]" },
       layout: { type: "String" },
       rank: { type: "Int" },
-      aside: { type: "Boolean" },
       path: {
         type: "String",
         resolve(source /*args,*/ /*context*/ /*,info*/) {
